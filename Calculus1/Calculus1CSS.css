@@ -1,0 +1,87 @@
+body {color:#FFFFFF;font-family:Georgia;font-size:13px;
+	margin:0;
+	padding:0;
+	color:white;
+	overflow:hidden;
+
+
+}
+
+#back1 {
+	position:absolute;
+	width:100%;
+	height:102%;
+	z-index:-999;
+	margin:none;
+}
+
+
+
+#Calculus1Header {
+	position:absolute;
+	width:60%;
+	height:15%;
+	left:27%;
+	top:-5%;
+	
+	font-size:56px;
+}
+
+#IsaacNewton {
+	position:absolute;
+	left:80%;
+	top:6%;
+	width:20%;
+	height:40%;
+	
+	border: 3px solid #188330;
+}
+
+#IsaacNewtonQuote {
+	position:absolute;
+	width:18%;
+	height:10%;
+	left:81%;
+	top:50%;
+	
+	font-size:18px;
+	text-align:center;
+}
+
+#CalculusImage {
+	position:absolute;
+	left:80%;
+	top:63%;
+	width:20%;
+	height:33%;
+	
+	border: 3px solid #188330;
+}
+
+#TopicsMenuLabel {
+	position:absolute;
+	width:20%;
+	height:10%;
+	left:2%;
+	top:12%;
+	
+	font-size:14px;
+	text-align:center;
+}
+
+#topicsmenu {
+	left: 2%;
+	top: 23%;
+	width: 20%;
+	height:75%;
+	
+	visibility:visible;
+}
+
+#CalculusFlowchart {
+	position:absolute;
+	left:29%;
+	top:30%;
+	width:45%;
+	height:60%;
+}

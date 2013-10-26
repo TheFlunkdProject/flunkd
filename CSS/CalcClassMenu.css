@@ -1,0 +1,44 @@
+#classlist {
+background-color:black;
+}
+
+#classesmenu {
+	position: absolute;
+	right: 0%;
+	top: 5%;
+	width: 30%;
+	display:block;
+	text-align:center;
+	padding:4px;
+
+	visibility:hidden;
+	
+	
+	background-color:#1C1C1C;
+
+	z-index:5;
+}
+
+#classesmenu ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+
+.classessubmenu a:visited, .classessubmenu a:link {
+	display:block;
+	width:100%;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#1C1C1C;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+.classessubmenu a:hover, .classessubmenu a:active {
+	background-color:#98bf21;
+}

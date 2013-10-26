@@ -1,0 +1,162 @@
+body {color:#FFFFFF;font-family:Georgia;font-size:13px;
+	margin:0;
+	padding:0;
+	color:white;
+	overflow:hidden;
+
+
+}
+
+img.back {
+	position:absolute;
+	width:100%;
+	height:102%;
+	z-index:-999;
+	margin:none;
+}
+
+::-webkit-scrollbar
+{
+display:none;
+}
+	
+	
+#VideoPanel {
+	position: absolute;
+	width: 92%;
+	height: 83%;
+	left:4%;
+	top:5%;
+
+	margin:0;
+	padding:0;
+
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-color: #454545;
+	border-radius: 5px;
+	background-color: #212121;
+	z-index: 0;
+}
+
+#VideoVerticalDivider {
+	position:absolute;
+	width:2px;
+	height:60%;
+	left:50%;
+	top:27%;
+	
+	background-color:#454545
+}
+
+#VideoTopicNameHeader {
+	position:absolute;
+	left:3%;
+	top:0%;
+
+	width:50%;
+	height:5%;
+	
+	color:#FFFFFF;
+}
+
+#VideoTotalLength {
+	position:absolute;
+	left:0%;
+	right:0%;
+	height:10%;
+	top:5%;
+	
+	text-align:center;
+	color:#FFFFFF;
+}
+
+
+
+#VideoLesson1Description {
+	position:absolute;
+	width:14%;
+	height:35%;
+	left:2%;
+	top:17%;
+	
+	text-align:center;
+	background-color:#212121;
+	border: 2px solid #454545;
+	color:#FFFFFF;
+}
+
+#VideoLesson2Description {
+	position:absolute;
+	width:14%;
+	height:35%;
+	right:52%;
+	top:60%;
+	
+	text-align:center;
+	background-color:#212121;
+	border: 2px solid #454545;
+	color:#FFFFFF;
+}
+
+#VideoLesson3Description {
+	position:absolute;
+	width:14%;
+	height:35%;
+	left:52%;
+	top:17%;
+	
+	text-align:center;
+	background-color:#212121;
+	border: 2px solid #454545;
+	color:#FFFFFF;
+}
+
+#VideoLesson4Description {
+	position:absolute;
+	width:14%;
+	height:35%;
+	right:2%;
+	top:60%;
+	
+	text-align:center;
+	background-color:#212121;
+	border: 2px solid #454545;
+	color:#FFFFFF;
+}
+
+#EmbeddedVideo1 {
+	position:absolute;
+	left:18%;
+	top:16%;
+	border:1px solid #000000;
+	
+	z-index:0;
+}
+
+#EmbeddedVideo2 {
+	position:absolute;
+	left:2%;
+	top:58%;
+	border:1px solid #000000;
+	
+	z-index:0;
+}
+
+#EmbeddedVideo3 {
+	position:absolute;
+	right:2%;
+	top:16%;
+	border:1px solid #000000;
+	
+	z-index:0;
+}
+
+#EmbeddedVideo4 {
+	position:absolute;
+	right:18%;
+	top:58%;
+	border:1px solid #000000;
+	
+	z-index:0;
+}

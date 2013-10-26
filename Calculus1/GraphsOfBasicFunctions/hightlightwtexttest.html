@@ -1,0 +1,18 @@
+<!DOCTYPE html/javascript>
+<html>
+<head>
+<script>
+function load(){
+  window.document.designMode = "On";
+  //run this in a button, will highlight selected text
+  window.document.execCommand("hiliteColor", false, "#000");
+}
+
+</script>
+</head>
+<body contentEditable="true" >
+<p onload="load()">awfeawefaewf</p>
+<button type="button" onclick="load()">Change the color!</button>
+<button type="button" onclick="load()">Click Me!</button>
+</body>
+</html>

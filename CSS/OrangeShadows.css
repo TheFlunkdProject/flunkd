@@ -1,0 +1,64 @@
+#flunkd a {
+	color:#FF8E48;
+	background: -webkit-linear-gradient(#FFA050, #B26332);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;	
+}
+
+#flunkdholder {
+	box-shadow: 10px 10px 5px #B26332;
+}
+
+#horizontalbanner {
+	box-shadow: 3px 3px 5px #B26332;
+}
+
+#verticalbanner {
+	box-shadow: 3px 3px 5px #B26332;
+}
+
+#LoginSignUp {
+	border-color:#B26332;
+}
+
+#Login {
+	background-color:#B26332;
+}
+
+#SignUp {
+	background-color:#B26332;
+}
+
+#SearchFlunkd {
+	border-color:#B26332;
+	color:#FF8E48;
+}
+
+#Go{
+	background-color:#B26332;
+}
+
+
+
+#subflunkdholder {
+	box-shadow: 10px 10px 5px #B26332;
+}
+
+#subflunkd {
+	color:#B26332;
+	background: -webkit-linear-gradient(#FFA050, #B26332);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#flunkdexplanation {
+	border: 3px solid #B26332;
+}
+
+#HowExplanation {
+	box-shadow: 0px 0px 5px 5px #B26332;
+}
+
+#back1 {
+
+}

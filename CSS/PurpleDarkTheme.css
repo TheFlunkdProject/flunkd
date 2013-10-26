@@ -1,0 +1,62 @@
+#flunkd a {
+	color:#AB6292;
+	background: -webkit-linear-gradient(#BE6CA0, #834C6F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#flunkdholder {
+	box-shadow: 10px 10px 5px #834C6F;
+}
+
+#horizontalbanner {
+	box-shadow: 3px 3px 5px #834C6F;
+}
+
+#verticalbanner {
+	box-shadow: 3px 3px 5px #834C6F;
+}
+
+#LoginSignUp {
+	border-color:#834C6F;
+}
+
+#Login {
+	background-color:#834C6F;
+}
+
+#SignUp {
+	background-color:#834C6F;
+}
+
+#SearchFlunkd {
+	border-color:#834C6F;
+	color:#AB6292;
+}
+
+#Go{
+	background-color:#834C6F;
+}
+
+
+
+
+
+#subflunkdholder {
+	box-shadow: 10px 10px 5px #834C6F;
+}
+
+#subflunkd {
+	color:#834C6F;
+	background: -webkit-linear-gradient(#BE6CA0, #834C6F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#flunkdexplanation {
+	border: 3px solid #834C6F;
+}
+
+#HowExplanation {
+	box-shadow: 0px 0px 5px 5px #834C6F;
+}
