@@ -301,17 +301,17 @@
 
 #mediabox3 {
 	left:33%;
-	background-image:url('file:/flunkd1.2/images/examples.jpg');
+	background-image:url('../images/examples.jpg');
 }
 
 #mediabox4 {
 	right:33%;
-	background-image:url('file:/flunkd1.2/images/videoexamples.jpg');
+	background-image:url('../images/videoexamples.jpg');
 }
 
 #mediabox5 {
 	right:17%;
-	background-image:url('file:/flunkd1.2/images/practiceproblems.jpg');
+	background-image:url('../images/practiceproblems.jpg');
 	
 }
 
