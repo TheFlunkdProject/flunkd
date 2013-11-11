@@ -153,7 +153,7 @@ display:none;
 
 a.L1 { /*this will be for links that trigger pop-up boxes with important content*/
 	color:black; 
-	background-color:#FFFFFF;
+	background-color:#EEEEEE;
 	text-decoration: none;
 }
 
@@ -212,7 +212,7 @@ border: 5px ridge rgba(220,220,220,0);
    right: 0; 
    top: 0; 
    bottom: 0; 
-    z-index: 1;
+    z-index: 500;
 }
 a:hover .imgA1 {
     visibility: visible;
@@ -256,6 +256,8 @@ a
     background-color: rgba(102,204,255,0);
     color: black;
     opacity: 0;
+	
+	z-index:500;
 }
 
 
@@ -292,5 +294,10 @@ border: 5px ridge rgba(220,220,220,0);
 .Floatright100 {width:100px;height:100px;float:right;padding:0px 0px 0px 5px;
 }
 
-
+.P1 {
+	position:absolute;
+	left:0px;
+	width:100%;
+}
+	
 

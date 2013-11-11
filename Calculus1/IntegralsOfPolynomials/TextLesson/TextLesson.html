@@ -1,0 +1,568 @@
+<DOCTYPE! html>
+<html>
+<head>
+<script src="../../../JS/Highlight.js"></script>
+<script src="../../../JS/HiddenHorizontalVerticalBanner.js"></script>
+<script src="../../../JS/StyleChanger.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../../../CSS/HighlightSaveTextCSS.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/CalcTopicsMenu.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/CalcClassMenu.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/ToolsMediaContactMenusCSS.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/MiniFlunkdCSS.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/HorizontalVerticalBannerHiddenWithMiniFlunkdCSS.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/HorizontalBannerVerticalBannerFlunkdGreenShadowsCSS.css"/>
+<link rel="stylesheet" type="text/css" href="../../../CSS/StyleChangerTextLesson.css">
+
+<link rel="stylesheet" type="text/css" href="../../../CSS/TextLessonCSS.css">
+
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/OrangeShadows.css" Title="Style1">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TurquoiseShadows.css" Title="Style2">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/PurpleShadows.css" Title="Style3">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/OrangeDarkTheme.css" Title="Style1b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TurquoiseDarkTheme.css" Title="Style2b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/PurpleDarkTheme.css" Title="Style3b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TextLessonDarkTheme.css" Title="Style1b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TextLessonDarkTheme.css" Title="Style2b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TextLessonDarkTheme.css" Title="Style3b">
+</head>
+<body>
+
+<!-- <%@ include file="file:/flunkd1.2/StyleChanger.jsp" %> aweewa -->
+<div id="StyleChanger"	onmouseover="horizontalBannerOn()" onmouseout="horizontalBannerOff()">
+	<div id="StyleChangerLabel">Change styles!</div>
+	<div id="Style1" onclick="setActiveStyleSheet('Style1')"></div>
+	<div id="Style2" onclick="setActiveStyleSheet('Style2')"></div>
+	<div id="Style3" onclick="setActiveStyleSheet('Style3')"></div>
+	<div id="Style1b" onclick="setActiveStyleSheet('Style1b')"></div>
+	<div id="Style2b" onclick="setActiveStyleSheet('Style2b')"></div>
+	<div id="Style3b" onclick="setActiveStyleSheet('Style3b')"></div>
+	
+</div>
+
+
+
+
+<!-- <%@ include file="file:/flunkd1.2/TopicMisc.jsp" %> aweewa -->
+<img src="../../../images/dark-wood-texture.jpg" class="back">
+<div id="flunkdholder"><div id="flunkd"><a href="../../../flunkd1.2.html">flunk'd</a></div></div>
+<div id="wolfram">
+	<script type="text/javascript" id="WolframAlphaScript381669a1c474b157d4aacfc7c01c7e64" src="http://www.wolframalpha.com/widget/widget.jsp?id=381669a1c474b157d4aacfc7c01c7e64"></script>
+	<div id="wolframCloseButton" 
+		onclick="wolframOff()";>Close</div>
+</div>
+
+<!--<%@ include file="file:/flunkd1.2/HorizontalBanner.jsp" %> -->
+<div id="horizontalbanner" onmouseover="horizontalBannerOn()" onmouseout="horizontalBannerOff()">
+<div id="HowBox" onmouseover="flunkdHowOn()" onmouseout="flunkdHowOff()">
+	<ul style="padding:0;margin:0;">
+	<li id="InfoWord">
+		<a href="../../../HowIsFlunkdTransformingEducation/HowIsFlunkdTransformingEducation.html">How</a></li>
+	<li id="InfoQuestion">
+		<a href="../../../HowIsFlunkdTransformingEducation/HowIsFlunkdTransformingEducation.html">is flunk transforming education?</a></li></ul>
+</div>
+<div id="WhatBox" onmouseover="flunkdWhatOn()" onmouseout="flunkdWhatOff()">
+	<ul style="padding:0;margin:0;">
+	<li id="InfoWord">
+		<a href="../../../WhatCanIGetFromFlunkd/WhatCanIGetFromFlunkd.html">What</a></li>
+	<li id="InfoQuestion">
+		<a href="../../../WhatCanIGetFromFlunkd/WhatCanIGetFromFlunkd.html">can I get from flunk'd?</a></li>
+	</ul>
+</div>
+<div id="WhoBox" onmouseover="flunkdWhoOn()" onmouseout="flunkdWhoOff()">
+	<ul style="padding:0;margin:0;">
+	<li id="InfoWord">
+		<a href="../../../WhoIsCreatingFlunkd/WhoIsCreatingFlunkd.html">Who</a></li>
+	<li id="InfoQuestion">
+		<a href="../../../WhoIsCreatingFlunkd/WhoIsCreatingFlunkd.html">is creating flunk'd?</a></li>
+	</ul>
+</div>
+</div>
+
+<!--<%@ include file="file:/flunkd1.2/VerticalBanner.jsp" %> -->
+<div id="verticalbanner" onmouseover="verticalBannerOn()" onmouseout="verticalBannerOff()"><div id="verticaltest"></div>
+<!--<div id="LoginSignUp">
+	<div id="InputUsernameLabel">Username: </div>
+	<div id="InputUsernameContainer">
+		<input type="text" id="InputUsername"/></div>
+	<div id="InputPasswordLabel">Password: </div>
+	<div id="InputPasswordContainter">
+		<input type="text" id="InputPassword"/></div>
+	<div id="Login">Login</div>
+	<div id="SignUp">Sign Up</div>
+</div>-->
+<div id="SearchFlunkd">
+	<div id="SearchFlunkdLabel">Search flunk'd:</div>
+	<div id="SearchFlunkdInputContainter">
+		<input type="text" id="SearchFlunkdInput"/></div>
+	<div id="Go">Go</div>
+</div>
+
+<div id="verticaltest" onmouseover="canYouDesignOn()" onmouseout="canYouDesignOff()">
+	<div id="LearnLabel">Classes:</div>
+	<div id="ClassListContainer">
+		<ul id="ClassList">
+		<li><a href="../../../Calculus1/Calculus1.html">Calculus 1</a></li>
+<!--		<li><a href="#">Calculus 2</a></li>
+		<li><a href="#">Physics Newtonian Mechanics</a></li>-->
+		</ul>
+	</div>
+</div>
+
+</div>
+
+
+
+<!--<%@ include file="file:/flunkd1.2/HighlightMenu.jsp" %> -->
+<!--<div id="highlightmenu"	>
+<div id="closehighlightmenu"
+	onclick="closeHighlightMenu()"><a href="#">Close</a></div>
+<div id="clearhighlightedtext" onclick="clearText()">RESET SELECTED TEXT</div>
+<div id="savetext" onclick="saveText()">SAVE TEXT</div>
+<div id="highlightedtext"></div>
+</div>
+<textarea id="notes" ></textarea>
+<div id="bluehighlighter"
+	onmouseover="highlightBlue()"></div>
+<div id="yellowhighlighter"
+	onmouseover="highlightYellow()"></div>
+<div id="redhighlighter"
+	onmouseover="highlightRed()"></div>
+<div id="highlighteraser"
+	onclick="eraseHighlight()"></div>-->
+
+	
+<!--<%@ include file="file:/flunkd1.2/ToolsMenu.jsp" %> -->
+<div id="toolstrigger"
+	onmouseover="toolsOn()"
+	onmouseout="toolsOff()">Tools
+</div>
+
+<div id="toolmenu"
+        onmouseover="toolsOn()"
+        onmouseout="toolsOff()">
+
+<img src="../../../images/pencilrotated.png" id="pencil">
+<img src="../../../images/notepad2.png" id="notepad">
+<img src="../../../images/calculatorrotated.png" id="calculator">
+
+<div id="toolmenuheader"><h1>Tools</h1></div>
+
+<div id="toolsquare1" class="toolsquare"></div>
+<div id="toolsquare1trigger" class="toolsquaretrigger"
+	onmouseover="notepadOn()";
+	onmouseout="notepadOff()"
+	onclick="notesOn()";>
+</div>
+<div id="toolsquare2" class="toolsquare"></div>
+<div id="toolsquare2trigger"  class="toolsquaretrigger"
+	onmouseover="calculatorOn()";
+	onmouseout="calculatorOff()";
+	onclick="wolframOn()";>
+</div>
+<div id="toolsquare3" class="toolsquare"></div>
+<div id="toolsquare4" class="toolsquare"></div>
+<div id="toolsquare5" class="toolsquare"></div>
+<div id="toolsquare6" class="toolsquare"></div>
+</div>
+
+<!--<%@ include file="file:/flunkd1.2/MediaMenu.jsp" %> -->
+<div id="mediamenu"
+	onmouseover="mediaMenuOn()"
+	onmouseout="mediaMenuOff()">
+
+<div class="mediabox" id="mediabox1">Lesson</div>
+<div class="mediabox" id="mediabox2">Video Lesson</div>
+<div class="mediabox" id="mediabox3">Examples</div>
+<div class="mediabox" id="mediabox4">Video Examples</div>
+<div class="mediabox" id="mediabox5">Practice Problems</div>
+<div class="mediabox" id="mediabox6">Games</div>
+
+<div id="mediabox1trigger" class="mediaboxtrigger"
+	onmouseover="mediaBox1On()"
+	onmouseout="mediaBox1Off()"><a href="../TextLesson/TextLesson.html" class="divlink"></a>
+</div>
+<div id="mediabox2trigger" class="mediaboxtrigger"
+	onmouseover="mediaBox2On()"
+	onmouseout="mediaBox2Off()"><a href="../VideoLessons/VideoLessons.html" class="divlink"></a>
+</div>
+<div id="mediabox3trigger" class="mediaboxtrigger"
+	onmouseover="mediaBox3On()"
+	onmouseout="mediaBox3Off()"><a href="../TextExamples/TextExamples.html" class="divlink"></a>
+</div>
+<div id="mediabox4trigger" class="mediaboxtrigger"
+	onmouseover="mediaBox4On()"
+	onmouseout="mediaBox4Off()"><a href="../VideoExamples/VideoExamples.html" class="divlink"></a>
+</div>
+<div id="mediabox5trigger" class="mediaboxtrigger"
+	onmouseover="mediaBox5On()"
+	onmouseout="mediaBox5Off()"><a href="../PracticeProblems/PracticeProblems.html" class="divlink"></a>
+</div>
+<div id="mediabox6trigger" class="mediaboxtrigger"
+	onmouseover="mediaBox6On()"
+	onmouseout="mediaBox6Off()"><a href="../Games/Games.html" class="divlink"></a>
+</div>
+	
+
+</div>
+
+<div id="mediamenutrigger"
+	onmouseover="mediaMenuOn()"
+	onmouseout="mediaMenuOff()">Media</div>
+
+<a href="../TextLesson/TextLesson.html"><img src="../../../images/openbook.png" id="openbook" class="imagelink"
+	onmouseover="mediaMenuOn();mediaBox1On();"
+	onmouseout="mediaMenuOff();mediaBox1Off()"></a>
+<a href="../VideoLessons/VideoLessons.html"><img src="../../../images/videos.png" id="videos" class="imagelink"
+	onmouseover="mediaMenuOn();mediaBox2On();"
+	onmouseout="mediaMenuOff();mediaBox2Off()"></a>
+<a href="../Games/Games.html"><img src="../../../images/game.png" id="game" class="imagelink"
+	onmouseover="mediaMenuOn();mediaBox6On();"
+	onmouseout="mediaMenuOff();mediaBox6Off()"></a>
+
+
+<!--<%@ include file="file:/flunkd1.2/ContactPhone.jsp" %> -->
+<!--<div id="contact"
+	onmouseover="contactOn()"
+	onmouseout="contactOff()">
+
+<img src="../../../images/galaxys3.png" id="galaxy"
+	onmouseover="contactOn()"
+	onmouseout="contactOff()">
+
+
+<div id="contactmenu"
+	onmouseover="contactOn()"
+    onmouseout="contactOff()">
+	<div id="contactlistbutton"
+			onclick="writeMessageOn()">contact someone</div>
+	<div id="writemessage">
+		<div id="contactlistlabel" onmouseover="contactListOn()"
+									onmouseout="contactListOff()">Choose a recipient</div>
+		
+	</div>
+	<div id="contactlist" style="visibility:hidden;"
+		onmouseover="contactListOn()"
+		onmouseout="contactListOff()">
+		<div id="searchcontacts">Search: <input type="text"/ id="searchcontacsinput"></div>
+		<ul>
+		<li><a href="#">flunkd</a>
+		</li>
+		<li><a href="#">flunkd.com</a>
+		</li>
+		<li><a href="#">joe</a>
+		</li>
+		<li><a href="#">joe</a>
+		</li>
+		</ul>
+	</div>
+	<div id="writemessagetextholder"><textarea rows="10" id="writemessagetext" ></textarea></div>
+
+</div>
+
+</div>
+
+<div id="contacttrigger"
+	onmouseover="contactOn()"
+	onmouseout="contactOff()">Contact
+</div>-->
+
+
+<!--<%@ include file="file:/flunkd1.2/ClassesMenu.jsp" %> -->
+<div id="classesmenu"
+	onmouseover="classesMenuOn()"
+	onmouseout="classesMenuOff()">
+<ul id="classessubmenu">
+<li><a href="#">Calculus 1</a></li>
+<!--<li><a href="#">Calculus 2</a></li>
+<li><a href="#">Physics Mechanics</a></li>-->
+</ul>
+
+</div>
+
+<!--<%@ include file="file:/flunkd1.2/Calculus1/Calculus1TopicsMenu.jsp" %> -->
+<div id="topicsmenu"
+	onmouseover="topicsMenuOn()"
+	onmouseout="topicsMenuOff()">
+
+<ul class="topicssubmenuheader">
+<li><a href="#">Calculus 1</a>
+</li>
+</ul>
+
+<ul class="topicssubmenu">
+<li><a href="#">Calculus 1 Introduction</a>
+</li>
+<div id="topicsearchdiv">Search: <input type="text" id="topicsearch" /></div>
+<li><a href="#">Calculus 1 Introduction</a>
+</li>
+</ul>
+
+<ul class="topicssubmenuheader">
+<li><a href="#">Review of Precalculus</a>
+</li>
+</ul>
+
+<ul class="topicssubmenu">
+<li><a href="../../../Calculus1/GraphsOfBasicFunctions/TextLesson/TextLesson.html">Graphs of Basic Functions</a>
+</li>
+<li><a href="../../../Calculus1/Trigonometry/TextLesson/TextLesson.html">Trigonometry</a>
+</li>
+<li><a href="../../../Calculus1/Exponents/TextLesson/TextLesson.html">Exponents</a>
+</li>
+<li><a href="../../../Calculus1/Factoring/TextLesson/TextLesson.html">Factoring</a>
+</li>
+<li><a href="../../../Calculus1/Fractions/TextLesson/TextLesson.html">Fractions</a>
+</li>
+<li><a href="../../../Calculus1/InverseFunctions/TextLesson/TextLesson.html">Inverse Functions</a>
+</li>
+<li><a href="../../../Calculus1/LogRules/TextLesson/TextLesson.html">Log Rules</a>
+</li>
+</ul>
+
+<ul class="topicssubmenuheader">
+<li><a href="#">Limits</a>
+</li>
+</ul>
+
+<ul class="topicssubmenu">
+<li><a href="../../../Calculus1/LimitsOfSimpleFunctions/TextLesson/TextLesson.html">Limits of Simple Functions</a>
+</li>
+<li><a href="../../../Calculus1/RemovableDiscontinuities/TextLesson/TextLesson.html">Removable Discontinuities</a>
+</li>
+<li><a href="../../../Calculus1/OneSidedLimits/TextLesson/TextLesson.html">One-Sided Limits</a>
+</li>
+<li><a href="../../../Calculus1/PiecewiseFunctions/TextLesson/TextLesson.html">Piecewise Functions</a>
+</li>
+<li><a href="../../../Calculus1/PiecewiseFunctions/TextLesson/TextLesson.html">Infinite Limits</a>
+</li>
+<li><a href="../../../Calculus1/PiecewiseFunctions/TextLesson/TextLesson.html">Definition of Continuity</a>
+</li>
+<li><a href="../../../Calculus1/PiecewiseFunctions/TextLesson/TextLesson.html">Intermediate value Theorem</a>
+</li>
+<li><a href="../../../Calculus1/PiecewiseFunctions/TextLesson/TextLesson.html">Precise Definition of a Limit</a>
+</li>
+</ul>
+
+<ul class="topicssubmenuheader">
+<li><a href="#">Derivatives</a>
+</li>
+</ul>
+
+<ul class="topicssubmenu">
+<li><a href="../../../Calculus1/DefinitionOfTheDerivative/TextLesson/TextLesson.html">Definition of the Derivative</a>
+</li>
+<li><a href="../../../Calculus1/GraphsOfDerivatives/TextLesson/TextLesson.html">Graphs of Derivatives</a>
+</li>
+<li><a href="../../../Calculus1/DerivativeFormula/TextLesson/TextLesson.html">Derivative Formula</a>
+</li>
+<li><a href="../../../Calculus1/DerivativesOfSpecialFunctions/TextLesson/TextLesson.html">Derivatives of Special Functions</a>
+</li>
+<li><a href="../../../Calculus1/ProductRule/TextLesson/TextLesson.html">Product Rule</a>
+</li>
+<li><a href="../../../Calculus1/QuotientRule/TextLesson/TextLesson.html">Quotient Rule</a>
+</li>
+<li><a href="../../../Calculus1/ChainRule/TextLesson/TextLesson.html">Chain Rule</a>
+</li>
+<li><a href="../../../Calculus1/LHospitalsRule/TextLesson/TextLesson.html">L'Hospital's Rule</a>
+</li>
+<li><a href="../../../Calculus1/ImplicitDifferentiation/TextLesson/TextLesson.html">Implicit Differentiation</a>
+</li>
+<li><a href="../../../Calculus1/RelatedRates/TextLesson/TextLesson.html">Related Rates</a>
+</li>
+<li><a href="../../../Calculus1/CriticalPoints/TextLesson/TextLesson.html">Critical Points</a>
+</li>
+<li><a href="../../../Calculus1/Optimization/TextLesson/TextLesson.html">Optimization</a>
+</li>
+<li><a href="../../../Calculus1/PointsOfInflictionConcavity/TextLesson/TextLesson.html">Points of Infliction, Concavity</a>
+</li>
+<li><a href="../../../Calculus1/NewtonsMethod/TextLesson/TextLesson.html">Newton's Method</a>
+</li>
+<li><a href="../../../Calculus1/LinearApproxiamtion/TextLesson/TextLesson.html">Linear Approxiamtion</a>
+</li>
+<li><a href="../../../Calculus1/MeanValueTheorem/TextLesson/TextLesson.html">Mean Value Theorem</a>
+</li>
+</ul>
+
+<ul class="topicssubmenuheader">
+<li><a href="#">Antiderivatives</a>
+</li>
+</ul>
+
+<ul class="topicssubmenu">
+<li><a href="../../../Calculus1/RiemannSums/TextLesson/TextLesson.html">Riemann Sums</a>
+</li>
+<li><a href="../../../Calculus1/LimitFormulas/TextLesson/TextLesson.html">Limit Formulas</a>
+</li>
+<li><a href="../../../Calculus1/IntegralsOfPolynomials/TextLesson/TextLesson.html">Integrals of Polynomials</a>
+</li>
+<li><a href="../../../Calculus1/USubstitution/TextLesson/TextLesson.html">U-Substitution</a>
+</li>
+</ul>
+
+</div>
+
+
+
+
+
+<div id="bookcover">
+
+
+<div class="bookpage" id="bookpage1" style="z-index:-9">
+<div class="bookpage" id="bookpage2" style="z-index:-8">
+<div class="bookpage" id="bookpage3" style="z-index:-7">
+<div class="bookpage" id="bookpage4" style="z-index:-6">
+<div class="bookpage" id="bookpage5" style="z-index:-5">
+<div class="bookpage" id="bookpage6" style="z-index:-4">
+<div class="bookpage" id="bookpage7" style="z-index:-3">
+</div></div></div></div></div></div></div>
+
+<!-- <%@ include file="TextLesson.jsp" %> -->
+<div id="leftpage">
+<div class="calcheaderleft"
+	onmouseover="topicsMenuOn()"
+	onmouseout="topicsMenuOff()"
+		>Integrals of Polynomials</div>
+
+
+
+
+		<div class="LeftPageTextContainer">
+<h3>4.3 - Integrals of Polynomials</h3>
+<span> <!-- The unique lesson content goes here -->
+
+<p>An integral is an antiderivative (a derivative backwards). Like in the following questions:</p>
+
+<p>2x is the derivative of <a href="#">what function
+<span class="B1">x^2</span></a>?</p>
+
+<p><img src="../../Functions/image631.png" alt="3x2"> is the derivative of <a href="#">what function
+<span class="B1"><img src="../../Functions/image632.png" alt="x3"></span></a>?</p>
+
+<p><img src="../../Functions/image633.png" alt="x4"> is the derivative of <a href="#">what function
+<span class="B1"><img src="../../Functions/image634.png" alt="1/5x5"></span></a>?</p>
+
+<p>Here is the formula for finding antiderivatives of polynomials:</p>
+
+<p>If <img src="../../Functions/image635.png" alt="F'(x)=f(x)"> and <img src="../../Functions/image636.png" alt="f(x)=xn">, then <a href="#"><img src="../../Functions/image637.png" alt="F(x)=1n+1xn+1">
+	<span class="B1">You add one to the exponent and multiply by the reciprocal of the new exponent. If you have a hard time using this formula, whenever you take an antiderivative, just take the derivative of your answer and if you get the same thing you started with, you did it right. That’s a good way to check your work with these problems. </span></a></p>
+
+<p>To find the antiderivative of a special function, just remember what the derivatives of the special functions are and you should be able to figure out the antiderivatives you need to.</p>
+
+<p>Try to get used to taking the antiderivative without thinking about the derivative too much.</p>
+
+<p>The way to write an antiderivative is called an integral. The following is another way of saying, “Find the antiderivative of <img src="../../Functions/image638.png" alt="x2+3">”:</p>
+
+<img src="../../Functions/image639.png" alt="(x2+3)dx">
+
+<p>When you take the antiderivative, the <img src="../../Functions/image640.png" alt="integ"> (integral sign) and the <img src="../../Functions/image641.png" alt="dx"> go away.</p>
+
+
+<a href="#"><img src="../../Functions/image642.png" alt="(x2+3)dx=13x3+3x+C">
+	<span class="B1">An arbitrary constant</span></a>
+
+<p>You always need to put the <img src="../../Functions/image643.png" alt="+C"> at the end of your answer. This is only necessary for <a href="#" class="L1">indefinite integrals
+	<span class="B1">integrals with no bounds, unlike 12(x2+3)dx which is a definite integral</span></a>. Any number of functions could have the <a href="#">same derivative
+	<span class="B1">if they have the same shape, like these ones: <img src="../../Graphs/graphoffbyaconstant.png" class="P1"></span></a>, and that is because constants (the <img src="../../Functions/image643.png" alt="+C">) die when you take their derivative.</p>
+
+<p>You find a definite integral the same way, but at the end you plug in the bounds into the antiderivative, subtracting the bottom from the 
+top bound:<a href="#">
+<img src="../../Functions/image644.png" alt="12(x2+3)dx"><img src="../../Functions/image645.png" alt="12(x2+3)dx=13x3+3x|12=$$[13(2)2+3(2)]-[13(1)+3(1)]=43+6-13-3$$=1+3=4">
+	<span class="B1">Don't forget to distribute your negatives properly. You’ll be really good at that after this section.</span></a></p>
+
+<p>The way you would read the integral above is “\"The integral of <img src="../../Functions/image646.png" alt="x2+3"> from 1 to 2 is 4."</p>
+
+<p>What that tells us is that the area under the curve x2+3 from x=1 to x=2 is <img src="../../Functions/image647.png" alt="4">.</p>
+
+<p>This way is much faster than the Riemann sum way of finding the exact area under a curve. Let's check our <a href="#">answer from the last section
+	<span class="B1">Link to that</span></a>:</p>
+
+<img src="../../Functions/image648.png" alt="02(3-x2)dx=3x-13x3|02=3(2)-13(2)3-(0-0)=6-83=18-83=103">
+
+
+
+
+
+</span>
+		</div>
+		</div>
+
+		<div id="rightpage">
+
+<div class="calcheaderright"
+	onmouseover="classesMenuOn()";
+	onmouseout="classesMenuOff()";
+	onclick="(this).style.backgroundColor='red'">Calculus 1</div>
+
+
+		<div class="RightPageTextContainer">
+<span> <!-- The unique lesson content goes here -->
+
+
+
+<p>This is part of what is called the Fundamental Theorem of Calculus. There is one other part to the fundamental theorem of calculus. It can basically be described by this formula:></p>
+
+<img src="../../Functions/image649.png" alt="ddx1xf(t)dt=f(x)">
+
+<p>This is the most basic form. Notice that you are just taking the derivative of an antiderivative, so it's like you are taking a step forward then a step backward again. That's why you end up with the same function, but with x's instead of t's.</p>
+
+<p>There is also this formula that you will use:</p>
+
+<a href="#"><img src="../../Functions/image650.png" alt="ddx1f(x)g(t)dt=g(f(t))f'(t)">
+	<span class="B1">This comes from the chain rule of derivatives.</span></a> 
+
+<p>Here are some properties of integrals that should help:</p>
+
+<ul>
+<li><a href="#"><img src="../../Functions/image651.png" alt="abf(x)dx=-baf(x)dx">
+	<span class="B1">you can integrate backwards if you put a negative sign in front of the integral.</span></a>
+</li>
+<li><a href="#"><img src="../../Functions/image652.png" alt="acf(x)dx=abf(x)dx+bcf(x)dx">
+	<span class="B1">You can integrate to a certain point, take a break, then keep going.</span></a>
+</li>
+<li><a href="#"><img src="../../Functions/image653.png" alt="abcf(x)dx=cabf(x)dx">
+	<span class="B1">you can pull constants out.</span></a>
+</li>
+</ul>
+
+
+<p>So, here is an example where you would need these properties:</p>
+
+<p><a href="#">Find the derivative of <img src="../../Functions/image654.png" alt="2x3x2(t2+1)dt">.
+	<span class="B1">ddx2x3x2(t2+1)dt=ddx2x1(t2+1)dt+ddx13x2(t2+1)dt=-ddx12x(t2+1)dt+ddx13x2(t2+1)dt=-[(2x)2+1]2+[(3x2)2+1]6x
+<img src="../../Functions/image655.png" alt="=-8x2-2+54x5+6x"></span></a></p>
+
+<p>To sum this section up:
+
+<p>There are two kinds of integrals: </p>
+<ol>
+<li>Definite integrals (integrals with bounds)
+</li>
+<li>Indefinite integrals (integrals without bounds)
+</li>
+</ol>
+ 
+<p>To find them both, find the antiderivative of the function and either add a constant (+C), or plug in the top bound minus plug in the bottom bound.
+To find the derivative of an integral, use properties of integrals, then plug in the bounds with x's in for all the t's. Multiply by the chain rule if needed.</p>
+
+
+
+</span>
+
+</div>
+</div><!-- End of include -->
+		
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -306,3 +306,9 @@ border: 5px ridge rgba(220,220,220,0);
 }
 .Floatright100 {width:100px;height:100px;float:right;padding:0px 0px 0px 5px;
 }
+
+.P1 {
+	position:absolute;
+	width:100%;
+	left:0%;
+}

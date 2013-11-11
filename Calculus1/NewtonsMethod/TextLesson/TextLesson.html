@@ -1,59 +1,87 @@
 <DOCTYPE! html>
 <html>
 <head>
-<script src="file:///F:/flunkd1.2/JS/Highlight.js"></script>
+<script src="../../../JS/Highlight.js"></script>
+<script src="../../../JS/HiddenHorizontalVerticalBanner.js"></script>
+<script src="../../../JS/StyleChanger.js"></script>
 
-<script src="file:///F:/flunkd1.2/JS/horizontalbannerhidden.js"></script>
-<script src="file:///F:/flunkd1.2/JS/verticalbannerhidden.js"></script>
-<link rel="stylesheet" type="text/css" href="file:///F:/flunkd1.2/CSS/TextLessonCSS.css">
-<link rel="stylesheet" type="text/css" href="file:///F:/flunkd1.2/CSS/HighlightSaveTextCSS.css">
-<link rel="stylesheet" type="text/css" href="file:///F:/flunkd1.2/CSS/CalcTopicsMenu.css">
-<link rel="stylesheet" type="text/css" href="file:///F:/flunkd1.2/CSS/CalcClassMenu.css">
-<link rel="stylesheet" type="text/css" href="file:///F:/flunkd1.2/CSS/ToolsMediaContactMenusCSS.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/HighlightSaveTextCSS.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/CalcTopicsMenu.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/CalcClassMenu.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/ToolsMediaContactMenusCSS.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/MiniFlunkdCSS.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/HorizontalVerticalBannerHiddenWithMiniFlunkdCSS.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/HorizontalBannerVerticalBannerFlunkdGreenShadowsCSS.css"/>
+<link rel="stylesheet" type="text/css" href="../../../CSS/StyleChangerTextLesson.css">
 
-<link rel="stylesheet" type="text/css" href="file:///F:/flunkd1.2/CSS/MiniFlunkdCSS.css">
-<link rel="stylesheet" type="text/css" href="file:///F:/flunkd1.2/CSS/HorizontalVerticalBannerHiddenWithMiniFlunkdCSS.css">
-<link rel="stylesheet" type="text/css" href="file:///F:/flunkd1.2/CSS/HorizontalBannerVerticalBannerFlunkdGreenShadowsCSS.css"/>
+<link rel="stylesheet" type="text/css" href="../../../CSS/TextLessonCSS.css">
 
-
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/OrangeShadows.css" Title="Style1">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TurquoiseShadows.css" Title="Style2">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/PurpleShadows.css" Title="Style3">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/OrangeDarkTheme.css" Title="Style1b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TurquoiseDarkTheme.css" Title="Style2b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/PurpleDarkTheme.css" Title="Style3b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TextLessonDarkTheme.css" Title="Style1b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TextLessonDarkTheme.css" Title="Style2b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TextLessonDarkTheme.css" Title="Style3b">
 </head>
 <body>
 
-<img src="file:///F:/flunkd1.2/images/dark-wood-texture.jpg" class="back">
-<div id="flunkdholder"><div id="flunkd"><a href="file:///F:/flunkd1.2/flunkd1.2.html">flunk'd</a></div></div>
+<!-- <%@ include file="file:/flunkd1.2/StyleChanger.jsp" %> aweewa -->
+<div id="StyleChanger"	onmouseover="horizontalBannerOn()" onmouseout="horizontalBannerOff()">
+	<div id="StyleChangerLabel">Change styles!</div>
+	<div id="Style1" onclick="setActiveStyleSheet('Style1')"></div>
+	<div id="Style2" onclick="setActiveStyleSheet('Style2')"></div>
+	<div id="Style3" onclick="setActiveStyleSheet('Style3')"></div>
+	<div id="Style1b" onclick="setActiveStyleSheet('Style1b')"></div>
+	<div id="Style2b" onclick="setActiveStyleSheet('Style2b')"></div>
+	<div id="Style3b" onclick="setActiveStyleSheet('Style3b')"></div>
+	
+</div>
 
+
+
+
+<!-- <%@ include file="file:/flunkd1.2/TopicMisc.jsp" %> aweewa -->
+<img src="../../../images/dark-wood-texture.jpg" class="back">
+<div id="flunkdholder"><div id="flunkd"><a href="../../../flunkd1.2.html">flunk'd</a></div></div>
+<div id="wolfram">
+	<script type="text/javascript" id="WolframAlphaScript381669a1c474b157d4aacfc7c01c7e64" src="http://www.wolframalpha.com/widget/widget.jsp?id=381669a1c474b157d4aacfc7c01c7e64"></script>
+	<div id="wolframCloseButton" 
+		onclick="wolframOff()";>Close</div>
+</div>
+
+<!--<%@ include file="file:/flunkd1.2/HorizontalBanner.jsp" %> -->
 <div id="horizontalbanner" onmouseover="horizontalBannerOn()" onmouseout="horizontalBannerOff()">
 <div id="HowBox" onmouseover="flunkdHowOn()" onmouseout="flunkdHowOff()">
 	<ul style="padding:0;margin:0;">
 	<li id="InfoWord">
-		<a href="file:///F:/flunkd1.2/HowIsFlunkdTransformingEducation/HowIsFlunkdTransformingEducation.html">How</a></li>
+		<a href="../../../HowIsFlunkdTransformingEducation/HowIsFlunkdTransformingEducation.html">How</a></li>
 	<li id="InfoQuestion">
-		<a href="file:///F:/flunkd1.2/HowIsFlunkdTransformingEducation/HowIsFlunkdTransformingEducation.html">is flunk transforming education?</a></li></ul>
+		<a href="../../../HowIsFlunkdTransformingEducation/HowIsFlunkdTransformingEducation.html">is flunk transforming education?</a></li></ul>
 </div>
 <div id="WhatBox" onmouseover="flunkdWhatOn()" onmouseout="flunkdWhatOff()">
 	<ul style="padding:0;margin:0;">
 	<li id="InfoWord">
-		<a href="file:///F:/flunkd1.2/WhatCanIGetFromFlunkd/WhatCanIGetFromFlunkd.html">What</a></li>
+		<a href="../../../WhatCanIGetFromFlunkd/WhatCanIGetFromFlunkd.html">What</a></li>
 	<li id="InfoQuestion">
-		<a href="file:///F:/flunkd1.2/WhatCanIGetFromFlunkd/WhatCanIGetFromFlunkd.html">can I get from flunk'd?</a></li>
+		<a href="../../../WhatCanIGetFromFlunkd/WhatCanIGetFromFlunkd.html">can I get from flunk'd?</a></li>
 	</ul>
 </div>
 <div id="WhoBox" onmouseover="flunkdWhoOn()" onmouseout="flunkdWhoOff()">
 	<ul style="padding:0;margin:0;">
 	<li id="InfoWord">
-		<a href="file:///F:/flunkd1.2/WhoIsCreatingFlunkd/WhoIsCreatingFlunkd.html">Who</a></li>
+		<a href="../../../WhoIsCreatingFlunkd/WhoIsCreatingFlunkd.html">Who</a></li>
 	<li id="InfoQuestion">
-		<a href="file:///F:/flunkd1.2/WhoIsCreatingFlunkd/WhoIsCreatingFlunkd.html">is creating flunk'd?</a></li>
+		<a href="../../../WhoIsCreatingFlunkd/WhoIsCreatingFlunkd.html">is creating flunk'd?</a></li>
 	</ul>
 </div>
 </div>
 
-
-
-
-
+<!--<%@ include file="file:/flunkd1.2/VerticalBanner.jsp" %> -->
 <div id="verticalbanner" onmouseover="verticalBannerOn()" onmouseout="verticalBannerOff()"><div id="verticaltest"></div>
-<div id="LoginSignUp">
+<!--<div id="LoginSignUp">
 	<div id="InputUsernameLabel">Username: </div>
 	<div id="InputUsernameContainer">
 		<input type="text" id="InputUsername"/></div>
@@ -62,7 +90,7 @@
 		<input type="text" id="InputPassword"/></div>
 	<div id="Login">Login</div>
 	<div id="SignUp">Sign Up</div>
-</div>
+</div>-->
 <div id="SearchFlunkd">
 	<div id="SearchFlunkdLabel">Search flunk'd:</div>
 	<div id="SearchFlunkdInputContainter">
@@ -74,23 +102,19 @@
 	<div id="LearnLabel">Classes:</div>
 	<div id="ClassListContainer">
 		<ul id="ClassList">
-		<li><a href="file:///F:/flunkd1.2/Calculus1/Calculus1.html">Calculus 1</a></li>
-		<li><a href="#">Calculus 2</a></li>
-		<li><a href="#">Physics Newtonian Mechanics</a></li>
+		<li><a href="../../../Calculus1/Calculus1.html">Calculus 1</a></li>
+<!--		<li><a href="#">Calculus 2</a></li>
+		<li><a href="#">Physics Newtonian Mechanics</a></li>-->
 		</ul>
 	</div>
 </div>
 
 </div>
 
-<div id="wolfram">
-	<script type="text/javascript" id="WolframAlphaScript381669a1c474b157d4aacfc7c01c7e64" src="http://www.wolframalpha.com/widget/widget.jsp?id=381669a1c474b157d4aacfc7c01c7e64"></script>
-	<div id="wolframCloseButton" 
-		onclick="wolframOff()";>Close</div>
-</div>
 
 
-<div id="highlightmenu"	>
+<!--<%@ include file="file:/flunkd1.2/HighlightMenu.jsp" %> -->
+<!--<div id="highlightmenu"	>
 <div id="closehighlightmenu"
 	onclick="closeHighlightMenu()"><a href="#">Close</a></div>
 <div id="clearhighlightedtext" onclick="clearText()">RESET SELECTED TEXT</div>
@@ -105,11 +129,10 @@
 <div id="redhighlighter"
 	onmouseover="highlightRed()"></div>
 <div id="highlighteraser"
-	onclick="eraseHighlight()"></div>
+	onclick="eraseHighlight()"></div>-->
+
 	
-	
-	
-	
+<!--<%@ include file="file:/flunkd1.2/ToolsMenu.jsp" %> -->
 <div id="toolstrigger"
 	onmouseover="toolsOn()"
 	onmouseout="toolsOff()">Tools
@@ -119,9 +142,9 @@
         onmouseover="toolsOn()"
         onmouseout="toolsOff()">
 
-<img src="file:///F:/flunkd1.2/images/pencilrotated.png" id="pencil">
-<img src="file:///F:/flunkd1.2/images/notepad2.png" id="notepad">
-<img src="file:///F:/flunkd1.2/images/calculatorrotated.png" id="calculator">
+<img src="../../../images/pencilrotated.png" id="pencil">
+<img src="../../../images/notepad2.png" id="notepad">
+<img src="../../../images/calculatorrotated.png" id="calculator">
 
 <div id="toolmenuheader"><h1>Tools</h1></div>
 
@@ -143,7 +166,7 @@
 <div id="toolsquare6" class="toolsquare"></div>
 </div>
 
-
+<!--<%@ include file="file:/flunkd1.2/MediaMenu.jsp" %> -->
 <div id="mediamenu"
 	onmouseover="mediaMenuOn()"
 	onmouseout="mediaMenuOff()">
@@ -165,48 +188,45 @@
 </div>
 <div id="mediabox3trigger" class="mediaboxtrigger"
 	onmouseover="mediaBox3On()"
-	onmouseout="mediaBox3Off()"><a href="file:///F:/flunkd1.2/flunkd1.2.html" class="divlink"></a>
+	onmouseout="mediaBox3Off()"><a href="../TextExamples/TextExamples.html" class="divlink"></a>
 </div>
 <div id="mediabox4trigger" class="mediaboxtrigger"
 	onmouseover="mediaBox4On()"
-	onmouseout="mediaBox4Off()"><a href="file:///F:/flunkd1.2/flunkd1.2.html" class="divlink"></a>
+	onmouseout="mediaBox4Off()"><a href="../VideoExamples/VideoExamples.html" class="divlink"></a>
 </div>
 <div id="mediabox5trigger" class="mediaboxtrigger"
 	onmouseover="mediaBox5On()"
-	onmouseout="mediaBox5Off()"><a href="file:///F:/flunkd1.2/flunkd1.2.html" class="divlink"></a>
+	onmouseout="mediaBox5Off()"><a href="../PracticeProblems/PracticeProblems.html" class="divlink"></a>
 </div>
 <div id="mediabox6trigger" class="mediaboxtrigger"
 	onmouseover="mediaBox6On()"
-	onmouseout="mediaBox6Off()"><a href="file:///F:/flunkd1.2/flunkd1.2.html" class="divlink"></a>
+	onmouseout="mediaBox6Off()"><a href="../Games/Games.html" class="divlink"></a>
 </div>
 	
 
 </div>
 
-
-
 <div id="mediamenutrigger"
 	onmouseover="mediaMenuOn()"
 	onmouseout="mediaMenuOff()">Media</div>
 
-<a href="../TextLesson/TextLesson.html"><img src="file:///F:/flunkd1.2/images/openbook.png" id="openbook" class="imagelink"
+<a href="../TextLesson/TextLesson.html"><img src="../../../images/openbook.png" id="openbook" class="imagelink"
 	onmouseover="mediaMenuOn();mediaBox1On();"
 	onmouseout="mediaMenuOff();mediaBox1Off()"></a>
-<a href="../VideoLessons/VideoLessons.html"><img src="file:///F:/flunkd1.2/images/videos.png" id="videos" class="imagelink"
+<a href="../VideoLessons/VideoLessons.html"><img src="../../../images/videos.png" id="videos" class="imagelink"
 	onmouseover="mediaMenuOn();mediaBox2On();"
 	onmouseout="mediaMenuOff();mediaBox2Off()"></a>
-<a href="file:///F:/flunkd1.2/flunkd1.2.html"><img src="file:///F:/flunkd1.2/images/game.png" id="game" class="imagelink"
+<a href="../Games/Games.html"><img src="../../../images/game.png" id="game" class="imagelink"
 	onmouseover="mediaMenuOn();mediaBox6On();"
 	onmouseout="mediaMenuOff();mediaBox6Off()"></a>
 
 
-
-
-<div id="contact"
+<!--<%@ include file="file:/flunkd1.2/ContactPhone.jsp" %> -->
+<!--<div id="contact"
 	onmouseover="contactOn()"
 	onmouseout="contactOff()">
 
-<img src="file:///F:/flunkd1.2/images/galaxys3.png" id="galaxy"
+<img src="../../../images/galaxys3.png" id="galaxy"
 	onmouseover="contactOn()"
 	onmouseout="contactOff()">
 
@@ -238,46 +258,37 @@
 	</div>
 	<div id="writemessagetextholder"><textarea rows="10" id="writemessagetext" ></textarea></div>
 
-
-
 </div>
 
 </div>
-		
-
-
 
 <div id="contacttrigger"
 	onmouseover="contactOn()"
 	onmouseout="contactOff()">Contact
-</div>
+</div>-->
 
 
+<!--<%@ include file="file:/flunkd1.2/ClassesMenu.jsp" %> -->
 <div id="classesmenu"
 	onmouseover="classesMenuOn()"
 	onmouseout="classesMenuOff()">
 <ul id="classessubmenu">
-<li><a href="#">Calculus 1</a>
-</li>
-<li><a href="#">Calculus 2</a>
-</li>
-<li><a href="#">Physics Mechanics</a>
-</li>
+<li><a href="#">Calculus 1</a></li>
+<!--<li><a href="#">Calculus 2</a></li>
+<li><a href="#">Physics Mechanics</a></li>-->
 </ul>
 
 </div>
 
+<!--<%@ include file="file:/flunkd1.2/Calculus1/Calculus1TopicsMenu.jsp" %> -->
 <div id="topicsmenu"
 	onmouseover="topicsMenuOn()"
 	onmouseout="topicsMenuOff()">
 
-	
 <ul class="topicssubmenuheader">
 <li><a href="#">Calculus 1</a>
 </li>
 </ul>
-
-
 
 <ul class="topicssubmenu">
 <li><a href="#">Calculus 1 Introduction</a>
@@ -287,29 +298,25 @@
 </li>
 </ul>
 
-
-
 <ul class="topicssubmenuheader">
 <li><a href="#">Review of Precalculus</a>
 </li>
 </ul>
 
-
-
 <ul class="topicssubmenu">
-<li><a href="../../GraphsOfBasicFunctions/TextLesson/TextLesson.html">Graphs of Basic Functions</a>
+<li><a href="../../../Calculus1/GraphsOfBasicFunctions/TextLesson/TextLesson.html">Graphs of Basic Functions</a>
 </li>
-<li><a href="#">Trigonometry</a>
+<li><a href="../../../Calculus1/Trigonometry/TextLesson/TextLesson.html">Trigonometry</a>
 </li>
-<li><a href="#">Exponents</a>
+<li><a href="../../../Calculus1/Exponents/TextLesson/TextLesson.html">Exponents</a>
 </li>
-<li><a href="#">Factoring</a>
+<li><a href="../../../Calculus1/Factoring/TextLesson/TextLesson.html">Factoring</a>
 </li>
-<li><a href="#">Fractions</a>
+<li><a href="../../../Calculus1/Fractions/TextLesson/TextLesson.html">Fractions</a>
 </li>
-<li><a href="#">Inverse Functions</a>
+<li><a href="../../../Calculus1/InverseFunctions/TextLesson/TextLesson.html">Inverse Functions</a>
 </li>
-<li><a href="#">Log Rules</a>
+<li><a href="../../../Calculus1/LogRules/TextLesson/TextLesson.html">Log Rules</a>
 </li>
 </ul>
 
@@ -318,137 +325,122 @@
 </li>
 </ul>
 
-
 <ul class="topicssubmenu">
-<li><a href="#">Limits of Simple Functions</a>
+<li><a href="../../../Calculus1/LimitsOfSimpleFunctions/TextLesson/TextLesson.html">Limits of Simple Functions</a>
 </li>
-<li><a href="#">Removable Discontinuities</a>
+<li><a href="../../../Calculus1/RemovableDiscontinuities/TextLesson/TextLesson.html">Removable Discontinuities</a>
 </li>
-<li><a href="#">One-Sided Limits</a>
+<li><a href="../../../Calculus1/OneSidedLimits/TextLesson/TextLesson.html">One-Sided Limits</a>
 </li>
-<li><a href="#">Piecewise Functions</a>
+<li><a href="../../../Calculus1/PiecewiseFunctions/TextLesson/TextLesson.html">Piecewise Functions</a>
 </li>
-<li><a href="#">Infinite Limits</a>
+<li><a href="../../../Calculus1/PiecewiseFunctions/TextLesson/TextLesson.html">Infinite Limits</a>
 </li>
-<li><a href="#">Definition of Continuity</a>
+<li><a href="../../../Calculus1/PiecewiseFunctions/TextLesson/TextLesson.html">Definition of Continuity</a>
 </li>
-<li><a href="#">Intermediate value Theorem</a>
+<li><a href="../../../Calculus1/PiecewiseFunctions/TextLesson/TextLesson.html">Intermediate value Theorem</a>
 </li>
-<li><a href="#">Precise Definition of a Limit</a>
+<li><a href="../../../Calculus1/PiecewiseFunctions/TextLesson/TextLesson.html">Precise Definition of a Limit</a>
 </li>
 </ul>
-
-
 
 <ul class="topicssubmenuheader">
 <li><a href="#">Derivatives</a>
 </li>
 </ul>
 
-
-
 <ul class="topicssubmenu">
-<li><a href="#">Definition of the Derivative</a>
+<li><a href="../../../Calculus1/DefinitionOfTheDerivative/TextLesson/TextLesson.html">Definition of the Derivative</a>
 </li>
-<li><a href="#">Graphical Interpretation of Derivatives</a>
+<li><a href="../../../Calculus1/GraphsOfDerivatives/TextLesson/TextLesson.html">Graphs of Derivatives</a>
 </li>
-<li><a href="#">Shortcut Method</a>
+<li><a href="../../../Calculus1/DerivativeFormula/TextLesson/TextLesson.html">Derivative Formula</a>
 </li>
-<li><a href="#">Derivatives of Special Functions</a>
+<li><a href="../../../Calculus1/DerivativesOfSpecialFunctions/TextLesson/TextLesson.html">Derivatives of Special Functions</a>
 </li>
-<li><a href="#">Product Rule</a>
+<li><a href="../../../Calculus1/ProductRule/TextLesson/TextLesson.html">Product Rule</a>
 </li>
-<li><a href="#">Quotient Rule</a>
+<li><a href="../../../Calculus1/QuotientRule/TextLesson/TextLesson.html">Quotient Rule</a>
 </li>
-<li><a href="#">Chain Rule</a>
+<li><a href="../../../Calculus1/ChainRule/TextLesson/TextLesson.html">Chain Rule</a>
 </li>
-<li><a href="#">L'Hospital's Rule</a>
+<li><a href="../../../Calculus1/LHospitalsRule/TextLesson/TextLesson.html">L'Hospital's Rule</a>
 </li>
-<li><a href="#">Implicit Differentiation</a>
+<li><a href="../../../Calculus1/ImplicitDifferentiation/TextLesson/TextLesson.html">Implicit Differentiation</a>
 </li>
-<li><a href="#">Related Rates</a>
+<li><a href="../../../Calculus1/RelatedRates/TextLesson/TextLesson.html">Related Rates</a>
 </li>
-<li><a href="#">Critical Points</a>
+<li><a href="../../../Calculus1/CriticalPoints/TextLesson/TextLesson.html">Critical Points</a>
 </li>
-<li><a href="#">Optimization</a>
+<li><a href="../../../Calculus1/Optimization/TextLesson/TextLesson.html">Optimization</a>
 </li>
-<li><a href="../../PointsOfInflectionConcavity/TextLesson/TextLesson.html">Points of Infliction, Concavity</a>
+<li><a href="../../../Calculus1/PointsOfInflictionConcavity/TextLesson/TextLesson.html">Points of Infliction, Concavity</a>
 </li>
-<li><a href="#">Newton's Method</a>
+<li><a href="../../../Calculus1/NewtonsMethod/TextLesson/TextLesson.html">Newton's Method</a>
 </li>
-<li><a href="#">Linear Approxiamtion</a>
+<li><a href="../../../Calculus1/LinearApproxiamtion/TextLesson/TextLesson.html">Linear Approxiamtion</a>
 </li>
-<li><a href="#">Mean Value Theorem</a>
+<li><a href="../../../Calculus1/MeanValueTheorem/TextLesson/TextLesson.html">Mean Value Theorem</a>
 </li>
 </ul>
-
-
 
 <ul class="topicssubmenuheader">
 <li><a href="#">Antiderivatives</a>
 </li>
 </ul>
 
-
-
 <ul class="topicssubmenu">
-<li><a href="#">Riemann Sums</a>
+<li><a href="../../../Calculus1/RiemannSums/TextLesson/TextLesson.html">Riemann Sums</a>
 </li>
-<li><a href="#">Limit Formulas</a>
+<li><a href="../../../Calculus1/LimitFormulas/TextLesson/TextLesson.html">Limit Formulas</a>
 </li>
-<li><a href="#">Integrals of Polynomials</a>
+<li><a href="../../../Calculus1/IntegralsOfPolynomials/TextLesson/TextLesson.html">Integrals of Polynomials</a>
 </li>
-<li><a href="#">U-Substitution</a>
+<li><a href="../../../Calculus1/USubstitution/TextLesson/TextLesson.html">U-Substitution</a>
 </li>
 </ul>
 
-
 </div>
 
-		<div id="bookcover">
 
 
-<div class="bookpage" style="z-index:-9">
-<div class="bookpage" style="z-index:-8">
-<div class="bookpage" style="z-index:-7">
-<div class="bookpage" style="z-index:-6">
-<div class="bookpage" style="z-index:-5">
-<div class="bookpage" style="z-index:-4">
-<div class="bookpage" style="z-index:-3">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 
-		<div id="leftpage">
+
+<div id="bookcover">
+
+
+<div class="bookpage" id="bookpage1" style="z-index:-9">
+<div class="bookpage" id="bookpage2" style="z-index:-8">
+<div class="bookpage" id="bookpage3" style="z-index:-7">
+<div class="bookpage" id="bookpage4" style="z-index:-6">
+<div class="bookpage" id="bookpage5" style="z-index:-5">
+<div class="bookpage" id="bookpage6" style="z-index:-4">
+<div class="bookpage" id="bookpage7" style="z-index:-3">
+</div></div></div></div></div></div></div>
+
+<!-- <%@ include file="TextLesson.jsp" %> -->
+<div id="leftpage">
 <div class="calcheaderleft"
 	onmouseover="topicsMenuOn()"
 	onmouseout="topicsMenuOff()"
-		>Newton's Method/Linear Approximation</div>
+		>Newton's Method</div>
 
 
 
 
-		<div style="position:absolute;
-	padding-top:20px;
-	margin:0px;
-	left:5%;
-	width:90%;">
-<h3>3.8 - Newton's Method/Linear Approximation</h3>
-<span>
+		<div class="LeftPageTextContainer">
+<h3>3.13 - Newton's Method</h3>
+<span> <!-- The unique lesson content goes here -->
 
-<p>Newton’s method is a way to approximate roots of equations. It is a formula that iterates, so the more times you put your number through the formula, the closer your number gets to the root of the equation. Here is the formula:</p>
+<p>Newton's method is a way to approximate roots of equations. It is a formula that iterates, so the more times you put your number through the formula, the closer your number gets to the root of the equation. Here is the formula:</p>
 
 <img src="../../Functions/image574.png" alt="xn+1=xn-f(xn)f'(xn)">
 
-<p>So you need to find the derivative to use the formula.</p>
+<p>So this formula requires you to find a derivative.</p>
 
 <p>Here is an example of how to use it:</p>
 
-<p>Use Newton’s method three times to approximate the root of this equation starting with <img src="../../Functions/image575.png" alt="x=1">: <img src="../../Functions/image576.png" alt="f(x)=x^2-2"></p>
+<p>Use Newton's method three times to approximate the root of this equation starting with <img src="../../Functions/image575.png" alt="x=1">: <img src="../../Functions/image576.png" alt="f(x)=x^2-2"></p>
 
 <h4>Solution:</h4>
 
@@ -456,14 +448,7 @@
 
 <img src="../../Functions/image577.png" alt="f'(x)="><img src="../../Functions/image578.png" alt="2x">
 
-<p>With the equation, <img src="../../Functions/image579.png" alt="xn"> is at first 1and we call it <img src="../../Functions/image580.png" alt="x1"> because it is the initial value we use. The formula finds the <img src="../../Functions/image581.png" alt="n+1">th number, so it finds the one after the one you are plugging in. We plug in <img src="../../Functions/image580.png" alt="x1"> and we find <img src="../../Functions/image582.png" alt="x2">.</p>
 
-<img src="../../Functions/image583.png" alt="x2=1-(1)2-22(1)=1+12=1.5"><br>
-<img src="../../Functions/image584.png" alt="x3=1.5-1.52-22(1.5)=1.5-2.25-23=1.5-.253=1.5-.083333=1.416667"><br>
-<img src="../../Functions/image585.png" alt="x4=1.416667-1.4166672-22(1.416667)=1.416667-2.006945-22.833334=1.416667-.0069452.833334=1.416667-.002451=1.414216">
-
-
-<p>That was three times, which is what they asked for. Notice what we just did. We just found the root of <img src="../../Functions/image586.png" alt="x^2-2">. That means we found out what x is when <img src="../../Functions/image587.png" alt="x^2-2=0">, or <img src="../../Functions/image588.png" alt="x=sqrt2">. So we basically came up with an approximation for <img src="../../Functions/image589.png" alt="sqrt2">. Compare what we came up with, 1.414216, to the actual number <img src="../../Functions/image590.png" alt="sqrt2=1.414124">... </p>
 
 </span>
 		</div>
@@ -477,55 +462,28 @@
 	onclick="(this).style.backgroundColor='red'">Calculus 1</div>
 
 
-		<div style="position:absolute;
-	padding-top:20px;
-	margin:0px;
-	right:5%;
-	width:90%;">
-<span>
+		<div class="RightPageTextContainer">
+<span> <!-- The unique lesson content goes here -->
 
 
-<p>That’s pretty close, and we didn’t use a calculator (because we know how to divide and multiply numbers). </p>
+<p>With the equation, <img src="../../Functions/image579.png" alt="xn"> is at first 1and we call it <img src="../../Functions/image580.png" alt="x1"> because it is the initial value we use. The formula finds the <img src="../../Functions/image581.png" alt="n+1">th number, so it finds the one after the one you are plugging in. We plug in <img src="../../Functions/image580.png" alt="x1"> and we find <img src="../../Functions/image582.png" alt="x2">.</p>
 
+<img src="../../Functions/image583.png" alt="x2=1-(1)2-22(1)=1+12=1.5"><br>
+<img src="../../Functions/image584.png" alt="x3=1.5-1.52-22(1.5)=1.5-2.25-23=1.5-.253=1.5-.083333=1.416667"><br>
 
+<img src="../../Functions/image585.png" alt="x4=1.416667-1.4166672-22(1.416667)=1.416667-2.006945-22.833334=1.416667-.0069452.833334=1.416667-.002451=1.414216">
 
-<p>So, if you were stranded on an island somewhere, and for some reason you had to know what 2 was in order to survive, you could calculate it. The ancient Babylonians actually used a similar formula to calculate it. I'm not sure their lives depended on it, though.</p>
+<p>That was three times, which is what they asked for. Notice what we just did. We just found the root of <img src="../../Functions/image586.png" alt="x^2-2">. That means we found out what x is when <img src="../../Functions/image587.png" alt="x^2-2=0">, or <img src="../../Functions/image588.png" alt="x=sqrt2">. So we basically came up with an approximation for <img src="../../Functions/image589.png" alt="sqrt2">. Compare what we came up with, 1.414216, to the actual number <img src="../../Functions/image590.png" alt="sqrt2=1.414124">... That's pretty close, and we didn't use a calcul
+ator (because we know how to divide and multiply numbers). So, if you were stranded on an island somewhere, and for some reason you had to know what 2 was in order to survive, you could calculate it. The ancient Babylonians actually used a similar formula to calculate it. I'm not sure their lives depended on it, though.</p>
 
-<p>There are some problems with Newton’s method, however. And you can know how to avoid them if you understand how they arise. @@Animation of Newton’s Method doing its thing@@</p>
-
-
-**
-
-
-
-<p>Linear approximation is using a line to approximate a number. Let’s say we wanted to approximate <img src="../../Functions/image589.png" alt="sqrt2"> with linear approximation.</p>
-
-<p>First, you take it apart: What is the number, and what is the function?</p>
-
-x=2<br>
-<img src="../../Functions/image591.png" alt="f(x)=x">
-
-<p>Then you ask yourself, “What number close to 2 could I use for x that would be easy to figure out?” Well, 1 is close to 2, and 1=1, so let’s use that. We call that a.</p>
-
-a=1
-
-<p>Then we plug our things into this formula:</p>
-
-<p><a href="#"><img src="../../Functions/image592.png" alt="f(x)f(a)+f'(a)(x-a)">
-	<span class="B1">Linear approximation uses a tangent line at a point on a curve that is close to the point we are interested in. It traces the tangent line over to above or below where the actual point is, and it uses the y coordinate of the tangent line’s point as an approximation for the y coordinate of the actual point. Of course if the curve happens to curve a lot, the linear approximation won’t be that great. If you wanted to get more accurate, you could use a parabolic approximation, where not just the position and first derivative of the approximating curve are equal to the actual curve’s position and first derivative, but the second derivative is as well. You learn more about this idea in Calculus 2 with Taylor Polynomials. They are pretty great.</span></a></p>
-
-<img src="../../Functions/image593.png" alt="f'(x)=12x"><br>
-<img src="../../Functions/image594.png" alt="21+121(2-1)=1+12(1)=1.5">
-
-<p>That’s the same thing we got the first time we did Newton’s method on 2. But with <a href="#">Linear Approximation
-	<span class="B1">I have used the idea of linear approximation on some of my own homework assignments to guess the right answer on certain problems, and it has saved me some points. It’s pretty great.</span></a>, you only do it once. </p>
+<p>There are some problems with Newton's method, however. And you can know how to avoid them if you understand how they arise. Check out the videos to learn about that.</p>
 
 </span>
-		</div>
-		</div>
 
-<%@ include file="NewtonsMethod.html" %>
-		</div>
+</div>
+</div><!-- End of include -->
+		
+</div>
 
 
 
