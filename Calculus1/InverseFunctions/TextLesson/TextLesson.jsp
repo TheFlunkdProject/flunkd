@@ -2,13 +2,13 @@
 <div class="calcheaderleft"
 	onmouseover="topicsMenuOn()"
 	onmouseout="topicsMenuOff()"
-		>Graphs of Basic Functions</div>
+		>Inverse Functions</div>
 
 
 
 
 		<div class="LeftPageTextContainer">
-<h3>1.1 - Graphs of Basic Functions</h3>
+<h3>1.6 - Inverse Functions</h3>
 <span> <!-- The unique lesson content goes here -->
 The three things in this section are:
 <ul><li>How to determine if something is a function

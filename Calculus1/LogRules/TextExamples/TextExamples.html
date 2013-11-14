@@ -3,6 +3,7 @@
 <head>
 <script src="../../../JS/Highlight.js"></script>
 <script src="../../../JS/HiddenHorizontalVerticalBanner.js"></script>
+<script src="../../../JS/StyleChanger.js"></script>
 
 <link rel="stylesheet" type="text/css" href="../../../CSS/HighlightSaveTextCSS.css">
 <link rel="stylesheet" type="text/css" href="../../../CSS/CalcTopicsMenu.css">
@@ -11,13 +12,33 @@
 <link rel="stylesheet" type="text/css" href="../../../CSS/MiniFlunkdCSS.css">
 <link rel="stylesheet" type="text/css" href="../../../CSS/HorizontalVerticalBannerHiddenWithMiniFlunkdCSS.css">
 <link rel="stylesheet" type="text/css" href="../../../CSS/HorizontalBannerVerticalBannerFlunkdGreenShadowsCSS.css"/>
+<link rel="stylesheet" type="text/css" href="../../../CSS/StyleChangerTextLesson.css">
 
 <link rel="stylesheet" type="text/css" href="../../../CSS/TextLessonCSS.css">
 
-
-
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/OrangeShadows.css" Title="Style1">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TurquoiseShadows.css" Title="Style2">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/PurpleShadows.css" Title="Style3">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/OrangeDarkTheme.css" Title="Style1b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TurquoiseDarkTheme.css" Title="Style2b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/PurpleDarkTheme.css" Title="Style3b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TextLessonDarkTheme.css" Title="Style1b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TextLessonDarkTheme.css" Title="Style2b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TextLessonDarkTheme.css" Title="Style3b">
 </head>
 <body>
+
+<!-- <%@ include file="file:/flunkd1.2/StyleChanger.jsp" %> aweewa -->
+<div id="StyleChanger"	onmouseover="horizontalBannerOn()" onmouseout="horizontalBannerOff()">
+	<div id="StyleChangerLabel">Change styles!</div>
+	<div id="Style1" onclick="setActiveStyleSheet('Style1')"></div>
+	<div id="Style2" onclick="setActiveStyleSheet('Style2')"></div>
+	<div id="Style3" onclick="setActiveStyleSheet('Style3')"></div>
+	<div id="Style1b" onclick="setActiveStyleSheet('Style1b')"></div>
+	<div id="Style2b" onclick="setActiveStyleSheet('Style2b')"></div>
+	<div id="Style3b" onclick="setActiveStyleSheet('Style3b')"></div>
+	
+</div>
 
 <!-- <%@ include file="file:/flunkd1.2/TopicMisc.jsp" %> aweewa -->
 <img src="../../../images/dark-wood-texture.jpg" class="back">
@@ -311,13 +332,13 @@
 </li>
 <li><a href="../../../Calculus1/PiecewiseFunctions/TextLesson/TextLesson.html">Piecewise Functions</a>
 </li>
-<li><a href="../../../Calculus1/PiecewiseFunctions/TextLesson/TextLesson.html">Infinite Limits</a>
+<li><a href="../../../Calculus1/InfiniteLimits/TextLesson/TextLesson.html">Infinite Limits</a>
 </li>
-<li><a href="../../../Calculus1/PiecewiseFunctions/TextLesson/TextLesson.html">Definition of Continuity</a>
+<li><a href="../../../Calculus1/DefinitionOfContinuity/TextLesson/TextLesson.html">Definition of Continuity</a>
 </li>
-<li><a href="../../../Calculus1/PiecewiseFunctions/TextLesson/TextLesson.html">Intermediate value Theorem</a>
+<li><a href="../../../Calculus1/IntermediateValueTheorem/TextLesson/TextLesson.html">Intermediate value Theorem</a>
 </li>
-<li><a href="../../../Calculus1/PiecewiseFunctions/TextLesson/TextLesson.html">Precise Definition of a Limit</a>
+<li><a href="../../../Calculus1/PreciseDefinitionOfALimit/TextLesson/TextLesson.html">Precise Definition of a Limit</a>
 </li>
 </ul>
 
@@ -391,7 +412,7 @@
 <div class="bookpage" id="bookpage5" style="z-index:-5">
 <div class="bookpage" id="bookpage6" style="z-index:-4">
 <div class="bookpage" id="bookpage7" style="z-index:-3">
-</div></div></div></div></</div></div>
+</div></div></div></div></div></div></div>
 
 <!--<%@ include file="TextExamples.jsp" %> -->
 <div id="leftpage">

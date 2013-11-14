@@ -1,0 +1,534 @@
+<DOCTYPE! html>
+<html>
+<head>
+<script src="../../../JS/Highlight.js"></script>
+<script src="../../../JS/HiddenHorizontalVerticalBanner.js"></script>
+<script src="../../../JS/StyleChanger.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../../../CSS/HighlightSaveTextCSS.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/CalcTopicsMenu.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/CalcClassMenu.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/ToolsMediaContactMenusCSS.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/MiniFlunkdCSS.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/HorizontalVerticalBannerHiddenWithMiniFlunkdCSS.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/HorizontalBannerVerticalBannerFlunkdGreenShadowsCSS.css"/>
+<link rel="stylesheet" type="text/css" href="../../../CSS/StyleChangerTextLesson.css">
+
+<link rel="stylesheet" type="text/css" href="../../../CSS/TextLessonCSS.css">
+
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/OrangeShadows.css" Title="Style1">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TurquoiseShadows.css" Title="Style2">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/PurpleShadows.css" Title="Style3">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/OrangeDarkTheme.css" Title="Style1b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TurquoiseDarkTheme.css" Title="Style2b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/PurpleDarkTheme.css" Title="Style3b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TextLessonDarkTheme.css" Title="Style1b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TextLessonDarkTheme.css" Title="Style2b">
+<link rel="alternate stylesheet" type="text/css" href="../../../CSS/TextLessonDarkTheme.css" Title="Style3b">
+</head>
+<body>
+
+<!-- <%@ include file="file:/flunkd1.2/StyleChanger.jsp" %> aweewa -->
+<div id="StyleChanger"	onmouseover="horizontalBannerOn()" onmouseout="horizontalBannerOff()">
+	<div id="StyleChangerLabel">Change styles!</div>
+	<div id="Style1" onclick="setActiveStyleSheet('Style1')"></div>
+	<div id="Style2" onclick="setActiveStyleSheet('Style2')"></div>
+	<div id="Style3" onclick="setActiveStyleSheet('Style3')"></div>
+	<div id="Style1b" onclick="setActiveStyleSheet('Style1b')"></div>
+	<div id="Style2b" onclick="setActiveStyleSheet('Style2b')"></div>
+	<div id="Style3b" onclick="setActiveStyleSheet('Style3b')"></div>
+	
+</div>
+
+
+
+
+<!-- <%@ include file="file:/flunkd1.2/TopicMisc.jsp" %> aweewa -->
+<img src="../../../images/dark-wood-texture.jpg" class="back">
+<div id="flunkdholder"><div id="flunkd"><a href="../../../flunkd1.2.html">flunk'd</a></div></div>
+<div id="wolfram">
+	<script type="text/javascript" id="WolframAlphaScript381669a1c474b157d4aacfc7c01c7e64" src="http://www.wolframalpha.com/widget/widget.jsp?id=381669a1c474b157d4aacfc7c01c7e64"></script>
+	<div id="wolframCloseButton" 
+		onclick="wolframOff()";>Close</div>
+</div>
+
+<!--<%@ include file="file:/flunkd1.2/HorizontalBanner.jsp" %> -->
+<div id="horizontalbanner" onmouseover="horizontalBannerOn()" onmouseout="horizontalBannerOff()">
+<div id="HowBox" onmouseover="flunkdHowOn()" onmouseout="flunkdHowOff()">
+	<ul style="padding:0;margin:0;">
+	<li id="InfoWord">
+		<a href="../../../HowIsFlunkdTransformingEducation/HowIsFlunkdTransformingEducation.html">How</a></li>
+	<li id="InfoQuestion">
+		<a href="../../../HowIsFlunkdTransformingEducation/HowIsFlunkdTransformingEducation.html">is flunk transforming education?</a></li></ul>
+</div>
+<div id="WhatBox" onmouseover="flunkdWhatOn()" onmouseout="flunkdWhatOff()">
+	<ul style="padding:0;margin:0;">
+	<li id="InfoWord">
+		<a href="../../../WhatCanIGetFromFlunkd/WhatCanIGetFromFlunkd.html">What</a></li>
+	<li id="InfoQuestion">
+		<a href="../../../WhatCanIGetFromFlunkd/WhatCanIGetFromFlunkd.html">can I get from flunk'd?</a></li>
+	</ul>
+</div>
+<div id="WhoBox" onmouseover="flunkdWhoOn()" onmouseout="flunkdWhoOff()">
+	<ul style="padding:0;margin:0;">
+	<li id="InfoWord">
+		<a href="../../../WhoIsCreatingFlunkd/WhoIsCreatingFlunkd.html">Who</a></li>
+	<li id="InfoQuestion">
+		<a href="../../../WhoIsCreatingFlunkd/WhoIsCreatingFlunkd.html">is creating flunk'd?</a></li>
+	</ul>
+</div>
+</div>
+
+<!--<%@ include file="file:/flunkd1.2/VerticalBanner.jsp" %> -->
+<div id="verticalbanner" onmouseover="verticalBannerOn()" onmouseout="verticalBannerOff()"><div id="verticaltest"></div>
+<!--<div id="LoginSignUp">
+	<div id="InputUsernameLabel">Username: </div>
+	<div id="InputUsernameContainer">
+		<input type="text" id="InputUsername"/></div>
+	<div id="InputPasswordLabel">Password: </div>
+	<div id="InputPasswordContainter">
+		<input type="text" id="InputPassword"/></div>
+	<div id="Login">Login</div>
+	<div id="SignUp">Sign Up</div>
+</div>-->
+<div id="SearchFlunkd">
+	<div id="SearchFlunkdLabel">Search flunk'd:</div>
+	<div id="SearchFlunkdInputContainter">
+		<input type="text" id="SearchFlunkdInput"/></div>
+	<div id="Go">Go</div>
+</div>
+
+<div id="verticaltest" onmouseover="canYouDesignOn()" onmouseout="canYouDesignOff()">
+	<div id="LearnLabel">Classes:</div>
+	<div id="ClassListContainer">
+		<ul id="ClassList">
+		<li><a href="../../../Calculus1/Calculus1.html">Calculus 1</a></li>
+<!--		<li><a href="#">Calculus 2</a></li>
+		<li><a href="#">Physics Newtonian Mechanics</a></li>-->
+		</ul>
+	</div>
+</div>
+
+</div>
+
+
+
+<!--<%@ include file="file:/flunkd1.2/HighlightMenu.jsp" %> -->
+<!--<div id="highlightmenu"	>
+<div id="closehighlightmenu"
+	onclick="closeHighlightMenu()"><a href="#">Close</a></div>
+<div id="clearhighlightedtext" onclick="clearText()">RESET SELECTED TEXT</div>
+<div id="savetext" onclick="saveText()">SAVE TEXT</div>
+<div id="highlightedtext"></div>
+</div>
+<textarea id="notes" ></textarea>
+<div id="bluehighlighter"
+	onmouseover="highlightBlue()"></div>
+<div id="yellowhighlighter"
+	onmouseover="highlightYellow()"></div>
+<div id="redhighlighter"
+	onmouseover="highlightRed()"></div>
+<div id="highlighteraser"
+	onclick="eraseHighlight()"></div>-->
+
+	
+<!--<%@ include file="file:/flunkd1.2/ToolsMenu.jsp" %> -->
+<div id="toolstrigger"
+	onmouseover="toolsOn()"
+	onmouseout="toolsOff()">Tools
+</div>
+
+<div id="toolmenu"
+        onmouseover="toolsOn()"
+        onmouseout="toolsOff()">
+
+<img src="../../../images/pencilrotated.png" id="pencil">
+<img src="../../../images/notepad2.png" id="notepad">
+<img src="../../../images/calculatorrotated.png" id="calculator">
+
+<div id="toolmenuheader"><h1>Tools</h1></div>
+
+<div id="toolsquare1" class="toolsquare"></div>
+<div id="toolsquare1trigger" class="toolsquaretrigger"
+	onmouseover="notepadOn()";
+	onmouseout="notepadOff()"
+	onclick="notesOn()";>
+</div>
+<div id="toolsquare2" class="toolsquare"></div>
+<div id="toolsquare2trigger"  class="toolsquaretrigger"
+	onmouseover="calculatorOn()";
+	onmouseout="calculatorOff()";
+	onclick="wolframOn()";>
+</div>
+<div id="toolsquare3" class="toolsquare"></div>
+<div id="toolsquare4" class="toolsquare"></div>
+<div id="toolsquare5" class="toolsquare"></div>
+<div id="toolsquare6" class="toolsquare"></div>
+</div>
+
+<!--<%@ include file="file:/flunkd1.2/MediaMenu.jsp" %> -->
+<div id="mediamenu"
+	onmouseover="mediaMenuOn()"
+	onmouseout="mediaMenuOff()">
+
+<div class="mediabox" id="mediabox1">Lesson</div>
+<div class="mediabox" id="mediabox2">Video Lesson</div>
+<div class="mediabox" id="mediabox3">Examples</div>
+<div class="mediabox" id="mediabox4">Video Examples</div>
+<div class="mediabox" id="mediabox5">Practice Problems</div>
+<div class="mediabox" id="mediabox6">Games</div>
+
+<div id="mediabox1trigger" class="mediaboxtrigger"
+	onmouseover="mediaBox1On()"
+	onmouseout="mediaBox1Off()"><a href="../TextLesson/TextLesson.html" class="divlink"></a>
+</div>
+<div id="mediabox2trigger" class="mediaboxtrigger"
+	onmouseover="mediaBox2On()"
+	onmouseout="mediaBox2Off()"><a href="../VideoLessons/VideoLessons.html" class="divlink"></a>
+</div>
+<div id="mediabox3trigger" class="mediaboxtrigger"
+	onmouseover="mediaBox3On()"
+	onmouseout="mediaBox3Off()"><a href="../TextExamples/TextExamples.html" class="divlink"></a>
+</div>
+<div id="mediabox4trigger" class="mediaboxtrigger"
+	onmouseover="mediaBox4On()"
+	onmouseout="mediaBox4Off()"><a href="../VideoExamples/VideoExamples.html" class="divlink"></a>
+</div>
+<div id="mediabox5trigger" class="mediaboxtrigger"
+	onmouseover="mediaBox5On()"
+	onmouseout="mediaBox5Off()"><a href="../PracticeProblems/PracticeProblems.html" class="divlink"></a>
+</div>
+<div id="mediabox6trigger" class="mediaboxtrigger"
+	onmouseover="mediaBox6On()"
+	onmouseout="mediaBox6Off()"><a href="../Games/Games.html" class="divlink"></a>
+</div>
+	
+
+</div>
+
+<div id="mediamenutrigger"
+	onmouseover="mediaMenuOn()"
+	onmouseout="mediaMenuOff()">Media</div>
+
+<a href="../TextLesson/TextLesson.html"><img src="../../../images/openbook.png" id="openbook" class="imagelink"
+	onmouseover="mediaMenuOn();mediaBox1On();"
+	onmouseout="mediaMenuOff();mediaBox1Off()"></a>
+<a href="../VideoLessons/VideoLessons.html"><img src="../../../images/videos.png" id="videos" class="imagelink"
+	onmouseover="mediaMenuOn();mediaBox2On();"
+	onmouseout="mediaMenuOff();mediaBox2Off()"></a>
+<a href="../Games/Games.html"><img src="../../../images/game.png" id="game" class="imagelink"
+	onmouseover="mediaMenuOn();mediaBox6On();"
+	onmouseout="mediaMenuOff();mediaBox6Off()"></a>
+
+
+<!--<%@ include file="file:/flunkd1.2/ContactPhone.jsp" %> -->
+<!--<div id="contact"
+	onmouseover="contactOn()"
+	onmouseout="contactOff()">
+
+<img src="../../../images/galaxys3.png" id="galaxy"
+	onmouseover="contactOn()"
+	onmouseout="contactOff()">
+
+
+<div id="contactmenu"
+	onmouseover="contactOn()"
+    onmouseout="contactOff()">
+	<div id="contactlistbutton"
+			onclick="writeMessageOn()">contact someone</div>
+	<div id="writemessage">
+		<div id="contactlistlabel" onmouseover="contactListOn()"
+									onmouseout="contactListOff()">Choose a recipient</div>
+		
+	</div>
+	<div id="contactlist" style="visibility:hidden;"
+		onmouseover="contactListOn()"
+		onmouseout="contactListOff()">
+		<div id="searchcontacts">Search: <input type="text"/ id="searchcontacsinput"></div>
+		<ul>
+		<li><a href="#">flunkd</a>
+		</li>
+		<li><a href="#">flunkd.com</a>
+		</li>
+		<li><a href="#">joe</a>
+		</li>
+		<li><a href="#">joe</a>
+		</li>
+		</ul>
+	</div>
+	<div id="writemessagetextholder"><textarea rows="10" id="writemessagetext" ></textarea></div>
+
+</div>
+
+</div>
+
+<div id="contacttrigger"
+	onmouseover="contactOn()"
+	onmouseout="contactOff()">Contact
+</div>-->
+
+
+<!--<%@ include file="file:/flunkd1.2/ClassesMenu.jsp" %> -->
+<div id="classesmenu"
+	onmouseover="classesMenuOn()"
+	onmouseout="classesMenuOff()">
+<ul id="classessubmenu">
+<li><a href="#">Calculus 1</a></li>
+<!--<li><a href="#">Calculus 2</a></li>
+<li><a href="#">Physics Mechanics</a></li>-->
+</ul>
+
+</div>
+
+<!--<%@ include file="file:/flunkd1.2/Calculus1/Calculus1TopicsMenu.jsp" %> -->
+<div id="topicsmenu"
+	onmouseover="topicsMenuOn()"
+	onmouseout="topicsMenuOff()">
+
+<ul class="topicssubmenuheader">
+<li><a href="#">Calculus 1</a>
+</li>
+</ul>
+
+<ul class="topicssubmenu">
+<li><a href="#">Calculus 1 Introduction</a>
+</li>
+<div id="topicsearchdiv">Search: <input type="text" id="topicsearch" /></div>
+<li><a href="#">Calculus 1 Introduction</a>
+</li>
+</ul>
+
+<ul class="topicssubmenuheader">
+<li><a href="#">Review of Precalculus</a>
+</li>
+</ul>
+
+<ul class="topicssubmenu">
+<li><a href="../../../Calculus1/GraphsOfBasicFunctions/TextLesson/TextLesson.html">Graphs of Basic Functions</a>
+</li>
+<li><a href="../../../Calculus1/Trigonometry/TextLesson/TextLesson.html">Trigonometry</a>
+</li>
+<li><a href="../../../Calculus1/Exponents/TextLesson/TextLesson.html">Exponents</a>
+</li>
+<li><a href="../../../Calculus1/Factoring/TextLesson/TextLesson.html">Factoring</a>
+</li>
+<li><a href="../../../Calculus1/Fractions/TextLesson/TextLesson.html">Fractions</a>
+</li>
+<li><a href="../../../Calculus1/InverseFunctions/TextLesson/TextLesson.html">Inverse Functions</a>
+</li>
+<li><a href="../../../Calculus1/LogRules/TextLesson/TextLesson.html">Log Rules</a>
+</li>
+</ul>
+
+<ul class="topicssubmenuheader">
+<li><a href="#">Limits</a>
+</li>
+</ul>
+
+<ul class="topicssubmenu">
+<li><a href="../../../Calculus1/LimitsOfSimpleFunctions/TextLesson/TextLesson.html">Limits of Simple Functions</a>
+</li>
+<li><a href="../../../Calculus1/RemovableDiscontinuities/TextLesson/TextLesson.html">Removable Discontinuities</a>
+</li>
+<li><a href="../../../Calculus1/OneSidedLimits/TextLesson/TextLesson.html">One-Sided Limits</a>
+</li>
+<li><a href="../../../Calculus1/PiecewiseFunctions/TextLesson/TextLesson.html">Piecewise Functions</a>
+</li>
+<li><a href="../../../Calculus1/InfiniteLimits/TextLesson/TextLesson.html">Infinite Limits</a>
+</li>
+<li><a href="../../../Calculus1/DefinitionOfContinuity/TextLesson/TextLesson.html">Definition of Continuity</a>
+</li>
+<li><a href="../../../Calculus1/IntermediateValueTheorem/TextLesson/TextLesson.html">Intermediate value Theorem</a>
+</li>
+<li><a href="../../../Calculus1/PreciseDefinitionOfALimit/TextLesson/TextLesson.html">Precise Definition of a Limit</a>
+</li>
+</ul>
+
+<ul class="topicssubmenuheader">
+<li><a href="#">Derivatives</a>
+</li>
+</ul>
+
+<ul class="topicssubmenu">
+<li><a href="../../../Calculus1/DefinitionOfTheDerivative/TextLesson/TextLesson.html">Definition of the Derivative</a>
+</li>
+<li><a href="../../../Calculus1/GraphsOfDerivatives/TextLesson/TextLesson.html">Graphs of Derivatives</a>
+</li>
+<li><a href="../../../Calculus1/DerivativeFormula/TextLesson/TextLesson.html">Derivative Formula</a>
+</li>
+<li><a href="../../../Calculus1/DerivativesOfSpecialFunctions/TextLesson/TextLesson.html">Derivatives of Special Functions</a>
+</li>
+<li><a href="../../../Calculus1/ProductRule/TextLesson/TextLesson.html">Product Rule</a>
+</li>
+<li><a href="../../../Calculus1/QuotientRule/TextLesson/TextLesson.html">Quotient Rule</a>
+</li>
+<li><a href="../../../Calculus1/ChainRule/TextLesson/TextLesson.html">Chain Rule</a>
+</li>
+<li><a href="../../../Calculus1/LHospitalsRule/TextLesson/TextLesson.html">L'Hospital's Rule</a>
+</li>
+<li><a href="../../../Calculus1/ImplicitDifferentiation/TextLesson/TextLesson.html">Implicit Differentiation</a>
+</li>
+<li><a href="../../../Calculus1/RelatedRates/TextLesson/TextLesson.html">Related Rates</a>
+</li>
+<li><a href="../../../Calculus1/CriticalPoints/TextLesson/TextLesson.html">Critical Points</a>
+</li>
+<li><a href="../../../Calculus1/Optimization/TextLesson/TextLesson.html">Optimization</a>
+</li>
+<li><a href="../../../Calculus1/PointsOfInflictionConcavity/TextLesson/TextLesson.html">Points of Infliction, Concavity</a>
+</li>
+<li><a href="../../../Calculus1/NewtonsMethod/TextLesson/TextLesson.html">Newton's Method</a>
+</li>
+<li><a href="../../../Calculus1/LinearApproxiamtion/TextLesson/TextLesson.html">Linear Approxiamtion</a>
+</li>
+<li><a href="../../../Calculus1/MeanValueTheorem/TextLesson/TextLesson.html">Mean Value Theorem</a>
+</li>
+</ul>
+
+<ul class="topicssubmenuheader">
+<li><a href="#">Antiderivatives</a>
+</li>
+</ul>
+
+<ul class="topicssubmenu">
+<li><a href="../../../Calculus1/RiemannSums/TextLesson/TextLesson.html">Riemann Sums</a>
+</li>
+<li><a href="../../../Calculus1/LimitFormulas/TextLesson/TextLesson.html">Limit Formulas</a>
+</li>
+<li><a href="../../../Calculus1/IntegralsOfPolynomials/TextLesson/TextLesson.html">Integrals of Polynomials</a>
+</li>
+<li><a href="../../../Calculus1/USubstitution/TextLesson/TextLesson.html">U-Substitution</a>
+</li>
+</ul>
+
+</div>
+
+
+
+
+
+<div id="bookcover">
+
+
+<div class="bookpage" id="bookpage1" style="z-index:-9">
+<div class="bookpage" id="bookpage2" style="z-index:-8">
+<div class="bookpage" id="bookpage3" style="z-index:-7">
+<div class="bookpage" id="bookpage4" style="z-index:-6">
+<div class="bookpage" id="bookpage5" style="z-index:-5">
+<div class="bookpage" id="bookpage6" style="z-index:-4">
+<div class="bookpage" id="bookpage7" style="z-index:-3">
+</div></div></div></div></div></div></div>
+
+<!-- <%@ include file="TextLesson.jsp" %> -->
+<div id="leftpage">
+<div class="calcheaderleft"
+	onmouseover="topicsMenuOn()"
+	onmouseout="topicsMenuOff()"
+		>Graphs of Derivatives</div>
+
+
+
+
+		<div class="LeftPageTextContainer">
+<h3>3.2 - Graphs of Derivatives</h3>
+<span> <!-- The unique lesson content goes here -->
+
+<p>A function is <a href="#">differentiable
+	<span class="B1">differentiable means it has no sharp points or cusps and is continuous.<br>
+<img src="../../Graphs/graphnondif1.png" class="Floatleft100">This graph is non-differentiable at 1 beacuse it has a sharp point/cusp.<br><br><br>
+<img src="../../Graphs/graphnondif2.png" class="Floatright100">This graph is non-differentiable at 2 and 5 beacuse 
+it is discontinuous at 2 and 5.
+	</span></a> at a number if it is continuous there, and does not have a sharp point or 
+cusp there.</p>
+
+<p>You can take derivatives of derivatives. The common notation looks like this:</p>
+<a href="#"><img src="../../Functions/image240.png">, 
+	<span class="B1">First derivative of <i>f</i>
+	</span></a>, 
+<a href="#"><img src="../../Functions/image241.png">
+	<span class="B1">Second derivative of <i>f</i>
+	</span></a>, 
+<a href="#"><img src="../../Functions/image242.png">
+	<span class="B1">Third derivative of <i>f</i>
+	</span></a>, 
+<a href="#"><img src="../../Functions/image243.png">
+	<span class="B1">Fourth derivative of <i>f</i>
+	</span></a><br>
+and so on.
+
+<p>This is a typical problem involving identifying multiple derivatives of functions on a graph:</p>
+<ul>
+<li>
+Identify <img src="../../Functions/image240.png">, <img src="../../Functions/image241.png">, and <img src="../../Functions/image242.png">:
+</li>
+</ul>
+<img src="../../Graphs/graphidentifyder.png" style="border: 5px ridge grey; width:40%; height:35%; float:right;">
+<br>
+<p>You need to use the meaning of the derivative to figure these out. The derivative is the slope. 
+The slope of one function becomes the y value of its derivative. So, the slope of <i>f</i> at a place 
+will be the y-coordinate of <img src="../../Functions/image244.png"> at the same place, and the slope of <img src="../../Functions/image244.png"> at a place 
+will be the y-coordinate of <img src="../../Functions/image245.png"> at the same place. </p>
+
+
+</span>
+		</div>
+		</div>
+
+		<div id="rightpage">
+
+<div class="calcheaderright"
+	onmouseover="classesMenuOn()";
+	onmouseout="classesMenuOff()";
+	onclick="(this).style.backgroundColor='red'">Calculus 1</div>
+
+
+		<div class="RightPageTextContainer">
+<span> <!-- The unique lesson content goes here -->
+
+
+<p>In our <a href="#">graph<img src="../../Graphs/graphidentifyder.png" class="imgA1"></a>, I would look at the place on the right where the green curve has a horizontal tangent (slope=0).
+I would expect green's derivative to cross zero at that same x-value. And it looks like both blue and red do. 
+So I know that either red is the derivative of green, or blue is. On the other side where blue has a horizontal 
+tangent line, its derivative should be zero. Both green and red cross zero. So either green is the derivative 
+of blue, or red is.</p>
+<p>So the information points to either original=green, first derivative=blue, second derivative=red, or 
+original=green, first derivative=red, second derivative=blue. Let's make a guess and check it at some random point.
+Look at x=-2. Let's say green is the original. It's slope looks like it's about negative two. So is the position 
+of one of the other lines at y=-2? Blue is down there. Now, what is the slope of blue? It likes like 1.5 ish. 
+Is red at y=1.5? It's about there. So the answer is: <img src="../../Functions/image241.png">=green, <img src="../../Functions/image242.png">=blue, and <img src="../../Functions/image243.png">=red.</p>
+
+
+<p>It's a strange concept to visualize at first, but it gets easier. Just have patience and be very deliberate at first. 
+There are many ways to come up with the answer if you analyze the problem long enough.</p>
+
+<p>It easiest to use significant features of one to look at the others. Find places where 
+the slope is zero on one curve, and look for other curves that cross the x-axis at the 
+same place. If there are any, then they are probably the derivative of the curve with 
+the zero slope.</p>
+
+<p>Final note: The derivative of a function does not take into consideration the height 
+of the function, but <a href="#">only its shape
+   <span class="B1">The value of a slope of a 
+line has nothing to do with how high the line is above the x-axis. So the 
+derivative will not care what the vertical positioning of the original curve was, 
+since it is a graph of the values of the slopes.
+   </span></a>.</p>
+
+</span>
+
+</div>
+</div>
+<!-- End of include -->
+		
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

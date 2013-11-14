@@ -14,7 +14,7 @@
 </div>
 
 <iframe width="30%" height="38%" 
-src="http://www.youtube.com/embed/nJM3EuFVL1I?rel=0&amp;modestbranding=1&amp;version=3&amp;ap=%2526fmt%3D18&amp;autohide=1&amp;fs=1&amp;theme=light&amp;color=white"
+src="http://www.youtube.com/embed/nJM3EuFVL1I?wmode=transparent&rel=0&amp;modestbranding=1&amp;version=3&amp;ap=%2526fmt%3D18&amp;autohide=1&amp;fs=1&amp;theme=light&amp;color=white"
 type="application/x-shockwave-flash" id="EmbeddedVideo1" allowfullscreen> </iframe>
 
 <div id="VideoLesson2Description">
@@ -24,7 +24,7 @@ type="application/x-shockwave-flash" id="EmbeddedVideo1" allowfullscreen> </ifra
 	<p>Length 10:01 Comment: The correct way to say it is “maxima and minima,” not “maximums and minimums.” However, I usually just say “max’s and min’s” so that I don’t sound like some kind of Greek scholar (nothing against Greek scholars).</p>
 </div>
 <iframe width="30%" height="38%" 
-src="http://www.youtube.com/embed/vOTTuZflAIM?rel=0&amp;modestbranding=1&amp;version=3&amp;ap=%2526fmt%3D18&amp;autohide=1&amp;fs=1&amp;theme=light&amp;color=white"
+src="http://www.youtube.com/embed/vOTTuZflAIM?wmode=transparent&rel=0&amp;modestbranding=1&amp;version=3&amp;ap=%2526fmt%3D18&amp;autohide=1&amp;fs=1&amp;theme=light&amp;color=white"
 type="application/x-shockwave-flash" id="EmbeddedVideo2" allowfullscreen> </iframe>
 
 <div id="VideoLesson3Description">
@@ -36,5 +36,5 @@ type="application/x-shockwave-flash" id="EmbeddedVideo2" allowfullscreen> </ifra
 </div>
 
 <iframe width="30%" height="38%" 
-src="http://www.youtube.com/embed/0Fx6jec8SwY?rel=0&amp;modestbranding=1&amp;version=3&amp;ap=%2526fmt%3D18&amp;autohide=1&amp;fs=1&amp;theme=light&amp;color=white"
+src="http://www.youtube.com/embed/0Fx6jec8SwY?wmode=transparent&rel=0&amp;modestbranding=1&amp;version=3&amp;ap=%2526fmt%3D18&amp;autohide=1&amp;fs=1&amp;theme=light&amp;color=white"
 type="application/x-shockwave-flash" id="EmbeddedVideo3" allowfullscreen></iframe>

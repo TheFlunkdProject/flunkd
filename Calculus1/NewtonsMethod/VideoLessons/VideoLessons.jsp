@@ -14,5 +14,5 @@
 </div>
 
 <iframe width="30%" height="38%" 
-src="https://www.youtube.com/embed/1uN8cBGVpfs?rel=0&amp;modestbranding=1&amp;version=3&amp;ap=%2526fmt%3D18&amp;autohide=1&amp;fs=1&amp;theme=light&amp;color=white"
+src="https://www.youtube.com/embed/1uN8cBGVpfs?wmode=transparent&rel=0&amp;modestbranding=1&amp;version=3&amp;ap=%2526fmt%3D18&amp;autohide=1&amp;fs=1&amp;theme=light&amp;color=white"
 type="application/x-shockwave-flash" id="EmbeddedVideo1" allowfullscreen> </iframe>
