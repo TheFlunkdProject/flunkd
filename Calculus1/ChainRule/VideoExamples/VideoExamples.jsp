@@ -1,7 +1,36 @@
-<div id="VideoTopicNameHeader" onmouseover="topicsMenuOn()" onmouseout="topicsMenuOff()">
-	<h4>3.7 - Chain Rule - Video Examples</h4>
+<DOCTYPE! html>
+<html>
+<head>
+
+
+<%@ include file="/JSP/VideoExamplesHead.jsp" %>
+
+
+</head>
+<body>
+
+
+<%@ include file="/JSP/TopicMisc.jsp" %>
+
+<%@ include file="/JSP/HorizontalBanner.jsp" %>
+
+<%@ include file="/JSP/VerticalBanner.jsp" %>
+	
+<%@ include file="/JSP/ToolsMenu.jsp" %>
+
+<%@ include file="/JSP/MediaMenu.jsp" %>
+
+<%@ include file="/JSP/ContactPhone.jsp" %>
+
+<%@ include file="/JSP/ClassesMenu.jsp" %>
+
+<%@ include file="/Calculus1/Calculus1TopicsMenu.jsp" %>
+
+
+<div id="VideoPanel">
+<%@ include file="VideoExamples_pears22.jsp" %>
 </div>
-<div id="VideoTotalLength"><h1></h1>
-</div>
-<div id="VideoVerticalDivider">
-</div>
+
+
+</body>
+</html>
