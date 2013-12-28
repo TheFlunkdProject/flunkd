@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<script src="https://www.google.com/jsapi" type="text/javascript"></script>
+<script language="Javascript" type="text/javascript">
+//<!
+google.load('search', '1');
+function OnLoad() {
+var searchControl = new google.search.SearchControl();
+var localSearch = new google.search.LocalSearch();
+searchControl.addSearcher(localSearch);
+searchControl.draw(document.getElementById("searchcontrol"));
+}
+google.setOnLoadCallback(OnLoad);
+//]]>
+</script>
+
+
 <script src="JS/myhomescript.js"></script>
 <script src="JS/StyleChanger.js"></script>
 
@@ -49,38 +65,8 @@
 <%@ include file="/JSP/StyleChanger.jsp" %>
 
 
-<div id="verticalbanner">
-<!--<div id="LoginSignUp">
-	<div id="InputUsernameLabel">Username: </div>
-	<div id="InputUsernameContainer">
-		<input type="text" id="InputUsername"/></div>
-	<div id="InputPasswordLabel">Password: </div>
-	<div id="InputPasswordContainter">
-		<input type="text" id="InputPassword"/></div>
-	<div id="Login">Login</div>
-	<div id="SignUp">Sign Up</div>
-</div>-->
-<div id="SearchFlunkd">
-	<div id="SearchFlunkdLabel">Search flunk'd:</div>
-	<div id="SearchFlunkdInputContainter">
-		<input type="text" id="SearchFlunkdInput"/></div>
-	<div id="Go">Go</div>
-</div>
+<%@ include file="/JSP/VerticalBanner.jsp" %>
 
-<div id="verticaltest" onmouseover="canYouDesignOn()" onmouseout="canYouDesignOff()">
-	<div id="LearnLabel">Classes:</div>
-	<div id="ClassListContainer">
-		<ul id="ClassList">
-		<li><a href="Calculus1/Calculus1.jsp">Calculus 1</a></li>
-<!--		<li><a href="#">Calculus 2</a></li>
-		<li><a href="#">Physics Newtonian Mechanics</a></li>-->
-		</ul>
-	</div>
-</div>
-
-
-</div>
-</div>
 
 
 

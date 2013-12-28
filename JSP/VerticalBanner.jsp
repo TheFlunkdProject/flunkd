@@ -1,5 +1,5 @@
 <div id="verticalbanner" onmouseover="verticalBannerOn()" onmouseout="verticalBannerOff()"><div id="verticaltest"></div>
-<div id="LoginSignUp">
+<!-- <div id="LoginSignUp">
 	<div id="InputUsernameLabel">Username: </div>
 	<div id="InputUsernameContainer">
 		<input type="text" id="InputUsername"/></div>
@@ -8,11 +8,12 @@
 		<input type="text" id="InputPassword"/></div>
 	<div id="Login">Login</div>
 	<div id="SignUp">Sign Up</div>
-</div>
+</div> -->
+
 <div id="SearchFlunkd">
 	<div id="SearchFlunkdLabel">Search flunk'd:</div>
 	<div id="SearchFlunkdInputContainter">
-		<input type="text" id="SearchFlunkdInput"/></div>
+		<div id="searchcontrol">Testing</div></div>
 	<div id="Go">Go</div>
 </div>
 

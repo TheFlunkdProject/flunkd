@@ -41,12 +41,12 @@
 	onmouseover="mediaMenuOn()"
 	onmouseout="mediaMenuOff()">Media</div>
 
-<a href="../TextLesson/TextLesson.jsp"><img src="file:///F:/flunkd1.2/images/openbook.png" id="openbook" class="imagelink"
+<a href="../TextLesson/TextLesson.jsp"><img src="/images/openbook.png" id="openbook" class="imagelink"
 	onmouseover="mediaMenuOn();mediaBox1On();"
 	onmouseout="mediaMenuOff();mediaBox1Off()"></a>
-<a href="../VideoLessons/VideoLessons.jsp"><img src="file:///F:/flunkd1.2/images/videos.png" id="videos" class="imagelink"
+<a href="../VideoLessons/VideoLessons.jsp"><img src="/images/videos.png" id="videos" class="imagelink"
 	onmouseover="mediaMenuOn();mediaBox2On();"
 	onmouseout="mediaMenuOff();mediaBox2Off()"></a>
-<a href="../Games/Games.jsp"><img src="file:///F:/flunkd1.2/images/game.png" id="game" class="imagelink"
+<a href="../Games/Games.jsp"><img src="/images/game.png" id="game" class="imagelink"
 	onmouseover="mediaMenuOn();mediaBox6On();"
 	onmouseout="mediaMenuOff();mediaBox6Off()"></a>
