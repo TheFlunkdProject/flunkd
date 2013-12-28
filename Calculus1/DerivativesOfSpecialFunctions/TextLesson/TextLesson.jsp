@@ -1,46 +1,42 @@
-<div id="leftpage">
-<div class="calcheaderleft"
-	onmouseover="topicsMenuOn()"
-	onmouseout="topicsMenuOff()"
-		>Derivatives of Special Functions</div>
+<DOCTYPE! html>
+<html>
+<head>
 
 
+<%@ include file="/JSP/TextLessonHead.jsp" %>
 
 
-		<div class="LeftPageTextContainer">
-<h3>3.4 - Derivatives of Special Functions</h3>
-<span> <!-- The unique lesson content goes here -->
+</head>
+<body>
 
 
-<p>Memorize these:</>
-<img src="../../Functions/image246.png"><br>
-<img src="../../Functions/image247.png"><br>
-<img src="../../Functions/image248.png"><br>
-<img src="../../Functions/image249.png"><br>
-<img src="../../Functions/image250.png"><br>
-<img src="../../Functions/image251.png"><br><br>
+<%@ include file="/JSP/StyleChanger.jsp" %>
 
-<img src="../../Functions/image252.png"> (This is why <i>e</i> is such a special number.)<br>
-<img src="../../Functions/image254.png"><br>
+<%@ include file="/JSP/TopicMisc.jsp" %>
 
+<%@ include file="/JSP/HorizontalBanner.jsp" %>
 
-</span>
-		</div>
-		</div>
+<%@ include file="/JSP/VerticalBanner.jsp" %>
 
-		<div id="rightpage">
+<%@ include file="/JSP/HighlightMenu.jsp" %>
 
-<div class="calcheaderright"
-	onmouseover="classesMenuOn()";
-	onmouseout="classesMenuOff()";
-	onclick="(this).style.backgroundColor='red'">Calculus 1</div>
+<%@ include file="/JSP/ToolsMenu.jsp" %>
+
+<%@ include file="/JSP/MediaMenu.jsp" %>
+
+<%@ include file="/JSP/ContactPhone.jsp" %>
+
+<%@ include file="/JSP/ClassesMenu.jsp" %>
+
+<%@ include file="/Calculus1/Calculus1TopicsMenu.jsp" %>
 
 
-		<div class="RightPageTextContainer">
-<span> <!-- The unique lesson content goes here -->
+<div id="bookcover">
+<%@ include file="/JSP/bookpages.jsp" %>
 
-
-</span>
-
+<%@ include file="TextLesson_pears22.jsp" %>	
 </div>
-</div>
+
+
+</body>
+</html>

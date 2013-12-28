@@ -1,64 +1,39 @@
-<div id="leftpage">
-<div class="calcheaderleft"
-	onmouseover="topicsMenuOn()"
-	onmouseout="topicsMenuOff()"
-		>Infinite Limits</div>
-		<div class="LeftPageTextContainer">
-<h3>2.5 - Infinite Limits Examples</h3>
-<span> <!-- content goes here-->
+<DOCTYPE! html>
+<html>
+<head>
 
+<%@ include file="/JSP/TextExamplesHead.jsp" %>
 
-<ul>
-<li><img src="../../Functions/image179.png"></li>
-<li><a href="#"><img src="../../Functions/image179.1.png">
-<img src="../../Functions/image179.2.png"><span class="B1">
-<p>Notice that the highest power here is with the x^2.
-But since it is underneath the square root, it counts 
-as half that. So we multiply by 1 over x, and when 
-it enters square root land it becomes 1 over x squared.</p>
-</span></a>
-<img src="../../Functions/image179.3.png">
-<img src="../../Functions/image179.4.png"></li>
-</ul>
+</head>
+<body>
 
+<%@ include file="/JSP/StyleChanger.jsp" %>
 
-</span>
-		</div>
-		</div>
+<%@ include file="/JSP/TopicMisc.jsp" %>
 
-		<div id="rightpage">
+<%@ include file="/JSP/HorizontalBanner.jsp" %>
 
-<div class="calcheaderright"
-	onmouseover="classesMenuOn()";
-	onmouseout="classesMenuOff()";
-	onclick="(this).style.backgroundColor='red'">Calculus 1</div>
+<%@ include file="/JSP/VerticalBanner.jsp" %>
 
-
-		<div class="RightPageTextContainer">
+<%@ include file="/JSP/HighlightMenu.jsp" %>
 	
-<span> <!-- content goes here-->
+<%@ include file="/JSP/ToolsMenu.jsp" %>
+
+<%@ include file="/JSP/MediaMenu.jsp" %>
+
+<%@ include file="/JSP/ContactPhone.jsp" %>
+
+<%@ include file="/JSP/ClassesMenu.jsp" %>
+
+<%@ include file="/Calculus1/Calculus1TopicsMenu.jsp" %>
 
 
-<p>This example seems to always be asked in homework or on test:</p>
-<ul>
-<li><a href="#"><img src="../../Functions/image180.png"><span class="B1">
-So the first thing we do, as always, is plug in our 
-limit. We get infinity minus infinity. That is one of 
-the indeterminate forms and tells us we need to change 
-something about it. We want to turn it into a fraction 
-so we can treat it like a normal infinite limit like 
-we've been dealing with. This is a special trick that 
-you just have to remember if you come across something 
-like this. Turn it into a fraction and then multiply 
-top and bottom by the conjugate.</span></a><br>
-<img src="../../Functions/image180.1.png">
-<img src="../../Functions/image180.2.png">
-<a href="#"><img src="../../Functions/image180.3.png"><span class="B1">
-<p>Since there are x's are positive and in the denominator 
-and not the numerator, the denominator approaches infinity 
-while the numerator stays at 1 and so the limit equals 0.</p>
-</span></a></li></ul>
+<div id="bookcover">
+<%@ include file="/JSP/bookpages.jsp" %>
 
-</span>
+<%@ include file="TextExamples_pears22.jsp" %>	
 </div>
-</div>
+
+
+</body>
+</html>

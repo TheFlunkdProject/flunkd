@@ -1,46 +1,39 @@
-<div id="leftpage">
-<div class="calcheaderleft"
-	onmouseover="topicsMenuOn()"
-	onmouseout="topicsMenuOff()"
-		>Removable Discontinuity</div>
-		<div class="LeftPageTextContainer">
-<h3>2.2 - Removable Discontinuity Examples</h3>
-<span> <!-- content goes here-->
+<DOCTYPE! html>
+<html>
+<head>
 
-<ul>
-<li><img src="../../Functions/image102.png"></li>
-<li><img src="../../Functions/image103.png"></li>
-<li><img src="../../Functions/image104.png"></li>
-<li><img src="../../Functions/image105.png">   Removable discontinuity;<br> 
-<img src="../../Functions/image106.png"></li>
-</ul>
-<br>
+<%@ include file="/JSP/TextExamplesHead.jsp" %>
 
+</head>
+<body>
 
-</span>
-		</div>
-		</div>
+<%@ include file="/JSP/StyleChanger.jsp" %>
 
-		<div id="rightpage">
+<%@ include file="/JSP/TopicMisc.jsp" %>
 
-<div class="calcheaderright"
-	onmouseover="classesMenuOn()";
-	onmouseout="classesMenuOff()";
-	onclick="(this).style.backgroundColor='red'">Calculus 1</div>
+<%@ include file="/JSP/HorizontalBanner.jsp" %>
 
+<%@ include file="/JSP/VerticalBanner.jsp" %>
 
-		<div class="RightPageTextContainer">
+<%@ include file="/JSP/HighlightMenu.jsp" %>
 	
-<span> <!-- content goes here-->
+<%@ include file="/JSP/ToolsMenu.jsp" %>
+
+<%@ include file="/JSP/MediaMenu.jsp" %>
+
+<%@ include file="/JSP/ContactPhone.jsp" %>
+
+<%@ include file="/JSP/ClassesMenu.jsp" %>
+
+<%@ include file="/Calculus1/Calculus1TopicsMenu.jsp" %>
 
 
-<ul>
-<li><img src="../../Functions/image107.png">   Removable discontinuity;<br>
-<img src="../../Functions/image107.1.png"><img src="../../Functions/image107.2.png"><img src="../../Functions/image107.3.png"></li>
-<li><img src="../../Functions/image108.png">   Removable discontinuity;<br> 
-<img src="../../Functions/image109.png"></li>
-</ul>
+<div id="bookcover">
+<%@ include file="/JSP/bookpages.jsp" %>
 
-</span>
+<%@ include file="TextExamples_pears22.jsp" %>	
 </div>
-</div>
+
+
+</body>
+</html>

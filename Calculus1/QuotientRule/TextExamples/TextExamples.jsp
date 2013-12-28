@@ -1,39 +1,39 @@
-<div id="leftpage">
-<div class="calcheaderleft"
-	onmouseover="topicsMenuOn()"
-	onmouseout="topicsMenuOff()"
-		>Quotient Rule</div>
-		<div class="LeftPageTextContainer">
-<h3>3.6 - Quotient Rule Examples</h3>
-<span> <!-- content goes here-->
+<DOCTYPE! html>
+<html>
+<head>
 
-<ul>
-<li>
-<img src="../../Functions/image279.png" alt="ddx(x4-3ex)=ex(4x3)-(x4-3)exe2x=ex[4x3-x4+3]e2x=4x3-x4+3ex">
-</li>
-<li>
-<img src="../../Functions/image279.1.png" alt="ddx(x4+x2-xx-2)=(x-2)(4x3+2x-1)-(x4+x2-x)(1)(x-2)2=4x4+2x2-x-8x3-4x+2-x4-x2+x(x-2)2=3x4-8x3+x2-4x+2(x-2)2">
-<img src="../../Functions/image279.2.png">
-</li>
-</ul>
+<%@ include file="/JSP/TextExamplesHead.jsp" %>
 
-</span>
-		</div>
-		</div>
+</head>
+<body>
 
-		<div id="rightpage">
+<%@ include file="/JSP/StyleChanger.jsp" %>
 
-<div class="calcheaderright"
-	onmouseover="classesMenuOn()";
-	onmouseout="classesMenuOff()";
-	onclick="(this).style.backgroundColor='red'">Calculus 1</div>
+<%@ include file="/JSP/TopicMisc.jsp" %>
 
+<%@ include file="/JSP/HorizontalBanner.jsp" %>
 
-		<div class="RightPageTextContainer">
+<%@ include file="/JSP/VerticalBanner.jsp" %>
+
+<%@ include file="/JSP/HighlightMenu.jsp" %>
 	
-<span> <!-- content goes here-->
+<%@ include file="/JSP/ToolsMenu.jsp" %>
+
+<%@ include file="/JSP/MediaMenu.jsp" %>
+
+<%@ include file="/JSP/ContactPhone.jsp" %>
+
+<%@ include file="/JSP/ClassesMenu.jsp" %>
+
+<%@ include file="/Calculus1/Calculus1TopicsMenu.jsp" %>
 
 
-</span>
+<div id="bookcover">
+<%@ include file="/JSP/bookpages.jsp" %>
+
+<%@ include file="TextExamples_pears22.jsp" %>	
 </div>
-</div>
+
+
+</body>
+</html>

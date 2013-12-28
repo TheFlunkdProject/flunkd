@@ -1,30 +1,39 @@
-<div id="leftpage">
-<div class="calcheaderleft"
-	onmouseover="topicsMenuOn()"
-	onmouseout="topicsMenuOff()"
-		>Log Rules</div>
-		<div class="LeftPageTextContainer">
-<h3>1.7 - Log Rules</h3>
-<span> <!-- content goes here-->
+<DOCTYPE! html>
+<html>
+<head>
 
+<%@ include file="/JSP/TextExamplesHead.jsp" %>
 
-</span>
-		</div>
-		</div>
+</head>
+<body>
 
-		<div id="rightpage">
+<%@ include file="/JSP/StyleChanger.jsp" %>
 
-<div class="calcheaderright"
-	onmouseover="classesMenuOn()";
-	onmouseout="classesMenuOff()";
-	onclick="(this).style.backgroundColor='red'">Calculus 1</div>
+<%@ include file="/JSP/TopicMisc.jsp" %>
 
+<%@ include file="/JSP/HorizontalBanner.jsp" %>
 
-		<div class="RightPageTextContainer">
+<%@ include file="/JSP/VerticalBanner.jsp" %>
+
+<%@ include file="/JSP/HighlightMenu.jsp" %>
 	
-<span> <!-- content goes here-->
+<%@ include file="/JSP/ToolsMenu.jsp" %>
+
+<%@ include file="/JSP/MediaMenu.jsp" %>
+
+<%@ include file="/JSP/ContactPhone.jsp" %>
+
+<%@ include file="/JSP/ClassesMenu.jsp" %>
+
+<%@ include file="/Calculus1/Calculus1TopicsMenu.jsp" %>
 
 
-</span>
+<div id="bookcover">
+<%@ include file="/JSP/bookpages.jsp" %>
+
+<%@ include file="TextExamples_pears22.jsp" %>	
 </div>
-</div>
+
+
+</body>
+</html>

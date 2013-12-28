@@ -2,10 +2,13 @@
 <html>
 <head>
 
+
 <%@ include file="/JSP/TextLessonHead.jsp" %>
+
 
 </head>
 <body>
+
 
 <%@ include file="/JSP/StyleChanger.jsp" %>
 

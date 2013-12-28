@@ -1,42 +1,39 @@
-<div id="leftpage">
-<div class="calcheaderleft"
-	onmouseover="topicsMenuOn()"
-	onmouseout="topicsMenuOff()"
-		>Product Rule</div>
-		<div class="LeftPageTextContainer">
-<h3>3.5 - Product Rule Examples</h3>
-<span> <!-- content goes here-->
+<DOCTYPE! html>
+<html>
+<head>
 
+<%@ include file="/JSP/TextExamplesHead.jsp" %>
 
-<ul>
-<li>
-<img src="../../Functions/image276.png" alt="ddx(xsinx)=xcosx+1*sinx=xcosx+sinx">
-</li>
-<li>
-<img src="../../Functions/image277.png" alt="ddx(xex)=xex+ex=ex(x+1)"> <br>    You end up factoring a lot when you use the product rule.
-</li>
-<li>
-<img src="../../Functions/image278.png" alt="ddx((x2+3x+7)(sinx)=(x2+3x+7)cosx+(2x+3)sinx">
-</li>
-</ul>
+</head>
+<body>
 
-</span>
-		</div>
-		</div>
+<%@ include file="/JSP/StyleChanger.jsp" %>
 
-		<div id="rightpage">
+<%@ include file="/JSP/TopicMisc.jsp" %>
 
-<div class="calcheaderright"
-	onmouseover="classesMenuOn()";
-	onmouseout="classesMenuOff()";
-	onclick="(this).style.backgroundColor='red'">Calculus 1</div>
+<%@ include file="/JSP/HorizontalBanner.jsp" %>
 
+<%@ include file="/JSP/VerticalBanner.jsp" %>
 
-		<div class="RightPageTextContainer">
+<%@ include file="/JSP/HighlightMenu.jsp" %>
 	
-<span> <!-- content goes here-->
+<%@ include file="/JSP/ToolsMenu.jsp" %>
+
+<%@ include file="/JSP/MediaMenu.jsp" %>
+
+<%@ include file="/JSP/ContactPhone.jsp" %>
+
+<%@ include file="/JSP/ClassesMenu.jsp" %>
+
+<%@ include file="/Calculus1/Calculus1TopicsMenu.jsp" %>
 
 
-</span>
+<div id="bookcover">
+<%@ include file="/JSP/bookpages.jsp" %>
+
+<%@ include file="TextExamples_pears22.jsp" %>	
 </div>
-</div>
+
+
+</body>
+</html>

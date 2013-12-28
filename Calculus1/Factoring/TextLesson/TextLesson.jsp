@@ -1,33 +1,42 @@
-<div id="leftpage">
-<div class="calcheaderleft"
-	onmouseover="topicsMenuOn()"
-	onmouseout="topicsMenuOff()"
-		>Factoring</div>
+<DOCTYPE! html>
+<html>
+<head>
 
 
+<%@ include file="/JSP/TextLessonHead.jsp" %>
 
 
-		<div class="LeftPageTextContainer">
-<h3>1.4 - Factoring</h3>
-<span> <!-- The unique lesson content goes here -->
-<p>Sorry, nothing for this topic yet.</p>
-</span>
-		</div>
-		</div>
-
-		<div id="rightpage">
-
-<div class="calcheaderright"
-	onmouseover="classesMenuOn()";
-	onmouseout="classesMenuOff()";
-	onclick="(this).style.backgroundColor='red'">Calculus 1</div>
+</head>
+<body>
 
 
-		<div class="RightPageTextContainer">
-<span> <!-- The unique lesson content goes here -->
+<%@ include file="/JSP/StyleChanger.jsp" %>
+
+<%@ include file="/JSP/TopicMisc.jsp" %>
+
+<%@ include file="/JSP/HorizontalBanner.jsp" %>
+
+<%@ include file="/JSP/VerticalBanner.jsp" %>
+
+<%@ include file="/JSP/HighlightMenu.jsp" %>
+
+<%@ include file="/JSP/ToolsMenu.jsp" %>
+
+<%@ include file="/JSP/MediaMenu.jsp" %>
+
+<%@ include file="/JSP/ContactPhone.jsp" %>
+
+<%@ include file="/JSP/ClassesMenu.jsp" %>
+
+<%@ include file="/Calculus1/Calculus1TopicsMenu.jsp" %>
 
 
-</span>
+<div id="bookcover">
+<%@ include file="/JSP/bookpages.jsp" %>
 
+<%@ include file="TextLesson_pears22.jsp" %>	
 </div>
-</div>
+
+
+</body>
+</html>

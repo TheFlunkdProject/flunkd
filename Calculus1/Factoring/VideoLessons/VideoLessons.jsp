@@ -1,8 +1,36 @@
-<div id="VideoTopicNameHeader" onmouseover="topicsMenuOn()" onmouseout="topicsMenuOff()">
-	<h4>1.4 - Factoring - Video Lessons</h4>
-</div>
-<div id="VideoTotalLength"><h1>Total length of Videos: 0:00</h1>
-</div>
-<div id="VideoVerticalDivider">
+<DOCTYPE! html>
+<html>
+<head>
+
+
+<%@ include file="/JSP/VideoLessonsHead.jsp" %>
+
+
+</head>
+<body>
+
+
+<%@ include file="/JSP/TopicMisc.jsp" %>
+
+<%@ include file="/JSP/HorizontalBanner.jsp" %>
+
+<%@ include file="/JSP/VerticalBanner.jsp" %>
+	
+<%@ include file="/JSP/ToolsMenu.jsp" %>
+
+<%@ include file="/JSP/MediaMenu.jsp" %>
+
+<%@ include file="/JSP/ContactPhone.jsp" %>
+
+<%@ include file="/JSP/ClassesMenu.jsp" %>
+
+<%@ include file="/Calculus1/Calculus1TopicsMenu.jsp" %>
+
+
+<div id="VideoPanel">	
+<%@ include file="VideoLessons_pears22.jsp" %>
 </div>
 
+
+</body>
+</html>

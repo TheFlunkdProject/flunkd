@@ -1,51 +1,39 @@
-<div id="leftpage">
-<div class="calcheaderleft"
-	onmouseover="topicsMenuOn()"
-	onmouseout="topicsMenuOff()"
-		>Derivative Formula</div>
-		<div class="LeftPageTextContainer">
-<h3>3.3 - Derivative Formula Examples</h3>
-<span> <!-- content goes here-->
+<DOCTYPE! html>
+<html>
+<head>
 
+<%@ include file="/JSP/TextExamplesHead.jsp" %>
 
-<ul>
-<li>
-<p>This example is something you do a lot with derivatives:</p>
-<p>Find the tangent line to the curve <img src="../../Functions/image231.png"> at <img src="../../Functions/image232.png">. Solution:</p>
-<p>So, to find the equation of a line, we need two pieces of information: Either a point and a slope, or two 
-points (from which we could find a slope). Either way, we need a point, so let's go ahead and find the y 
-coordinate to <img src="../../Functions/image232.png">.</p>
- <img src="../../Functions/image233.png">
-<p>So we have the point (-1,2). Now we need the slope. That's where we use the derivative.</p>
+</head>
+<body>
 
-</li>
+<%@ include file="/JSP/StyleChanger.jsp" %>
 
-</ul>
+<%@ include file="/JSP/TopicMisc.jsp" %>
 
-</span>
-		</div>
-		</div>
+<%@ include file="/JSP/HorizontalBanner.jsp" %>
 
-		<div id="rightpage">
+<%@ include file="/JSP/VerticalBanner.jsp" %>
 
-<div class="calcheaderright"
-	onmouseover="classesMenuOn()";
-	onmouseout="classesMenuOff()";
-	onclick="(this).style.backgroundColor='red'">Calculus 1</div>
-
-
-		<div class="RightPageTextContainer">
+<%@ include file="/JSP/HighlightMenu.jsp" %>
 	
-<span> <!-- content goes here-->
+<%@ include file="/JSP/ToolsMenu.jsp" %>
 
-<img src="../../Functions/image234.png"><br>
-<img src="../../Functions/image235.png">
-<p>So we can either use the slope-intercept equation y=mx+b now, or the point-slope equation 
-<img src="../../Functions/image236.png">. Since we have a slope and a point, let's use the point-slope equation.</p>
-<img src="../../Functions/image237.png"><br>
-<img src="../../Functions/image238.png"><br>
-<img src="../../Functions/image239.png">
+<%@ include file="/JSP/MediaMenu.jsp" %>
 
-</span>
+<%@ include file="/JSP/ContactPhone.jsp" %>
+
+<%@ include file="/JSP/ClassesMenu.jsp" %>
+
+<%@ include file="/Calculus1/Calculus1TopicsMenu.jsp" %>
+
+
+<div id="bookcover">
+<%@ include file="/JSP/bookpages.jsp" %>
+
+<%@ include file="TextExamples_pears22.jsp" %>	
 </div>
-</div>
+
+
+</body>
+</html>

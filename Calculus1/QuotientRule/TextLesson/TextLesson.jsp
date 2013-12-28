@@ -1,53 +1,42 @@
-<div id="leftpage">
-<div class="calcheaderleft"
-	onmouseover="topicsMenuOn()"
-	onmouseout="topicsMenuOff()"
-		>Quotient Rule</div>
+<DOCTYPE! html>
+<html>
+<head>
 
 
+<%@ include file="/JSP/TextLessonHead.jsp" %>
 
 
-		<div class="LeftPageTextContainer">
-<h3>3.6 - Quotient Rule</h3>
-<span> <!-- The unique lesson content goes here -->
-
-<p>Here is the formula for the quotient rule:</p>
-<img src="../../Functions/image261.png">
-<p>So the order of the terms in the numerator matters, unlike with the product rule where it didn't matter.</p>
-<p>An easy way to memorize this is to say, "low D high minus high D low over low low."</p>
-<p>So let's take the derivative of a quotient:</p>
-<img src="../../Functions/image262.png">
+</head>
+<body>
 
 
+<%@ include file="/JSP/StyleChanger.jsp" %>
 
-</span>
-		</div>
-		</div>
+<%@ include file="/JSP/TopicMisc.jsp" %>
 
-		<div id="rightpage">
+<%@ include file="/JSP/HorizontalBanner.jsp" %>
 
-<div class="calcheaderright"
-	onmouseover="classesMenuOn()";
-	onmouseout="classesMenuOff()";
-	onclick="(this).style.backgroundColor='red'">Calculus 1</div>
+<%@ include file="/JSP/VerticalBanner.jsp" %>
+
+<%@ include file="/JSP/HighlightMenu.jsp" %>
+
+<%@ include file="/JSP/ToolsMenu.jsp" %>
+
+<%@ include file="/JSP/MediaMenu.jsp" %>
+
+<%@ include file="/JSP/ContactPhone.jsp" %>
+
+<%@ include file="/JSP/ClassesMenu.jsp" %>
+
+<%@ include file="/Calculus1/Calculus1TopicsMenu.jsp" %>
 
 
-		<div class="RightPageTextContainer">
-<span> <!-- The unique lesson content goes here -->
+<div id="bookcover">
+<%@ include file="/JSP/bookpages.jsp" %>
 
-<p>Notice that we could have done algebra before we did calculus:</p>
-<img src="../../Functions/image263.png">
-<p>Another thing we could have done is <a href="#">use the product rule
-	<span class="B1">You do not <i>really</i> need to memorize the quotient rule; it is just in your best 
-interest to. The quotient rule does the step of factoring out a negative exponent for you that you would have 
-to do every time with the product rule when you take the derivative of a quotient. This is built into the 
-formula of the quotient rule.
-	</span></a>:</p>
-<img src="../../Functions/image264.png">
-<p>Here is another example of the quotient rule:</p>
-<img src="../../Functions/image265.png">
-
-</span>
-
+<%@ include file="TextLesson_pears22.jsp" %>	
 </div>
-</div>
+
+
+</body>
+</html>
