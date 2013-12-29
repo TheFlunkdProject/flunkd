@@ -28,4 +28,10 @@
 	</div>
 </div>
 
+<div id="CreateALesson">
+	<form action="/create/LessonBuilder.jsp" method="get">
+		<input type="submit" value="Create a Lesson">
+	</form>
+</div>
+
 </div>

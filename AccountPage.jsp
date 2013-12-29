@@ -38,7 +38,7 @@ google.setOnLoadCallback(OnLoad);
 
 <%@ include file="/JSP/StyleChanger.jsp" %>
 
-<%@ include file="/JSP/VerticalBanner.jsp" %>
+<%@ include file="/JSP/AccountVBanner.jsp" %>
 
 
 
