@@ -38,7 +38,7 @@ function addtext() {
 
 </head>
 <body>
-
+<%@ page import="java.io.*,java.lang.*" %>
 
 
 <form name="lessontext">
@@ -58,12 +58,42 @@ function addtext() {
 
 
 <div id="footer">
-	<form name="footeractions" action="test.jsp">
+	<form name="footeractions">
 		<table border="0" cellspacing="0" cellpadding="5">
 			<tr>
 				<td>
-				
-				<input type="submit" name="submit" id="preview" value="Preview">
+				<% if(request.getParameter("submit")!=null)
+				{
+					File f = new File("/home/learnfla/tomcat/webapps/learningflare.com/ROOT/create/TextLessonPreview.jsp");
+					if (!f.exists())
+					f.createNewFile();
+					
+					if(request.getParameter("outputtext")!=null)
+					{
+						StringBuffer text = new StringBuffer(request.getParameter("outputtext"));
+					
+						int loc = (new String(text)).indexOf('\n');
+						while(loc > 0) 
+						{
+							text.replace(loc, loc+1, "<BR>");
+							loc = (new String(text)).indexOf('\n');
+						}
+					
+					
+					PrintWriter pw = new PrintWriter(new FileOutputStream("/home/learnfla/tomcat/webapps/learningflare.com/ROOT/create/TextLessonPreview.jsp"));
+					pw.println(text);
+					pw.close();
+					}
+					
+					
+					
+					
+					%>
+					<script>window.open('http://www.learningflare.com/create/newfolder/TextLesson/TextLesson.jsp', 'Preview');</script>
+					<%
+				}
+				%>
+				<input type="submit" name="submit" value="Preview">
 				</td>
 			</tr>
 		</table>

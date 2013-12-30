@@ -5,7 +5,7 @@
 <body>
 <%@ page import="java.io.*,java.lang.*" %>
 <%
-	File f = new File("http://www.learningflare.com/create/TextLessonPreview.txt");
+File f = new File("/home/learnfla/tomcat/webapps/learningflare.com/ROOT/create/TextLessonPreview.txt");
 if (!f.exists())
 f.createNewFile();
 %>
