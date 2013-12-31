@@ -34,9 +34,11 @@
 <div id="bookcover">
 <%@ include file="/JSP/bookpages.jsp" %>
 
-<%@ include file="../../TextLessonPreview.jsp" %>	
+<jsp:include page="../../TextLessonPreview.txt" />	
+<%
+%>
 </div>
-
+<script src="/JS/TextLesson.js"></script>
 
 </body>
 </html>
