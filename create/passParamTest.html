@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<script> <!-- must be in a function to work -->
+var originalURL = window.location.href;
+var x = originalURL.indexOf("sParam");
+var righto = originalURL.substr(x);
+document.getElementById('image2').value = righto;
+</script>
+</head>
+<body>
+<form name="whatever">
+<input id="image2" type="text" value="">
+</form>
+</body>
+</html>
