@@ -112,7 +112,7 @@ document.getElementById('enterNameForm').style.visibility = 'visible';
 if (request.getParameter("newImageName") != null)
 	{
 	String newImageName = request.getParameter("newImageName");
-	String newImagePath = "/home/learnfla/tomcat/webapps/learningflare.com/ROOT/images/" + newImageName + ".jpg";
+	String newImagePath = "/home/learnfla/tomcat/webapps/learningflare.com/ROOT/imageLibrary/" + newImageName + ".jpg";
 	
 	//Change the defaul new image location to the user-specified name:
 	File oldfile = new File("/home/learnfla/tomcat/webapps/learningflare.com/ROOT/images/defaultImageName.jpg");
