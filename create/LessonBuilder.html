@@ -2,7 +2,7 @@
 <html>
 <head>
 <script language="javascript" type="text/javascript">
-var focus;
+var focus = 1;
 function focusLeft() {
 focus=1;
 document.getElementById('focusValue').value = "focus is left";
@@ -145,15 +145,7 @@ document.getElementById('killz').style.visibility="visible";
 
 
 
-function eraseJSP() {
-	if (window.location.href == "file:///C:/Users/pears22/Desktop/GitHub/flunkd/create/LessonBuilder.html")
-	{
-	document.getElementById('importJSP').innerHTML = "";
-	document.getElementById('newImageJSP').innerHTML = "";
-	document.getElementById('textareaJSP').innerHTML = "";
-	document.getElementById('previewJSP').innerHTML = "";
-	}
-}
+
 
 function killzClose() {
 document.getElementById('killz').style.visibility = 'hidden';
@@ -193,22 +185,65 @@ var newImageSource = "/imageLibrary/" + document.getElementById('newOrOpen').val
 }
 
 function insertImageHref() {
+var floatSpec = "";
+for (var i = 0; i < document.getElementsByName('floatGroup').length; i++)
+	{
+	if (document.getElementsByName('floatGroup')[i].checked)
+		{
+		floatSpec = document.getElementsByName('floatGroup')[i].value;
+		}
+	}
+
 var selectedImage = document.getElementById('newOrOpen').value;
-var newtext = '<img src="/imageLibrary/' + selectedImage + '">';
-	if(focus == 1)
+if (floatSpec != "")
+	{
+	var newtext = '<img class="' + floatSpec + '" src="/imageLibrary/' + selectedImage + '">';
+	}
+else
+	{
+	var newtext = '<img class="normal" src="/imageLibrary/' + selectedImage + '">';
+	}
+	
+if(focus == 1)
 	{
 	document.lessontext.leftpage.value += newtext;
 	document.lessontext.leftpage.focus();
 	}
-	else if (focus == 2)
+else if (focus == 2)
 	{
 	document.lessontext.rightpage.value += newtext;
 	document.lessontext.rightpage.focus();
 	}
 }
 
+function addGraph() {
+document.getElementById('graphWindow').style.visibility="visible";
+}
 
+function closeGraphWindow() {
+document.getElementById('graphWindow').style.visibility="hidden";
+}
 
+function graphWindowCloserHover() {
+cssStringGraphWindowCloseHover = "background-color:#FF9999;cursor:pointer;";
+document.getElementById('graphWindowCloser').style.cssText = cssStringGraphWindowCloseHover;
+}
+
+function graphWindowCloserOff() {
+cssStringGraphWindowCloseHoverOff = "background-color:#FFEEEE;";
+document.getElementById('graphWindowCloser').style.cssText = cssStringGraphWindowCloseHoverOff;
+}
+
+function eraseJSP() {
+	if (window.location.href == "file:///C:/Users/pears22/Desktop/GitHub/flunkd/create/LessonBuilder.html")
+	{
+	document.getElementById('importJSP').innerHTML = "";
+	document.getElementById('newImageJSP').innerHTML = "";
+	document.getElementById('textareaJSP').innerHTML = "";
+	document.getElementById('previewJSP').innerHTML = "";
+	document.getElementById('createNewGraphJSP').innerHTML = "";
+	}
+}
 </script>
 
 <style>
@@ -271,7 +306,7 @@ body {
 	opacity:.96;
 }
 
-#mathExpressionWindowCloser {
+.windowCloser {
 	position:absolute;
 	width:20px;
 	height:20px;
@@ -290,7 +325,7 @@ body {
 	z-index:1;
 }
 
-#mathExpressionWindowContentContainer {
+.windowContentContainer {
 	position:absolute;
 	left:20px;
 	right:20px;
@@ -431,7 +466,7 @@ body {
 	right:0;
 }
 
-#editSelectedImage {
+#refreshLibrary {
 	position:absolute;
 	top:80px;
 	margin:auto;
@@ -448,7 +483,7 @@ body {
 	width:80%;
 }
 
-#refreshLibrary {
+#editSelectedImage {
 	position:absolute;
 	top:147px;
 	margin:auto;
@@ -456,9 +491,15 @@ body {
 	right:0;
 }
 
+#radioHolder {
+	position:absolute;
+	top:175px;
+	width:100%;
+}
+
 #insertImage {
 	position:absolute;
-	top:200px;
+	top:205px;
 	margin:auto;
 	left:0;
 	right:0;
@@ -466,7 +507,55 @@ body {
 	z-index:500;
 }
 
+#graphWindow {
+	position:absolute;
+	right:3%;
+	width:300px;
+	top:100px;
+	height:240px;
+	
+	visibility:hidden;
+	z-index:50;
+	border:6px solid black;
+	border-radius:4px;
+	background-color:#EEEEEE;
+	
+	opacity:.96;
+}
 
+#graph_label {
+	position:absolute;
+	top:0px;
+	height:50px;
+	margin:auto;
+	left:5px;
+	right:5px;
+}
+
+#graphURL {
+	position:absolute;
+	width:80%;
+	left:0;
+	right:0;
+	margin:auto;
+	top:85px;
+}
+
+#createNewGraph {
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+	top:115px;
+}
+
+#labelAfterGraphSubmit {
+	position:absolute;
+	left:5px;
+	right:5px;
+	margin:auto;
+	top:140px;
+}
 
 #leftPageContainer {
 	position:absolute;
@@ -526,59 +615,62 @@ body {
 
 <span id="importJSP">
 <%@ page import="java.io.*,java.lang.*" %>
+<%@page import="javax.imageio.ImageIO"%>
+<%@page import="java.net.URL"%>
+<%@page import="java.awt.*, java.awt.image.*,com.sun.image.codec.jpeg.*" %>
 </span>
 
 
-
-	<div id="LessonEditor">
+<div id="LessonEditor">
 	
 	
-	Lesson Editor
-	</div>
-	<div id="shortcutbuttons">
-		<table class="thosebuttons" border="0" cellspacing="0" cellpadding="5">
-			<tr>
-				<td>
-				<input title="$put your math here$" type="button" value="Math Expression" onClick="openMathExpressionWindow();">
-				</td>
-				<td>
-				<input title='<div class="importantExpression">Write the important expression here</div>' type="button" value="Important Expressions" onClick="addExpression();">
-				</td>
-				<td>
-				<input title='<span title="Insert label here" and >Insert text to be labeled here</span>' type="button" value="Hidden Label" onClick="addTitle();">
-				</td>
-				<td>
-				<input title='<a href="Put the link URL here">Text to be clicked</a>' type="button" value="Link" onClick="addLink();">
-				</td>
-				<td>
-				<input title='... ger">Insert triggering text here</div><div id="box1">Insert hidden text here</div>' type="button" value="Hidden Info Box" onClick="addInfoBox();">
-				</td>
-				<td>
-				<input title='' type="button" value="Insert Image" onClick="addImage();">
-				</td>
-			</tr>
-		</table>
-	</div>
+Lesson Editor
+</div>
+<div id="shortcutbuttons">
+	<table class="thosebuttons" border="0" cellspacing="0" cellpadding="5">
+		<tr>
+			<td>
+			<input title="$put your math here$" type="button" value="Math Expression" onClick="openMathExpressionWindow();">
+			</td>
+			<td>
+			<input title='<div class="importantExpression">Write the important expression here</div>' type="button" value="Important Expressions" onClick="addExpression();">
+			</td>
+			<td>
+			<input title='<span title="Insert label here" and >Insert text to be labeled here</span>' type="button" value="Hidden Label" onClick="addTitle();">
+			</td>
+			<td>
+			<input title='<a href="Put the link URL here">Text to be clicked</a>' type="button" value="Link" onClick="addLink();">
+			</td>
+			<td>
+			<input title='... ger">Insert triggering text here</div><div id="box1">Insert hidden text here</div>' type="button" value="Hidden Info Box" onClick="addInfoBox();">
+			</td>				<td>
+			<input title='' type="button" value="Insert Image" onClick="addImage();">
+			</td>				<td>
+			<input title='' type="button" value="Insert Graph" onClick="addGraph();">
+			</td>
+		</tr>
+	</table>
+</div>
 	
 	<!-- Appears when "Math Expression" is clicked: -->
-	<div id="mathExpressionWindow" >
-	<div id="mathExpressionWindowCloser" onclick="closeMathExpressionWindow()"
-		onmouseover="mathExpressionWindowCloserHover()" onmouseout="mathExpressionWindowCloserOff()">X
-	</div>
-		<div id="mathExpressionWindowContentContainer">
-			<div id="mathExpression_label">
-			Insert math expression:
-			</div><br>
-			<input type="text" id="mathExpression" name="mathExpression"/><br>
-			<input type="button" id="insertMathExpression" name="insertMathExpression" 
-				value="Insert Math Expression" onclick="insertMathExpressions()"/>
-			<div id="latexExplanation">
-			Insert expressions as Latex code. For a nice Latex code editor, 
-			<a href="http://www.codecogs.com/latex/eqneditor.php" target="_blank">click here.</a> 
-			You can then copy and paste your Latex in here.
-			</div>
+<div id="mathExpressionWindow" >
+<div class="windowCloser" id="mathExpressionWindowCloser" onclick="closeMathExpressionWindow()"
+	onmouseover="mathExpressionWindowCloserHover()" onmouseout="mathExpressionWindowCloserOff()">X	</div>
+	<div class="windowContentContainer" id="mathExpressionWindowContentContainer">
+		<div id="mathExpression_label">
+		Insert math expression:
+		</div><br>
+		<input type="text" id="mathExpression" name="mathExpression"/><br>
+		<input type="button" id="insertMathExpression" name="insertMathExpression" 
+			value="Insert Math Expression" onclick="insertMathExpressions()"/>
+		<div id="latexExplanation">
+		Insert expressions as Latex code. For a nice Latex code editor, 
+		<a href="http://www.codecogs.com/latex/eqneditor.php" target="_blank">click here.</a> 
+		You can then copy and paste your Latex in here.
 		</div>
 	</div>
+</div>
+	
 <form name="lessontext" action="LessonBuilder.jsp" method="post">
 	<!-- Appears when "insert Image" is clicked: -->
 	<div id="killz">
@@ -586,7 +678,7 @@ body {
 		<div id="killzClose" onclick="killzClose();" onmouseover="killzCloseHover();" onmouseout="killzCloseHoverOff();">
 		X
 		</div>
-			<div id="imageForm">
+			<div class="windowContentContainer">
 			</div>
 			<div id="imageButtonsColumn">
 				<input type="hidden" id="name" name="name" value="defaultImageName" />
@@ -598,7 +690,7 @@ body {
 				<% 
 				if (request.getParameter("createNewImage") != null)
 					{
-					String newImageName = request.getParameter("name");
+					String newImageName = request.getParameter("name"); //this "name" is always "defaultImageName" here
 					if (newImageName != null)
 						{
 						try{
@@ -653,34 +745,14 @@ body {
 			</span>
 				<input type="submit" id="uploadImage" name="uploadImage"
 					disabled="true" value="Upload Image"/>
-				<input type="submit" id="editSelectedImage" name="editSelectedImage" 
-					title="Create a new image from an already existing image." value="Edit Selected Image" 
-					disabled="true" />
-			<span id="editSelectedImageJSP">
-		<!-- The following will execute if the user clicks "Edit Existing Image" -->
-				<% 
-				if (request.getParameter("editSelectedImage") != null)
-					{
-					String newOrOpen = request.getParameter("newOrOpen");
-					%>
-					<script>
-					if (window.location.href != "file:///C:/Users/pears22/Desktop/GitHub/flunkd/create/LessonBuilder.html")
-						{
-						<!-- and then open the new window with the API to edit it -->
-						window.open("http://fotoflexer.com/API/API_Loader_v1_01.php" + 
-						"?ff_image_url=http://www.learningflare.com/imageLibrary/<%=newOrOpen%>&ff_" + 
-						"callback_url=http://www.learningflare.com/create/newImage.jsp&ff_cancel_" + 
-						"url=http://www.learningflare.com/create/close.jsp&ff_lang=en-US");
-						}
-					</script>
-					<%
-					}
-				%>
-			</span>
+				<input type="submit" id="refreshLibrary" name="refreshLibrary"
+					value="Refresh Image Library" title="If the changes you make to 
+					an image don't show on the preview image, they will in your lesson 
+					preview."/>
+			
 				<label for="newOrOpen" id="newOrOpen_label"></label>
 				<select name="newOrOpen" id="newOrOpen" onchange="changychangy();">
 					<option value="" selected="selected"></option>
-					
 					
 				</select><br><br>
 				<span id="testtesttest">
@@ -714,13 +786,46 @@ body {
 					<%
 					}
 				%>
-				<input type="submit" id="refreshLibrary" name="refreshLibrary"
-					value="Refresh Image Library"/>
-			<!-- The purpose of the following code is to keep the selected image in view.-->
+				<input type="submit" id="editSelectedImage" name="editSelectedImage" 
+					title="Create a new image from an already existing image." value="Edit Selected Image" 
+					disabled="true" />
+			<span id="editSelectedImageJSP">
+		<!-- The following will execute if the user clicks "Edit Existing Image" -->
+				<% 
+				if (request.getParameter("editSelectedImage") != null)
+					{
+					String newOrOpen = request.getParameter("newOrOpen");
+					%>
+					<script>
+					if (window.location.href != "file:///C:/Users/pears22/Desktop/GitHub/flunkd/create/LessonBuilder.html")
+						{
+						<!-- and then open the new window with the API to edit it -->
+						window.open("http://fotoflexer.com/API/API_Loader_v1_01.php" + 
+						"?ff_image_url=http://www.learningflare.com/imageLibrary/<%=newOrOpen%>&ff_" + 
+						"callback_url=http://www.learningflare.com/create/newImage.jsp&ff_cancel_" + 
+						"url=http://www.learningflare.com/create/close.jsp&ff_lang=en-US");
+						}
+					</script>
+					<%
+					}
+				%>
+			</span>
+				<div id="radioHolder" title="These specify the size and position of the image. L='float left' M='Middle' R='float right' n='normal(default)'">
+					<input type="radio" id="radio1" name="floatGroup" value="fl300">L
+					<input type="radio" id="radio2" name="floatGroup" value="fm300">M
+					<input type="radio" id="radio3" name="floatGroup" value="fr300">R
+					<input type="radio" id="radio4" name="floatGroup" value="" checked>n
+				</div>
+				<input type="button" title='' id="insertImage" value="Insert Selected Image" 
+				disabled="true" onclick="insertImageHref();"/>
+				
+				<!-- The purpose of the following code is to keep the selected image in view.-->
 				<%
 				if (request.getParameter("refreshLibrary") != null)
 					{
+
 					%>
+					<%=request.getParameter("newOrOpen")%>
 					<script>
 					addImage();
 					document.getElementById('newOrOpen').value = "<%=request.getParameter("newOrOpen")%>";
@@ -734,15 +839,88 @@ body {
 					<%
 					}
 				%>
-				<input type="button" title='' id="insertImage" value="Insert Selected Image" 
-				disabled="true" onclick="insertImageHref();"/>
 			</div>
 			
 			
 	</div>
+	<div id="graphWindow">
+		<div class="windowCloser" id="graphWindowCloser" onclick="closeGraphWindow()"
+	onmouseover="graphWindowCloserHover()" onmouseout="graphWindowCloserOff()">X
+		</div>
+		<div class="windowContentContainer">
+			<div id="graph_label">
+			Go to <a href="http://www.craigsmaths.com/openPlaG/openPlaG.html" target="_blank">this website,</a> and make a graph. Then 
+			right-click on the image and select "copy image location." Paste it into this 
+			blank space:
+			</div>
+			<input type="text" id="graphURL" name="graphSourceURL"/>
+			<input type="submit" id="createNewGraph" name="createNewGraph" 
+				value="Create New Graph" />
+			<div id="labelAfterGraphSubmit">This image of the graph will be saved in the 
+			same place as the other images.
+			</div>
+			<span id="createNewGraphJSP">
+		<!-- The following will execute if the user clicks "Create New Graph" -->
+				<% 
+				if (request.getParameter("createNewGraph") != null)
+					{
+					String graphSourceURL = request.getParameter("graphSourceURL");
+					
+			/*FML. Since the graphs are generated dependent on the program, I don't have any 
+			way of getting their actual location. 
+			
+			But the program is open source, so I got the code and in it he says to recommend 
+			blocking people from accessing the image from the url. Since its open source, there 
+			is another website that uses the program, and they don't block the url! 
+			
+			But the url is full of GET parameter stuff, so I might have to save it to my server 
+			before sending it to Fotoflexer. */
+				
+					if (graphSourceURL != null)
+					{
+					String initialGraph500Path = "/home/learnfla/tomcat/webapps/learningflare.com/ROOT/create/newImages/defaultGraph500.png";
+					
+					File initialGraph500 = new File(initialGraph500Path);
+					
+					//Remove the previously created graph stored in the default location:
+					if (initialGraph500.exists()) initialGraph500.delete();
+					
+					//create file to copy image from URL onto:
+					initialGraph500.createNewFile();
+					FileOutputStream graphOutputStream = new FileOutputStream(initialGraph500);
+					
+					//Write onto the new file:
+					URL url = new URL(graphSourceURL);
+					BufferedImage img = null;
+					img = ImageIO.read(url);
+					ImageIO.write(img, "png", graphOutputStream);
+					
+					graphOutputStream.close();
+					
+					
+					
+					
+					%>
+					<script>
+					if (window.location.href != "file:///C:/Users/pears22/Desktop/GitHub/flunkd/create/LessonBuilder.html")
+						{
+						<!-- and then open the new window with the API to edit it -->
+						window.open("http://fotoflexer.com/API/API_Loader_v1_01.php" + 
+						"?ff_image_url=http://learningflare.com/create/newImages/defaultGraph500.png&ff_" + 
+						"callback_url=http://www.learningflare.com/create/newGraph.jsp&ff_cancel_" + 
+						"url=http://www.learningflare.com/create/close.jsp&ff_lang=en-US");
+						}
+					</script>
+					<%
+					}
+					}
+				%>
+			</span>
+		</div>
+	</div>
+	
 	<!-- carry the focus over submits: -->
 			<input type="hidden" id="focusValue" name="focusValue" value="" />
-			<%=request.getParameter("focusValue")%>
 			<%
 			if (request.getParameter("focusValue") != null)
 				{String focusValueString = request.getParameter("focusValue");

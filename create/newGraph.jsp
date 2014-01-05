@@ -157,7 +157,7 @@ if (request.getParameter("image3") != null)
 	<form id="ChooseAName" action="newImage.jsp">
 		<input type="hidden" id="image2" name="image2" value="" />
 		<label for="newImageName" id="name_label">Choose an image name:</label><br>
-		<input type="text" id="newImageName" name="newImageName"/>.jpg<br>
+		<input type="text" id="newImageName" name="newImageName"/>.png<br>
 		
 		<input type="submit" id="save" name="save" value="Save" /><br><br>
 		<label for="saveOver" name="saveOver_label">If the image exists, and you already 
@@ -190,10 +190,10 @@ if (request.getParameter("newImageName") != null && request.getParameter("yesRep
 	{
 	String saveOver = request.getParameter("saveOver");
 	String newImageName = request.getParameter("newImageName");
-	String newImagePath = "/home/learnfla/tomcat/webapps/learningflare.com/ROOT/imageLibrary/" + newImageName + ".jpg";
+	String newImagePath = "/home/learnfla/tomcat/webapps/learningflare.com/ROOT/imageLibrary/" + newImageName + ".png";
 	
 	//if a defaultFileName image was created to send to the API, clean it off:
-	File oldfile = new File("/home/learnfla/tomcat/webapps/learningflare.com/ROOT/images/defaultImageName.jpg");
+	File oldfile = new File("/home/learnfla/tomcat/webapps/learningflare.com/ROOT/images/defaultImageName.png");
 	if (oldfile.exists()) oldfile.delete();
 	
 	File newfile = new File(newImagePath);
@@ -203,15 +203,15 @@ if (request.getParameter("newImageName") != null && request.getParameter("yesRep
 	if (newfile.exists() && saveOver == null) 
 		{
 		%>
-		<div id="oldImageLabel"><%=newImageName%>.jpg:</div>
-		<img src="/imageLibrary/<%=newImageName%>.jpg" id="replaceableImage">
+		<div id="oldImageLabel"><%=newImageName%>.png:</div>
+		<img src="/imageLibrary/<%=newImageName%>.png" id="replaceableImage">
 		<div id="doYouReallyWantToReplace">
 			<form id="reallyReplace" action="newImage.jsp">
 				<input type="hidden" name="image2" value="" />
 				<input type="hidden" id="image3" name="image3" value="<%=request.getParameter("image2")%>" />
 				<input type="hidden" name="newImageName" value="<%=request.getParameter("newImageName")%>" />
 				<div id="oldImageExists">
-				<%=newImageName%>.jpg already exists. Do you want to replace it?
+				<%=newImageName%>.png already exists. Do you want to replace it?
 				</div><br>
 				<input type="submit" id="yesReplace" name="yesReplace" 
 					value="Yes, replace it." />
@@ -223,7 +223,7 @@ if (request.getParameter("newImageName") != null && request.getParameter("yesRep
 		{
 		try
 			{
-			//copy onto newly-named file from jpg file from API web address
+			//copy onto newly-named file from png file from API web address
 			String sourceImagePath = request.getParameter("image2");
 			File copiedImage = new File(newImagePath);
 			
@@ -262,15 +262,15 @@ if (request.getParameter("newImageName") != null && request.getParameter("yesRep
 if (request.getParameter("yesReplace") != null)
 	{
 	String newImageName = request.getParameter("newImageName");
-	String newImagePath = "/home/learnfla/tomcat/webapps/learningflare.com/ROOT/imageLibrary/" + newImageName + ".jpg";
+	String newImagePath = "/home/learnfla/tomcat/webapps/learningflare.com/ROOT/imageLibrary/" + newImageName + ".png";
 	
 	//if a defaultFileName image was created to send to the API, clean it off:
-	File oldfile = new File("/home/learnfla/tomcat/webapps/learningflare.com/ROOT/images/defaultImageName.jpg");
+	File oldfile = new File("/home/learnfla/tomcat/webapps/learningflare.com/ROOT/images/defaultImageName.png");
 	if (oldfile.exists()) oldfile.delete();
  
 	try
 		{
-		//copy onto newly-named file from jpg file from API web address
+		//copy onto newly-named file from png file from API web address
 		String sourceImagePath = request.getParameter("image3");
 		
 		File copiedImage = new File(newImagePath);

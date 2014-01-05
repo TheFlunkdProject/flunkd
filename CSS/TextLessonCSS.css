@@ -50,7 +50,8 @@ img.back {
 
 	margin:0;
 	padding:0;
-	overflow:auto;
+
+	overflow:hidden
 
 
 	color:black;
@@ -74,7 +75,8 @@ img.back {
 	margin:0;
 	padding:0;
 
-	overflow:auto;
+
+	overflow:hidden
 
 	color:black;
 
@@ -112,17 +114,21 @@ div .bookpage {
 
 .LeftPageTextContainer {
 	position:absolute;
-	padding-top:20px;
+	top:20px;
 	margin:0px;
 	left:5%;
 	width:90%;
+
+	overflow:hidden
 }
 .RightPageTextContainer {
 	position:absolute;
-	padding-top:20px;
+	top:20px;
 	margin:0px;
 	right:5%;
 	width:90%;
+
+	overflow:hidden
 }
 
 .calcheaderleft {position: absolute;
@@ -340,6 +346,22 @@ border: 5px ridge rgba(220,220,220,0);
 .Floatleft100 {width:100px;height:100px;float:left;padding:0px 5px 0px 0px;
 }
 .Floatright100 {width:100px;height:100px;float:right;padding:0px 0px 0px 5px;
+}
+
+.fl300 {
+	width:300px;height:300px;float:left;padding:0px 5px 0px 0px;
+}
+
+.fm300 {
+	width:300px;height:300px;margin:auto;left:0;right:0;padding:5px px 5px 0px;
+}
+
+.fr300 {
+	width:300px;height:300px;float:right;padding:0px 0px 0px 5px;
+}
+
+.normal {
+	width:300px;height:300px;padding:5px 5px 5px 5px;
 }
 
 .P1 {
