@@ -2,7 +2,7 @@
 <html>
 <head>
 <script language="javascript" type="text/javascript">
-var focus = 1;
+var focus = 0;
 function focusLeft() {
 focus=1;
 document.getElementById('focusValue').value = "focus is left";
@@ -617,7 +617,7 @@ body {
 <%@ page import="java.io.*,java.lang.*" %>
 <%@page import="javax.imageio.ImageIO"%>
 <%@page import="java.net.URL"%>
-<%@page import="java.awt.*, java.awt.image.*,com.sun.image.codec.jpeg.*" %>
+<%@page import="java.awt.*, java.awt.image.*,com.sun.image.codec.*" %>
 </span>
 
 
@@ -811,9 +811,9 @@ Lesson Editor
 				%>
 			</span>
 				<div id="radioHolder" title="These specify the size and position of the image. L='float left' M='Middle' R='float right' n='normal(default)'">
-					<input type="radio" id="radio1" name="floatGroup" value="fl300">L
-					<input type="radio" id="radio2" name="floatGroup" value="fm300">M
-					<input type="radio" id="radio3" name="floatGroup" value="fr300">R
+					<input type="radio" id="radio1" name="floatGroup" value="fl250">L
+					<input type="radio" id="radio2" name="floatGroup" value="fm250">M
+					<input type="radio" id="radio3" name="floatGroup" value="fr250">R
 					<input type="radio" id="radio4" name="floatGroup" value="" checked>n
 				</div>
 				<input type="button" title='' id="insertImage" value="Insert Selected Image" 
@@ -976,10 +976,10 @@ if (request.getParameter("preview") != null)
 
 	String specialScript = "apple";
 
-	String leftpage = "<div id=\"leftpage\"> <img class=\"pageTexture\" src=\"/create/texture.png\">" + 
+	String leftpage = "<div id=\"leftpage\"><div class=\"pageTexture\">" + 
 		"\n <div class=\"calcheaderleft\" " + 
 		"\n \t onmouseover=\"topicsMenuOn()\" \n \t onmouseout=\"topicsMenuOff()\" " + 
-		"\n \t >Chain Rule</div> \n \n 	<div class=\"LeftPageTextContainer\"> <h3>3.7 - " + 
+		"\n \t ><img src=\"/images/downarrow.png\" class=\"downarrow\">Chain Rule</div> \n \n 	<div class=\"LeftPageTextContainer\"> <h3>3.7 - " + 
 		"Chain Rule</h3> \n <!-- The unique lesson content goes here -->";
 
 	
@@ -994,12 +994,14 @@ if (request.getParameter("preview") != null)
 	
 	String rightpage = "</div>" + 
 	" \n </div>" +
-	"\n <div id=\"rightpage\"><img class=\"pageTexture\" src=\"/create/texture.png\">" + 
+	" \n </div>" +
+	"\n <div id=\"rightpage\"><div class=\"pageTexture\">" + 
 
 	"\n \n <div class=\"calcheaderright\" " + 
 	"\n \t onmouseover=\"classesMenuOn()\";" + 
 	"\n \t onmouseout=\"classesMenuOff()\";" + 
-	"\n \t onclick=\"(this).style.backgroundColor=\'red\'\">Calculus 1</div>" + 
+	"\n \t onclick=\"(this).style.backgroundColor=\'red\'\">Calculus 1" + 
+	"<img src=\"/images/downarrow.png\" class=\"downarrow\"></div>" + 
 
 
 	"\n \n \t <div class=\"RightPageTextContainer\">" + 
@@ -1015,7 +1017,7 @@ if (request.getParameter("preview") != null)
 		}
 
 	
-	String righttextend = "</div> \n </div>";
+	String righttextend = "</div> \n </div> \n </div>";
 
 
 

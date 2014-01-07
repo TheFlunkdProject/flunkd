@@ -4,9 +4,9 @@
 <ul id="classessubmenu">
 <li><a href="#">Calculus 1</a>
 </li>
-<li><a href="#">Calculus 2</a>
+<li><a href="#">Linear Algebra</a>
 </li>
-<li><a href="#">Physics Mechanics</a>
+<li><a href="#">Modern Physics</a>
 </li>
 </ul>
 

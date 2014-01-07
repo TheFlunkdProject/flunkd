@@ -119,7 +119,7 @@ document.getElementById('testspanner2').innerHTML = righto
 <%@ page import="java.io.*,java.lang.*" %>
 <%@page import="javax.imageio.ImageIO"%>
 <%@page import="java.net.URL"%>
-<%@page import="java.awt.*, java.awt.image.*,com.sun.image.codec.jpeg.*" %>
+<%@page import="java.awt.*, java.awt.image.*,com.sun.image.codec.*" %>
 
 
 
@@ -240,7 +240,7 @@ if (request.getParameter("newImageName") != null && request.getParameter("yesRep
 			URL url = new URL(sourceImagePath);
 			BufferedImage img = null;
 			img = ImageIO.read(url);
-			ImageIO.write(img, "jpeg", outStream);
+			ImageIO.write(img, "png", outStream);
 			
 			outStream.close();		
 			}
@@ -287,7 +287,7 @@ if (request.getParameter("yesReplace") != null)
 		URL url = new URL(sourceImagePath);
 		BufferedImage img = null;
 		img = ImageIO.read(url);
-		ImageIO.write(img, "jpeg", outStream);
+		ImageIO.write(img, "png", outStream);
 		
 		outStream.close();		
 		}

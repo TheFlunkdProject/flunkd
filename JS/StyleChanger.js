@@ -62,3 +62,8 @@ window.onunload = function(e) {
 var cookie = readCookie("style");
 var title = cookie ? cookie : getPreferredStyleSheet();
 setActiveStyleSheet(title);
+
+function onStyle() {
+document.getElementById('dark').style.cursor="pointer";
+document.getElementById('light').style.cursor="pointer";
+}
