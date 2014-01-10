@@ -234,6 +234,75 @@ cssStringGraphWindowCloseHoverOff = "background-color:#FFEEEE;";
 document.getElementById('graphWindowCloser').style.cssText = cssStringGraphWindowCloseHoverOff;
 }
 
+function addVideo() {
+document.getElementById('videoWindow').style.visibility="visible";
+var videoURL = document.getElementById('videoURL');
+var videoCreator = document.getElementById('videoCreator');
+var videoName = document.getElementById('videoName');
+var videoTimes = document.getElementById('videoTimes');
+videoURL.focus();
+
+videoTimes.onkeyup = function(videoTimes) {
+	if (videoTimes.which == 13 || videoTimes.keyCode == 13) {
+	insertVideo();
+	}
+	}
+videoURL.value = "";
+videoCreator.value = "";
+videoName.value = "";
+videoTimes.value = "";
+}
+
+function insertVideo() {
+var ember = document.getElementById('videoURL').value;
+var videoIDStart = ember.indexOf('v=') + 2;
+var videoIDEnd = videoIDStart + 13;
+
+var videoID = ember.substring(videoIDStart,videoIDEnd);
+var creator = document.getElementById('videoCreator').value;
+var videoName = document.getElementById('videoName').value;
+var times = document.getElementById('videoTimes').value;
+
+var newtext = '<div class="videoContainer">' + 
+	'<iframe class="embeddedVideo"' + 
+		'src="https://www.youtube.com/embed/' + videoID + 
+		'?wmode=transparent&rel=0&amp;modestbranding=1&amp;version=3&amp;' + 
+		'ap=%2526fmt%3D18&amp;autohide=1&amp;fs=1&amp;theme=light&amp;color=white"' + 
+		'type="application/x-shockwave-flash" allowfullscreen>' + 
+	'</iframe>' + 
+	'<div class="videoDescription">' + 
+		'<p>' + creator + '</p>' + 
+		'<p>' + videoName + '</p>' + 
+		'<p>' + times + '</p>' + 
+	'</div>' + 
+	'</div>';
+
+	if(focus == 1)
+	{
+	document.lessontext.leftpage.value += newtext;
+	document.lessontext.leftpage.focus();
+	}
+	else if (focus == 2)
+	{document.lessontext.rightpage.value += newtext;
+	document.lessontext.rightpage.focus();
+	}
+document.getElementById('videoWindow').style.visibility="hidden";
+}
+
+function closeVideoWindow() {
+document.getElementById('videoWindow').style.visibility="hidden";
+}
+
+function videoWindowCloserHover() {
+cssStringVideoWindowCloseHover = "background-color:#FF9999;cursor:pointer;";
+document.getElementById('videoWindowCloser').style.cssText = cssStringVideoWindowCloseHover;
+}
+
+function videoWindowCloserOff() {
+cssStringVideoWindowCloseHoverOff = "background-color:#FFEEEE;";
+document.getElementById('videoWindowCloser').style.cssText = cssStringVideoWindowCloseHoverOff;
+}
+
 function eraseJSP() {
 	if (window.location.href == "file:///C:/Users/pears22/Desktop/GitHub/flunkd/create/LessonBuilder.html")
 	{
@@ -242,6 +311,7 @@ function eraseJSP() {
 	document.getElementById('textareaJSP').innerHTML = "";
 	document.getElementById('previewJSP').innerHTML = "";
 	document.getElementById('createNewGraphJSP').innerHTML = "";
+	document.getElementById('createNewVideoJSP').innerHTML = "";
 	}
 }
 </script>
@@ -557,6 +627,110 @@ body {
 	top:140px;
 }
 
+#videoWindow {
+	position:absolute;
+	right:3%;
+	width:300px;
+	top:100px;
+	height:400px;
+	
+	visibility:hidden;
+	z-index:50;
+	border:6px solid black;
+	border-radius:4px;
+	background-color:#EEEEEE;
+	
+	opacity:.96;
+}
+
+#videoURL_label {
+	position:absolute;
+	top:0px;
+	height:50px;
+	margin:auto;
+	left:5px;
+	right:5px;
+}
+
+#videoURL {
+	position:absolute;
+	width:80%;
+	left:0;
+	right:0;
+	margin:auto;
+	top:70px;
+}
+
+#videoCreator_label {
+	position:absolute;
+	height:50px;
+	margin:auto;
+	left:5px;
+	right:5px;
+	top:100px;
+}
+
+#videoCreator {
+	position:absolute;
+	width:50%;
+	left:0;
+	right:0;
+	margin:auto;
+	top:120px;
+}
+
+#videoName_label {
+	position:absolute;
+	height:50px;
+	margin:auto;
+	left:5px;
+	right:5px;
+	top:150px;
+}
+
+#videoName {
+	position:absolute;
+	width:70%;
+	left:0;
+	right:0;
+	margin:auto;
+	top:170px;
+}
+
+#videoTimes_label {
+	position:absolute;
+	height:50px;
+	margin:auto;
+	left:5px;
+	right:5px;
+	top:200px;
+}
+
+#videoTimes {
+	position:absolute;
+	width:80%;
+	left:0;
+	right:0;
+	margin:auto;
+	top:240px;
+}
+
+#createNewVideo {
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+	top:280px;
+}
+
+#labelAfterVideoSubmit {
+	position:absolute;
+	left:5px;
+	right:5px;
+	margin:auto;
+	top:310px;
+}
+
 #leftPageContainer {
 	position:absolute;
 	min-height:200px;
@@ -644,9 +818,12 @@ Lesson Editor
 			<td>
 			<input title='... ger">Insert triggering text here</div><div id="box1">Insert hidden text here</div>' type="button" value="Hidden Info Box" onClick="addInfoBox();">
 			</td>				<td>
-			<input title='' type="button" value="Insert Image" onClick="addImage();">
+			<input title='' type="button" value="Image" onClick="addImage();">
 			</td>				<td>
-			<input title='' type="button" value="Insert Graph" onClick="addGraph();">
+			<input title='' type="button" value="Graph" onClick="addGraph();">
+			</td>
+			</td>				<td>
+			<input title='' type="button" value="Video" onClick="addVideo();">
 			</td>
 		</tr>
 	</table>
@@ -668,6 +845,40 @@ Lesson Editor
 		<a href="http://www.codecogs.com/latex/eqneditor.php" target="_blank">click here.</a> 
 		You can then copy and paste your Latex in here.
 		</div>
+	</div>
+</div>
+
+<!-- Appears when "Video" is clicked: -->
+<div id="videoWindow">
+	<div class="windowCloser" id="videoWindowCloser" onclick="closeVideoWindow()"
+	onmouseover="videoWindowCloserHover()" onmouseout="videoWindowCloserOff()">X
+	</div>
+	<div class="windowContentContainer">
+		<div id="videoURL_label">
+		Go to <a href="http://www.youtube.com/" target="_blank">YouTube</a> and 
+		find a good video. Then copy the URL of the video and paste it into this 
+		blank space:
+		</div>
+		<input type="text" id="videoURL" name="videoSourceURL"/>
+		<div id="videoCreator_label">
+		Who made the video?
+		</div>
+		<input type="text" id="videoCreator" name="videoCreator"/>
+		<div id="videoName_label">
+		What is the video called?
+		</div>
+		<input type="text" id="videoName" name="videoName"/>
+		<div id="videoTimes_label">
+		What parts of the video should students watch?
+		</div>
+		<input type="text" id="videoTimes" name="Times"/>
+		
+		<input type="button" id="createNewVideo" name="createNewvideo" 
+			value="Insert Video" onclick="insertVideo()" />
+		<div id="labelAfterVideoSubmit">This video will be embedded in your lesson.
+		</div>
+		<span id="createNewVideoJSP">		
+		</span>
 	</div>
 </div>
 	

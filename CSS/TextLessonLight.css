@@ -452,5 +452,33 @@ border: 5px ridge rgba(220,220,220,0);
 	left:0px;
 	width:100%;
 }
-	
 
+.videoContainer {
+	position:relative;
+	width:400px;
+	height:250px;
+	left:0;
+	right:0;
+	margin:auto;
+	
+	border:1px solid #888888;
+	border-radius:3px;
+}
+
+.embeddedVideo {
+	position:absolute;
+	width:60%;
+	height:96%;
+	left:2%;
+	top:2%;
+}
+
+.videoDescription {
+	position:absolute;
+	width:34%;
+	height:96%;
+	right:2%;
+	top:2%;
+	
+	text-align:center;
+}
