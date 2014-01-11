@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+	margin:0;
+	font-size:62.5%;
+	font-family:serif;
+}
+
+#backgroundTexture {
+	position:fixed;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:100%;
+	background-image:url('create/texture.png');
+	background-size:1024px 768px;
+}
+
+#backgroundGradient {
+	position:fixed;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:100%;
+	background: radial-gradient(#FFFFFF , #DDDDDD);
+}
+
+#topbannerContainer {
+	position:fixed;
+	width:100%;
+	height:8%;
+	top:0;
+	left:0;
+	z-index:100;
+	background-color:#FFFFFF;
+	
+	border-style:solid;
+	border-width:0px 0px 0px 0px;
+	border-color:#CCCCCC;
+	
+	box-shadow: 0px 3px 3px #AAAAAA;
+	
+	font-family:sans-serif;
+
+}
+
+#topbannerTexture {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-image:url('images/lightTexture.png');
+	background-size:800px 600px;
+}
+
+.spacerLine {
+	position:relative;
+	width:1px;
+	height:65%;
+	top:17.5%;
+	float:left;
+	margin:0em 1em 0em 1em;
+	
+	border-style:solid;
+	border-width:0px 2px 0px 0px;
+	border-color:#FCFCFC;
+	
+	background-color:#BBBBBB;
+}
+
+#logoContainer {
+	position:relative;
+	height:100%;
+	width:12.5%;
+	float:left;
+	
+	background-image:url('http://dizzyarts.webs.com/photos/Optical-Flares/BlueFlare.png');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
+#logoBoxWidth {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:0em 1em 0em 1em;
+}
+
+#logoText {
+	position:absolute;
+	width:100%;
+	height:90%;
+	top:10%;
+	text-align:center;
+	font-size:1.65em;
+	text-transform:uppercase;
+	font-weight:bold;
+	
+	opacity:.3;
+	color:#FFFFFF;
+}
+	
+
+#menuCourse1 {
+	position:relative;
+	height:100%;
+	width:9.5%;
+	float:left;
+	margin:0em 1em 0em 1em;
+	
+
+}
+
+#menuCourse1Text {
+	position:absolute;
+	width:100%;
+	height:1em;
+	bottom:0;
+	top:0;
+	margin:auto;
+	text-align:center;
+	font-size:1.5em;
+
+}
+
+#menuCourse2 {
+	position:relative;
+	height:100%;
+	width:12.5%;
+	float:left;
+	margin:0em 1em 0em 1em;
+	
+
+}
+
+#menuCourse2Text {
+	position:absolute;
+	width:100%;
+	height:1em;
+	bottom:0;
+	top:0;
+	margin:auto;
+	text-align:center;
+	font-size:1.5em;
+
+}
+
+#menuCourse3 {
+	position:relative;
+	height:100%;
+	width:13.5%;
+	float:left;
+	margin:0em 1em 0em 1em;
+	
+
+}
+
+#menuCourse3Text {
+	position:absolute;
+	width:100%;
+	height:1em;
+	bottom:0;
+	top:0;
+	margin:auto;
+	text-align:center;
+	font-size:1.5em;
+
+}
+
+#adaptiveLearningDiv {
+	position:relative;
+	height:100%;
+	width:15.5%;
+	float:left;
+	margin:0em 1em 0em 1em;
+	
+
+}
+
+#adaptiveLearningText {
+	position:absolute;
+	width:100%;
+	height:1em;
+	bottom:0;
+	top:0;
+	margin:auto;
+	text-align:center;
+	font-size:1.5em;
+
+}
+
+#feedbackDiv {
+	position:relative;
+	height:100%;
+	width:7.5%;
+	float:left;
+	margin:0em 1em 0em 1em;
+	
+
+}
+
+#feedbackText {
+	position:absolute;
+	width:100%;
+	height:1em;
+	bottom:0;
+	top:0;
+	margin:auto;
+	text-align:center;
+	font-size:1.5em;
+
+}
+
+
+
+
+a.menu {
+	display:block;
+	height:100%;
+	color:#131313;
+}
+
+a.course {
+	display:block;
+	height:100%;
+	color:#FFFFFF;
+}
+
+a {
+	color:#1122CC;
+}
+
+a:hover {
+	color:#55BBFF;
+}
+
+ul {
+	padding:0px 0px 0px 15px;
+}
+
+li {
+	padding:5px 0px 0px 0px;
+}
+
+
+
+
+#freeStudentResource {
+	position:absolute;
+	width:9em;
+	height:2.5em;
+	left:0%;
+	right:0%;
+	margin:auto;
+	top:4.25em;
+	
+
+	
+	text-align:center;
+	font-size:5em;
+	font-family:serif;
+}
+
+.highlightBig {
+	color:#3366FF;
+}
+
+.highlightSmall {
+	color:#CC1111;
+
+}
+
+#ourGoal {
+	position:absolute;
+	width:18em;
+	height:4em;
+	left:0%;
+	right:0%;
+	margin:auto;
+	top:11em;
+	
+
+	
+	text-align:center;
+	font-size:3.5em;
+	font-family:serif;
+}
+
+
+
+#startLearningBox {
+	position:absolute;
+	width:20em;
+	height:1.25em;
+	left:0%;
+	right:0%;
+	margin:auto;
+	top:25em;
+	
+	font-size:2em;
+	font-family:serif;
+	padding:.5em;
+	
+background-color:#FFFFFF;
+
+	border:1px solid #DDDDDD;
+	border-radius:10px;
+	box-shadow: 0px 3px 3px #AAAAAA;
+}
+
+#searchInput {
+	position:relative;
+	float:right;
+	width:17em;
+}
+
+#searchButton {
+	position:relative;
+	float:right;
+}
+
+.whyUsContainers {
+	position:absolute;
+	width:28%;
+	height:50em;
+	top:55em;
+	overflow:hidden;
+
+
+}
+
+#whyUsContainer1 {
+	left:4%;
+}
+
+#whyUsContainer2 {
+	left:36%;
+}
+
+
+#whyUsContainer3 {
+	left:70%;
+}
+
+.whyLabel {
+	position:relative;
+	width:100%;
+	height:1.5em;
+	font-size:1.5em;
+	font-family:sans-serif;
+	font-weight:bold;
+}
+
+.whyExplanation {
+	position:relative;
+	height:100%;
+	width:100%;
+	font-size:1.4em;
+	font-family:sans-serif;
+}
+
+#conclusionContainer {
+    position: absolute;
+	top:110em;
+    width: 100%;
+	height:60%;
+	margin-top: -10%;
+
+	z-index:100000;
+	
+}
+
+#conclusion {
+	position:absolute;
+	width:18em;
+	height:2.5em;
+	left:0%;
+	right:0%;
+	margin:auto;
+	top:0em;
+
+	
+	text-align:center;
+	font-size:3.5em;
+	font-family:serif;
+}
+
+#coursesHeader {
+	position:absolute;
+	width:18em;
+	height:1.5em;
+	left:0%;
+	right:0%;
+	margin:auto;
+	top:4em;
+	
+	
+	text-align:center;
+	font-size:3.5em;
+	font-family:serif;
+}
+
+.courseBox {
+	position:absolute;
+	width:20%;
+	height:50%;
+	top:50%;
+
+	overflow:hidden;
+	
+	background-color:#FFFFFF;
+	
+	border:1px solid #DDDDDD;
+	border-radius:10px;
+	box-shadow: 0px 3px 3px #AAAAAA;
+	
+	font-size:2em;
+	text-align:center;
+}
+#course1Box {
+	left:10%;
+}
+
+#course1 {
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+#course1Title {
+	position:relative;
+	width:100%;
+	height:15%;
+	top:0%;
+	
+	background-color:#3366FF;
+}
+
+#course1Contributors {
+	position:absolute;
+	width:100%;
+	height:15%;
+	bottom:0%;
+	
+	background-color:#3366FF;
+}
+
+#course2Box {
+	left:40%;
+}
+
+#course2 {
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+#course2Title {
+	position:absolute;
+	width:100%;
+	height:15%;
+	top:0%;
+	
+	background-color:#3366FF;
+}
+
+#course2Contributors {
+	position:absolute;
+	width:100%;
+	height:15%;
+	bottom:0%;
+	
+	background-color:#3366FF;
+}
+
+#course3Box {
+	left:70%;
+}
+
+#course3 {
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+#course3Title {
+	position:absolute;
+	width:100%;
+	height:15%;
+	top:0%;
+	
+	background-color:#3366FF;
+}
+
+#course3Contributors {
+	position:absolute;
+	width:100%;
+	height:15%;
+	bottom:0%;
+	
+	background-color:#3366FF;
+}
+
+.coursePic {
+	position:absolute;
+	width:100%;
+	height:70%;
+	top:15%;
+	left:0%;
+}
+
+
+
+#s600 {
+position:absolute;
+width:10px;
+height:600px;
+top:0px;
+background-color:#DDDDDD;
+right:10px;
+z-index:9000;
+}
+</style>
+</head>
+<body>
+<div id="s600"></div>
+<div id="backgroundTexture"></div>
+<div id="backgroundGradient"></div>
+<div id="topbannerContainer">
+<div id="topbannerTexture"></div>
+	<div id="logoContainer">
+		<a href="#">
+		<div id="logoBoxWidth">
+		<div id="logoText">
+		Learning<br>Flare
+		</div>
+		</div>
+		</a>
+	</div>
+	<div class="spacerLine"></div>
+	<div id="menuCourse1">
+		<a class="menu" href="Calculus1/Calculus1.jsp">
+		<div id="menuCourse1Text">
+		Calculus 1
+		</div>
+		</a>
+	</div>
+	<div id="menuCourse2">
+		<a class="menu" href="#">
+		<div id="menuCourse2Text">
+		Linear Algebra
+		</div>
+		</a>
+	</div>
+	<div id="menuCourse3">
+		<a class="menu" href="#">
+		<div id="menuCourse3Text">
+		Modern Physics
+		</div>
+		</a>
+	</div>
+	<div class="spacerLine"></div>
+	<div id="adaptiveLearningDiv">
+		<a class="menu" href="#">
+		<div id="adaptiveLearningText">
+		Adaptive Learning
+		</div>
+		</a>
+	</div>
+	<div class="spacerLine"></div>
+	<div id="feedbackDiv">
+		<a class="menu" href="#">
+		<div id="feedbackText">
+		Feedback
+		</div>
+		</a>
+	</div>
+</div>
+
+<div id="freeStudentResource">
+Learning Flare is a <span class="highlightBig">free student resource</span>.
+</div>
+<div id="ourGoal">
+Our goal: To research and deliver the experience of 
+ <span class="highlightBig" style="color:#3366FF">adaptive learning</span>.
+</div>
+<!--
+<div id="startLearningBox">
+Start learning: <input type="button" id="searchButton" value="Go"/><input type="text" id="searchInput"/>
+</div>
+-->
+
+<div class="whyUsContainers" id="whyUsContainer1">
+	<div class="whyLabel">
+		<a style="display:inline;" href="http://www.wikipedia.org">Wikipedia</a> isn't good enough.
+	</div>
+	<div class="whyExplanation">
+	<br>
+	You have probably stumbled on somebody's <span class="highlightSmall">doctoral dissertation 
+	</span>while trying to find a simple answer on Wikipedia.
+	<br><br>
+	Wikipedia has transformed online information, but it isn't the ultimate solution 
+	to knowledge. Here is why:
+	<ul>
+		<li>
+		Wikipedia is an encyclepedia, so it can be very difficult to understand.
+		</li>
+		<li>
+		There is <span class="highlightSmall">only one description</span> for each topic, but variety is essential for a 
+		customized learning experience.
+		</li>
+		<li>
+		The style favors <span class="highlightSmall">textual</a> learners.
+		</li>
+	</ul>
+	</div>
+</div>
+
+<div class="whyUsContainers" id="whyUsContainer2">
+	<div class="whyLabel">
+		Neither is <a style="display:inline;" href="http://www.youtube.com">YouTube.</a>
+	</div>
+	<div class="whyExplanation">
+	<br>
+	The videos you see on YouTube are generally high quality becuase lots of other people 
+	liked them. Sometimes, this is good enough. 
+	<br><br>
+	But if you have even a slightly unique learning style, it may take a very long time 
+	to find a video that YOU like.
+	<br><br>
+	Other problems:
+	<ul>
+		<li>
+		There are <span class="highlightSmall">only videos</span>. You can't scan the content of a video in 3 seconds for 
+		an equation you need.
+		</li>
+		<li>
+		YouTube was not designed for education.
+		</li>
+	</ul>
+	</div>
+</div>
+
+<div class="whyUsContainers" id="whyUsContainer3">
+	<div class="whyLabel">
+		Neither is <a style="display:inline" href="https://www.khanacademy.org/">Khan Academy.</a>
+	</div>
+	<div class="whyExplanation">
+	<br>
+	Google's Eric Schmidt said of Sal Khan, "innovation never comes from the 
+	established institution. It's always a graduate student, or a crazy person, or
+	somebody with a great vision. Sal is that person in education."
+	<br><br>
+	Khan Academy is innovative becuase it applys the concept of adaptive education 
+	to Sal Khan's videos. Why isn't it good enough?
+	<ul>
+		<li>
+		The adaptive education of Khan Academy <span class="highlightSmall">adjusts the 
+		subject difficulty</span> to meet each student at their level. It doesn't adjust the 
+		<span class="highlightSmall">style</span> or <span class="highlightSmall">medium</span>
+		of the lessons.
+		</li>
+		<li>
+		Sal Khan is <span class="highlightSmall">one person</span>. The solution for learning will come from the community.
+		</li>
+	</ul>
+	</div>
+</div>
+
+
+<div id="conclusionContainer">
+	<div id="conclusion">
+		Learning Flare improves these 3 concepts and focuses on 
+		the <span class="highlightBig">learning experience.</span>
+	</div>
+	<div id="coursesHeader">
+		Courses contributed to:
+	</div>
+	<div class="courseBox" id="course1Box">
+		<a class="course" href="Calculus1/Calculus1.jsp">
+		<div id="course1">
+			<div id="course1Title">
+			Calculus 1
+			</div>
+			<img class="coursePic" src="http://s.quickmeme.com/img/f1/f1ea5bd59a2a59cc77bac2d7016e4939ebd276ee856da7bf7e56df47d740e7a9.jpg">
+			<div id="course1Contributors">
+			Contributors: 2
+			</div>
+		</div>
+		</a>
+	</div>
+	<div class="courseBox" id="course2Box">
+		<a class="course" href="#">
+		<div id="course2">
+			<div id="course2Title">
+			Linear Algebra
+			</div>
+			<img class="coursePic" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6y2UkJKTv60beiI1XiAFm2-hBkUu1D0Q5xhyBLsjfKjdOjepE6w">
+			<div id="course2Contributors">
+			Contributors: 0
+			</div>
+		</div>
+		</a>
+	</div>
+	<div class="courseBox" id="course3Box">
+		<a class="course" href="#">
+		<div id="course3">
+			<div id="course3Title">
+			Modern Physics
+			</div>
+			<img class="coursePic" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSRcv4rpEdAaConKfB6a8U_SkOksmcAyWjBNTgYOFS7Nl915gEhuA">
+			<div id="course3Contributors">
+			Contributors: 1
+			</div>
+		</div>
+		</a>
+	</div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
