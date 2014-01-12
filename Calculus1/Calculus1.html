@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="../CSS/topMenuCSS.css"/>
+<link rel="stylesheet" type="text/css" href="../CSS/CalcTopicsMenu.css"/>
+<link rel="stylesheet" type="text/css" href="../CSS/TopicsMenuGreenBlack.css"/>
+
+<link rel="stylesheet" type="text/css" href="Calculus1CSS.css"/>
+
+</head>
+<body>
+<img src="../images/blackbackground2.jpg" id="back1">
+
+<!-- top menu include <%@ include file="/JSP/topMenu.jsp" %>-->
+<div id="topbannerContainer">
+<div id="topbannerTexture"></div>
+	<div id="logoContainer">
+		<a href="#">
+		<div id="logoBoxWidth">
+		<div id="logoText">
+		Learning<br>Flare
+		</div>
+		</div>
+		</a>
+	</div>
+	<div class="spacerLine"></div>
+	<div id="menuCourse1">
+		<a class="menu" href="Calculus1/Calculus1.html">
+		<div id="menuCourse1Text">
+		Calculus 1
+		</div>
+		</a>
+	</div>
+	<div id="menuCourse2">
+		<a class="menu" href="#">
+		<div id="menuCourse2Text">
+		Linear Algebra
+		</div>
+		</a>
+	</div>
+	<div id="menuCourse3">
+		<a class="menu" href="#">
+		<div id="menuCourse3Text">
+		Modern Physics
+		</div>
+		</a>
+	</div>
+	<div class="spacerLine"></div>
+	<div id="adaptiveLearningDiv">
+		<a class="menu" href="#">
+		<div id="adaptiveLearningText">
+		Adaptive Learning
+		</div>
+		</a>
+	</div>
+	<div class="spacerLine"></div>
+	<div id="feedbackDiv">
+		<a class="menu" href="#">
+		<div id="feedbackText">
+		Feedback
+		</div>
+		</a>
+	</div>
+</div>
+<!-- end of topMenu.jsp include -->
+
+
+
+
+<div id="Calculus1Header"><h1>Calculus 1</h1></div>
+<div id="whyCalculusQuestion">Why learn Calculus?</div>
+<div id="whyCalculusAnswer">
+	Here are just a couple reasons:
+	<ul class="inline">
+		<li class="inline">According to <a class="dark" href="http://www.forbes.com/sites/billconerly/2012/08/21/how-to-make-a-college-graduate-employable/">
+		this Forbes Magazine article</a>, Calculus 1 is among the six classes that will 
+		"make any college grad employable."
+		</li>
+		<li class="inline">
+		According to <a class="dark" href="http://wainsworld.org/All_Worksheets/Articles/Want%20to%20Make%20More%20Money.pdf">
+		this</a>, starting salaries across all industries increase by $2,000 for every 
+		math class someone has taken after the ninth grade.
+		</li>
+		<li class="inline">
+		Calculus is REALLY powerful.
+		</li>
+	</ul>
+</div>
+<div id="calculusHistory">History of Calculus:</div>
+<div id="calculusHistoryExplanation">
+	The discovery of calculus is usually attributed mainly to Isaac Newton in the seventeenth 
+	century. However, calculus has a very interesting history to which many people contributed. 
+	You can read more about it <a class="dark" href="http://en.wikipedia.org/wiki/History_of_calculus">here</a>.
+</div>
+<div id="flotChartHeader">Flow chart:
+</div>
+<img src="../images/sinx+x2.png" style="position:absolute;width:20%;top:10em;right:0%;opacity:.8">
+
+
+
+
+
+
+<!-- <%@ include file="Calculus1TopicsMenu.jsp" %> -->
+<div id="topicsmenu"
+	onmouseover="topicsMenuOn()"
+	onmouseout="topicsMenuOff()">
+
+<ul class="topicssubmenuheader">
+<li><a href="#">Calculus 1</a>
+</li>
+</ul>
+
+
+
+<ul class="topicssubmenuheader">
+<li><a href="#">Review of Precalculus</a>
+</li>
+</ul>
+
+<ul class="topicssubmenu">
+<li><a href="/Calculus1/GraphsOfBasicFunctions/TextLesson/TextLesson.jsp">Graphs of Basic Functions</a>
+</li>
+<li><a href="/Calculus1/Trigonometry/TextLesson/TextLesson.jsp">Trigonometry</a>
+</li>
+<li><a href="/Calculus1/Exponents/TextLesson/TextLesson.jsp">Exponents</a>
+</li>
+<li><a href="/Calculus1/Factoring/TextLesson/TextLesson.jsp">Factoring</a>
+</li>
+<li><a href="/Calculus1/Fractions/TextLesson/TextLesson.jsp">Fractions</a>
+</li>
+<li><a href="/Calculus1/InverseFunctions/TextLesson/TextLesson.jsp">Inverse Functions</a>
+</li>
+<li><a href="/Calculus1/LogRules/TextLesson/TextLesson.jsp">Log Rules</a>
+</li>
+</ul>
+
+<ul class="topicssubmenuheader">
+<li><a href="#">Limits</a>
+</li>
+</ul>
+
+<ul class="topicssubmenu">
+<li><a href="/Calculus1/LimitsOfSimpleFunctions/TextLesson/TextLesson.jsp">Limits of Simple Functions</a>
+</li>
+<li><a href="/Calculus1/RemovableDiscontinuities/TextLesson/TextLesson.jsp">Removable Discontinuities</a>
+</li>
+<li><a href="/Calculus1/OneSidedLimits/TextLesson/TextLesson.jsp">One-Sided Limits</a>
+</li>
+<li><a href="/Calculus1/PiecewiseFunctions/TextLesson/TextLesson.jsp">Piecewise Functions</a>
+</li>
+<li><a href="/Calculus1/PiecewiseFunctions/TextLesson/TextLesson.jsp">Infinite Limits</a>
+</li>
+<li><a href="/Calculus1/PiecewiseFunctions/TextLesson/TextLesson.jsp">Definition of Continuity</a>
+</li>
+<li><a href="/Calculus1/PiecewiseFunctions/TextLesson/TextLesson.jsp">Intermediate value Theorem</a>
+</li>
+<li><a href="/Calculus1/PiecewiseFunctions/TextLesson/TextLesson.jsp">Precise Definition of a Limit</a>
+</li>
+</ul>
+
+<ul class="topicssubmenuheader">
+<li><a href="#">Derivatives</a>
+</li>
+</ul>
+
+<ul class="topicssubmenu">
+<li><a href="/Calculus1/DefinitionOfTheDerivative/TextLesson/TextLesson.jsp">Definition of the Derivative</a>
+</li>
+<li><a href="/Calculus1/GraphsOfDerivatives/TextLesson/TextLesson.jsp">Graphs of Derivatives</a>
+</li>
+<li><a href="/Calculus1/DerivativeFormula/TextLesson/TextLesson.jsp">Derivative Formula</a>
+</li>
+<li><a href="/Calculus1/DerivativesOfSpecialFunctions/TextLesson/TextLesson.jsp">Derivatives of Special Functions</a>
+</li>
+<li><a href="/Calculus1/ProductRule/TextLesson/TextLesson.jsp">Product Rule</a>
+</li>
+<li><a href="/Calculus1/QuotientRule/TextLesson/TextLesson.jsp">Quotient Rule</a>
+</li>
+<li><a href="/Calculus1/ChainRule/TextLesson/TextLesson.jsp">Chain Rule</a>
+</li>
+<li><a href="/Calculus1/LHospitalsRule/TextLesson/TextLesson.jsp">L'Hospital's Rule</a>
+</li>
+<li><a href="/Calculus1/ImplicitDifferentiation/TextLesson/TextLesson.jsp">Implicit Differentiation</a>
+</li>
+<li><a href="/Calculus1/RelatedRates/TextLesson/TextLesson.jsp">Related Rates</a>
+</li>
+<li><a href="/Calculus1/CriticalPoints/TextLesson/TextLesson.jsp">Critical Points</a>
+</li>
+<li><a href="/Calculus1/Optimization/TextLesson/TextLesson.jsp">Optimization</a>
+</li>
+<li><a href="/Calculus1/PointsOfInflictionConcavity/TextLesson/TextLesson.jsp">Points of Infliction, Concavity</a>
+</li>
+<li><a href="/Calculus1/NewtonsMethod/TextLesson/TextLesson.jsp">Newton's Method</a>
+</li>
+<li><a href="/Calculus1/LinearApproxiamtion/TextLesson/TextLesson.jsp">Linear Approxiamtion</a>
+</li>
+<li><a href="/Calculus1/MeanValueTheorem/TextLesson/TextLesson.jsp">Mean Value Theorem</a>
+</li>
+</ul>
+
+<ul class="topicssubmenuheader">
+<li><a href="#">Antiderivatives</a>
+</li>
+</ul>
+
+<ul class="topicssubmenu">
+<li><a href="/Calculus1/RiemannSums/TextLesson/TextLesson.jsp">Riemann Sums</a>
+</li>
+<li><a href="/Calculus1/LimitFormulas/TextLesson/TextLesson.jsp">Limit Formulas</a>
+</li>
+<li><a href="/Calculus1/IntegralsOfPolynomials/TextLesson/TextLesson.jsp">Integrals of Polynomials</a>
+</li>
+<li><a href="/Calculus1/USubstitution/TextLesson/TextLesson.jsp">U-Substitution</a>
+</li>
+</ul>
+
+</div>
+<!-- End of the Calculus 1 topics menu include -->
+
+<img src="CalculusFlowchart.jpg" id="CalculusFlowchart">
+
+<div id="calculusVideoHeader">
+Here's a video that explains more about calculus:
+</div>
+
+<iframe
+src="https://www.youtube.com/embed/97ajj5Y7tLA?wmode=transparent&rel=0&amp;modestbranding=1&amp;version=3&amp;ap=%2526fmt%3D18&amp;autohide=1&amp;fs=1&amp;theme=light&amp;color=white"
+type="application/x-shockwave-flash" id="calculusVideo" allowfullscreen> </iframe>
+
+</body>
+</html>

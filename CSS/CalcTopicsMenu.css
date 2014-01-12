@@ -2,12 +2,12 @@
 	position: absolute;
 	left: 0%;
 	top: 5%;
-	width: 30%;
-	height:70%;
+	width: 30em;
+	height:120%;
 	visibility:hidden;
 	
-	border: 5px solid #006957;
-	border-radius: 10px;
+	border: 1px solid #000000;
+
 
 
 	overflow:auto;

@@ -1,9 +1,11 @@
 #topicsmenu {
-	border-color:#188330;
+	border-color:#000000;
+	background-color:#111111;
+	opacity:.8;
 }
 
 #classlist {
-background-color:black;
+background-color:#111111;
 }
 
 #topicsearchdiv {
@@ -21,12 +23,12 @@ background-color:black;
 }
 
 .topicssubmenu a:hover, .topicssubmenu a:active {
-	background-color:#90FCEA;
+	background-color:#55BBFF;
 }
 
 .topicssubmenuheader a:link, .topicssubmenuheader a:visited {
 	color:#FFFFFF;
-	background-color:#0C4319;
+	background-color:#3366FF;;
 }
 
 .topicssubmenuheader a:hover, .topicssubmenuheader a:active {
