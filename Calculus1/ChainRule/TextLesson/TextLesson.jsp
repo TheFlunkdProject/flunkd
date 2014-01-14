@@ -9,22 +9,15 @@
 </head>
 <body>
 
-
+<%@ include file="/JSP/topMenu.jsp" %>
+<!--
 <%@ include file="/JSP/StyleChanger.jsp" %>
-
+-->
 <%@ include file="/JSP/TopicMisc.jsp" %>
-
-<%@ include file="/JSP/HorizontalBanner.jsp" %>
-
-<%@ include file="/JSP/VerticalBanner.jsp" %>
 
 <%@ include file="/JSP/HighlightMenu.jsp" %>
 
-<%@ include file="/JSP/ToolsMenu.jsp" %>
 
-<%@ include file="/JSP/MediaMenu.jsp" %>
-
-<%@ include file="/JSP/ContactPhone.jsp" %>
 
 <%@ include file="/JSP/ClassesMenu.jsp" %>
 

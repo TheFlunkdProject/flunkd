@@ -39,81 +39,151 @@ margin:0;
 padding:0;
 }
 
-#Calculus1Header {
+#courseInfoHolder {
 	position:absolute;
-	width:10.5em;
-	height:15%;
-	left:5.75em;
-	top:1.25em;
+	width:60em;
+	height:90em;
+	left:34.5em;
+	top:8.5em;
+	
+	
+	font-size:1em;
+}
+	
+
+#courseNameHeader {
+	position:relative;
+	width:14em;
+	height:auto;
+	left:0em;
+	top:0em;
+	margin:0;
 	
 	color:#3366FF;
-	font-size:6em;
-	opacity:.8;
+	font-size:3em;
+	opacity:1;
 
+	
 
 }
 
-#whyCalculusQuestion {
+#graph {
 	position:absolute;
+	width:17em;
+	top:1em;
+	right:0%;
+	opacity:.8
+}
+
+#courseQAMainContainer {
+	position:relative;
+	width:100%;
+	height:auto;
+	margin:13em 0em 0em 0em;
+}
+
+#courseQA1Container {
+	position:relative;
+	width:30em;
+	height:auto;
+	float:left;
+	
+}
+
+#courseQuestion1 {
+	position:relative;
 	width:11em;
-	height:1.5em;
-	left:14em;
-	top:9.5em;
+	height:auto;
 	
 	color:#3366FF;
 	font-size:2.5em;
-	opacity:.8;
+	opacity:1;
 
 }
 
-#whyCalculusAnswer {
-	position:absolute;
+#courseAnswer1 {
+	position:relative;
 	width:18em;
-	height:16em;
-	left:23.3em;
-	top:20em;
+	height:auto;
+	margin-top:2em;
 	
+	color:#EEEEEE;
 	font-size:1.5em;
-	opacity:.8;
+	opacity:1;
+
 
 }
 
-#calculusHistory {
-	position:absolute;
+#courseQA2Container {
+	position:relative;
+	width:30em;
+	height:auto;
+	float:left;
+	}
+
+#courseQuestion2 {
+	position:relative;
 	width:11em;
-	height:1.5em;
-	left:26.5em;
-	top:9.5em;
+	height:auto;
+
 	
 	color:#3366FF;
 	font-size:2.5em;
-	opacity:.8;
+	opacity:1;
 
 }
 
-#calculusHistoryExplanation {
-	position:absolute;
+#courseAnswer2 {
+	position:relative;
 	width:18em;
-	height:16em;
-	left:44.15em;
-	top:20em;
+	height:auto;
 	
+	color:#EEEEEE;
 	font-size:1.5em;
-	opacity:.8;
-
+	opacity:1;
+	
+	margin-top:2em;
 }
 
-#flotChartHeader {
-	position:absolute;
+#flowChartHeader {
+	position:relative;
 	width:11em;
 	height:1.5em;
-	left:14em;
-	top:23.5em;
+	margin:17.5em 0em 0em 0em;
 	
 	color:#3366FF;
 	font-size:2.5em;
-	opacity:.8;
+	opacity:1;
 
+}
+
+#CalculusFlowchart {
+	position:relative;
+	width:100%;
+	height:50em;
+	margin:2em 0em 0em 0em;
+	opacity:.8;
+	
+	border:1px solid #000000;
+	border-radius:5px;
+}
+
+#calculusVideoHeader {
+	position:relative;
+	width:30em;
+	height:1.5em;
+	margin:2em 0em 0em 0em;
+	
+	color:#3366FF;
+	font-size:2.5em;
+	opacity:1;
+}
+
+#calculusVideo {
+	position:relative;
+	width:100%;
+	height:40em;
+	margin:2em 0em 0em 0em;
 }
 
 #topicsmenu {
@@ -124,36 +194,4 @@ padding:0;
 
 	
 	visibility:visible;
-}
-
-#CalculusFlowchart {
-	position:absolute;
-	left:35em;
-	top:65em;
-	width:60em;
-	height:50em;
-	opacity:.8;
-	
-	border:1px solid #000000;
-	border-radius:5px;
-}
-
-#calculusVideoHeader {
-	position:absolute;
-	width:30em;
-	height:1.5em;
-	left:14em;
-	top:49em;
-	
-	color:#3366FF;
-	font-size:2.5em;
-	opacity:.8;
-}
-
-#calculusVideo {
-	position:absolute;
-	width:60em;
-	height:40em;
-	left:35em;
-	top:130em;
 }
