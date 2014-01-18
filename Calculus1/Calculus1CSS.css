@@ -72,7 +72,9 @@ padding:0;
 	width:17em;
 	top:1em;
 	right:0%;
-	opacity:.8
+	opacity:1;
+	
+	z-index:-900;
 }
 
 #courseQAMainContainer {

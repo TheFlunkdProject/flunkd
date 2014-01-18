@@ -30,6 +30,7 @@
 <%@ include file="TextLesson_pears22.jsp" %>	
 </div>
 
+<%@ include file="/JSP/TextLesson_postLessonInclude.jsp" %>
 
 </body>
 </html>

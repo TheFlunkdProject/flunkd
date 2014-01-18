@@ -10,15 +10,14 @@
 	font-size:2.5em;
 	text-align:center;
 	font-family:sans-serif;
-	color:#FFFFFF;     /*will change in transition*/
-	transition:color .5s; /*transition*/
+	color:#FFFFFF;     /*will change in transition; transition specified in JS*/
 }
 	
 
 #topbannerContainer {
 	position:fixed;
 	width:100%;
-	height:2em;   /*will change in transition*/
+	height:4%;   /*will change in transition*/
 	top:0;
 	left:0;
 	z-index:100;
@@ -32,7 +31,7 @@
 	
 	font-family:sans-serif;
 	opacity:.1;  /*will change in transition*/
-	transition:opacity .1s .5s, height .1s .5s;   /*transition*/
+	transition:opacity .1s .5s, height .15s .5s;   /*transition*/
 
 }
 

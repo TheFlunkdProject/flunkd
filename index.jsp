@@ -95,10 +95,9 @@ Start learning: <input type="button" id="searchButton" value="Go"/><input type="
 	to Sal Khan's videos. Why isn't it good enough?
 	<ul>
 		<li>
-		The adaptive education of Khan Academy <span class="highlightSmall">adjusts the 
-		subject difficulty</span> to meet each student at their level. It doesn't adjust the 
-		<span class="highlightSmall">style</span> or <span class="highlightSmall">medium</span>
-		of the lessons.
+		The adaptive education of Khan Academy adjusts the 
+		subject difficulty</span> to meet each student at their level. 
+		<span class="highlightSmall"> It doesn't adjust the style</span> or medium of the lessons.
 		</li>
 		<li>
 		Sal Khan is <span class="highlightSmall">one person</span>. The solution for learning will come from the community.
@@ -122,7 +121,7 @@ Start learning: <input type="button" id="searchButton" value="Go"/><input type="
 			<div id="course1Title">
 			Calculus 1
 			</div>
-			<img class="coursePic" src="http://cdn.memegenerator.net/instances/400x/34734294.jpg">
+			<img class="coursePic" src="/images/calculusAlients.jpg">
 			<div id="course1Contributors">
 			Contributors: 2
 			</div>
