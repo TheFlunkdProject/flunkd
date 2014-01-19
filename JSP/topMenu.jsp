@@ -51,3 +51,17 @@
 		</a>
 	</div>
 </div>
+<!--
+<div id="feedbackInputBox">
+	<div id="feedbackInstructions">
+	</div>
+	<textarea id="feedbackInput">
+	<div id="feedbackSuggestions">
+	</div>
+	<input type="submit" name="submitFeedback" id="submitFeedback" value="Submit"/>
+</div>
+<div id="thanksForFeedbackBox">
+	<div id="thanksForFeedback">
+	</div>
+</div>
+-->
