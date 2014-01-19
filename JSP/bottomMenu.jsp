@@ -31,9 +31,7 @@ document.getElementById('wolframLabel').style.cssText = cssStringWolframTextOff;
 	
 	
 	<div class="spacerLine"></div>
-	<div class="menuItemContainer" style="width:8em;">
-		<div class="menuItemTextPlacer">
-			
-		</div>
+	<div class="menuItemContainer" style="width:14em;">
+		<%@ include file="/JSP/StyleChanger.jsp" %>
 	</div>
 </div> 

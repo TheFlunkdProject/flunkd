@@ -116,12 +116,12 @@ Start learning: <input type="button" id="searchButton" value="Go"/><input type="
 		Courses contributed to:
 	</div>
 	<div class="courseBox" id="course1Box">
-		<a class="course" href="Calculus1/Calculus1.html">
+		<a class="course" href="/Calculus1/Calculus1.jsp">
 		<div id="course1">
 			<div id="course1Title">
 			Calculus 1
 			</div>
-			<img class="coursePic" src="/images/calculusAlients.jpg">
+			<img class="coursePic" src="/images/calculusAliens.jpg">
 			<div id="course1Contributors">
 			Contributors: 2
 			</div>
@@ -142,7 +142,7 @@ Start learning: <input type="button" id="searchButton" value="Go"/><input type="
 		</a>
 	</div>
 	<div class="courseBox" id="course3Box">
-		<a class="course" href="#">
+		<a class="course" href="/ModernPhysics/ModernPhysics.jsp">
 		<div id="course3">
 			<div id="course3Title">
 			Modern Physics

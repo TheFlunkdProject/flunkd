@@ -4,7 +4,7 @@
 <div id="topbannerContainer" onmouseover="topbannerReveal()" onmouseout="topbannerConceal()">
 <div id="topbannerTexture"></div>
 	<div id="logoContainer">
-		<a href="#">
+		<a href="/index.jsp">
 		<div id="logoBoxWidth">
 		<div id="logoText">
 		Learning<br>Flare
@@ -14,7 +14,7 @@
 	</div>
 	<div class="spacerLine"></div>
 	<div id="menuCourse1">
-		<a class="menu" href="Calculus1/Calculus1.html">
+		<a class="menu" href="/Calculus1/Calculus1.jsp">
 		<div id="menuCourse1Text">
 		Calculus 1
 		</div>
@@ -28,7 +28,7 @@
 		</a>
 	</div>
 	<div id="menuCourse3">
-		<a class="menu" href="#">
+		<a class="menu" href="/ModernPhysics/ModernPhysics.jsp">
 		<div id="menuCourse3Text">
 		Modern Physics
 		</div>
@@ -36,7 +36,7 @@
 	</div>
 	<div class="spacerLine"></div>
 	<div id="adaptiveLearningDiv">
-		<a class="menu" href="#">
+		<a class="menu" href="/AdaptiveLearning/AdaptiveLearning.html">
 		<div id="adaptiveLearningText">
 		Adaptive Learning
 		</div>

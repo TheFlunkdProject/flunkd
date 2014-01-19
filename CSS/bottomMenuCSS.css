@@ -7,7 +7,7 @@
 	z-index:100;
 	background-color:#FFFFFF;
 	
-	box-shadow: 0px 3px 3px #AAAAAA;
+	box-shadow: 0px -3px 3px #AAAAAA;
 	
 	font-family:sans-serif;
 }

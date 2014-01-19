@@ -9,28 +9,16 @@
 </head>
 <body>
 
-<%@ include file="/JSP/topMenu.jsp" %>
-<!--
-<%@ include file="/JSP/StyleChanger.jsp" %>
--->
-<%@ include file="/JSP/TopicMisc.jsp" %>
-
-<%@ include file="/JSP/HighlightMenu.jsp" %>
-
-
-
-<%@ include file="/JSP/ClassesMenu.jsp" %>
-
-<%@ include file="/Calculus1/Calculus1TopicsMenu.jsp" %>
-
+<%@ include file="/JSP/TextLesson_preLessonIncludes.jsp" %>
 
 <div id="bookcover">
 <%@ include file="/JSP/bookpages.jsp" %>
 
-<%@ include file="TextLesson_pears22.jsp" %>	
+<!--Some java code to decide which lesson to include will be inserted here. -->
+<%@ include file="TextLesson_pears22.jsp" %> 
 </div>
 
-<%@ include file="/JSP/TextLesson_postLessonInclude.jsp" %>
+<%@ include file="/JSP/TextLesson_postLessonIncludes.jsp" %>
 
 </body>
 </html>

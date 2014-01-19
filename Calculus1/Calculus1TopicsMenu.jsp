@@ -10,9 +10,6 @@
 <ul class="topicssubmenu">
 <li><a href="#">Calculus 1 Introduction</a>
 </li>
-<div id="topicsearchdiv">Search: <input type="text" id="topicsearch" /></div>
-<li><a href="#">Calculus 1 Introduction</a>
-</li>
 </ul>
 
 <ul class="topicssubmenuheader">

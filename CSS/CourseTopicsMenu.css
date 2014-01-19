@@ -1,9 +1,9 @@
 #topicsmenu {
-	position: absolute;
+	position: relative;
 	left: 0%;
 	top: 5%;
 	width: 30em;
-	height:120%;
+	height:120em;
 	visibility:hidden;
 	
 	border: 1px solid #000000;
@@ -14,7 +14,7 @@
 	overflow-x:hidden;
 	
 
-	z-index:5;
+	z-index:500;
 }
 
 #topicsmenu ul {
