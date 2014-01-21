@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="/JS/topMenu.js"></script>
 
 <link rel="stylesheet" type="text/css" href="CSS/indexCSS.css"/>
 <link rel="stylesheet" type="text/css" href="CSS/topMenuCSS.css"/>

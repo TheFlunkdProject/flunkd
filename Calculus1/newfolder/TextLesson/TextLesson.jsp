@@ -9,34 +9,27 @@
 </head>
 <body>
 
-
-<%@ include file="/JSP/StyleChanger.jsp" %>
-
-<%@ include file="/JSP/TopicMisc.jsp" %>
-
-<%@ include file="/JSP/HorizontalBanner.jsp" %>
-
-<%@ include file="/JSP/VerticalBanner.jsp" %>
-
-<%@ include file="/JSP/HighlightMenu.jsp" %>
-
-<%@ include file="/JSP/ToolsMenu.jsp" %>
-
-<%@ include file="/JSP/MediaMenu.jsp" %>
-
-<%@ include file="/JSP/ContactPhone.jsp" %>
-
-<%@ include file="/JSP/ClassesMenu.jsp" %>
-
-<%@ include file="/Calculus1/Calculus1TopicsMenu.jsp" %>
-
+<%@ include file="/JSP/TextLesson_preLessonIncludes.jsp" %>
 
 <div id="bookcover">
 <%@ include file="/JSP/bookpages.jsp" %>
 
-<%@ include file="TextLesson_pears22.jsp" %>	
+<!--Some java code to decide which lesson to include will be inserted here. -->
+<jsp:include page="/JSP/TextLesson_LessonLeadingText.txt" />	
+<jsp:include page="TextLesson_pears22/L.txt" />	
+<jsp:include page="/JSP/TextLesson_LessonIntermediateText.txt" />	
+<jsp:include page="TextLesson_pears22/R.txt" />	
+<jsp:include page="/JSP/TextLesson_LessonTrailingText.txt" />	
 </div>
 
+<%@ include file="/JSP/TextLesson_postLessonIncludes.jsp" %>
+
+</body>
+</html>
+<%@ include file="TextLesson_pears22.jsp" %> 
+</div>
+
+<%@ include file="/JSP/TextLesson_postLessonIncludes.jsp" %>
 
 </body>
 </html>

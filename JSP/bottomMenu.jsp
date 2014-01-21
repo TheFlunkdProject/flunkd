@@ -16,7 +16,7 @@ document.getElementById('wolframLabel').style.cssText = cssStringWolframTextOff;
 <div id="bottomMenuContainer">
 <div id="bottomMenuTexture"></div>
 	
-	<div class="menuItemContainer" style="width:260px;" 
+	<div class="menuItemContainer" style="width:30em;" 
 	onmouseover="wolframOn()" onmouseout="wolframOff()">
 		<div class="menuItemTextPlacer" id="wolframLabel" style="z-index:-1;text-align:center;">
 			Wofram Alpha

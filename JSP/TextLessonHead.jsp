@@ -1,4 +1,5 @@
 <script src="/JS/Highlight.js"></script>
+<script src="/JS/topMenu.js"></script>
 <script src="/JS/topbannerReveal.js"></script>
 <script src="/JS/StyleChanger.js"></script>
 <!--<script src="/JS/TextLesson.js"></script>-->
@@ -16,6 +17,7 @@
 <link rel="stylesheet" type="text/css" href="/CSS/CourseTopicsMenu.css">
 <link rel="stylesheet" type="text/css" href="/CSS/TopicsMenuBlueBlack.css">
 <link rel="stylesheet" type="text/css" href="/CSS/CalcClassMenu.css">
+<link rel="stylesheet" type="text/css" href="/CSS/topMenuCSS.css">
 <link rel="stylesheet" type="text/css" href="/CSS/topMenuHidden.css">
 <link rel="stylesheet" type="text/css" href="/CSS/StyleChangerTextLesson.css">
 <link rel="stylesheet" type="text/css" href="/CSS/bottomMenuCSS.css">
@@ -26,5 +28,6 @@
 <style>
 #topicsmenu {
 	height:80%;
+	top:5%;
 }
 </style>

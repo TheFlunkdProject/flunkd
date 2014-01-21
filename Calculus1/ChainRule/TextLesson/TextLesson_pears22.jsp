@@ -1,6 +1,7 @@
 
 <!-- The unique lesson content goes here -->
-<%@ include file="/JSP/TextLesson_LessonLeadingText.jsp" %>
+<jsp:include page="/JSP/TextLesson_LessonLeadingText.txt" />	
+
 
 <p>The chain rule could probably be called the <a href="http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.
 org%2Fwiki%2FMatryoshka_doll&sa=D&sntz=1&usg=AFQjCNE2KSLwOztOUBuyjmwSkGv6XSEDxg">Russian Nesting Doll</a> Method.
@@ -12,7 +13,9 @@ This is the formula for it:</p>
 <img src="../../Functions/image266.png"><br><br>2+0 is the derivative of 2x+1, or <i>g'</i> according to the formula.
 	</span></a><br>
 
-<%@ include file="/JSP/TextLesson_LessonIntermediateText.jsp" %>
+	
+<jsp:include page="/JSP/TextLesson_LessonIntermediateText.txt" />	
+
 
 <img src="../../Functions/image271.png"> &nbsp (notice that the angle doesn't change.)
 <p>So the trick is to start on the very outside, and work your way inside. You start with the main form of 
@@ -21,4 +24,5 @@ what was inside that you were pretending was an x, and so on, until what is on t
 Like this:</p>
 <img src="../../Functions/image272.png" alt="ddx(ln(ln(ln(lnx))))=1ln(ln(lnx)))*1ln(lnx)*1lnx*1x">
 
-<%@ include file="/JSP/TextLesson_LessonTrailingText.jsp" %>
+
+<jsp:include page="/JSP/TextLesson_LessonTrailingText.txt" />	

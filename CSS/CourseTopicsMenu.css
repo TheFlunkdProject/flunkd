@@ -1,6 +1,6 @@
 #topicsmenu {
-	position: relative;
-	left: 0%;
+	position: absolute;
+	left: 2%;
 	top: 5%;
 	width: 30em;
 	height:120em;
