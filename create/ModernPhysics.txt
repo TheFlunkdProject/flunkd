@@ -1,0 +1,154 @@
+1.1 General Relativity vs. Special Relativity
+L
+Measurements depend on reference frames, so they are said to be relative. The effects of this fact make up the subject of the theory of relativity. Einstein’s theory of relativity includes both special relativity and general relativity. Special relativity is for non-accelerating reference frames. General relativity is used for accelerating reference frames, and is very important for modern physics. However, it is very advanced, so we won’t be going into too much depth with it.
+R
+Newtonian mechanics are sufficient when the reference frame is moving slowly compared to the speed of light. But when it approaches a significant fraction of the speed of light, things get weird. In this chapter we will learn about the Michelson-Morley experiment and discuss how special relativity effects Newtonian mechanics.
+
+1.1 Video
+L
+<div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/ScAeYKWf3qU?wmode=transparent&rel=0&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>Sixty Symbols</p><p>What are special and general relativity?</p><p>0:12 - 1:17</p></div></div>
+R
+Special relativity is really only needed when you're dealing with objects that are moving at any significant fraction of the speed of light. Newton's laws are still good for anything that moves at normal speeds.
+
+1.2 Relativity of Frames
+L
+In any approach to traditional physics problems, there are many possible reference frames that could be chosen to describe the systems involved. Good choices for reference frames can make a problem easier to solve. <div id="box1Trigger">(Why?)</div><div id="box1">You will generally want to choose reference frames that make as many quantities zero as possible. If you're dealing with events that happen on a moving train, have your reference frame travel with the train so that you don't have to add the velocity of the train to every object on the train individually.</div>
+R
+Newton's laws of motion are entirely independent of the chosen reference frames. They are "invariant". The same is true in Einstein's theory of relativity, and we will find this fact very useful.
+
+1.2 Videos
+L
+<div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/RS_K0EbB2Gw?wmode=transparent&rel=0&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>Frames of reference (1960) - SkreenPlay.tv</p><p>skreenplay</p><p>0:38 - 4:12, 6:27 - 8:57</p></div></div>
+
+Note: A reference frame can have many possible coordinate systems to describe objects within the reference frame.
+R
+<div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/XhTKqmaUP5k?wmode=transparent&rel=0&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>dizauvi</p><p>Introduction to Reference Frames (Physics)</p><p>0:00 - 0:14</p></div></div>
+
+The laws of physics are "invariant."
+
+
+1.3 Moving Reference Frames
+L
+The relationships between reference frames that move relative to each other are what Einstein's theory of relativitys help us to understand. 
+
+Consider a man dropping a sandwich while riding a train. In the reference frame of the train tracks, the man, the sandwich, and the train all have a constant horizontal velocity, but the sandwich also has a vertical acceleration.  The path it traces according to the train tracks is shown in <span id="box1Trigger">this picture.</span><div id="box1"><img class="normal" src="/imageLibrary/sandwichDrop.jpg">The path the sandwich travels is a parabola.</div> In the reference frame of the train, the sandwich just falls straight down to the man's feet. So in both reference frames, the sandwich ends up in the same place relative to the man. This all assumes that Newton's laws of motion are invariant.
+
+In an analysis of this type of situation we can use the classical velocity-addition formula: <span id="box2Trigger"><div class="importantExpression">$\bf{u} = \bf{u}' + \bf{v}$</div></span><div id="box2">$\bf{u}$ is the velocity of the object in the reference frame S
+$\bf{u}'$ is the velocity of the object in the reference frame S'
+$\bf{v}$ is the velocity of the reference frame S' with respect to S.</div>
+
+Why are Newton's laws invariant? We can go through each law and consider why each of them is invariant.
+R
+Newton's first law states that an object will have constant velocity if no forces act on it. Imagine a sandwich sitting still floating in space with no forces acting on it. It doesn't move. You could also look at the classical velocity-addition formula, and set $\bf{u}'$ and $\bf{v}$ constant and find that $\bf{u}$ is constant.
+
+Newton's second law is <span id="box3Trigger">$\bf{F}$ = $m \bf{a}$.</span><div id="box3">$\bf{F}$ is the sum of all forces acting on an object
+$m$ is the mass of the object 
+$\bf{a}$ is the acceleration of the object</div>
+
+We can show this is true by considering <span id="box4Trigger"> $\bf{F}$', $m$', and $\bf{a}$'.</span><div id="box4">These are the measurements of $\bf{F}$, $m$, and $\bf{a}$ in S'.</div> To show that $\bf{F}$ = $\bf{F}$', just answer this question: Would it hurt worse to be punched in the face by <span id="box6Trigger">Jet Lee on a train</span><div id="box6"><img class="normal" src="/imageLibrary/JetLee.jpg"></div> than on the ground? No, it would not. <span id="box5Trigger">So $\bf{F}$ = $\bf{F}$'.</span><div id="box5"> For a (slightly) more rigorous approach, see a textbook.</div> $m$ = $m$' is found experimentally to be true. $\bf{a}$ = $\bf{a}$' because both time and length are <span title="...although weird stuff happens with relativity.">constant measurements</span> in every reference frame.
+
+Newton's third law is that an action force is opposed by an equal reaction force. Since $\bf{F}$ = $\bf{F}'$, $\bf{F}_{action} = -\bf{F}_{reaction}$ implies that $\bf{F}'_{action} = -\bf{F}_{reaction}$.
+
+Newton's laws hold only for inertial frames (non-accelerating reference frames).
+
+1.3 Videos 
+L
+<div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/RS_K0EbB2Gw?wmode=transparent&rel=0&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>skreenplay</p><p>Frames of reference (1960) - SkreenPlay.tv</p><p>10:03 - 12:47</p></div></div>
+
+The velocity addition formula works for velocities in any direction. It's always $\bf{u} = \bf{u}'+\bf{v}$. The velocities include the directions <span id="box1Trigger">for you.</span><div id="box1">Until you plug actual values in. Then you will need to know where the negative signs should go.</div>
+
+<div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/B3RBRVegaP0?wmode=transparent&rel=0&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>Foothill College Physics</p><p>02 15 velocity addition 4 04 16 pt6</p><p>1:23 - 2:16</p></div></div>
+R
+<div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/ou9YMWlJgkE?wmode=transparent&rel=0&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>Khan Academy</p><p>Newton's Second Law of Motion (and first law)</p><p>0:00 - 2:34</p></div></div>
+
+<div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/NfuKfbpkIrQ?wmode=transparent&rel=0&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>Khan Academy</p><p>Newton's Third Law of Motion</p><p>0:40 - 2:29</p></div></div>
+
+If you desire, you can look at the reasoning behind <a target="_blank" href="http://galileo.phys.virginia.edu/classes/252/lecture1.htm">why Newton's laws are invariant</a> from one inertial frame to another.
+
+
+1.4/1.5 The Ether Frame
+L
+Maxwell's equations are not invariant. That is because the speed of electromagnetic waves (light) is c, no matter what reference frame you are observing in. The classical velocity-addition formula would say that the speed of light should be <span title="v being the speed of the reference frame">c + v,</span> but it isn't; it's just c. So unlike Newton's laws, <span id="box1Trigger">the laws of electromagnetism</span> <div id="box1"><a target="_blank" href="http://en.wikipedia.org/wiki/Maxwell%27s_equations">Gauss's law, Faraday's law, etc</a></div> are not invariant.
+
+The physicists in the late 1800's came to the conclusion that light must be traveling through some kind of medium, like the way sound travels through air. They called this the ether frame. They concluded that Newton's laws could be applied to multiple reference frames, but the laws concerning electromagnetism could only be applied to the ether frame. However, Albert Michelson and Edward Morley performed an experiment which showed that this conclusion was incorrect.
+R
+They decided that if they measured the speed of light in different directions, they should get different results because the earth was probably moving with respect to the ether frame, and would thus favor one direction over another. They performed the experiment, and measured the speed of light to be the same in all measurements. You should look at the details of the Michelson-Morley experiment <a target="_blank" href="http://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment">here.</a> This, and many subsequent experiments, disproved the existence of the ether frame.
+
+The fact that the speed of light is constant in many reference frames has big consequences. Einstein was the person that took the Michelson-Morley experiment seriously enough to explore its consequences. Here is the formula that gives the relationship between the change in the interference pattern and the speed of the ether: <span id="box1Trigger"><div class="importantExpression">$\Delta N = \frac{2l}{\lambda}\beta^2$</div></span><div id="box1">$\Delta N$ is the number of peaks you see pass by
+$l$ is the arm length of the Michelson interferometer
+$\lambda$ is the wavelength of the light being used
+$\beta$ is the fraction of the speed of light of the ether ($\beta = \frac{v}{c}$)</div>
+
+1.4/1.5 Videos
+L
+<div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/8PE5GEXqmT8?wmode=transparent&rel=0&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>Doc Schuster</p><p>Doc Physics - Maxwell's Equations and the Speed of Light</p><p>0:00 - 1:52, 3:48 - 5:20</p></div></div>
+
+(Also, $c$ does not depend on the speed of the reference frame.)
+R
+<div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/7qJoRNseyLQ?wmode=transparent&rel=0&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>Dan Handley</p><p>Neil deGrasse Tyson explains the Michelson-Morley experiment excerpt from UNDAUNTED</p><p>0:00 - 4:08</p></div></div>
+
+Here is the formula that gives the relationship between the change in the interference pattern and the speed of the ether: <span id="box1Trigger"><div class="importantExpression">$\Delta N = \frac{2l}{\lambda}\beta^2$</div></span><div id="box1">$\Delta N$ is the number of peaks you see pass by
+$l$ is the arm length of the Michelson interferometer
+$\lambda$ is the wavelength of the light being used
+$\beta$ is the fraction of the speed of light of the ether ($\beta = \frac{v}{c}$)</div>
+
+
+1.6 Special Relativity
+L
+These are the two postulates of special relativity:
+<ol><li>The laws of physics are the same in all <span title="non-accelerating reference frames">inertial frames</span> (They are invariant).</li><li>The speed of light in free space has the same value ($c$) in all inertial frames.</li></ol>
+R
+The results of these postulates are pretty incredible and possibly unbelievable at first. 
+
+Again, for normal terrestrial speeds, Newton's laws are still great. Special relativity really contributes to the physics of high-speed objects.
+
+1.6 Videos
+L
+<div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/HLxFjrwrCoU?wmode=transparent&rel=0&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>braingenie</p><p>Physics 8.2.1 The Two Postulates of Special Relativity.</p><p>Whole video</p></div></div>
+R
+<div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/dGbN0e_urqw?wmode=transparent&rel=0&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>PhysicistMichael</p><p>Special Relativity - 1. Background and Postulates</p><p>10:10 - 10:41</p></div></div>
+
+1.7 Time Intervals
+L
+You can measure time at various points in an inertial frame. For example, you could call a friend in Russia and talk to him for 10 minutes and both of your clocks will say that 10 minutes passed. It doesn't matter where you are; all of your measurements of time withing the same inertial frame will be consistent.
+R
+
+1.7 Videos
+L
+You can measure time at various points in an inertial frame. For example, you could call a friend in Russia and talk to him for 10 minutes and both of your clocks will say that 10 minutes passed. It doesn't matter where you are; all of your measurements of time withing the same inertial frame will be consistent.
+R
+
+1.8
+L
+The first consequence of special relativity that we'll talk about is time dilation. 
+
+Pretend you're on a really cool train that can travel at .5$c$. You drop a flashlight, and it turns on as it hits the ground and shines up at your face. Since you are in the same frame as the flashlight, to you the light goes in a straight, vertical line up to your eyes, at speed $c$. The distance it travels is <span id="box1Trigger">$c$ $t_{train}$</span><div id="box1">because $v = \frac{d}{t}$</div>. $t_{train}$ is measured on the train.
+
+According to special relativity, the speed of light is the same in every reference frame. So now imagine somebody in the reference frame of the ground; they see the train, you, and the flashlight all with the speed $.6 c$. Consider the path that the light takes in this person's reference frame. It doesn't just go straight up. It follows a diagonal path:
+
+<img class="fm250" src="/imageLibrary/timeDilationTrain.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+The distance of the diagonal path is $c$ $t_{ground}$, with $t_{ground}$ being measured from the ground. But the values of the distances are different. We can calculate its value in terms of the vertical distance with the Pythagorean theorem. The distance the train moves during the interval is $v$$t_{ground}$ where $v=.6c$, so we get $$(c \, t_{ground})^2=(c\, t_{train})^2 + (v\, t_{ground})^2$$ If we solve for $t_{ground}$, <span id="box2Trigger">we get</span><div id="box2">$$c^2t_{ground}^2-v^2t_{ground}^2=c^2t_{train}^2$$$$t_{ground}^2(1-\frac{v^2}{c^2})=t_{train}^2$$</div> $$t_{ground} = \frac{t_{train}}{\sqrt{1-(\frac{v}{c})^2}}$$The time interval that passes, as measured by you and the person on the ground, is different depending on which frame you are in. This is a direct consequence of the constant value of the speed of light.
+R
+For the person on the ground, light travels farther so more time passes on the train. The time you felt pass was shorter, so to the person on the ground, you look like you are moving in slow motion. 
+
+For $v=.6c$, $t_{ground}=1.25t_{train}$. So something that takes 4 seconds to happen for the people on the train actually takes 5 seconds to happen for people on the ground. Keep in mind that $.5c$ is extremely fast, so you have probably never experienced anything like this.
+
+The time interval as measured on the train is called the <i>proper time</i>, and is symbolized by $t_0$.
+
+Since $\frac{v}{c}$ and $\frac{1}{1-(\frac{v}{c})^2}$ show up so much in relativity, we define some symbols to simplify the appearance of the math:<span title="beta">$$\beta=\frac{v}{c}, \, \, 0\leq \beta \leq 1$$</span><span title="gamma">$$\gamma =\frac{1}{\sqrt{1-\beta^2}}, \, \,1\leq \gamma \leq \infty$$</span>Extremely important: Get used to these quantities! You will use them a lot in the next dozen or so lessons.
+
+Also remember that the proper time is the <i>shortest measured time interval</i>. It is measured in the same reference frame as the event which is occurring. You will get lots of practice with this concept.
+
+The equation to take away from this lesson is this:<div class="importantExpression">$$t=\gamma t_0$$</div>

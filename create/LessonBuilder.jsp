@@ -102,27 +102,67 @@ function addInfoBox() {
 var newtext;
 	if (leftpage.value.indexOf('box1') == -1 && rightpage.value.indexOf('box1') == -1)
 	{
-	newtext = '<div id="box1Trigger"></div><div id="box1"></div>';
+	newtext = '<span id="box1Trigger"></span><div id="box1"></div>';
 	}
 	else if (leftpage.value.indexOf('box2') == -1 && rightpage.value.indexOf('box2') == -1)
 	{
-	newtext = '<div id="box2Trigger"></div><div id="box2"></div>';
+	newtext = '<span id="box2Trigger"></span><div id="box2"></div>';
 	}
 	else if (leftpage.value.indexOf('box3') == -1 && rightpage.value.indexOf('box3') == -1)
 	{
-	newtext = '<div id="box3Trigger"></div><div id="box3"></div>';
+	newtext = '<span id="box3Trigger"></span><div id="box3"></div>';
 	}
 	else if (leftpage.value.indexOf('box4') == -1 && rightpage.value.indexOf('box4') == -1)
 	{
-	newtext = '<div id="box4Trigger"></div><div id="box4"></div>';
+	newtext = '<span id="box4Trigger"></span><div id="box4"></div>';
 	}
 	else if (leftpage.value.indexOf('box5') == -1 && rightpage.value.indexOf('box5') == -1)
 	{
-	newtext = '<div id="box5Trigger"></div><div id="box5"></div>';
+	newtext = '<span id="box5Trigger"></span><div id="box5"></div>';
+	}
+	else if (leftpage.value.indexOf('box6') == -1 && rightpage.value.indexOf('box6') == -1)
+	{
+	newtext = '<span id="box6Trigger"></span><div id="box6"></div>';
+	}
+	else if (leftpage.value.indexOf('box7') == -1 && rightpage.value.indexOf('box7') == -1)
+	{
+	newtext = '<span id="box7Trigger"></span><div id="box7"></div>';
+	}
+	else if (leftpage.value.indexOf('box8') == -1 && rightpage.value.indexOf('box8') == -1)
+	{
+	newtext = '<span id="box8Trigger"></span><div id="box8"></div>';
+	}
+	else if (leftpage.value.indexOf('box9') == -1 && rightpage.value.indexOf('box9') == -1)
+	{
+	newtext = '<span id="box9Trigger"></span><div id="box9"></div>';
+	}
+	else if (leftpage.value.indexOf('box10') == -1 && rightpage.value.indexOf('box10') == -1)
+	{
+	newtext = '<span id="box10Trigger"></span><div id="box10"></div>';
+	}
+	else if (leftpage.value.indexOf('box11') == -1 && rightpage.value.indexOf('box11') == -1)
+	{
+	newtext = '<span id="box11Trigger"></span><div id="box11"></div>';
+	}
+	else if (leftpage.value.indexOf('box12') == -1 && rightpage.value.indexOf('box12') == -1)
+	{
+	newtext = '<span id="box12Trigger"></span><div id="box12"></div>';
+	}
+	else if (leftpage.value.indexOf('box13') == -1 && rightpage.value.indexOf('box13') == -1)
+	{
+	newtext = '<span id="box13Trigger"></span><div id="box13"></div>';
+	}
+	else if (leftpage.value.indexOf('box14') == -1 && rightpage.value.indexOf('box14') == -1)
+	{
+	newtext = '<span id="box14Trigger"></span><div id="box14"></div>';
+	}
+	else if (leftpage.value.indexOf('box15') == -1 && rightpage.value.indexOf('box15') == -1)
+	{
+	newtext = '<span id="box15Trigger"></span><div id="box15"></div>';
 	}
 	else
 	{
-	newtext="The maximum number of Hidden Info Boxes you can use is currently only 5." + 
+	newtext="The maximum number of Hidden Info Boxes you can use is currently only 15." + 
 	 " Please inform me you need more. mike@flunkd.com. Thanks.";
 	}
 

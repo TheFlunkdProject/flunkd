@@ -68,7 +68,6 @@ img.back {
 	overflow-y:auto;
 
 
-	color:#FEFEF2;
 
 	
 
@@ -93,7 +92,6 @@ img.back {
 	overflow-x:hidden;
 	overflow-y:auto;
 
-	color:#FEFEF2;
 
 
 	background: -webkit-gradient(linear, left center, right center, 		from(#111111), to(#333333), color-stop(.15, #111111));
@@ -232,6 +230,10 @@ h3.headright {
 display:none;
 }
 
+
+.hiddenBoxTriggerA {
+	color:#6E8C6E;
+}
 
 a.L1 { /*this will be for links that trigger pop-up boxes with important content*/
 	color:#FFFFFF; 
