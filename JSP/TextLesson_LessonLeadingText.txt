@@ -5,5 +5,13 @@
 			<img src="/images/downarrow.png" class="downarrow">
 			Chain Rule
 		</div>
+		<div id="mediaIconBar">
+			<a title="Text Lesson" href="../../TextLesson/TextLesson.jsp"><div id="textLessonIconHolder">
+				<img id="textLessonIcon" src="/images/bookIcon.png">
+			</div></a>
+			<a title="Video Lesson" href="../../VideoLessons/VideoLessons.jsp"><div id="videoLessonIconHolder">
+				<img id="videoLessonIcon" src="/images/videoCamera.png">
+			</div></a>
+		</div>
 		<div class="LeftPageTextContainer"> 
 			<h3>3.7 - Chain Rule</h3> 
