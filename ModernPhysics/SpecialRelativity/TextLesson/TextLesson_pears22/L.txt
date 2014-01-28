@@ -1,0 +1,1 @@
+These are the two postulates of special relativity:<BR><ol><li>The laws of physics are the same in all <span title="non-accelerating reference frames">inertial frames</span> (They are invariant).</li><li>The speed of light in free space has the same value ($c$) in all inertial frames.</li></ol>

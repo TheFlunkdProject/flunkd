@@ -1,0 +1,1 @@
+You can measure time at various points in an inertial frame. For example, you could call a friend in Russia and talk to him for 10 minutes and both of your clocks will say that 10 minutes passed. It doesn't matter where you are; all of your measurements of time withing the same inertial frame will be consistent.

@@ -1,0 +1,1 @@
+Special relativity is really only needed when you're dealing with objects that are moving at any significant fraction of the speed of light. Newton's laws are still good for anything that moves at normal speeds.

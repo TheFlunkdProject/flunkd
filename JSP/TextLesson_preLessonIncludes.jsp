@@ -9,5 +9,3 @@
 
 
 <%@ include file="/JSP/ClassesMenu.jsp" %>
-
-<%@ include file="/Calculus1/Calculus1TopicsMenu.jsp" %>

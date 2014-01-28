@@ -1,0 +1,1 @@
+Newton's laws of motion are entirely independent of the chosen reference frames. They are "invariant". The same is true in Einstein's theory of relativity, and we will find this fact very useful.

@@ -1,3 +1,9 @@
+1. Copy "newfolder" from ROOT directory
+2. Rename to whatever the topic is
+3. Edit TextLesson/L.txt and TextLesson/R.txt to have the right contents
+4. Same with VideoLessons
+5. Edit ModernPhysicsTopicsMenu.jsp
+
 1.1 General Relativity vs. Special Relativity
 L
 Measurements depend on reference frames, so they are said to be relative. The effects of this fact make up the subject of the theory of relativity. Einstein’s theory of relativity includes both special relativity and general relativity. Special relativity is for non-accelerating reference frames. General relativity is used for accelerating reference frames, and is very important for modern physics. However, it is very advanced, so we won’t be going into too much depth with it.

@@ -195,11 +195,13 @@ div .bookpage {
 }
 
 #textLessonIconHolder {
-	position:relative;
+	position:absolute;
 	height:95%;
-	float:left;
 	margin:0px 10px 0px 10px;
 	top:1%;
+	background-color:#444444;
+	border:0px solid #FFFFFF;
+	border-radius:5px;
 }
 
 #textLessonIcon {
@@ -207,11 +209,13 @@ div .bookpage {
 }
 
 #videoLessonIconHolder {
-	position:relative;
+	position:absolute;
 	height:95%;
-	float:left;
-	margin:0px 10px 0px 10px;
+	margin:0px 10px 0px 50px;
 	top:1%;
+	background-color:#444444;
+	border:0px solid #FFFFFF;
+	border-radius:5px;
 }
 
 #videoLessonIcon {

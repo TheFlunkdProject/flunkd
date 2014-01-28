@@ -1,0 +1,1 @@
+Newtonian mechanics are sufficient when the reference frame is moving slowly compared to the speed of light. But when it approaches a significant fraction of the speed of light, things get weird. In this chapter we will learn about the Michelson-Morley experiment and discuss how special relativity effects Newtonian mechanics.
