@@ -63,7 +63,7 @@
 		</iframe>
 	</div>
 	
-	<%@ include file="Calculus1TopicsMenu.jsp" %>
+	<%@ include file="TopicsMenu.jsp" %>
 	
 </div>
 
