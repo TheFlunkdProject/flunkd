@@ -15,11 +15,11 @@
 <%@ include file="/JSP/bookpages.jsp" %>
 
 <!--Some java code to decide which lesson to include will be inserted here. -->
-<jsp:include page="/JSP/TextLesson_LessonLeadingText.txt" />	
+<jsp:include page="/JSP/TextLesson_LessonLeadingText.jsp" />	
 <jsp:include page="../../TextLessonPreviewL.txt" />	
-<jsp:include page="/JSP/TextLesson_LessonIntermediateText.txt" />	
+<jsp:include page="/JSP/TextLesson_LessonIntermediateText.jsp" />	
 <jsp:include page="../../TextLessonPreviewR.txt" />	
-<jsp:include page="/JSP/TextLesson_LessonTrailingText.txt" />	
+<jsp:include page="/JSP/TextLesson_LessonTrailingText.jsp" />	
 </div>
 
 <%@ include file="/JSP/TextLesson_postLessonIncludes.jsp" %>
