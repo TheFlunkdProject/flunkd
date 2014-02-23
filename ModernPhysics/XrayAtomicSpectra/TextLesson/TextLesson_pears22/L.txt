@@ -1,0 +1,7 @@
+In addition to hydrogen-like ions, Bohr's model can be applied to the innermost electron in an atom with lots of electrons orbiting, because the outside electrons exert no net charge on the innermost electron since their charge distribution is nearly spherical.
+<BR>
+<BR>So $E_n=-Z^2\frac{E_R}{n^2}$ can be applied to the innermost electron of atoms with many outer electrons. This means that for an atom with a large $Z$, the inner electron is bound to the nucleus with a very large energy. X-rays are needed to knock them off.
+<BR>
+<BR>When electrons are produced, the $n=1$ electron leaves a vacancy into which electrons from excited states (like $n=2$) can fall. When they do, they eject photons with energy $E=Z^2E_R(\frac{1}{1^2}-\frac{1}{2^2})=\frac{3}{4}Z^2E_R$. $K_\alpha$ transitions refer to transitions from the $n=2$ to the $n=1$ state.
+<BR>
+<BR>Henry Moseley observed photons with this energy from around 20 elements, and was able to predict their energy using Bohr's model. 

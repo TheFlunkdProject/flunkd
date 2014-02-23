@@ -1,0 +1,4 @@
+There is a minimum energy uncertainty $\Delta E\approx\frac{\hbar}{2\Delta t}$.
+<BR>
+<BR>$\Delta \omega\approx\frac{\Delta E}{\hbar}=\frac{1}{2\Delta t}$ where $\Delta t$ is the lifetime of an emitting state.
+<BR>

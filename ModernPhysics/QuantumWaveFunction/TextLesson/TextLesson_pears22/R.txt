@@ -1,0 +1,8 @@
+If you send this wave through two narrow slits, the interference pattern gives maxima that satisfy $dsin\theta=n\lambda,$  $n=0,\pm 1,\pm 2,...$. 
+<BR><img class="normal" src="/imageLibrary/ElectronInterferencePattern.jpg"> 
+<BR>The wave that represents the probability of the electrons is interfering with itself on the other side of the double slit interface, giving an interference pattern with extrema of intensities. However, once the wave reaches the detector, it collapses and becomes a single point. If you send only one electron through at a time, the pattern still develops, implying that the wave function describes each electron individually.
+<BR>
+<BR>In the end, we can choose the units of $\Psi$ to be such that the probability isn't just proportional to, but equal to $|\Psi(\vec{r},t)|^2dV$. If you divide by $dV$, you can write $|\Psi(\vec{r},t)|^2=$ probability density of finding a particle at $\vec{r}$.
+<BR>
+<BR>Quantum mechanics is a probabilistic theory.
+<BR>

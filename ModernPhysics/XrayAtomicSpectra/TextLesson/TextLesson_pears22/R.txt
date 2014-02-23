@@ -1,0 +1,7 @@
+<img class="normal" src="/imageLibrary/MorseleyBohrModel.jpg">
+<BR> He used this to find the atomic numbers of elements which had not yet been found, such as technetium $Z=43$ which became an artificially produced element in 1937.
+<BR>
+<BR>If you look closer at the image, you can see that $E_\gamma \propto (Z-1)^2$. This is because the inner electron is slightly influenced by the charge of the other electrons in the atom. So for the innermost electrons of elements with many electrons, we can replace $Ze$ with $(Z-\delta)e$, where $\delta$ will describe the unknown effect that the other electrons will have on the inner electron. It is a small number. So $E_\gamma=\frac{3}{4}(Z-\delta)^2E_R$
+<BR>
+<BR>X-ray spectroscopy is a very powerful tool for chemical analysis.
+<BR>

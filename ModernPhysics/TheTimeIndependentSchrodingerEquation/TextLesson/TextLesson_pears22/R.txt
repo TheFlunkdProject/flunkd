@@ -1,0 +1,6 @@
+Since $K=\frac{\hbar^2k^2}{2m}$, $k^2=\frac{2mK}{\hbar^2}$ and the equation becomes $\frac{d^2\psi}{dx^2}=-\frac{2mK}{\hbar^2}\psi$
+<BR>
+<BR>The infinite square well/rigid box situation is defined such that the potential energy is zero everywhere. Since $K=E-U$, we can get the more general SchrÃ¶dinger equation: $\frac{d^2\psi}{dx^2}=\frac{2m}{\hbar}[U(x)-E]\psi$. This equation has been confirmed through much experience.
+<BR>
+<BR>The potential energy of an electron in a hydrogen atom is $U(r)=-\frac{ke^2}{r}$. So we need to explore the 3-dimensional situation more.
+<BR>

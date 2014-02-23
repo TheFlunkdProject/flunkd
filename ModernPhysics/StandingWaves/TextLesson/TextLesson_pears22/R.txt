@@ -1,0 +1,8 @@
+<a href="http://www.youtube.com/watch?v=BBA32xnhE1Q" target="_blank">Guitar strings are standing waves.</a>
+<BR>
+<BR>Nodes are the points where the amplitude is zero, and antinodes are the points where the standing wave has a max/min amplitude.
+<BR>
+<BR>The expression that determines what kinds of standing waves can fit on a string of fixed length $a$ is $\lambda = \frac{2a}{n}$,  $n=1,2,3...$
+<BR>
+<BR>Look! Quantization! This quantization arises from the boundary condition that the standing wave's amplitude is zero at both ends of the fixed string. The fixed ends are basically forced nodes. This same idea applies to quantum waves.
+<BR>

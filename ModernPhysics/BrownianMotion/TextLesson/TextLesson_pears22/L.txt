@@ -1,0 +1,5 @@
+Brownian motion is irregular jiggling motion that tiny particles suspended in fluid experience. 
+<BR>
+<BR>In 1905, Einstein was 26 years old. He published 6 papers that year: A paper on the photoelectric effect, two papers on special relativity, one paper on the viscosity of dilute solutions, and two papers on the theory of Brownian motion. He derived this equation for a fluid with viscosity $\eta$: $D_{rms}=\sqrt{\frac{kT}{3\pi \eta a}}\sqrt{t}$,  where $D_{rms}$ is the root mean squared displacement of a tiny particle. 
+<BR>
+<BR>This equation helped Jean-Baptiste Perrin experimentally determine the values of Boltzmann's constant $k_B$ and Avogadro's number $N_A = R/k_b$.

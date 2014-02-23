@@ -1,0 +1,4 @@
+Millikan was able to measure $M$ by turning off the electric field and measuring the (slow) terminal speed ($v=\frac{F}{6\pi r \eta}$, $r$ is the radius of the droplet and $\eta$ is the viscosity of the air, and $F$ is the weight of the droplet $Mg=\frac{4}{3}\pi r^3 \rho g$). Using this, he was able to calculate $e$ through the equation $qE=Mg$.
+<BR>
+<BR>He was able to change the charge of the droplets by sending X-rays through the apparatus, ionizing the air. After observing thousands of droplets in all kinds of fluids, he found that changes in $q$ were always in multiples of the basic charge $e=1.6\times 10^{-19}C$. From Thomson's ratio of $m/e$ for electrons, they were able to successfully calculate the mass of electrons.
+<BR>

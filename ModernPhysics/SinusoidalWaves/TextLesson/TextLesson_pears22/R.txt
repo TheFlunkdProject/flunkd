@@ -1,0 +1,9 @@
+$f=\frac{1}{T}$
+<BR>
+<BR>$\omega=2\pi f=\frac{2\pi}{T}$
+<BR>
+<BR>$v=\frac{\lambda}{T}=\lambda f=\frac{\omega}{k}$
+<BR>
+<BR>$E=hf=\hbar \omega$
+<BR>
+<BR>$p=\frac{h}{\lambda}=\hbar k$

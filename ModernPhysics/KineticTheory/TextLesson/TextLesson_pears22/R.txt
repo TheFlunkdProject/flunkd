@@ -1,0 +1,5 @@
+The ideal gas law was first developed experimentally. It's theoretical derivation was very important for kinetic theory.
+<BR>
+<BR>Consider a gas in thermal equilibrium with $N$ molecules, each with mass $m$, contained in a rectangular container with a length L and cross-sectional area A. We want to derive an expression for the pressure that the molecules exert on the walls of the container.
+<BR>
+<BR><span id="box1Trigger">Derivation </span><div id="box1">Consider a particle labeled i moving to the right. It bounces off the wall and its momentum becomes -2mv. The time between wall bounces is 2L/v. Time averaged force is Fxi=mv^2/L. Sum all molecule forces and divide by the area of the wall. $p=\frac{\sum_i F_{xi}}{A} = \frac{Nm}{V} \frac{\sum_i v_{xi}^2}{N}$ So $p=\frac{Nm v^2_{x\, ave}}{V}$ The x-direction is only one of three, so $pV=Nm\frac{1}{3}v^2_{ave}$. This matches with $pV=NkT$ if we assume $\frac{1}{2}mv^2_{ave}=\frac{3}{2}kT$, which gives us the physical meaning of temperature. It's proportional to the average kinetic energy per molecule.</div>

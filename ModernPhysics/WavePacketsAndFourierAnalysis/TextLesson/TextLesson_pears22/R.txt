@@ -1,0 +1,8 @@
+Fourier integrals: nonperiodic functions, Fourier transforms. $f(x)=\int A(k)cos(kx)dk$. For $f(x)$, $\Delta x \Delta k\approx 1$.
+<BR>
+<BR>Derivation of $\Delta x \Delta k\approx 1$. Consider a wave packet centered in the range of $\lambda \pm \Delta \lambda$. $\Delta k=\frac{2\pi}{\lambda^2}\Delta \lambda$. $N$ cycles away from the center, the functions are $2N\Delta \lambda$ apart, destructive interference. The half width of the packet is $N\lambda$. So $2N\Delta \lambda=\frac{\lambda}{2}$ and $\Delta x \approx N\lambda$. $\Delta x\approx \frac{\lambda^2}{4\Delta \lambda}=\frac{2\pi}{4\Delta k}$ so $\Delta x \Delta k\approx \frac{\pi}{2}$.
+<BR>
+<BR>Uncertainty (or spread) half-width of the distribution. Using rms uncertainties, $\Delta x\Delta k\geq \frac{1}{2}$.
+<BR>
+<BR>$\Delta t\Delta\omega\geq\frac{1}{2}$ Important for transmission of information
+<BR>

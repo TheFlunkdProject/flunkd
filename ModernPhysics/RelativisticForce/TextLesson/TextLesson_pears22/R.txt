@@ -1,0 +1,10 @@
+$\frac{d\vec{p}}{dt}=q\vec{u} \times \vec{B}$
+<BR>
+<BR>Since $\gamma$ is constant, $\gamma m \frac{d\vec{u}}{dt}=q\vec{u}\times \vec{B}$
+<BR>
+<BR>$\vec{u}$ is perpendicular to $\vec{B}$, so $\gamma m a=quB$
+<BR>
+<BR>Circular motion$\rightarrow$ $a=\frac{u^2}{R}\rightarrow\gamma m \frac{u^2}{R}=quB$ $\rightarrow \gamma m u=qBR $ $\rightarrow R=\frac{p}{qB}$
+<BR>
+<BR>$p=qBR$ is also useful.
+<BR>

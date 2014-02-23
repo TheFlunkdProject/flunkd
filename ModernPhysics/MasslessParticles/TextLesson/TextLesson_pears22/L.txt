@@ -1,0 +1,12 @@
+This would seem impossible in classical mechanics, but relativity actually allows it to happen.
+<BR>
+<BR>Consider $E=\gamma mc^2=\frac{mc^2}{\sqrt{1-\frac{u^2}{c^2}}}$
+<BR>
+<BR>Even if $m=0$, $E$ doesn't have to be zero. Why not?
+<BR><a href="http://learningflare.com/Calculus1/RemovableDiscontinuities/TextLesson/TextLesson.jsp" target="_blank">$u=c$</a>
+<BR>
+<BR>Photons travel at $u=c$, and they have no mass. But they have energy and momentum, like other particles.
+<BR>
+<BR>$E^2=(pc)^2+(mc^2)^2$
+<BR>
+<BR>$m=0\Rightarrow E=pc$

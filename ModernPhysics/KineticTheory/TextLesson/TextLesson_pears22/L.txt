@@ -1,0 +1,3 @@
+The accurate predictions of kinetic theory convinced the last scientists of the existence of atoms soon after 1900.
+<BR>
+<BR>The ideal gas law: $pV=nRT$, where $p$ is pressure in pascals, $V$ is volume in $m^3$, $n$ is the number of moles of the gas, $R=8.314\, mole\cdot J/K$ is the universal gas constant. Alternate form: $pV=Nk_BT$, where $k_B$ is Boltzmann's constant. $k_b=\frac{R}{N_A}=1.38\times 10^{-23} J/K=$ $8.62\times 10^{-5}eV/K$

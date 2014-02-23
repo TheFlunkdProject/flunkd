@@ -1,0 +1,15 @@
+$\lambda = (c-v)\Delta t$ is the change if either the source of observer is moving
+<BR>
+<BR>$f_{obs} = c/\lambda = c/((c-v)\Delta t) = 1/((1-\beta)\Delta t)$
+<BR>
+<BR>Since $\Delta t = \gamma \Delta t'$, $f_{obs} = 1/((1-\beta)\gamma \Delta tÂ’)$
+<BR>
+<BR>Since $f_{sec} = 1/\Delta t'$, $f_{obs} = f_{src}/((1-\beta)\gamma)$
+<BR>
+<BR>Since $1/\gamma = \sqrt{(1-\beta)(1+\beta)}$, 
+<BR>
+<BR>Approaching: $f_{obs}=\sqrt{\frac{1+\beta}{1-\beta}}f_{src}$
+<BR>
+<BR>Receding: $f_{obs}=\sqrt{\frac{1-\beta}{1+\beta}}f_{src}$
+<BR>
+<BR>Now, you are ready to understand <a href="http://en.wikipedia.org/wiki/Redshift">Redshift</a>, <a href="http://en.wikipedia.org/wiki/Radar">Radar</a>, <a href="http://en.wikipedia.org/wiki/Laser_cooling">Laser cooling</a>

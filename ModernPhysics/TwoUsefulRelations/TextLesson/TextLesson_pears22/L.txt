@@ -1,0 +1,1 @@
+We've defined $\vec{p}=\gamma m \vec{u}$ and $E=\gamma m c^2$. By dividing these equations, we get $\frac{p}{E}=\frac{u}{c}$ from which we get $\frac{cp}{E}=\frac{u}{c}=\beta$ (useful equation #1)

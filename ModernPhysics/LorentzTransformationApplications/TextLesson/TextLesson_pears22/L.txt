@@ -1,1 +1,3 @@
-Sorry, no lesson yet.
+You can rederive the length contraction formula ($x_2-x_1$)
+<BR>
+<BR>You can rederive the time dilation formula ($t_2-t_1$) 

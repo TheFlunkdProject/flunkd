@@ -1,0 +1,5 @@
+Mass doesn't always have to be conserved.
+<BR>
+<BR>How can we show this? 
+<BR>
+<BR>Springs: Think about 2 objects connected by a spring. It has rest energy, then we release the objects and we also get kinetic energy.

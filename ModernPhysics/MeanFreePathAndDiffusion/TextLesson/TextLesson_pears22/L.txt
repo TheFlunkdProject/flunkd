@@ -1,0 +1,7 @@
+The mean free path is the average distance that a molecule travels between collisions with other molecules.
+<BR>
+<BR>$\lambda \approx \frac{1}{n\sigma}$  Collision cross section is $\sigma=\pi(2R)^2$, $R$ is the radius of the molecule. $\lambda$ is the mean free path, $n$ is the number of molecules per unit volume. Not the number of moles.
+<BR>
+<BR>$L=N\lambda$ where $L$ is the total length the molecule travels and $N$ is the number of collisions it experiences. If $V=L\sigma=N\lambda \sigma$, then $n=\frac{N}{L}=\frac{N}{N\lambda \sigma}=\frac{1}{\lambda \sigma}$ This gives an approximate density of molecules per unit volume. Over time, the density of molecules that a single molecules discovers will essentially be the same as the density of molecules in a container. If other molecules are moving, it's $\lambda=\frac{1}{\sqrt{2}n\sigma}$
+<BR>
+<BR>The random zigzagging motion of molecules is an example of diffusive motion or diffusion, or random-walk motion. rms average, ensemble average

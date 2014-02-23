@@ -1,0 +1,8 @@
+We know that particles are wave packets, so that's why these can be different. Wave packets are the results of waves of many frequencies (for light) or wavelengths/speeds (for other things) interfering.
+<BR>
+<BR>$v_{wave}= \bar{\omega}/\bar{k}$
+<BR>
+<BR>$v_{pack}=\frac{d\omega}{dk}$
+<BR>
+<BR>For matter waves, $v_{pack}=\frac{d\omega}{dk}=\frac{dE}{dp}$. For a non-relativistic particle, $E=p^2/m$ gives $v_{pack}=\frac{d}{dp}(\frac{p^2}{2m})=\frac{p}{m}=v_{part}$.
+<BR>

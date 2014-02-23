@@ -1,0 +1,5 @@
+In a previous section we learned $E=hf$ and $p=\frac{h}{\lambda}$ for photons. De Broglie proposed that material particles also show particle-wave duality. These equations are called the De Broglie relations.
+<BR>
+<BR>Another way to look at quantization of energy levels of electrons is as quantization of frequency levels. 
+<BR>
+<BR>

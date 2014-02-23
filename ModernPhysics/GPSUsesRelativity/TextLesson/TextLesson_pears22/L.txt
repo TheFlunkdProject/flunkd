@@ -1,0 +1,7 @@
+GPS (Global Positioning System) depends on relativistic effects to pinpoint your location to within a meter.
+<BR>
+<BR>24 satellites containing atomic clocks orbit the earth at 20,200km. They are continuously broadcasting their positions. At least 4 are visible at all times everywhere on the earth.
+<BR>
+<BR>GPS receivers calculate their distances to 4 satellites. Based on the time it takes for the signal from each of the 4 satellites to reach the receiver, it will be able to pinpoint its location to a single point. In order to calculate the distances, the receiver needs to know exactly what time it receives each signal in order to compare it with the measured times for the signals leaving each satellite. In total there are 4 unknowns, and four pieces of information being received. Each satellite provides an equation like this one: 
+<BR>
+<BR>

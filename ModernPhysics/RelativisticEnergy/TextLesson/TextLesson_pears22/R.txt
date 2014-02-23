@@ -1,0 +1,5 @@
+If we use the binomial approximation $\gamma=(1-\beta^2)^{-.5} \approx 1 + .5 \beta^2$, we get $E \approx (1+.5\beta^2)mc^2=mc^2+.5mv^2$ . The second term is the kinetic energy, and the first term is the rest energy. The binomial approximation is accurate when $v<< c$, and since $mc^2$ doesn't depend on velocity and hence could be swallowed up in the definition of E (if we subtract it to the other side), this reduces to classical energy when $\beta\rightarrow 0$.
+<BR>
+<BR>When nuclear processes in the 20th century taught us that mass CAN change, we realized that the $mc^2$ quantity is very important, and we called $E=mc^2$ the rest energy of the mass $m$.
+<BR>
+<BR>Notice in $E=\gamma m c^2$ that as $u\rightarrow c$, $E\rightarrow \infty$. It takes an infinite amount of energy to reach the speed of light.

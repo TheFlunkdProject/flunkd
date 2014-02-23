@@ -1,0 +1,7 @@
+It is useful to define relativistic momentum in a way that allows us to use the principle of conservation of momentum at relativistic speeds. ($\sum \vec{p} = \vec{p_1} + Â… + \vec{p_i}$)
+<BR>
+<BR>The classical definition is $\vec{p}=m\vec{u}$
+<BR>
+<BR>In classical mechanics, momentum is conserved.
+<BR>
+<BR>For relativity, it turns out that $\vec{p}=m\vec{u}$ is not a good definition. You can do an example, factoring in the relativistic corrections for the velocities of two objects before and after a collision, and you will find that the quantity $\vec{p}=m\vec{u}$ is not conserved.

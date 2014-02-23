@@ -1,0 +1,9 @@
+In 1905, Einstein showed that PlanckÂ’s theory explained the photoelectric effect.
+<BR>
+<BR>The photoelectric effect is when light shines on metal and causes electrons to be ejected.
+<BR>
+<BR>Brief description of a photoelectric cell <img class="normal" src="/imageLibrary/PhotoelectricEffect.jpg">
+<BR>
+<BR>$V_se=K_{max}$ ($V_s $ is the stopping potential and $K_{max}$ is the kinetic energy of the electrons.)
+<BR>
+<BR>2 important results: Increase in incident light intensity doesnÂ’t increase kinetic energy. 2. After a certain critical frequency, NO electrons are ejected. Classic views of electromagnetic waves cannot explain these results.

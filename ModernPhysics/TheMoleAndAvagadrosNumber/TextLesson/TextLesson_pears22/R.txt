@@ -1,0 +1,6 @@
+$N_A$ of molecules a mole of molecules.
+<BR>
+<BR>Masses of elements are usually given in grams and counted in moles. (mass of 1 mole of $^{12}C)=12grams$.
+<BR>
+<BR>$N_A = 6.022 \times 10^{23}\, objects/mole$
+<BR>

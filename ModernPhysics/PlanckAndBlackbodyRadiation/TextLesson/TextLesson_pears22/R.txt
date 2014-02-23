@@ -1,0 +1,4 @@
+In 1900 Planck announced that he found a formula that fit all of the data. It required the assumption that the radiation of frequency $f$ can only be emitted at integral multiples of $hf$, so $E=0,hf,2hf,3hf,Â…$ where $h$ was the unknown PlanckÂ’s constant. We now know that it is $h=6.63\times 10^{-34}J\cdot s$.
+<BR>
+<BR>Thus began quantum theory.
+<BR>

@@ -1,0 +1,7 @@
+Classical theory suggested that scattered and incident frequencies for oscillating charges were the same. $f=f_0$. But starting in 1912 people began to realize that for high frequency X-rays, $f< f_0$. They were surprised. In 1923 Arthur Compton argued that if light is quantized, then $f< f_0$ is a natural result.
+<BR>
+<BR>He said that for photons, since $E=pc$ (derived from the Â“Pythagorean relationÂ”), and since $E=hf$, $p=\frac{hf}{c} =\frac{h}{\lambda}$. He also said that each scattered photon was from one electron. Also, $f< f_0$ because the photon that strikes the electron loses energy.
+<BR>
+<BR>Energy of outer electrons is small compared to incident photons, so they can be ignored. We expect that $E_e+E=mc^2+E_0$ and $\bf{p_e}$$+\bf{p}$ $=\bf{p_0}$. So $E_e=mc^2+E_0-E$. Substituting $E_0=pc$ and $E=pc$ and cancelling a $c$, we get $\sqrt{p_e^2+(mc)^2}=mc+p_0-p$. 
+<BR>
+<BR>

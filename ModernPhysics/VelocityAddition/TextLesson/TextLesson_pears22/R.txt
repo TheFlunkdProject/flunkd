@@ -1,0 +1,3 @@
+$u_y=\Delta y/\Delta t -> u_yÂ’=\frac{u_y}{\gamma (1-u_x v /c^2)}$
+<BR>
+<BR>notice what happens when gamma approaches 1 (classical addition formula)

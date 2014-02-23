@@ -1,1 +1,3 @@
-Sorry, no lesson yet.
+Standard configuration: 
+<BR>
+<BR><img class="fm250" src="/imageLibrary/StandardConfiguration.jpg">

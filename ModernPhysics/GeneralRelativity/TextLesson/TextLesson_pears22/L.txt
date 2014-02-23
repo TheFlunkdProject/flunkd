@@ -1,1 +1,19 @@
-Sorry, no examples yet.
+Einstein finished general relativity in 1915.
+<BR>
+<BR>General relativity builds on special relativity because it includes non-inertial frames and gravity.
+<BR>
+<BR>Inertial forces (take the derivative of the classical velocity addition formula and substitute it into Newton's 2nd law)
+<BR>
+<BR>The Equivalence Principle says that there is there is no experiment that can distinguish between a uniform gravitational field and uniform acceleration. ($A=-g$) (People usually use some kind of example with elevators to illustrate this.)
+<BR>
+<BR>General relativity builds on this postulate
+<BR>
+<BR>General relativity reduces to Newtonian gravitation when mass is as small or smaller than the mass of the sun.
+<BR>
+<BR>massive objects cause curvatures in the fabric of space, and that is what causes curved orbits
+<BR>
+<BR>Gravity bends light
+<BR>
+<BR>shine light in an accelerating reference frame, and you will see that the light appears to curve. By the equivalence principle, gravity does that too. (solar eclipse in 1919)
+<BR>
+<BR>

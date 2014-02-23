@@ -1,0 +1,7 @@
+So the energy of the $n$th orbit will be $E_n=-Z^2\frac{E_R}{n^2}$ where $E_R=13.6eV$, like before. So the energy of the $n$th orbit scales up with $Z^2$.
+<BR>
+<BR>The nucleus is massive compared to the electron, but it actually does move during the electron orbit. They both move around their common center of mass, which happens to be very close to the nucleus. However, it turns out that the allowed energies are still $E=-Z^2E_R/n^2$. The Rydberg energy, however, does change. You can still use $E_R=\frac{m(ke^2)^2}{2\hbar^2}$, as long as you use the "reduced mass" $\mu$, given by $\mu=$reduced mass$=\frac{m}{1+m/m_nuc}$ where $m$ is the mass of the electron and $m_nuc$ is the mass of the nucleus. For hydrogen, the nucleus is just a single proton and $m/m_nuc\approx 1/1800$. This doesn't change a lot of things, but it's good to take into account sometimes.
+<BR>
+<BR>Positronium exists: 
+<BR><img class="normal" src="/imageLibrary/Positronium.jpg">
+<BR>

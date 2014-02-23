@@ -1,0 +1,2 @@
+If we place a detector immediately before the slits to find out which slit the electron is really passing through, our detectors force the electron wave to collapse to a single point and go through one slit, and the interference pattern vanishes. Our detectors depend on photons interacting with the electron. Because of the wavelength requirements for the accuracy of the detector, the photons will have about the same momentum as the electrons.
+<BR>

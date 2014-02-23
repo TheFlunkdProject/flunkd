@@ -1,0 +1,10 @@
+Bohr's model of the hydrogen atom isn't amazing because of its correctness, but it's often close enough and very useful.
+<BR>
+<BR>Energies are quantized, $E_n=-E_R/n^2$, $E_R=13.6eV$. 
+<BR>
+<BR>The state where $n=1$ is called the "ground state." It is the most stable state. Its energy is the binding energy of the hydrogen atom.
+<BR>
+<BR>The radius of the electron orbit in the ground state is $r=a_B=0.0528nm$. $a_B$ is also an estimate for the atomic radius of all atoms in their ground states.
+<BR>
+<BR>Excited states are when $n=2,3,4,...$. These are energy levels, and this is an energy level diagram: 
+<BR><img class="normal" src="/imageLibrary/EnergyLevelDiagram.jpg" style="width:400px">

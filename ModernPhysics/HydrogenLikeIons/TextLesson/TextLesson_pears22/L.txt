@@ -1,0 +1,11 @@
+The Bohr model wasn't helpful for atoms with more than one electron, but people were able to extend its use to hydrogen-like ions.
+<BR>
+<BR>The key to Bohr's model was the quantization of angular momentum in multiples of $\hbar$. We can apply this to hydrogen-like ions. A "hydrogen-like ion" is any atom that has lost all electrons but a single orbiting electron.
+<BR>
+<BR>The charge of a nucleus is $+Ze$. For $He^+$, the charge is $+2e$. When we consider this difference between the hydrogen atom and hydrogen-like ions, the Coulomb attractive force just becomes $F=\frac{Zke^2}{r^2}$ where $k=\frac{1}{4\pi \epsilon_o}$ like before. So that means that wherever $ke^2$ was with hydrogen atoms, we just replace it with $Zke^2$ for hydrogen-like ions.
+<BR>
+<BR>$r=n^2\frac{a_B}{Z}$
+<BR>
+<BR>$E=-\frac{Zke^2}{2r}$
+<BR>
+<BR>

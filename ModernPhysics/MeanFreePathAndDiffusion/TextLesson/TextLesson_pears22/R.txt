@@ -1,0 +1,9 @@
+$D_{rms}=\sqrt{N}d$  $D$ displacement, $N$ number of direction changes, $d$ length of each path between changes
+<BR>
+<BR>$\bf{D} \cdot \bf{D}=D^2$ $=(\sum^N_{i=1}\bf{d}$$_i)$ $\cdot$ $(\sum^N_{j=1}\bf{d}$$_j)$ (This book finishes this derivation. If you think it's important, let me know via "feedback" in the top menu and I'll put it up. They just derive $D_{rms}=\sqrt{N}d$. 
+<BR>
+<BR>$v_{rms}=\sqrt{\frac{3kT}{m}}$  the rms average speed of a random walker
+<BR>
+<BR>Collision time $\tau$ is given in $v_{rms}=\frac{\lambda}{\tau}$ so the time to take N steps is $t=N\tau$
+<BR>
+<BR>So combining our equations $D_{rms}=\sqrt{N}\lambda=\sqrt{\frac{v_{rms}t}{\lambda}}\lambda=\sqrt{\lambda v_{rms}t}$ and $D_{rms}\approx \frac{1}{\sqrt{n\sigma}}(\frac{3kT}{m})^{1/4}\sqrt{t}$ -very useful formula

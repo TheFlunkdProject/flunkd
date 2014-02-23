@@ -1,0 +1,1 @@
+For measurements of mass, we call the rest mass ($m_0$) the proper mass. Relativity favors no inertial frame over another, so this measurement will always be the same.

@@ -1,0 +1,5 @@
+The velocity of waves and the particles they describe can be <a href="http://upload.wikimedia.org/wikipedia/commons/b/bd/Wave_group.gif" target="_blank">different</a> (the slow green dots have the same velocity as the particle being described).
+<BR>
+<BR>Consider a non-relativistic particle $K=\frac{p^2}{2m}$. De Broglie relations: $f=\frac{E}{h}=\frac{p^2}{2mh}$ and $\lambda=\frac{h}{p}$. For waves, $v_{wave}=\lambda f$. So $v=\frac{p}{2m}$. But for non-relativistic things, $p=mv$ so $v=p/m$. So we get $v_{wave}=\frac{v}{2}$.
+<BR>
+<BR>

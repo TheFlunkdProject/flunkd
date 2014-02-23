@@ -6,7 +6,7 @@
 <%@ include file="/JSP/TextLessonHead.jsp" %>
 
 <!-- This variable is handled in /JS/postLessonJavaScript.js .-->
-<script>var title = "Lorentz Transformation Applications";</script>
+<script>var title = "The Lorentz Tranfromation";</script>
 
 </head>
 <body>

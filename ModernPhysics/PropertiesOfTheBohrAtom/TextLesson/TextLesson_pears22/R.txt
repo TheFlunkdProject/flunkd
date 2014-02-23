@@ -1,0 +1,6 @@
+You can use energy level diagrams to see the differences in energies between different states. The energy required to go from the $n=1$ orbit to the $n=2$ orbit is called the "first excitation energy". The energy difference between the $n=1$ state and the $n=3$ state is called the second excitation energy, and so on. When the electron drops to a lower state, it releases this energy in the form of a photon.
+<BR>
+<BR>Lyman series: Spectral lines from photons with energies of differences between $n'=whatever$ states and the ground state $n=1$, Balmer series: $n=2$, Paschen series: $n=3$
+<BR>
+<BR>$r=n^2a_B$, so the radii get more spread out for larger $n$. This agrees with quantum theory.
+<BR>

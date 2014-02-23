@@ -1,0 +1,10 @@
+The <span id="box1Trigger">solution</span><div id="box1">By far, the best way to solve a differential equation is to already know the answer. You see this solution so many times in a differential equations course that you can just write it as the solution and just apply the boundary conditions to it.</div> to this differential equation is in the form of $\psi(x)=Asin(kx)+Bcos(kx)$. If we apply the boundary conditions $\psi(0)=\psi(a)=0$, we find that $k=\frac{n\pi}{a}$. Plugging this into $k=\frac{sqrt{2mE}}{\hbar}$, we get $E=n^2\frac{\pi^2\hbar^2}{2ma^2}$ and that means we did our math right because that was the result we found before.
+<BR>
+<BR>Stationary states: $\psi(x)=Asin(\frac{n\pi x}{a})$
+<BR>
+<BR>$\int_{-\infty}^{\infty}|\psi(x)|^2dx=1$ can be used to find $A$ and is called the normalization condition, required by probability. For a rigid box (or infinite square well) we find that $\psi(x)=\sqrt{\frac{2}{a}}sin\frac{n\pi x}{a}$.
+<BR>
+<BR>The expectation value is given by $x_{ave}=\int_0^ax|\psi(x)|^2dx$ and measures the expected value after many measurements (not the value in any single measurement). The reason for this formula is if you were to measure a bunch of quantities, the average value would be $x_{ave}=\frac{1}{N}\sum n_ix_i=\sum\frac{n_i}{N}x_i=\sum P_ix_i$ ($P$ is probabilities).
+<BR>
+<BR>Generally, expectation value $f(x)_{ave}=\int f(x)p(x)dx$.
+<BR>

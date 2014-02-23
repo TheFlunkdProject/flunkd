@@ -1,0 +1,5 @@
+The energies at which the current dropped match with mercury's spectrum.
+<BR>
+<BR>Energy levels of atoms are often measured by sending electrons through a gas and using a magnetic field to measure the energies of electrons that get scattered at a certain angle. The number of electrons that lose certain energies are counted and this is an energy-loss spectrum. 
+<BR><img class="normal" src="/imageLibrary/ElectronEnergyLoss.jpg">
+<BR>

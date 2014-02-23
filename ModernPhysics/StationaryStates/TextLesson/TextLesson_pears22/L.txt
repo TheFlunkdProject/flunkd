@@ -1,0 +1,5 @@
+Standing waves consist of a function of space multiplied by a function of time. For standing waves on a string, $\Psi(x,t)=Asin(kx)cos(\omega t)$. The spacial function is $Asin(kx)$ and the temporal function is $cos(\omega t)$.
+<BR>
+<BR>Quantum particle standing waves are the same. The spacial function can be represented by $\psi(x)$ (lowercase psi this time), and the temporal function is always represented $cos(\omega t)-i \, sin(\omega t)$. So the quantum particle standing wave looks like $\Psi(x,t)=\psi(x)(cos(\omega t)-i\, sin(\omega t))$.
+<BR>
+<BR>

@@ -1,0 +1,1 @@
+$n_{sc}(\theta )=$ number of particles per unit area at $\theta=\frac{Nnt}{4s^2}\cdot (\frac{Zke^2}{E})^2\cdot \frac{1}{sin^4(\theta /2)}$

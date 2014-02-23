@@ -1,0 +1,3 @@
+$| \vec{r} - \vec{r_i}|$$=c(t-t_i)\, \text{,  where } i=1,2,3,4$. This system of equations can be solved for each of the unknowns.
+<BR>
+<BR>-Because of the level of precision required for GPS, there are a few corrections that need to be considered, such as the index of refraction of the atmosphere, the time dilation from the speed of the satellites, as well as the effect that general relativity has on the atomic clocks on the satellites. Without each and every one of these correction, the signal could be off by at least around a hundred meters.

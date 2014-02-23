@@ -1,0 +1,8 @@
+<img class="normal" src="/imageLibrary/ElectronDiffractionPattern1.jpg"> 
+<BR>Young's double slit experiment has also been performed for electron waves. 
+<BR><img class="normal" src="/imageLibrary/ElectronDiffractionPattern.jpg">
+<BR>
+<BR>Because electrons have much shorter wavelengths per energy than photons, electron microscopes can resolve objects sa tiny as about $10^{-11}m$ while light microscopes can only resolve objects of around $10^{-6}$.
+<BR>
+<BR>Neutron diffraction is also used sometimes.
+<BR>

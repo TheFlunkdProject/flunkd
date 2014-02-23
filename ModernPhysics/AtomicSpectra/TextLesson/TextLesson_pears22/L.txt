@@ -1,0 +1,3 @@
+In 1814, Joseph von Fraunhofer found dark lines in the spectrum of sunlight. We now know that these dark lines are caused by gases on the sunÂ’s surface absorbing parts of the white light radiating from deeper inside the sun.
+<BR>
+<BR>An absorption spectrum is created when white light is sent through a gas and then a through diffraction grating or a prism. An array of rainbow colors is transmitted, with a few dark absorption lines. When the gas is heated to a sufficient temperature, it will emit light with the same frequency as the missing light of the absorption lines. An emission spectrum consists of a dark background on which these emission lines shine after passing through a diffraction grating or prism.

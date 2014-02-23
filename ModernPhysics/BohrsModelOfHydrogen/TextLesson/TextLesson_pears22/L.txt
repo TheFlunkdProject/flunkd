@@ -1,0 +1,9 @@
+One explanation Bohr made for the energy levels in an atom was pretty similar to modern quantum mechanics. 
+<BR>
+<BR>In a hydrogen atom, an electron orbits around a proton. We'll first consider it as if it is just a circular motion. The acceleration in circular motion is $a=v^2/r$, and the Coulomb force is $F=\frac{ke^2}{r^2}$ where $k=\frac{1}{4\pi \epsilon_0}$. With these two, $m\frac{v^2}{r}=\frac{ke^2}{r^2}$ which simplifies to $mv^2=\frac{ke^2}{r}$. Notice that so far with this classical analysis, there is no restriction of $r$ to certain values. It can be any number between $0$ and $\infty$.
+<BR>
+<BR>The electron's kinetic energy is $K=\frac{1}{2}mv^2$ and its potential energy is $U=-\frac{ke^2}{r}$. The potential energy is usually defined to be zero when $r$ approaches $\infty$. Since $K=-\frac{1}{2}U$, the total energy is $E=K+U=\frac{1}{2}U=-\frac{1}{2}\frac{ke^2}{r}$. So the range of energy is $-\infty < E< 0$.
+<BR>
+<BR>
+<BR>
+<BR>

@@ -1,0 +1,9 @@
+Another tool we like is conservation of energy.
+<BR>
+<BR>To define relativistic energy, we want to reduce to the classical definition as $\beta\rightarrow 0$, and we want it to be conserved in all inertial frames.
+<BR>
+<BR>It turns out best to define it as $E=\gamma m c^2$ (it meets both requirements)
+<BR>
+<BR>While $E = \gamma m c^2$ has the same units as energy, we don't yet know that it is energy. We know that it is conserved.
+<BR>
+<BR>When we define force, we will find that $dE = \vec{F} \cdot d\vec{r}$, which is the work-energy theorem. This points strongly to E actually being energy.

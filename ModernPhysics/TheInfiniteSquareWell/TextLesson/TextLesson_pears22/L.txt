@@ -1,0 +1,7 @@
+The Â“particle in a rigid boxÂ” in one dimension is like a string of length $a$. The energy of a particle inside this box is $E=\frac{p^2}{2m}$ from the de Broglie relation, $\lambda={h}{p}$.
+<BR>
+<BR>The spatial function $\psi(x)$ may have the form $Asin(kx)+Bcos(kx)$ because of the similarity of the rigid box to a string. This is nothing more than a smart guess.
+<BR>
+<BR>The particle cannot escape from the box, so $psi(x)=0$ if $x>a$ or if $x<0$. Also, assuming $\psi$ is continuous, the boundary conditions are $\psi(0)=\psi(a)=0$. When these are applied, $\psi(x)=Asin(kx)$ is found. Applying $\psi(a)=0$, we find that $Asin(ka)=0\rightarrow ka=n\pi$  where $n\in\mathbb{Z}$. The other option is that $A=0$, but we know that's not true or we wouldn't have a wave at all.
+<BR>
+<BR>

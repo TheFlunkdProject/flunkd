@@ -1,0 +1,9 @@
+The size of an atom is basically determined by the size of its outermost electron's orbit. Atomic radius = radius of outer electron orbits $\approx 0.1 nm=10^{-10}m$. It varies .05 nm (helium) to .3nm (cesium)
+<BR>
+<BR>nuclear radius $\approx .975 fm$ to $7.5 fm=.975$ to $7.5\times 10^{-15}m$ (fm=femtometer). The atomic radius is at least 1000 times greater than the nuclear radius. That is why chemical properties of atoms are determined almost entirely by the electrons in the atom.
+<BR>
+<BR>Atomic number (Z) of an atom = number of electrons in a neutral atom = number of protons in its nucleus (a neutral atom contains the same number of electrons as protons.)
+<BR>
+<BR>When an atom gains or loses an electron, the atom is "ionized," and the atom becomes an "ion." Numbers are put in the upper right corner to indicate the charge
+<BR>
+<BR>Chemicals are identified by their atomic number. <img class="normal" style="width:400px" src="/imageLibrary/AtomicNumbers.jpg">

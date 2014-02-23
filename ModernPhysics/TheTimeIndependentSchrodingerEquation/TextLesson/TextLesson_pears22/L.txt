@@ -1,0 +1,7 @@
+The SchrÃ¶dinger equation is an empirically determined relation, much like Newton's 2nd law. It's not derived from some other law.
+<BR>
+<BR>Newton's 2nd law is a <span title="Because it is an equation involving a second derivative.">second order differential equation</span> $m\frac{d^2x}{dt^2}=\sum F$.
+<BR>
+<BR>We found $\psi=Asin(kx)$ before. What differential equation does that come from? We can take the 2nd derivative and find out: $\frac{d^2}{dx^2}Asin(kx)=-k^2Asin(kx)$ so the differential equation representing that is $\frac{d^2\psi}{dx^2}=-k^2\psi$.
+<BR>
+<BR>

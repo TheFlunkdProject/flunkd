@@ -1,0 +1,7 @@
+The solution is found by writing $\vec{p}=m \frac{d\vec{r}}{dt_0}$ instead of $\vec{p}=m\vec{u}=m \frac{d\vec{r}}{dt}$ <span id="box1Trigger">(we use the proper time instead)</span><div id="box1">When we defined velocity before as $u=\Delta x/\Delta t$, there was no problem because both $\Delta x$ and $\Delta t$ contract/dilate and $u$ remains constant. However, $dr$ may have a $y$-componant as well as an $x$-component, so it doesn't just contract by a factor of $1/\gamma$.</div>
+<BR>
+<BR>This formula can be expressed as $\vec{p}=\gamma m \vec{u}$   $(\beta\rightarrow 0, \vec{p}=m\vec{u})$
+<BR>
+<BR>This has been experimentally confirmed many times to be a conserved quantity in relativistic and classical conditions.
+<BR>
+<BR>Some people squish $\gamma$ and $m$ together into $m_{var}$, but this isn't useful because $\vec{F} \neq m_{var} \vec{a}$ as well as some other expressions.

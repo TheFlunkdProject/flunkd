@@ -1,0 +1,3 @@
+Since the interference pattern in the two slit electron experiment shows up even when only one electron is sent through at a time, we conclude that the electron must be passing through both slits at the same time.
+<BR>
+<BR>

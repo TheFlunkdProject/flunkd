@@ -1,0 +1,5 @@
+Thomson's experiment successfully measured $m/e$, but he and other scientists really wanted to measure $m$ or $e$ separately. They tried to charge drop of water with an electron and measure the ratio $M/e$, but the water evaporated quickly. So Millikan used oil drops with great success.
+<BR>
+<BR>Millikan sprayed oil droplets through a vertical electric field. The oil picked up charges from the sprayer, and so Millikan was able to adjust the electric field so that certain droplets would remain stationary, so that $qE=Mg$.
+<BR>
+<BR>

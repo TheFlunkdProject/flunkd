@@ -1,0 +1,7 @@
+Matter waves hadnÂ’t been observed because their wavelengths are very short. For wavelengths of visible light ($\lambda\approx 400nm \, -\, 700nm$), the double slit experiment was difficult enough to create because of the small distance between the slits required to produce an interference pattern. 
+<BR>
+<BR>Wavelengths of electrons with kinetic energy of about 100 to 1000eV is about the same as X-rays used in diffraction from crystals. Unfortunately, electrons with this little amount of energy requires a very good vacuum to avoid interference from the gas in the electron tube.
+<BR>
+<BR>1927 Clinton Davisson and Lester Germer published conclusive evidence of electron wave diffraction patterns consistent with $\lambda=h/p$.
+<BR>
+<BR>G.P.Thomson showed diffraction of electrons through metal foils, and in the coming years many other particles were found to produce diffraction patterns and de Broglie's relations were accepted as plausible for all material particles. 

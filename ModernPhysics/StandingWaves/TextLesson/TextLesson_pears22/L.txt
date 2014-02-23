@@ -1,0 +1,5 @@
+Standing waves are formed when a right traveling wave and a left traveling wave of the same amplitude are present in the same place. 
+<BR>
+<BR>Take $\Psi_1(x,t)=Bsin(kx-\omega t)$ and $\Psi_2(x,t)=Asin(kx+\omega t)$. These waves can be combined simply with the identity $sin(a)+sin(b)=2sin\frac{a+b}{2}cos\frac{a-b}{2}$. $\Psi_1+\Psi_2=2Bsin(kx)cos(\omega t)$. Since $2B$ is just some constant, we can replace it with $A$. $\Psi(x,t)=Asin(kx)cos(\omega t)$.
+<BR>
+<BR><a href="http://www.physicsclassroom.com/mmedia/waves/swf.gif" target="_blank">Standing Wave</a>

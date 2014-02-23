@@ -1,0 +1,4 @@
+The wavelengths recorded with an X-ray spectrometer is usually called a spectrum. 
+<BR>
+<BR>Classically, these spectra should show a range of frequencies contributing to the overall intensity of the beam of X-rays. But thatÂ’s not what happens.
+<BR><img class="normal" src="/imageLibrary/XraySpectrum.jpg">

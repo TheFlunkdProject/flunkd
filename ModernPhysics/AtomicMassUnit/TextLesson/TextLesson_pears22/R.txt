@@ -1,0 +1,4 @@
+There is also the binding energy discussed in the chapter on relativistic mechanics, which was $\Delta m=\frac{B}{c^2}$. This makes a difference.
+<BR>
+<BR>Because of corrections with binding energy, it is better to choose $^{12}C$ as the reference mass, and define the atomic mass this way: 1 atomic mass unit $=1u=\frac{1}{12}$(mass of one neutral $^{12}C$ atom)$=1.661\times $ $10^{-27}kg=931.5MeV/c^2$. So, (mass of atom with mass number A)$\approx Au$.
+<BR>

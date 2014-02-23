@@ -1,0 +1,4 @@
+Rutherford's model of the atom compares atoms to the solar system, which is stable. However, atoms are not stable.
+<BR>
+<BR>Accelerating charges radiate electromagnetic waves, so electrons in orbit should radiate and gradually lose energy and eventually collapse on themselves (after sometime around $10^{-11}$ seconds).
+<BR>

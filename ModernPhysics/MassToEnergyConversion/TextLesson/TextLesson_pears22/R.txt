@@ -1,0 +1,7 @@
+Compare before/after energies and find actually $M>m_1+m_2$
+<BR>
+<BR>This applies to all unstable systems
+<BR>
+<BR>"$B$" is binding energy; when a proton and electron come together they release "$B$" in the form of light
+<BR>
+<BR>$B = \Delta Mc^2$

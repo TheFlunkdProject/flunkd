@@ -1,0 +1,12 @@
+Since $\lambda=\frac{2\pi}{k}\frac{a}{a}$, $\lambda=\frac{2a}{n}$ which is the same as standing waves on a string. Using $p=h/\lambda$, $p=\frac{n\pi\hbar}{a}$. We define potential energy to be 0 everywhere in the box (because there are no forces acting on the particle), so <div class="importantExpression">$E=K+U=K=n^2\frac{\pi^2\hbar^2}{2ma^2}$</div>
+<BR>$n\in\mathbb{Z}$
+<BR>$\hbar=h/2\pi$
+<BR>$m$ is the mass of the particle
+<BR>$a$ is the width of the infinite square well
+<BR>
+<BR>Ground state energy, Heisenberg uncertainty predicted
+<BR>
+<BR>Energy of the nth level of energy $E_n=n^2E_1$
+<BR>
+<BR>If you write $sin\theta=\frac{e^{i\theta}-e^{-i\theta}}{2i}$, you will find that $\Psi$ can be expressed as two waves traveling in opposite directions.
+<BR>

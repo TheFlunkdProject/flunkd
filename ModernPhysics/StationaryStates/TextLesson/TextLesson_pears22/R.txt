@@ -1,0 +1,4 @@
+We can use Euler's formula now: $e^{i\theta}=cos\theta+isin\theta$. If you plug in $-\theta$, you get $e^{-i\theta}=cos\theta-isin\theta$ because cosine is even and sine is odd. <a href="http://en.wikipedia.org/wiki/Even_and_odd_functions" target="_blank">Odd/Even Functions.</a><a href="http://en.wikipedia.org/wiki/Euler%27s_formula" target="_blank">Euler's Formula.</a> So we get $\Psi(x,t)=\psi(x)e^{-i\omega t}$
+<BR>
+<BR>The probability density is $|\Psi(x,t)|^2=|\psi(x,t)|^2|e^{-i\omega t}|^2=|\psi(x,t)|^2$ because $|e^{-i\omega t}|=1$. The probability density has no dependence on time. That's why a quantum standing wave is called a stationary state. The energy <span id="box1Trigger">doesn't change in stationary states </span><div id="box1">because $E=\hbar \omega$, and there is a single definite $\omega$ in $\Psi(x,t)=\psi(x)e^{-i\omega t}$</div>. These are like the stationary states of Bohr orbits.
+<BR>

@@ -1,0 +1,11 @@
+For photons, the expressions $E=\gamma mc^2$ and $\vec{p}=\gamma m \vec{u}$ are both non-zero, but how do we find out what they are?
+<BR>
+<BR>Apply conservation of energy/momentum to processes that only involve one photon.
+<BR>
+<BR>In photoionization, a photon is absorbed and vanishes. Photoionization is when a photon collides with an atom and one electron is ejected from the atom.
+<BR>
+<BR>$\gamma + H \longrightarrow e+p$
+<BR>
+<BR>A photon ($\gamma$) collides with a Hydrogen atom (H) and the system becomes an electron and a proton.
+<BR>
+<BR>The energy and momentum of identical photons have been measured to be consistent, and what's more, $E=pc$

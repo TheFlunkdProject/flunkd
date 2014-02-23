@@ -1,0 +1,15 @@
+Applying the SchrÃ¶dinger equation:
+<BR>1. Identify $U(x)$.
+<BR>
+<BR>For an infinitely deep square well, $U(x)=\left\{
+<BR>     \begin{array}{lr}
+<BR>       0 : & 0\leq x\leq a\\
+<BR>       \infty : & x<0 \text{ and } x>a
+<BR>     \end{array}
+<BR>   \right.$
+<BR>
+<BR>$U(x)=\infty$ corresponds to zero probability of the particle being there.
+<BR>
+<BR>You can use the SchrÃ¶dinger equation to re-derive the expression for the spacial component of $\Psi(x,t)=\psi(x)e^{-i\omega t}$. Plugging in $U(x)=0$ for $0< x< a$, we get $\frac{d^2\psi}{dx^2}=-\frac{2mE}{\hbar^2}\psi$ or $\psi''(x)=-\frac{2mE}{\hbar^2}\psi(x)$.
+<BR>
+<BR>

@@ -1,0 +1,10 @@
+A pure sinusoidal wave with a single frequency and wavelength is impossible to find in nature. Waves decay.
+<BR>
+<BR>Wave packets
+<BR>
+<BR>Superposition of lots of sinusoidal waves. Fourier analysis. 
+<BR><img class="normal" src="/imageLibrary/WavePackets.jpg">
+<BR>
+<BR>Fourier Series: $f(x)=\sum_{n=0}^{\infty}A_ncos(\frac{2\pi n}{\lambda} x)=\sum_{n=0}^{\infty}A_ncos(k_nx)$, where $A_n$ are called the Fourier coefficients, and are constant expressions in terms of $n$. 
+<BR>
+<BR>

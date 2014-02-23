@@ -1,0 +1,4 @@
+The $f_{max}$ where the spectra h abruptly is explained by the original energy coming from single electrons. $hf_{max}=K=V_0e$. So $f_{max}$ varies in proportion to the accelerating voltage $V_0$ which is called the Duane-Hunt law. They used it to find PlanckÂ’s constant. It agreed with PlanckÂ’s estimate and was further evidence for the quantum hypothesis.
+<BR>
+<BR>Example using $hf_{max}=K=V_0e$.
+<BR>

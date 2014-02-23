@@ -1,0 +1,6 @@
+Absorption and emission spectra of atomic hydrogen: 
+<BR><img class="normal" src="/imageLibrary/HydrogenSpectra.jpg">
+<BR>
+<BR>Although spectroscopy became a useful method of identifying elements early on, classical physics could never explain exactly why atoms could only emit and absorb certain wavelengths of light. 
+<BR>
+<BR>The Bohr model assumes that atoms can only contain discrete levels of energy ($E_1, E_2, etc$), and that in order for an atom to change levels, it would need to emit or absorb certain amounts of energy in the form of photons ($E_2-E_1$ for example). 

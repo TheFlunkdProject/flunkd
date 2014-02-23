@@ -1,0 +1,3 @@
+Now that we have discovered that classical mechanics is insufficient, we need to use the Lorentz Transformation Equations to explore the concepts of mass, momentum, force, and energy.
+<BR><BR>
+Our discoveries must be consistent in all inertial frames, and they must reduce to the classical mechanical equations when $\beta$ approaches zero.

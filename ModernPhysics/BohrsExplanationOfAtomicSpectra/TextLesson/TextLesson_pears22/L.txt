@@ -1,0 +1,3 @@
+Bohr solves the atomic stability problem with stationary orbits, or stationary states. Only certain discrete orbits are allowed, with discrete energies. Bohr postulated that electrons in these states do not radiate energy. He didn't know why.
+<BR>
+<BR>

@@ -1,0 +1,7 @@
+Bragg diffraction. Incident angle is from the plane rather than from the planeÂ’s normal. 
+<BR><img class="normal" src="/imageLibrary/BraggDiffraction.jpg"> 
+<BR>The photons that reflect on the outside will be deflected at the same angle. The path difference between these photons and the photons that enter and deflect off of the first plane of atoms inside the crystal is $2dsin\theta$ and if they are in phase,  $2dsin\theta =n\lambda$. Usually $n=1$ is the only important integer. This is the Bragg law. It can be used to measure the wavelength of the incident light $\lambda$.
+<BR>
+<BR>Crystals can be used as X-ray spectrometers. 
+<BR><img class="normal" src="/imageLibrary/XraySpectrometer.jpg">
+<BR>They can find intensity of X-rays through the gap as a function of $\theta$. X-ray crystallography, DNA, complicated stuff

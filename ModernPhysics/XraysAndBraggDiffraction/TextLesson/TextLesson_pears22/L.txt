@@ -1,0 +1,10 @@
+When Arthur Compton used X-ray photons to show that photons also followed conservation of momentum and energy principles, the idea that light was quantized finally began to be widely accepted.
+<BR>
+<BR>X-rays are between around 1nm and .001 nm. Very energetic.
+<BR>
+<BR>X-ray tube, how X-rays are produced. It was very quickly put to use in medicine.
+<BR><img class="normal" src="/imageLibrary/XrayProduction.jpg">
+<BR>
+<BR>They were pretty sure X-rays were light waves, but since the wavelengths were so short it was hard to prove.
+<BR>
+<BR>Diffraction gratings would need to have slits spaced .1nm in order to show diffraction patterns for X-rays. So they used crystals instead.

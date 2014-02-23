@@ -1,0 +1,10 @@
+This section is a review of waves.
+<BR>
+<BR>$y(x,t)=Asin(kx-\omega t)$
+<BR>
+<BR>$y(x,t)=Asin(2\pi(\frac{x}{\lambda}-\frac{t}{T}))$
+<BR>
+<BR>$k$ is the wave number. $k=\frac{2\pi}{\lambda}$
+<BR>
+<BR>
+<BR>

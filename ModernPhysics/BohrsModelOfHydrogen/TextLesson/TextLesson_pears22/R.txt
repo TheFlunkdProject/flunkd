@@ -1,0 +1,10 @@
+Dimensions of Planck's constant are the same as angular momentum. So the electron's momentum could be quantized in multiples of $h$. $L=\frac{h}{2\pi},2\frac{h}{2\pi},...$. $\hbar$ ("h bar") is defined as $\hbar=\frac{h}{2\pi}$ since it is used so much. $L=n\hbar$, $n \in \mathbb{Z}$. For circular orbits, $L=mvr=n\hbar$. 
+<BR>
+<BR>Combining energy and angular momentum, $m(\frac{n\hbar}{mr})^2=\frac{ke^2}{r}$ $\rightarrow$ $r=\frac{n^2\hbar^2}{ke^2m}$. This can be written $r=n^2a_B$, $n=1,2,3,...$ where $a_B=\frac{\hbar^2}{ke^2m}=0.529nm$ is defined as the "Bohr radius."
+<BR>
+<BR>Using this expression for the orbital radii, the possible energies are $E=-\frac{ke^2}{2r}=-\frac{ke^2}{2a_Bn^2}$, $n=1,2,3,...$
+<BR>
+<BR>The energy is quantized, and the possible energies of any photons emitted/absorbed should be $E_\gamma=E_n-E_{n'}=\frac{ke^2}{2a_B}(\frac{1}{n'^2}-\frac{1}{n^2})$ which is similar to the Rydberg formula $E_\gamma=hcR(\frac{1}{n'^2}-\frac{1}{n^2})$.
+<BR>
+<BR>With this explanation, Bohr was able to predict Rydberg's formula as well as Rydberg's constant. $R=\frac{ke^2}{2a_Bhc}=\frac{1.44eV\cdot nm}{2(0.0529nm)(1240ev\cdot nm)}$ $=0.0110nm^{-1}$. $hcr$ is called the "Rydberg energy," $E_R$. Its value is $E_R=hcR=\frac{ke^2}{2a_B}=\frac{m(ke^2)^2}{2\hbar^2}=13.6eV$. So the allowed energies in a hydrogen atom are $E_n=-\frac{E_R}{n^2}$.
+<BR>

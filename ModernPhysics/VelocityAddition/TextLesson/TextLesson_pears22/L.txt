@@ -1,0 +1,3 @@
+The classical velocity addition formula works at low speeds, but not at high speeds. <a href="http://learningflare.com/ModernPhysics/MovingReferenceFrames/TextLesson/TextLesson.jsp">Moving Reference Frames</a>
+<BR>
+<BR>We could calculate the velocity addition formula for relativity using the Lorentz transformation equations. $u = \Delta x/\Delta t, \rightarrow u_x' = \frac{u_x Â– v}{1-u_x v/c^2}$  ($u_x'$ velocity in $S'$, $u_x$ velocity in $S$, $v$ velocity of frame, $c$ speed of light)

@@ -1,0 +1,8 @@
+The uncertainty principle applies to all particles, but the uncertainty for macroscopic objects is so incredibly tiny that it basically doesn't matter.
+<BR>
+<BR>An object cannot be exactly at rest, otherwise its momentum would be zero, violating $\Delta x\Delta p\geq\frac{\hbar}{2}$. Similarly, kinetic energy can never be exactly zero. $\Delta p\geq \frac{\hbar}{a}$ ($a$ is the width of the area the quantum particle is confined within.) so $K_{rms} = (\frac{p^2}{2m})_{rms} \gtrsim$  $\frac{(\Delta p)^2}{2m}$ or $K_{rms}\gtrsim\frac{\hbar^2}{2ma^2}$ The right-hand side is called the "zero-point energy".
+<BR>
+<BR>Heisenberg's microscope. $\theta_{min}\approx\frac{\lambda}{d}$. $\Delta x\approx l\theta_{min}\approx\frac{l\lambda}{d}$ where $d$ is the diameter of the objective lens, $l$ is the distance of the lens from the particle. $\Delta p_x\gtrsim p_\gamma \frac{d}{l}=\frac{h}{\lambda}\cdot\frac{d}{l}$. You can change $\Delta p_x$, but that changes $\Delta x$ and $\Delta x\Delta p_x\gtrsim h$.
+<BR>
+<BR>The uncertainty principle comes from particle-wave duality.
+<BR>

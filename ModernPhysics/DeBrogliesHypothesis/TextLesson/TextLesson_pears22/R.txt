@@ -1,0 +1,4 @@
+An electron matter wave in orbit of a nucleus would have to satisfy $2\pi r=n\lambda$ as a standing wave with an integral number of wavelengths on its path. Using one of the de Broglie relations, $2\pi r=nh/p$, or $rp=\frac{nh}{2\pi}$. $rp$ is angular momentum, so $L=\frac{nh}{2\pi}=\hbar$, $n=1,2,3$. That's the Bohr quantization condition.
+<BR>
+<BR>These aren't totally satisfactory explanations, but the main idea is good.
+<BR>

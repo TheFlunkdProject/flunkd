@@ -1,0 +1,3 @@
+The Schr&ouml;dinger equation is like the Newton's 2nd law for quantum mechanics. There are two versions, both referred to as the "Schr&ouml;dinger equation," but one is the time-dependent Schr&ouml;dinger equation and the other one is the time-independent Schr&ouml;dinger equation. 
+<BR>
+<BR>

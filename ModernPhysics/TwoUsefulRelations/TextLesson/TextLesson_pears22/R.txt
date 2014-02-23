@@ -1,0 +1,5 @@
+If you square both $\vec{p}=\gamma m \vec{u}$ and $E=\gamma m c^2$, you can find that $E^2=(pc)^2 + (mc^2)^2$ <span id="box1Trigger">(Useful equation #2)</span><div id="box1">Here is that derivation:
+<BR>you get $\vec{p}^2=\gamma ^2m^2\vec{u}^2$ and $E^2=\gamma ^2m^2c^4$. Since $\gamma^2 = \frac{1}{1-\frac{u^2}{c^2}}=$ $\frac{c^2}{c^2-u^2}$, $E^2=\frac{c^2(mc^2)^2}{c^2-u^2}$ $=(mc^2)^2\frac{u^2+c^2-u^2}{c^2-u^2}=$ $(mc^2)^2(\frac{u^2}{c^2-u^2}) + (mc^2)^2$ $= (mc^2)^2\frac{\frac{u^2}{c^2}}{1-\frac{u^2}{c^2}} +(mc^2)^2=$ $m^2u^2c^2\gamma ^2+(mc^2)^2=$ $(pc)^2 + (mc^2)^2$</div>
+<BR>
+<BR>$1eV=1.60\times 10^{-19}J$ "electron volt." Another unit for energy that matches the scale better.
+<BR>

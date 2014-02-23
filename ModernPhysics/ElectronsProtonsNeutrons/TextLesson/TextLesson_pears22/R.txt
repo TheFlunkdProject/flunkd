@@ -1,0 +1,7 @@
+In 1932 Chadwick introduced the neutron, which is another particle that is contained in the nucleus.
+<BR>
+<BR>Table of 5 elements with their number of electrons, protons, and neutrons. Hydrogen,H  1e 1p 0n  Helium,He 2e 2p 2n   Carbon,C 6e 6p 6n   Iron,Fe 26e 26p 30n   Uranium,U 92e 92p 146n
+<BR>
+<BR>$q_p=-q_e=e=1.60\times 10^{-19}C$ (C is for coulomb. All known charges are integral multiples of $e$.)
+<BR>
+<BR>So everything is made up of electrons, protons, and neutrons. There are also sub-subatomic particles, but those aren't important right now.

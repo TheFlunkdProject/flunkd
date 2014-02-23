@@ -1,0 +1,37 @@
+<fulfillmentToken fulfillmentType="buy" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:30b9876c-4949-4844-b97b-fd154fb7d256</distributor>
+  <operatorURL>http://acs.bookmobile.com/fulfillment</operatorURL>
+  <transaction>589064_36303_1</transaction>
+  <expiration>2014-04-27T16:13:48-05:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:84928cd7-fbbd-4be2-888b-2f439c74647a</resource>
+    <resourceItem>0</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">The Educated Listener: A New Approach to Music Appreciation</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jaren Hinckley</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Cognella</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">80847-1A_full</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:84928cd7-fbbd-4be2-888b-2f439c74647a</resource>
+      <permissions>
+        <display>
+          <until>2014-04-27T16:13:48-05:00</until>
+        </display>
+        <excerpt>
+          <until>2014-04-27T16:13:48-05:00</until>
+          <count initial="20" max="20" incrementInterval="129600"/>
+        </excerpt>
+        <print>
+          <until>2014-04-27T16:13:48-05:00</until>
+          <count initial="448"/>
+        </print>
+        <play>
+          <until>2014-04-27T16:13:48-05:00</until>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>eT02T7WYM6U36Q4TWUKo1jGiucU=</hmac>
+</fulfillmentToken>

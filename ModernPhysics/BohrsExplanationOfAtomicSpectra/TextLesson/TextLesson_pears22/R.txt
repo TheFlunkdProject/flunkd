@@ -1,0 +1,2 @@
+Electrons can only change energies by making sudden jumps between quantized energy levels $E_1,E_2,E_3,...$. The emission or absorption of a photon is a way that an electron can make this jump. If the energy jumps down a step, a photon is emitted, and if it jumps up it has to absorb a photon. Bohr realized that his model explained atomic spectra, because the energy of these emitted and absorbed photons is constant and only depends on which steps of energy the electron is making.
+<BR>

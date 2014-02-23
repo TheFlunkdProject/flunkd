@@ -1,0 +1,9 @@
+Einstein proposed that a single photon gives only $hf$ energy to each electron that is ejected.
+<BR>
+<BR>The first result is explained because each photon can still only give $hf$ energy to the electron, and so the kinetic energy of the electron will not increase just because more photons are being sent. The second result is explained because there is a minimum energy required to get an electron moving, called the work function $\phi$. So $hf_0=\phi$.
+<BR>
+<BR>
+<BR>Einstein used this to predict that the kinetic energy of each electron would be $K_{max}=hf-\phi$. Robert Millikan confirmed this in 1916. 
+<BR><img class="normal" src="/imageLibrary/EinsteinPhotoelectricMillikanConfirmation.jpg">
+<BR>
+<BR>Example of computing the energy of a photon, useful quantity $hc=1240eV\cdot nm$.

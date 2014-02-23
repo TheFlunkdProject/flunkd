@@ -1,0 +1,9 @@
+If the wave describes the position for a particle, the uncertainty relation $\Delta x\Delta k\geq \frac{1}{2}$ gives the uncertainty in the position of the particle as $\Delta x$.
+<BR>
+<BR>Remember that the wave function $\Psi$ describes probabilities of an electron being in a certain place. It doesn't give the actual place. It doesn't even have one. So $\Delta x$ describes the actual uncertainty of the position in the particle, not our uncertainty of its position. 
+<BR>
+<BR>Since $p=\hbar k$, a spread in wave numbers implies a spread in momenta. If we divide the spacial uncertainty relation by $\hbar$, we get $\Delta x\Delta p\geq \frac{\hbar}{2}$.
+<BR>
+<BR>These inequalities are all called the Heisenberg uncertainty relations, and together they make the Heisenberg uncertainty principle. 
+<BR>
+<BR>

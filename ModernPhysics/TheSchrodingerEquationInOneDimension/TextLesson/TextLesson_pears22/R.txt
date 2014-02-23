@@ -1,0 +1,4 @@
+The time-independent Schr&ouml;dinger equation can be derived from the time-dependent Schr&ouml;dinger equation when the total energy of the whole system is a definite quantity. The wave function in these cases is a standing wave. This derivation requires knowledge of partial differential equations, so we won't get into it.
+<BR>
+<BR>We will first look at the Schr&ouml;dinger equation in one dimension and extend it to three dimensions later.
+<BR>

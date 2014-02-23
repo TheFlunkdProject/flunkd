@@ -1,0 +1,6 @@
+In 1885, Johann Balmer found that $\frac{1}{\lambda}=R(\frac{1}{4}-\frac{1}{n^2}$ described these wavelengths. Balmer found $R=.0110 \, nm^{-1}$. Also, for the four lines of hydrogen $n=3,4,5,6$. Balmer thought that maybe there were more lines for $n=7,8,9,$ etc, and was very happy to learn that such wavelengths had already been measured in the ultraviolet. 
+<BR>
+<BR>Johannes Rydberg generalized Balmer's formula to $\frac{1}{\lambda}=R(\frac{1}{n'^2}-\frac{1}{n^2})$, ($n>n', n,n' \in \mathbb{Z}$). This is called the Rydberg formula, and R is called the Rydberg constant.
+<BR>
+<BR>Rydberg's formula in terms of photon energies: $E_\gamma = hcR(\frac{1}{n'^2}-\frac{1}{n^2})$, $(n>n'$, integers). One of the wonderful capabilities of the Bohr model is that it predicts the Rydberg formula, even the Rydberg constant.
+<BR>

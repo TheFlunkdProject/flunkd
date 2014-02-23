@@ -1,0 +1,5 @@
+Since $p_e=p_0-p$, we get $p_e^2=p_e\cdot p_e$ $=(p_0-p)\cdot (p_0-p)$ $=p_0^2+p^2-2p_0\cdot p=p_0^2+p^2-2p_0pcost\theta$. Combining all this, $mc(p_0-p)=p_0p(1-cos\theta)$ or $\frac{1}{p} -\frac{1}{p_0} =\frac{1}{mc} (1-cos\theta )$. The important equation is $\Delta \lambda =\lambda - \lambda _0=\frac{h}{mc}(1-cos\theta)$. This gives a photonÂ’s increased wavelength as it is scattered through an angle $\theta$. Compton predicted and detected correct wavelength shifts.
+<BR>
+<BR>Some of the scattered wavelengths remained at the original wavelengths like this: 
+<BR><img class="normal" src="/imageLibrary/CompotonWavelengthShift.jpg">
+<BR>ThatÂ’s because some of the electrons struck were bound to the atom with a much greater force (inner electrons) and so the collision bounced the photon back with the same energy as before.

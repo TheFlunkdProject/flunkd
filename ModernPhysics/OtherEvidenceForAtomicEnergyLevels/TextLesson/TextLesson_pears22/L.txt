@@ -1,0 +1,7 @@
+The quantization of energy levels within atoms shows up in basically any energy transfer involving atoms.
+<BR>
+<BR>Collisions transfer energy. Elastic collisions conserve kinetic energy and momentum, while inelastic collisions only conserve momentum. <a href="http://upload.wikimedia.org/wikipedia/commons/6/6d/Translational_motion.gif " target="_blank">Elastic collisions.</a>
+<BR><a href="http://upload.wikimedia.org/wikipedia/commons/d/de/Inelastischer_sto%C3%9F.gif" target="_blank">Inelastic collisions.</a>
+<BR>
+<BR>The Frank-Hertz experiment showed that atoms only accept energy once it reaches a certain point. They did this by running a current through mercury vapor. 
+<BR><img class="normal" src="/imageLibrary/FrankHertzExperiment.jpg" style="width:400px">

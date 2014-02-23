@@ -1,0 +1,10 @@
+electron: $m_e = 0.511$ $ MeV/c^2=9.11\times 10^{-31}kg$
+<BR>proton: $m_p=938.3$ $MeV/c^2=1.673\times 10^{-27}kg$
+<BR>neutron: $m_n = 939.6$ $MeV/c^2=1.675\times 10^{-27}kg$
+<BR>
+<BR>so $m_p\approx m_n\approx m_H\approx 940MeV/c^2$  ($m_H$ is the mass of a hydrogen atom, a proton plus an electron)
+<BR>
+<BR>The mass number (A) of an atom = number of nucleons in an atom = (number of protons) + (number of neutrons).
+<BR>
+<BR>Sometimes atoms with the same atomic number have a different number of neutrons. These atoms are called isotopes of each other. They have the same number of electrons, so they have pretty much identical chemical properties, so they're still the same element. They just have different masses. Isotopes are denoted by a superscript like this: $^{13}C$, $^{12}C$. The atomic mass is measured by chemists as the mass of the average element's atom, with its normal distribution of isotopes.
+<BR>

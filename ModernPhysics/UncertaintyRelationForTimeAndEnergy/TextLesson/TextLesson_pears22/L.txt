@@ -1,0 +1,5 @@
+The "time-energy uncertainty relation" comes from $\Delta t\Delta \omega\geq\frac{1}{2}$ and is $\Delta t\Delta E\geq\frac{\hbar}{2}$.
+<BR>
+<BR>For definite energy, $\Delta E=0$, and so $\Delta T$ is infinite. These are called stationary states.
+<BR>
+<BR>

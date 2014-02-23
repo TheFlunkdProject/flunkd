@@ -1,1 +1,13 @@
-Sorry, no lesson yet.
+There is a Doppler effect for light/color also, but it includes relativity, and it doesnÂ’t matter whether the source or receiver is moving. 
+<BR>
+<BR>Approaching: $f_{obs}=\sqrt{\frac{1+\beta}{1-\beta}}f_{src}$
+<BR>
+<BR>Receding: $f_{obs}=\sqrt{\frac{1-\beta}{1+\beta}}f_{src}$
+<BR>
+<BR>The speed of light is constant. ItÂ’s the frequency that changes.
+<BR>
+<BR>Derivation:
+<BR>
+<BR>The wavelength of light is the difference between crests. 
+<BR>
+<BR>$\lambda = c \Delta t$ ($\Delta t = $time for one crest to move to the position of the next)

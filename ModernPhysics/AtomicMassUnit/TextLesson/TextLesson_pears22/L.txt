@@ -1,0 +1,7 @@
+The atomic mass unit (u) is approximately $m_H$.
+<BR>
+<BR>$A=Z+N$ where $A$ is the mass number, $Z$ is the atomic number, and $N$ is the number of neutrons.
+<BR>
+<BR>$m=Zm_e+Zm_p+Nm_n=Zm_H+N_m$, so $m\approx Zm_H + Nm_H$, or $m\approx Am_H$.
+<BR>
+<BR>

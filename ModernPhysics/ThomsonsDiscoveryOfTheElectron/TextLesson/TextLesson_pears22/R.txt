@@ -1,0 +1,5 @@
+He used the Lorentz force $\vec{F}$ $=-e(\vec{E}$ $+ \vec{v} \times \vec{B}$$)$ he measured $v=\frac{E}{B}$ which he confirmed using another method involving shooting the electrons onto a heated solid body. 
+<BR>
+<BR>He calculated the mass-to-charge ratio, $m/e$ by using what we know about uniform magnetic fields. $R=\frac{mv}{eB}$, R is the radius of the circular motion. Also, electric fields deflect electrons through an angle $\theta = \frac{eEl}{mv^2}$, with which relation he was able to get the ratio $m/e$ again. He varied many things in the experiment, but he always found the same ratio for $m/e$.
+<BR>
+<BR>Thomson found hydrogen's $m/e$ value to be 2000 times bigger than its value for the electron. Either electrons were not very massive, or they had enormous charge, or both. Thomson held that the small $m/e$ was because of the electrons' small mass.

@@ -1,0 +1,7 @@
+In classical mechanics, $\vec{F}=m\vec{a}$, or $\vec{F}=\frac{d\vec{p}}{dt}$ ($\vec{p}=m\vec{v}$)
+<BR>
+<BR>Since $\vec{p}=\gamma m \vec{v}$, $\vec{F}=\frac{d\vec{p}}{dt}$ is a nice definition for in relativity. This is different than $\vec{F}=m\vec{a}$.
+<BR>
+<BR>Lorentz Force is still $\vec{F}=q\vec{E}+q\vec{v}\times \vec{B}$
+<BR>
+<BR>In a uniform magnetic field, the work done on a charged particle is zero because $\vec{F}=q\vec{v}\times \vec{B}$ and $\vec{v} \times \vec{B}$ is $\perp$ to $\vec{v}$. (that's circular motion)
