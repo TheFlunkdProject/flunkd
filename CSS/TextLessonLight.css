@@ -211,7 +211,21 @@ div .bookpage {
 	position:relative;
 	height:100%;
 	width:80%;
+	min-width:15px;
 	left:10%;
+}
+
+#practiceProblemsIconHolder {
+	position:absolute;
+	height:95%;
+	margin:0px 0px 0px 85px;
+	top:1%;
+	border:0px solid #000000;
+	border-radius:5px;
+}
+
+#practiceProblemsIcon {
+	height:100%;
 }
 
 

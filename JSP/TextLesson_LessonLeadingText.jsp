@@ -7,12 +7,15 @@
 			<span id="currentTopic1"></span>
 		</div>
 		<div id="mediaIconBar">
-			<a class="blocky" title="Text Lesson" href="../TextLesson/TextLesson.jsp"><div id="textLessonIconHolder">
+			<div id="textLessonIconHolder"><a class="blocky" title="Text Lesson" href="../TextLesson/TextLesson.jsp">
 				<img id="textLessonIcon" src="/images/bookIcon.png">
-			</div></a>
-			<a class="blocky" title="Video Lesson" href="../VideoLessons/VideoLessons.jsp"><div id="videoLessonIconHolder">
+			</a></div>
+			<div id="videoLessonIconHolder"><a class="blocky" title="Video Lesson" href="../VideoLessons/VideoLessons.jsp">
 				<img id="videoLessonIcon" src="/images/videoCamera.png">
-			</div></a>
+			</a></div>
+			<div id="practiceProblemsIconHolder"><a class="blocky" title="Practice Problems" href="../PracticeProblems/PracticeProblems.jsp">
+				<img id="practiceProblemsIcon" src="/images/pencilNotepad.png">
+			</a></div>
 		</div>
 		
 <!--All this stuff is to show which icon is selected. -->
@@ -27,6 +30,10 @@ if (currentURL.indexOf("TextLesson") != -1)
 if (currentURL.indexOf("VideoLessons") != -1)
 	{
 	document.getElementById('videoLessonIconHolder').style.cssText = cssStringIAmSelected;
+	}
+if (currentURL.indexOf("PracticeProblems") != -1)
+	{
+	document.getElementById('practiceProblemsIconHolder').style.cssText = cssStringIAmSelected;
 	}
 
 </script>

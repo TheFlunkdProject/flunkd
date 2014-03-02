@@ -85,7 +85,7 @@ var newtext = '<span title=""></span>';
 	}
 }
 function addLink() {
-var newtext = '<a href=""></a>'
+var newtext = '<a href="" target="_blank"></a>'
 	if(focus == 1)
 	{
 	document.lessontext.leftpage.value += newtext;
