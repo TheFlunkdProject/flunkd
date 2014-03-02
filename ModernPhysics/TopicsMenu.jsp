@@ -204,7 +204,7 @@
 </li>
 <li><a href="/ModernPhysics/MoreInfiniteSquareWells/TextLesson/TextLesson.jsp">More on Infinite Square Wells</a>
 </li>
-<li><a href="/ModernPhysics/topic/TextLesson/TextLesson.jsp">topic</a>
+<li><a href="/ModernPhysics/TheFreeParticle/TextLesson/TextLesson.jsp">The Free Particle</a>
 </li>
 <li><a href="/ModernPhysics/topic/TextLesson/TextLesson.jsp">topic</a>
 </li>
