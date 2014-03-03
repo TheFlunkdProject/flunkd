@@ -11,12 +11,12 @@
 
 <style>
 #difficultyContainer {
-position:absolute;
-width:400px;
-height:50px;
-left:0;
-right:0;
-background-color:#BBBBBB;
+	position:absolute;
+	width:400px;
+	height:50px;
+	left:0;
+	right:0;
+	background-color:#BBBBBB;
 }
 #difficultyDisplay {
 	position:absolute;
@@ -135,7 +135,7 @@ String bestPageR = author + "/R.txt";
 <jsp:include page="/JSP/TextLesson_LessonIntermediateText.jsp" />	
 <jsp:include page="<%=bestPageR%>" />	
 <%=files[2].getName()%>
-
+<%=appPath%>
 <jsp:include page="/JSP/TextLesson_LessonTrailingText.jsp" />	
 
 </div>

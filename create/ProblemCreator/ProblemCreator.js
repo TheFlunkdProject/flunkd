@@ -1,53 +1,10 @@
-<!doctype html>
-<html>
-<head>
-<script src="ExpressionEvaluater.js"></script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-   tex2jax: {inlineMath: [["$","$"]]},
-   displayAlign: "center",
-   displayIndent: "0.1em"
-  });
-</script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML.js"></script>
-<script>
-</script>
-<style>
-</style>
-</head>
-<body>
-<p id="p1">$x^2$
-	This problem creator can give each user unique numbers to work with. 
-	Random numbers will be inserted for var1 and var2 in the question you write.
-</p>
-<p id="p2">
-	Question:
-</p>
-<textarea id="question"></textarea>
-<p id="p2">
-	Within what range would you like var1 and var2 to be generated?
-</p>
-<p>
-var1 range: <input type="text" id="var1From"/> to <input type="text" id="var1To"/>
-<br>
-var2 range: <input type="text" id="var2From"/> to <input type="text" id="var2To"/>
-</p>
-<p id="p3">
-	What form should the answer be in?
-	<input type="text" id="answer"/>
-</p>
-<br>
-<input type="button" id="createProblemButton" onclick="createProblem()" value="Create Problem"/>
-<p id="generatedQuestion">
-</p>
-<input type="text" id="userAnswer"  style="visibility:hidden"/>
-<input type="button" id="checkAnswer" onclick="answerProblem()" value="Check" style="visibility:hidden"/>
-<p id="feedback">
-</p>
-<script>
+function loadTopics() {
+	document.forms['fCreateProblem'].submit();
+}
+
 var generatedAnswer = {};
 
-function createProblem() {
+function previewProblem() {
 question = document.getElementById('question').value;
 
 var var1From = parseFloat(document.getElementById('var1From').value);
@@ -101,12 +58,18 @@ question = question.replace(var2ReplaceString, var2NumberToString);
 //The question is now ready to be asked to the student.
 document.getElementById('generatedQuestion').innerHTML = question;
 MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
-document.getElementById('userAnswer').style.visibility="visible";
-document.getElementById('checkAnswer').style.visibility="visible";
+document.getElementById('problemPreview').style.visibility="visible";
+
 
 answer = document.getElementById('answer').value
 answ = Parser.evaluate( answer, { var1: var1Number, var2: var2Number});
 generatedAnswer.ansh = parseFloat(answ);
+}
+
+function closePreview() {
+document.getElementById('problemPreview').style.visibility="hidden";
+document.getElementById('feedback').innerHTML="";
+document.getElementById('userAnswer').value="";
 }
 
 function answerProblem() {
@@ -125,6 +88,3 @@ else
 	}
 document.getElementById('feedback').innerHTML = feedback;
 }
-</script>
-
-</body>

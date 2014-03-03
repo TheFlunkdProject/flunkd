@@ -1,0 +1,148 @@
+body {
+	padding:0;
+	margin:0;
+	font-size:62.5%;
+	font-family:sans-serif;
+	background-color:#222222;
+}
+
+#mainContainer {
+	position:absolute;
+	width:80em;
+	height:100%;
+	margin:auto;
+	left:0;
+	right:0;
+	background-color:#EEEEFF;
+}
+
+#mainHeader {
+	position:relative;
+	width:100%;
+	height:17em;
+	
+	background-color:#AAAAEE;
+}
+
+#titleHeader {
+	position:relative;
+	width:100%;
+	height:1em;
+	
+	font-size:5em;
+	text-align:center;
+	margin-top:.2em;
+}
+
+#d1 {
+	position:relative;
+	height:4em;
+	width:30em;
+	margin-top:1em;
+	left:0%;
+	right:0%;
+	margin-left:auto;
+	margin-right:auto;
+	
+	background-color:#999999;
+	font-size:1.5em;
+	text-align:center;
+}
+
+#pathBanner {
+	position:relative;
+	width:100%;
+	margin-top:1em;
+	height:1em;
+	background-color:#FF88FF;
+	font-size:2em;
+	text-align:center;
+}
+
+#mainLeft {
+	position:relative;
+	width:47%;
+	float:left;
+	height:27em;
+	
+	font-size:1.5em;
+	background-color:#DDFFFF;
+	margin-left:2%;
+	margin-top:1em;
+}
+
+#d2 {
+	position:relative;
+	width:100%;
+	height:10em;
+	background-color:#BBEEFF;
+}
+
+#question {
+	position:absolute;
+	height:8em;
+	left:0%;
+	width:98%;
+	top:2em;
+}
+
+#var1From {
+	width:5em;
+}
+
+#var1To {
+	width:5em;
+}
+
+#var2From {
+	width:5em;
+}
+
+#var2To {
+	width:5em;
+}
+
+#problemPreview {
+	position:absolute;
+	width:30em;
+	height:15em;
+	left:0%;
+	right:0%;
+	top:0%;
+	bottom:0%;
+	margin:auto;
+	padding:0em 1em;
+	background-color:#333333;
+	color:#EEEEEE;
+	border-radius:5px;
+	
+	font-size:1.5em;
+	visibility:hidden;
+}
+
+#closeProlemPreview {
+	position:absolute;
+	width:5em;
+	right:1em;
+	bottom:1em;
+}
+
+#mainRight {
+	position:relative;
+	width:47%;
+	float:right;
+	height:27em;
+	
+	font-size:1.5em;
+	background-color:#DDFFFF;
+	margin-right:2%;
+	margin-top:1em;
+}
+
+#example {
+	position:relative;
+	height:20em;
+	width:97%;
+	margin-top:1em;
+	background-color:#FFFFFF;
+}
