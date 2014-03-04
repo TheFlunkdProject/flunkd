@@ -250,18 +250,36 @@ if (request.getParameter("problemSubmitted") != null && hTopic != "")
 	pw.println(hDifficulty);
 	pw.close();
 	
+	//All this is writing to L.txt...
+	String allOfL = "<input type=\"hidden\" name=\"hCourse\" id=\"hCourse\">" + 
+		"<input type=\"hidden\" name=\"hTopic\" id=\"hTopic\">" + 
+		"<input type=\"hidden\" name=\"hQuestion\" id=\"hQuestion\" value=\""+hQuestion+"\">" + 
+		"<input type=\"hidden\" name=\"hVar1From\" id=\"hVar1From\" value=\""+hVar1From+"\">" + 
+		"<input type=\"hidden\" name=\"hVar1To\" id=\"hVar1To\" value=\""+hVar1To+"\">" + 
+		"<input type=\"hidden\" name=\"hVar2From\" id=\"hVar2From\" value=\""+hVar2From+"\">" + 
+		"<input type=\"hidden\" name=\"hVar2To\" id=\"hVar2To\" value=\""+hVar2To+"\">" + 
+		"<input type=\"hidden\" name=\"hAnswer\" id=\"hAnswer\" value=\""+hAnswer+"\">" + 
+		"<input type=\"hidden\" name=\"hDifficulty\" id=\"hDifficulty\" value=\""+hDifficulty+"\">" + 
+		"<input type=\"hidden\" name=\"hExample\" id=\"hExample\" value=\""+hExample+"\">" + 
+	"<p id=\"generatedQuestion\">" + 
+	"</p>" + 
+	"<input type=\"text\" id=\"userAnswer\">" + 
+	"<input type=\"button\" id=\"checkAnswer\" onclick=\"answerProblem()\" value=\"Check\">" + 
+	"<p id=\"feedback\">" +
+	"</p>";
+	
 	String newProblemLPath = newTopicProblemFolderPath + "/L.txt";
 	File newProblemLFile = new File(newProblemLPath);
 	newProblemLFile.createNewFile();
 	PrintWriter pwl = new PrintWriter(new FileOutputStream(newProblemLPath));
-	pwl.println(hQuestion);
+	pwl.println(allOfL);
 	pwl.close();
 	
 	String newProblemRPath = newTopicProblemFolderPath + "/R.txt";
 	File newProblemRFile = new File(newProblemRPath);
 	newProblemRFile.createNewFile();
 	PrintWriter pwr = new PrintWriter(new FileOutputStream(newProblemRPath));
-	pwr.println(hExample);
+	pwr.println("Example:");
 	pwr.close();
 	
 	
@@ -269,7 +287,7 @@ if (request.getParameter("problemSubmitted") != null && hTopic != "")
 	Date creationDate = new Date();
 	String ip = request.getRemoteAddr();
 	String creationPath = "/home/learnfla/tomcat/webapps/learningflare.com/ROOT/updateLog.txt";
-	File feedbackFile = new File(creationPath);
+	File creationFile = new File(creationPath);
 	if (creationFile.exists() && creationFile.canWrite())
 		{
 		BufferedWriter feedbackWriter = new BufferedWriter(new FileWriter(creationFile,true)); //true appends rather than overwriting.
