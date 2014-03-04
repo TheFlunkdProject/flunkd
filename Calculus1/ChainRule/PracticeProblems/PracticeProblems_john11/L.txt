@@ -1,1 +1,17 @@
-This is johnny
+This is Johnny
+	<input type="hidden" name="hCourse" id="hCourse"/>
+	<input type="hidden" name="hTopic" id="hTopic"/>
+	<input type="hidden" name="hQuestion" id="hQuestion" value="var1"/>
+	<input type="hidden" name="hVar1From" id="hVar1From" value="2"/>
+	<input type="hidden" name="hVar1To" id="hVar1To" value="3"/>
+	<input type="hidden" name="hVar2From" id="hVar2From"/>
+	<input type="hidden" name="hVar2To" id="hVar2To"/>
+	<input type="hidden" name="hAnswer" id="hAnswer" value="var1"/>
+	<input type="hidden" name="hDifficulty" id="hDifficulty"/>
+	<input type="hidden" name="hExample" id="hExample" value=""/>
+<p id="generatedQuestion">
+</p>
+<input type="text" id="userAnswer"/>
+<input type="button" id="checkAnswer" onclick="answerProblem();" value="Check"/>
+<p id="feedback">
+</p>

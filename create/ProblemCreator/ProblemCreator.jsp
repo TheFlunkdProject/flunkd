@@ -4,7 +4,7 @@
 <%@ page import="java.util.*"%>
 <html>
 <head>
-<script src="../../JS/ExpressionEvaluater.js" type="text/javascript"></script>
+<script src="/JS/ExpressionEvaluater.js" type="text/javascript"></script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
    tex2jax: {inlineMath: [["$","$"]]},
@@ -264,6 +264,27 @@ if (request.getParameter("problemSubmitted") != null && hTopic != "")
 	pwr.println(hExample);
 	pwr.close();
 	
+	
+	
+	Date creationDate = new Date();
+	String ip = request.getRemoteAddr();
+	String creationPath = "/home/learnfla/tomcat/webapps/learningflare.com/ROOT/updateLog.txt";
+	File feedbackFile = new File(creationPath);
+	if (creationFile.exists() && creationFile.canWrite())
+		{
+		BufferedWriter feedbackWriter = new BufferedWriter(new FileWriter(creationFile,true)); //true appends rather than overwriting.
+		
+		feedbackWriter.write(ip);
+		feedbackWriter.newLine();
+		feedbackWriter.write(creationDate.toString());
+		feedbackWriter.newLine();
+		feedbackWriter.write("New practice problem created:" + newTopicProblemFolderPath);
+		feedbackWriter.newLine();
+		feedbackWriter.newLine();
+		
+		feedbackWriter.flush();
+		feedbackWriter.close();
+		}
 	}
 %>
 

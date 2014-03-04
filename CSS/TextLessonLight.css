@@ -210,7 +210,7 @@ div .bookpage {
 #videoLessonIcon {
 	position:relative;
 	height:100%;
-	width:80%;
+	width:25px;
 	min-width:15px;
 	left:10%;
 }

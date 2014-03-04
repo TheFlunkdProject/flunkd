@@ -1,0 +1,7 @@
+<div id="exampleOpenTrigger" onclick="showExample()" style="position:relative;height:20px;width:20px;background-color:#FFFFFF;">
+</div>
+<div id="example" style="display:none">
+show me...
+</div>
+<div id="exampleCloseTrigger" onclick="hideExample()" style="position:relative;height:20px;width:20px;background-color:#DD0000;">
+</div>

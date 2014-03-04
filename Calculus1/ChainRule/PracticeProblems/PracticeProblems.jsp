@@ -140,7 +140,7 @@ String bestPageR = author + "/R.txt";
 
 </div>
 
-<%@ include file="/JSP/TextLesson_postLessonIncludes.jsp" %>
+<%@ include file="/JSP/PracticeProblems_postLessonIncludes.jsp" %>
 <script>
 displayDifficulty();
 </script>
