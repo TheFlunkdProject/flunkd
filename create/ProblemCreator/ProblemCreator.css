@@ -123,6 +123,13 @@ body {
 #closeProlemPreview {
 	position:absolute;
 	width:5em;
+	right:12em;
+	bottom:1em;
+}
+
+#submitProblem {
+	position:absolute;
+	width:10em;
 	right:1em;
 	bottom:1em;
 }

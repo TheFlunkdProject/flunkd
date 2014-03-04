@@ -1,5 +1,15 @@
-function loadTopics() {
-	document.forms['fCreateProblem'].submit();
+function updateCourse() {
+selectCourseElement = document.getElementById('courseName');
+selectedCourse = selectCourseElement.options[selectCourseElement.selectedIndex].value;
+document.getElementById('hCourse').value = selectedCourse;
+document.forms['fCreateProblem'].submit();
+}
+
+function updateTopic() {
+selectTopicElement = document.getElementById('topicName');
+selectedTopic = selectTopicElement.options[selectTopicElement.selectedIndex].value;
+document.getElementById('hTopic').value = selectedTopic;
+document.getElementById('question').focus();
 }
 
 var generatedAnswer = {};
@@ -66,12 +76,6 @@ answ = Parser.evaluate( answer, { var1: var1Number, var2: var2Number});
 generatedAnswer.ansh = parseFloat(answ);
 }
 
-function closePreview() {
-document.getElementById('problemPreview').style.visibility="hidden";
-document.getElementById('feedback').innerHTML="";
-document.getElementById('userAnswer').value="";
-}
-
 function answerProblem() {
 userAnswer = document.getElementById('userAnswer').value;
 feedback = "Enter an answer.";
@@ -87,4 +91,37 @@ else
 	feedback = feedbackIncorrect;
 	}
 document.getElementById('feedback').innerHTML = feedback;
+}
+
+function closePreview() {
+document.getElementById('problemPreview').style.visibility="hidden";
+document.getElementById('feedback').innerHTML="";
+document.getElementById('userAnswer').value="";
+}
+
+function submitProblem() {
+cnn = document.getElementById('courseName').options[document.getElementById('courseName').selectedIndex].value;
+document.getElementById('hCourse').value = cnn;
+tnn = document.getElementById('topicName').options[document.getElementById('topicName').selectedIndex].value;
+document.getElementById('hTopic').value = tnn;
+qnn = document.getElementById('question').value;
+document.getElementById('hQuestion').value = qnn;
+v1f = document.getElementById('var1From').value;
+document.getElementById('hVar1From').value = v1f;
+v1t = document.getElementById('var1To').value;
+document.getElementById('hVar1To').value = v1t;
+v2f = document.getElementById('var2From').value;
+document.getElementById('hVar2From').value = v2f;
+v2t = document.getElementById('var2To').value;
+document.getElementById('hVar2To').value = v2t;
+ann = document.getElementById('answer').value;
+document.getElementById('hAnswer').value = ann;
+dif = document.getElementById('difficulty').value;
+document.getElementById('hDifficulty').value = dif;
+exa = document.getElementById('example').value;
+document.getElementById('hExample').value = exa
+
+document.getElementById('problemSubmitted').value = "problemSubmitted";
+if (cnn != "" && tnn != "" && qnn != "" && (v1f != "" || v2f != "") && (v1t != "" || v2t != "") && ann != "" && dif != "")
+	document.forms['fCreateProblem'].submit();
 }
