@@ -180,14 +180,14 @@
 <% //This is where we handle problem submissions:
 String hCourse = "";
 String hTopic = "";
-String hQuestion = "";
+StringBuffer hQuestion = new StringBuffer("");
 String hVar1From = "";
 String hVar1To = "";
 String hVar2From = "";
 String hVar2To = "";
 String hAnswer = "";
 String hDifficulty = "";
-String hExample = "";
+StringBuffer hExample = new StringBuffer("");
 if (request.getParameter("hCourse") != null)
 	{
 	hCourse = request.getParameter("hCourse");
@@ -198,7 +198,13 @@ if (request.getParameter("hTopic") != null)
 	}
 if (request.getParameter("hQuestion") != null)
 	{
-	hQuestion = request.getParameter("hQuestion");
+	hQuestion = new StringBuffer(request.getParameter("hQuestion"));
+	int locr = (new String(hQuestion)).indexOf('\n');
+	while(locr > 0)
+		{
+		hQuestion.replace(locr, locr+1, "<BR>");
+		locr = (new String(hQuestion)).indexOf('\n');
+		}
 	}
 if (request.getParameter("hVar1From") != null)
 	{
@@ -226,7 +232,13 @@ if (request.getParameter("hDifficulty") != null)
 	}
 if (request.getParameter("hExample") != null)
 	{
-	hExample = request.getParameter("hExample");
+	hExample = new StringBuffer(request.getParameter("hExample"));
+	int locr = (new String(hExample)).indexOf('\n');
+	while(locr > 0)
+		{
+		hExample.replace(locr, locr+1, "<BR>");
+		locr = (new String(hExample)).indexOf('\n');
+		}
 	}
 
 Random randomValue = new Random();
@@ -251,23 +263,22 @@ if (request.getParameter("problemSubmitted") != null && hTopic != "")
 	pw.close();
 	
 	//All this is writing to L.txt...
-	String allOfL = "<input type=\"hidden\" name=\"hCourse\" id=\"hCourse\">" + 
-		"<input type=\"hidden\" name=\"hTopic\" id=\"hTopic\">" + 
-		"<input type=\"hidden\" name=\"hQuestion\" id=\"hQuestion\" value=\""+hQuestion+"\">" + 
-		"<input type=\"hidden\" name=\"hVar1From\" id=\"hVar1From\" value=\""+hVar1From+"\">" + 
-		"<input type=\"hidden\" name=\"hVar1To\" id=\"hVar1To\" value=\""+hVar1To+"\">" + 
-		"<input type=\"hidden\" name=\"hVar2From\" id=\"hVar2From\" value=\""+hVar2From+"\">" + 
-		"<input type=\"hidden\" name=\"hVar2To\" id=\"hVar2To\" value=\""+hVar2To+"\">" + 
-		"<input type=\"hidden\" name=\"hAnswer\" id=\"hAnswer\" value=\""+hAnswer+"\">" + 
-		"<input type=\"hidden\" name=\"hDifficulty\" id=\"hDifficulty\" value=\""+hDifficulty+"\">" + 
-		"<input type=\"hidden\" name=\"hExample\" id=\"hExample\" value=\""+hExample+"\">" + 
-	"<p id=\"generatedQuestion\">" + 
-	"</p>" + 
-	"<input type=\"text\" id=\"userAnswer\">" + 
-	"<input type=\"button\" id=\"checkAnswer\" onclick=\"answerProblem()\" value=\"Check\">" + 
-	"<p id=\"feedback\">" +
-	"</p>";
-	
+	String allOfL = "\t<input type=\"hidden\" name=\"hCourse\" id=\"hCourse\"> \n\t" + 
+		"<input type=\"hidden\" name=\"hTopic\" id=\"hTopic\"> \n\t" + 
+		"<input type=\"hidden\" name=\"hQuestion\" id=\"hQuestion\" value=\""+hQuestion+"\"> \n\t" + 
+		"<input type=\"hidden\" name=\"hVar1From\" id=\"hVar1From\" value=\""+hVar1From+"\"> \n\t" + 
+		"<input type=\"hidden\" name=\"hVar1To\" id=\"hVar1To\" value=\""+hVar1To+"\"> \n\t" + 
+		"<input type=\"hidden\" name=\"hVar2From\" id=\"hVar2From\" value=\""+hVar2From+"\"> \n\t" + 
+		"<input type=\"hidden\" name=\"hVar2To\" id=\"hVar2To\" value=\""+hVar2To+"\"> \n\t" + 
+		"<input type=\"hidden\" name=\"hAnswer\" id=\"hAnswer\" value=\""+hAnswer+"\"> \n\t" + 
+		"<input type=\"hidden\" name=\"hDifficulty\" id=\"hDifficulty\" value=\""+hDifficulty+"\"> \n\t" + 
+		"<input type=\"hidden\" name=\"hExample\" id=\"hExample\" value=\""+hExample+"\"> \n" + 
+	"<p id=\"generatedQuestion\"> \n" + 
+	"</p> \n" + 
+	"<input type=\"text\" id=\"userAnswer\"> \n" + 
+	"<input type=\"button\" id=\"checkAnswer\" onclick=\"answerProblem()\" value=\"Check\"> \n" + 
+	"<p id=\"feedback\"> \n" +
+	"</p> \n";
 	String newProblemLPath = newTopicProblemFolderPath + "/L.txt";
 	File newProblemLFile = new File(newProblemLPath);
 	newProblemLFile.createNewFile();
@@ -275,11 +286,23 @@ if (request.getParameter("problemSubmitted") != null && hTopic != "")
 	pwl.println(allOfL);
 	pwl.close();
 	
+	String allOfR = "<div id=\"exampleOpenTrigger\" onclick=\"showExample()\"" + 
+	"style=\"position:relative;height:20px;width:20px;background-color:#FFFFFF;\"> \n" + 
+	"</div> \n" + 
+	"<div id=\"example\" style=\"display:none\"> \n" +
+	"</div> \n" + 
+	"<div id=\"exampleCloseTrigger\" onclick=\"hideExample()\"" + 
+	"style=\"position:relative;height:20px;width:20px;background-color:#DD0000;\"> \n" + 
+	"</div> \n" + 
+	"\n" + 
+	"<script>\n" + 
+	"title+=\" Problems\";\n" + 
+	"</script>\n";
 	String newProblemRPath = newTopicProblemFolderPath + "/R.txt";
 	File newProblemRFile = new File(newProblemRPath);
 	newProblemRFile.createNewFile();
 	PrintWriter pwr = new PrintWriter(new FileOutputStream(newProblemRPath));
-	pwr.println("Example:");
+	pwr.println(allOfR);
 	pwr.close();
 	
 	
@@ -288,6 +311,7 @@ if (request.getParameter("problemSubmitted") != null && hTopic != "")
 	String ip = request.getRemoteAddr();
 	String creationPath = "/home/learnfla/tomcat/webapps/learningflare.com/ROOT/updateLog.txt";
 	File creationFile = new File(creationPath);
+	creationFile.createNewFile();
 	if (creationFile.exists() && creationFile.canWrite())
 		{
 		BufferedWriter feedbackWriter = new BufferedWriter(new FileWriter(creationFile,true)); //true appends rather than overwriting.

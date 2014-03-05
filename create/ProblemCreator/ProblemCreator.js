@@ -62,7 +62,10 @@ else
 var2NumberToString = var2Number.toString();
 
 
-
+example = document.getElementById('example').value;
+example = example.replace(var1ReplaceString, var1NumberToString);
+example = example.replace(var2ReplaceString, var2NumberToString);
+document.getElementById('hExample').value = example;
 question = question.replace(var1ReplaceString, var1NumberToString);
 question = question.replace(var2ReplaceString, var2NumberToString);
 //The question is now ready to be asked to the student.
@@ -79,8 +82,8 @@ generatedAnswer.ansh = parseFloat(answ);
 function answerProblem() {
 userAnswer = document.getElementById('userAnswer').value;
 feedback = "Enter an answer.";
-feedbackCorrect = "You sun of a gun. You got it right!";
-feedbackIncorrect = "Sorry boy. Try again.";
+feedbackCorrect = "Correct";
+feedbackIncorrect = "Incorrect Answer";
 answernumber = generatedAnswer.ansh;
 if (Math.abs(parseFloat(userAnswer) - answernumber) < 0.1)
 	{
@@ -119,7 +122,7 @@ document.getElementById('hAnswer').value = ann;
 dif = document.getElementById('difficulty').value;
 document.getElementById('hDifficulty').value = dif;
 exa = document.getElementById('example').value;
-document.getElementById('hExample').value = exa
+
 
 document.getElementById('problemSubmitted').value = "problemSubmitted";
 if (cnn != "" && tnn != "" && qnn != "" && (v1f != "" || v2f != "") && (v1t != "" || v2t != "") && ann != "" && dif != "")

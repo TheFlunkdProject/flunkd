@@ -51,7 +51,7 @@ else
 var2NumberToString = var2Number.toString();
 
 
-
+example
 question = question.replace(var1ReplaceString, var1NumberToString);
 question = question.replace(var2ReplaceString, var2NumberToString);
 //The question is now ready to be asked to the student.
@@ -71,8 +71,8 @@ generateProblem();
 function answerProblem() {
 userAnswer = document.getElementById('userAnswer').value;
 feedback = "Enter an answer.";
-feedbackCorrect = "You sun of a gun. You got it right!";
-feedbackIncorrect = "Sorry boy. Try again.";
+feedbackCorrect = "Correct";
+feedbackIncorrect = "Incorrect Answer";
 answernumber = generatedAnswer.ansh;
 if (Math.abs(parseFloat(userAnswer) - answernumber) < 0.1)
 	{
@@ -95,3 +95,12 @@ function hideExample() {
 cssStringHideExample = "display:none;transition:display .3s;";
 document.getElementById('example').style.cssText = cssStringHideExample;
 }
+
+//This will write the example in:
+document.getElementById('example').innerHTML = document.getElementById('hExample').value;
+
+//Display the difficulty of the chosen problem:
+function displayDifficulty() {
+document.getElementById('difficultyDisplay').innerHTML=document.getElementById('difficultyLevel').value;
+}
+displayDifficulty();
