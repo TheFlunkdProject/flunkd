@@ -1,3 +1,5 @@
+document.getElementById('topicsmenu').style.opacity="0";//because BlueAndBlack css always dominates somehow...
+
 var box1Trigger = document.getElementById('box1Trigger');
 var box2Trigger = document.getElementById('box2Trigger');
 var box3Trigger = document.getElementById('box3Trigger');

@@ -2,7 +2,7 @@
 <script src="/JS/topMenu.js"></script>
 <script src="/JS/topbannerReveal.js"></script>
 <script src="/JS/StyleChanger.js"></script>
-<!--<script src="/JS/TextLesson.js"></script>-->
+<!--<script src="/JS/TextLesson.js"></script> Included in TextLesson_PostLessonIncludes.jsp-->
 <!-- MathJax -->
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -16,6 +16,11 @@
 <link rel="stylesheet" type="text/css" href="/CSS/HighlightSaveTextCSS.css">
 <link rel="stylesheet" type="text/css" href="/CSS/CourseTopicsMenu.css">
 <link rel="stylesheet" type="text/css" href="/CSS/TopicsMenuBlueBlack.css">
+<style>
+# topicsmenu {
+opacity:0;
+}
+</style>
 <link rel="stylesheet" type="text/css" href="/CSS/CalcClassMenu.css">
 <link rel="stylesheet" type="text/css" href="/CSS/topMenuCSS.css">
 <link rel="stylesheet" type="text/css" href="/CSS/topMenuHidden.css">
@@ -23,7 +28,7 @@
 <link rel="stylesheet" type="text/css" href="/CSS/StyleChangerTextLesson.css">
 <link rel="stylesheet" type="text/css" href="/CSS/bottomMenuCSS.css">
 
-<link rel="stylesheet" type="text/css" href="/CSS/TextLessonLight.css">
+<link rel="stylesheet" type="text/css" href="/CSS/TextLessonLight.css" >
 <link rel="alternate stylesheet" type="text/css" href="/CSS/TextLessonDark.css" Title="dark">
 
 <style>

@@ -66,7 +66,7 @@
 <ul class="topicssubmenu">
 <li><a href="/Calculus1/DefinitionOfTheDerivative/TextLesson/TextLesson.jsp">Definition of the Derivative</a>
 </li>
-<li><a href="/Calculus1/GraphsOfDerivatives/TextLesson/TextLesson.jsp">Graphs of Derivatives</a>
+<li><a href="/Calculus1/GraphingDerivatives/TextLesson/TextLesson.jsp">Graphing Derivatives</a>
 </li>
 <li><a href="/Calculus1/DerivativeFormula/TextLesson/TextLesson.jsp">Derivative Formula</a>
 </li>

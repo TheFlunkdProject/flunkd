@@ -6,7 +6,7 @@
 <%@ include file="/JSP/TextLessonHead.jsp" %>
 
 <!-- This variable is handled in /JS/postLessonJavaScript.js .-->
-<script>var title = "Uncertainty Relation for Position and Momentum";</script>
+<script>var title = "<%@ include file="../Name.txt" %>";</script>
 
 </head>
 <body>

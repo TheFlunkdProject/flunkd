@@ -6,7 +6,7 @@
 <%@ include file="/JSP/TextLessonHead.jsp" %>
 
 <!-- This variable is handled in /JS/postLessonJavaScript.js .-->
-<script>var title = "Stationary States";</script>
+<script>var title = "<%@ include file="../Name.txt" %>";</script>
 
 </head>
 <body>
@@ -28,4 +28,3 @@
 <%@ include file="/JSP/TextLesson_postLessonIncludes.jsp" %>
 
 </body>
-</html>

@@ -6,7 +6,7 @@
 <%@ include file="/JSP/TextLessonHead.jsp" %>
 
 <!-- This variable is handled in /JS/postLessonJavaScript.js .-->
-<script>var title = "Length Contraction";</script>
+<script>var title = "<%@ include file="../Name.txt"%>";</script>
 
 </head>
 <body>

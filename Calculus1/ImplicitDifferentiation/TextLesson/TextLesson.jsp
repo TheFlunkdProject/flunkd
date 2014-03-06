@@ -5,38 +5,27 @@
 
 <%@ include file="/JSP/TextLessonHead.jsp" %>
 
+<!-- This variable is handled in /JS/postLessonJavaScript.js .-->
+<script>var title = "<%@ include file="../Name.txt"%>";</script>
 
 </head>
 <body>
 
-
-<%@ include file="/JSP/StyleChanger.jsp" %>
-
-<%@ include file="/JSP/TopicMisc.jsp" %>
-
-<%@ include file="/JSP/HorizontalBanner.jsp" %>
-
-<%@ include file="/JSP/VerticalBanner.jsp" %>
-
-<%@ include file="/JSP/HighlightMenu.jsp" %>
-
-<%@ include file="/JSP/ToolsMenu.jsp" %>
-
-<%@ include file="/JSP/MediaMenu.jsp" %>
-
-<%@ include file="/JSP/ContactPhone.jsp" %>
-
-<%@ include file="/JSP/ClassesMenu.jsp" %>
-
-<%@ include file="/Calculus1/Calculus1TopicsMenu.jsp" %>
-
+<%@ include file="/JSP/TextLesson_preLessonIncludes.jsp" %>
+<%@ include file="../../TopicsMenu.jsp" %>
 
 <div id="bookcover">
 <%@ include file="/JSP/bookpages.jsp" %>
 
-<%@ include file="TextLesson_pears22.jsp" %>	
+<!--Some java code to decide which lesson to include will be inserted here. -->
+<jsp:include page="/JSP/TextLesson_LessonLeadingText.jsp" />	
+<jsp:include page="TextLesson_pears22/L.txt" />	
+<jsp:include page="/JSP/TextLesson_LessonIntermediateText.jsp" />	
+<jsp:include page="TextLesson_pears22/R.txt" />	
+<jsp:include page="/JSP/TextLesson_LessonTrailingText.jsp" />	
 </div>
 
+<%@ include file="/JSP/TextLesson_postLessonIncludes.jsp" %>
 
 </body>
 </html>

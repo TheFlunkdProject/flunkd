@@ -96,12 +96,12 @@ document.getElementById('classesmenu').style.cssText = cssStringClassesMenuOff;
 
 
 function topicsMenuOn() {
-cssStringTopicsMenuOn = "visibility:visible;opacity:1;transition:opacity .1s .5s, visibility 0s 0s"
+cssStringTopicsMenuOn = "visibility:visible;opacity:1;transition: opacity .1s .5s, visibility 0s .5s;"
 document.getElementById('topicsmenu').style.cssText = cssStringTopicsMenuOn
 }
 
 function topicsMenuOff() {
-cssStringTopicsMenuOff = "visibility:hidden;opacity:0;transition:opacity .1s .5s, visibility 0s .6s;"
+cssStringTopicsMenuOff = "visibility:hidden;opacity:0;transition: opacity .1s .5s, visibility 0s .6s;"
 document.getElementById('topicsmenu').style.cssText = cssStringTopicsMenuOff;
 }
 

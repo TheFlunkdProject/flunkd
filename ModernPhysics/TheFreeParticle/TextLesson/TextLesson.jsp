@@ -6,7 +6,7 @@
 <%@ include file="/JSP/TextLessonHead.jsp" %>
 
 <!-- This variable is handled in /JS/postLessonJavaScript.js .-->
-<script>var title = "The Free Particle";</script>
+<script>var title = "<%@ include file="../Name.txt" %>";</script>
 
 </head>
 <body>
@@ -22,7 +22,7 @@
 <jsp:include page="TextLesson_pears22/L.txt" />	
 <jsp:include page="/JSP/TextLesson_LessonIntermediateText.jsp" />	
 <jsp:include page="TextLesson_pears22/R.txt" />	
-<jsp:include page="/JSP/TextLesson_LessonTrailingText.jsp" />		
+<jsp:include page="/JSP/TextLesson_LessonTrailingText.jsp" />	
 </div>
 
 <%@ include file="/JSP/TextLesson_postLessonIncludes.jsp" %>

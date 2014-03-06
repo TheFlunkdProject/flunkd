@@ -6,7 +6,7 @@
 <%@ include file="/JSP/TextLessonHead.jsp" %>
 
 <!-- This variable is handled in /JS/postLessonJavaScript.js .-->
-<script>var title = "Other Evidence for Atomic Energy Levels";</script>
+<script>var title = "<%@ include file="../Name.txt" %>";</script>
 
 </head>
 <body>
