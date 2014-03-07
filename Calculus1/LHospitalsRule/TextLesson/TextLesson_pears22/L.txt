@@ -1,0 +1,4 @@
+Derivatives were made possible because of limits, and L'Hospital's rule is derivatives' way of giving back to limits.
+
+When you evaluate a limit and you get one of these two indeterminate forms:$$\frac{\infty}{\infty}\text{, }\frac{0}{0}$$ you can use L'Hospital's rule. If you get an indeterminate limit of any other form, you have to change the expression into something that will give you one of these two forms.
+

@@ -1,0 +1,4 @@
+Implicit differentiation is an interesting differentiating technique that makes the derivatives of certain functions possible that weren't before. It also has an application 
+in one of the most awesome calculus topics called "related rates." If you learn this well, you will learn a lot of math in the future more easily.
+
+Implicit differentiation is what you use when you have an equation which is not solved for $y$. You take the derivatives of the $y$'s as if they were $x$'s,  but each time you do, you multiply by the chain rule for $y$ which happens to be $y$' or $\frac{dy}{dx}$. You then solve the new equation for the $y'$ or $\frac{dy}{dx}$. Here are some examples: $$y+x=x^2$$ $$y'+1=2x$$ $$y'=2x-1$$If your original equation can be solved for $y$, it is good to plug it into the $y$'s in the derivative. Here is an example of this:$$x^2-y^2=9$$ $$2x-2y\frac{dy}{dx}=0$$ $$\frac{dy}{dx}=\frac{-2x}{-2y}=\frac{x}{y}$$

@@ -1,1 +1,1 @@
-
+<div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/6kScLENCXLg?wmode=transparent&rel=0&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>patrickJMT</p><p>Chain rule official formula</p><p>0:00 - 2:26</p></div></div>

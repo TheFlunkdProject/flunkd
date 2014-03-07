@@ -1,0 +1,6 @@
+The way to use L'Hospital's Rule is simple. Take the derivative of the top and the derivative of the bottom. This is <span id="box1Trigger">not the quotient rule.</span><div id="box1">Everyone at some point makes the mistake of wanting to do the quotient rule. Watch out for that.</div> It is easier. 
+
+Here's an Example:
+<span id="box2Trigger">$$\lim_{x\to \infty} \frac{x^2+1}{e^x}=\frac{\infty}{\infty}$$</span><div id="box2">Like always, the first thing you 
+do is plug in the limit. Now we can use L'Hospital's Rule.</div>$$\lim_{\ x\to \infty} \frac{x^2+1}{e^x}=\lim_{x\to \infty} \frac{2x}{e^x}=\frac{\infty}{\infty}$$We can pretty much do L'Hospital's Rule over and over until the $x$'s are gone from either the numerator or the denominator.
+$$\lim_{x\to \infty}\frac{2x}{e^x}=0$$

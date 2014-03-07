@@ -1,0 +1,9 @@
+Now solve for $y$ in the original:$$x^2-9=y^2$$ $$y=\pm\sqrt{x^2-9}$$Substitute y into the derivative:$$\frac{dy}{dx}=\frac{x}{\pm\sqrt{x^2-9}}$$Sometimes you don't need to solve for $\frac{dy}{dx}$ or $y'$ at all. That's only when you have numbers to plug in.
+
+Example:
+
+Find the slope of the curve $x^2+e^{3y}=5$ at the point $(2,0)$.
+
+Solution:
+
+Since the derivative is where you find the slope, you take that first:$$2x+e^{3y}\,3y'=0$$Now we can just plug in the point:$$2(2)+e^03y'=0$$$$y'=-4/3$$
