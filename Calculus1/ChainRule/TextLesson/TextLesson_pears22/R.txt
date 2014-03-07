@@ -1,6 +1,8 @@
-<img src="../../Functions/image271.png"> &nbsp (notice that the angle doesn't change.)
-<p>So the trick is to start on the very outside, and work your way inside. You start with the main form of 
+$\frac{d}{dx}(sin(x^2))$ $=cos(x^2)*2x=2xcos(x^2)$ (notice that the angle doesn't change.)
+<BR><BR>
+So the trick is to start on the very outside, and work your way inside. You start with the main form of 
 the whole expression, and pretend anything inside of it is an x. Then, you multiply by the derivative of 
 what was inside that you were pretending was an x, and so on, until what is on the inside is actually an x. 
-Like this:</p>
-<img src="../../Functions/image272.png" alt="ddx(ln(ln(ln(lnx))))=1ln(ln(lnx)))*1ln(lnx)*1lnx*1x">
+Like this:
+<BR><BR>
+$\frac{d}{dx}(ln(ln(ln(lnx))))$ $=\frac{1}{ln(ln(lnx)))}\frac{1}{ln(lnx)}\frac{1}{lnx}\frac{1}{x}$

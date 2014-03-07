@@ -97,7 +97,7 @@ document.getElementById('classesmenu').style.cssText = cssStringClassesMenuOff;
 
 function topicsMenuOn() {
 cssStringTopicsMenuOn = "visibility:visible;opacity:1;transition: opacity .1s .5s, visibility 0s .5s;"
-document.getElementById('topicsmenu').style.cssText = cssStringTopicsMenuOn
+document.getElementById('topicsmenu').style.cssText = cssStringTopicsMenuOn;
 }
 
 function topicsMenuOff() {
