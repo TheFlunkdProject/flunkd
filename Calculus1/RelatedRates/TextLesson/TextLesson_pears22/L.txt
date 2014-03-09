@@ -1,0 +1,13 @@
+Related rates are delicious applications of derivatives/rates of change. Unfortunately, they are difficult to set up. So pay special attention to how to set them up, and make sure you get a lot of practice.
+<BR>
+<BR>You always go through this process:
+<BR><ol><li>Right down the information in math language<li>Come up with an equation that relates all of the variables/constants in your information</li><li>Take the derivative</li><li>Solve for the rate you need</li></ol>
+<BR>Here is an example of a basic related rates problem:
+<BR>
+<BR>A balloon is being blown up at a rate of $18\,cm^3/s$. How fast is the radius of the balloon increasing when the radius is $5\,cm$?
+<BR>
+<BR>Solution (following the steps above):
+<BR>
+<BR><ol><li>Since the balloon is increasing in size, the volume is increasing. When a quantity increases, you can represent that change with a derivative. So the first part tells us that <span id="box1Trigger">$\frac{dV}{dt}=18\,cm^3/s$</span><div id="box1">The rates in virtually all related rates problems are all about how fast something is happening. So that means that in every related rates problem you will see, the derivatives will be taken with respect to time.  That is a change in something over a change in time.</div>
+<BR>We also have $r=5\,cm$. What do we need to find? How fast the radius is increasing. That is also a derivative: $dr/dt=$ ?</li>
+<BR><li>What is an equation that relates a radius with the volume of a sphere? Well, that would be the volume of a sphere equation.</li></ol>
