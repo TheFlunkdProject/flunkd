@@ -15,6 +15,21 @@ var box12Trigger = document.getElementById('box12Trigger');
 var box13Trigger = document.getElementById('box13Trigger');
 var box14Trigger = document.getElementById('box14Trigger');
 var box15Trigger = document.getElementById('box15Trigger');
+var box16Trigger = document.getElementById('box16Trigger');
+var box17Trigger = document.getElementById('box17Trigger');
+var box18Trigger = document.getElementById('box18Trigger');
+var box19Trigger = document.getElementById('box19Trigger');
+var box20Trigger = document.getElementById('box20Trigger');
+var box21Trigger = document.getElementById('box21Trigger');
+var box22Trigger = document.getElementById('box22Trigger');
+var box23Trigger = document.getElementById('box23Trigger');
+var box24Trigger = document.getElementById('box24Trigger');
+var box25Trigger = document.getElementById('box25Trigger');
+var box26Trigger = document.getElementById('box26Trigger');
+var box27Trigger = document.getElementById('box27Trigger');
+var box28Trigger = document.getElementById('box28Trigger');
+var box29Trigger = document.getElementById('box29Trigger');
+var box30Trigger = document.getElementById('box30Trigger');
 
 var box1 = document.getElementById('box1');
 var box2 = document.getElementById('box2');
@@ -31,9 +46,24 @@ var box12 = document.getElementById('box12');
 var box13 = document.getElementById('box13');
 var box14 = document.getElementById('box14');
 var box15 = document.getElementById('box15');
+var box16 = document.getElementById('box16');
+var box17 = document.getElementById('box17');
+var box18 = document.getElementById('box18');
+var box19 = document.getElementById('box19');
+var box20 = document.getElementById('box20');
+var box21 = document.getElementById('box21');
+var box22 = document.getElementById('box22');
+var box23 = document.getElementById('box23');
+var box24 = document.getElementById('box24');
+var box25 = document.getElementById('box25');
+var box26 = document.getElementById('box26');
+var box27 = document.getElementById('box27');
+var box28 = document.getElementById('box28');
+var box29 = document.getElementById('box29');
+var box30 = document.getElementById('box30');
 
 
-var cssStringOpenboxFadeIn = "visibility: visible;transition: border .4s .2s,  " + 
+var cssStringOpenboxFadeIn = "display: inline; visibility: visible;transition: border .4s .2s,  " + 
 "background-color .4s .2s, visibility .4s .2s, color .4s .2s, opacity .4s .2s;" + 
 "-webkit-transition: border .4s .2s,  background-color .4s .2s, visibility .4s .2s, " + 
 "color .4s .2s opacity .4s .2s;-moz-transition: border .4s .2s,  background-color .4s .2s, " + 
@@ -48,13 +78,13 @@ var cssStringCloseboxNoTransition = "transition: border 0s,  " +
 "background-color 0s, visibility 0s, color 0s;-webkit-transition: " + 
 "border 0s,  background-color 0s, visibility 0s, color 0s;-moz-transition: " + 
 "border 0s,  background-color 0s, visibility 0s, color 0s;-o-transition: border 0s,  " + 
-"background-color 0s, visibility 0s, color 0s;visibility: hidden;" + 
+"background-color 0s, visibility 0s, color 0s;display: inline; visibility: hidden;" + 
 "border: 5px ridge rgba(220,220,220,0); color: rgba(0,0,0,0);" + 
 "background-color: rgba(102,204,255,0);opacity: 0;";
 
 var cssStringTriggerOff="color:#6E8C6E;cursor:auto;"
 	
-var cssStringCloseboxFadeOut = "visibility: hidden;transition: border .2s,  " + 
+var cssStringCloseboxFadeOut = "display: inline; visibility: hidden;transition: border .2s,  " + 
 "background-color .2s, visibility 0s .2s, opacity .2s, color .2s;" + 
 "-webkit-transition: border .2s,  background-color .2s, visibility 0s .2s, " + 
 "opacity .2s, color .2s;-moz-transition: border .2s,  background-color .2s, " + 
@@ -143,6 +173,81 @@ box15.style.cssText = cssStringOpenboxFadeIn;
 box15Trigger.style.cssText=cssStringTriggerOn;
 }
 
+function openbox16FadeIn() {
+box16.style.cssText = cssStringOpenboxFadeIn;
+box16Trigger.style.cssText=cssStringTriggerOn;
+}
+
+function openbox17FadeIn() {
+box17.style.cssText = cssStringOpenboxFadeIn;
+box17Trigger.style.cssText=cssStringTriggerOn;
+}
+
+function openbox18FadeIn() {
+box18.style.cssText = cssStringOpenboxFadeIn;
+box18Trigger.style.cssText=cssStringTriggerOn;
+}
+
+function openbox19FadeIn() {
+box19.style.cssText = cssStringOpenboxFadeIn;
+box19Trigger.style.cssText=cssStringTriggerOn;
+}
+
+function openbox20FadeIn() {
+box20.style.cssText = cssStringOpenboxFadeIn;
+box20Trigger.style.cssText=cssStringTriggerOn;
+}
+
+function openbox21FadeIn() {
+box21.style.cssText = cssStringOpenboxFadeIn;
+box21Trigger.style.cssText=cssStringTriggerOn;
+}
+
+function openbox22FadeIn() {
+box22.style.cssText = cssStringOpenboxFadeIn;
+box22Trigger.style.cssText=cssStringTriggerOn;
+}
+
+function openbox23FadeIn() {
+box23.style.cssText = cssStringOpenboxFadeIn;
+box23Trigger.style.cssText=cssStringTriggerOn;
+}
+
+function openbox24FadeIn() {
+box24.style.cssText = cssStringOpenboxFadeIn;
+box24Trigger.style.cssText=cssStringTriggerOn;
+}
+
+function openbox25FadeIn() {
+box25.style.cssText = cssStringOpenboxFadeIn;
+box25Trigger.style.cssText=cssStringTriggerOn;
+}
+
+function openbox26FadeIn() {
+box26.style.cssText = cssStringOpenboxFadeIn;
+box26Trigger.style.cssText=cssStringTriggerOn;
+}
+
+function openbox27FadeIn() {
+box27.style.cssText = cssStringOpenboxFadeIn;
+box27Trigger.style.cssText=cssStringTriggerOn;
+}
+
+function openbox28FadeIn() {
+box28.style.cssText = cssStringOpenboxFadeIn;
+box28Trigger.style.cssText=cssStringTriggerOn;
+}
+
+function openbox29FadeIn() {
+box29.style.cssText = cssStringOpenboxFadeIn;
+box29Trigger.style.cssText=cssStringTriggerOn;
+}
+
+function openbox30FadeIn() {
+box30.style.cssText = cssStringOpenboxFadeIn;
+box30Trigger.style.cssText=cssStringTriggerOn;
+}
+
 
 
 
@@ -222,6 +327,81 @@ box15.style.cssText = cssStringCloseboxFadeOut;
 box15Trigger.style.cssText=cssStringTriggerOff;
 }
 
+function closebox16FadeOut() {
+box16.style.cssText = cssStringCloseboxFadeOut;
+box16Trigger.style.cssText=cssStringTriggerOff;
+}
+
+function closebox17FadeOut() {
+box17.style.cssText = cssStringCloseboxFadeOut;
+box17Trigger.style.cssText=cssStringTriggerOff;
+}
+
+function closebox18FadeOut() {
+box18.style.cssText = cssStringCloseboxFadeOut;
+box18Trigger.style.cssText=cssStringTriggerOff;
+}
+
+function closebox19FadeOut() {
+box19.style.cssText = cssStringCloseboxFadeOut;
+box19Trigger.style.cssText=cssStringTriggerOff;
+}
+
+function closebox20FadeOut() {
+box20.style.cssText = cssStringCloseboxFadeOut;
+box20Trigger.style.cssText=cssStringTriggerOff;
+}
+
+function closebox21FadeOut() {
+box21.style.cssText = cssStringCloseboxFadeOut;
+box21Trigger.style.cssText=cssStringTriggerOff;
+}
+
+function closebox22FadeOut() {
+box22.style.cssText = cssStringCloseboxFadeOut;
+box22Trigger.style.cssText=cssStringTriggerOff;
+}
+
+function closebox23FadeOut() {
+box23.style.cssText = cssStringCloseboxFadeOut;
+box23Trigger.style.cssText=cssStringTriggerOff;
+}
+
+function closebox24FadeOut() {
+box24.style.cssText = cssStringCloseboxFadeOut;
+box24Trigger.style.cssText=cssStringTriggerOff;
+}
+
+function closebox25FadeOut() {
+box25.style.cssText = cssStringCloseboxFadeOut;
+box25Trigger.style.cssText=cssStringTriggerOff;
+}
+
+function closebox26FadeOut() {
+box26.style.cssText = cssStringCloseboxFadeOut;
+box26Trigger.style.cssText=cssStringTriggerOff;
+}
+
+function closebox27FadeOut() {
+box27.style.cssText = cssStringCloseboxFadeOut;
+box27Trigger.style.cssText=cssStringTriggerOff;
+}
+
+function closebox28FadeOut() {
+box28.style.cssText = cssStringCloseboxFadeOut;
+box28Trigger.style.cssText=cssStringTriggerOff;
+}
+
+function closebox29FadeOut() {
+box29.style.cssText = cssStringCloseboxFadeOut;
+box29Trigger.style.cssText=cssStringTriggerOff;
+}
+
+function closebox30FadeOut() {
+box30.style.cssText = cssStringCloseboxFadeOut;
+box30Trigger.style.cssText=cssStringTriggerOff;
+}
+
 
 
 
@@ -284,6 +464,66 @@ box14.style.cssText = cssStringCloseboxNoTransition;
 
 function closebox15NoTransition() {
 box15.style.cssText = cssStringCloseboxNoTransition;
+}
+
+function closebox16NoTransition() {
+box16.style.cssText = cssStringCloseboxNoTransition;
+}
+
+function closebox17NoTransition() {
+box17.style.cssText = cssStringCloseboxNoTransition;
+}
+
+function closebox18NoTransition() {
+box18.style.cssText = cssStringCloseboxNoTransition;
+}
+
+function closebox19NoTransition() {
+box19.style.cssText = cssStringCloseboxNoTransition;
+}
+
+function closebox20NoTransition() {
+box20.style.cssText = cssStringCloseboxNoTransition;
+}
+
+function closebox21NoTransition() {
+box21.style.cssText = cssStringCloseboxNoTransition;
+}
+
+function closebox22NoTransition() {
+box22.style.cssText = cssStringCloseboxNoTransition;
+}
+
+function closebox23NoTransition() {
+box23.style.cssText = cssStringCloseboxNoTransition;
+}
+
+function closebox24NoTransition() {
+box24.style.cssText = cssStringCloseboxNoTransition;
+}
+
+function closebox25NoTransition() {
+box25.style.cssText = cssStringCloseboxNoTransition;
+}
+
+function closebox26NoTransition() {
+box26.style.cssText = cssStringCloseboxNoTransition;
+}
+
+function closebox27NoTransition() {
+box27.style.cssText = cssStringCloseboxNoTransition;
+}
+
+function closebox28NoTransition() {
+box28.style.cssText = cssStringCloseboxNoTransition;
+}
+
+function closebox29NoTransition() {
+box29.style.cssText = cssStringCloseboxNoTransition;
+}
+
+function closebox30NoTransition() {
+box30.style.cssText = cssStringCloseboxNoTransition;
 }
 
 
@@ -451,3 +691,168 @@ box15Trigger.addEventListener("mouseover", openbox15FadeIn);
 box15Trigger.addEventListener("mouseout", closebox15FadeOut);
 box15Trigger.addEventListener("click", closebox15NoTransition);
 box15Trigger.className = "hiddenBoxTriggerA";
+
+
+box16.addEventListener("mouseover", openbox16FadeIn);
+box16.addEventListener("mouseout", closebox16FadeOut);
+box16.addEventListener("click", closebox16NoTransition);
+box16.className = "hiddenBoxA";
+
+box16Trigger.addEventListener("mouseover", openbox16FadeIn);
+box16Trigger.addEventListener("mouseout", closebox16FadeOut);
+box16Trigger.addEventListener("click", closebox16NoTransition);
+box16Trigger.className = "hiddenBoxTriggerA";
+
+
+box17.addEventListener("mouseover", openbox17FadeIn);
+box17.addEventListener("mouseout", closebox17FadeOut);
+box17.addEventListener("click", closebox17NoTransition);
+box17.className = "hiddenBoxA";
+
+box17Trigger.addEventListener("mouseover", openbox17FadeIn);
+box17Trigger.addEventListener("mouseout", closebox17FadeOut);
+box17Trigger.addEventListener("click", closebox17NoTransition);
+box17Trigger.className = "hiddenBoxTriggerA";
+
+
+box18.addEventListener("mouseover", openbox18FadeIn);
+box18.addEventListener("mouseout", closebox18FadeOut);
+box18.addEventListener("click", closebox18NoTransition);
+box18.className = "hiddenBoxA";
+
+box18Trigger.addEventListener("mouseover", openbox18FadeIn);
+box18Trigger.addEventListener("mouseout", closebox18FadeOut);
+box18Trigger.addEventListener("click", closebox18NoTransition);
+box18Trigger.className = "hiddenBoxTriggerA";
+
+
+box19.addEventListener("mouseover", openbox19FadeIn);
+box19.addEventListener("mouseout", closebox19FadeOut);
+box19.addEventListener("click", closebox19NoTransition);
+box19.className = "hiddenBoxA";
+
+box19Trigger.addEventListener("mouseover", openbox19FadeIn);
+box19Trigger.addEventListener("mouseout", closebox19FadeOut);
+box19Trigger.addEventListener("click", closebox19NoTransition);
+box19Trigger.className = "hiddenBoxTriggerA";
+
+
+box20.addEventListener("mouseover", openbox20FadeIn);
+box20.addEventListener("mouseout", closebox20FadeOut);
+box20.addEventListener("click", closebox20NoTransition);
+box20.className = "hiddenBoxA";
+
+box20Trigger.addEventListener("mouseover", openbox20FadeIn);
+box20Trigger.addEventListener("mouseout", closebox20FadeOut);
+box20Trigger.addEventListener("click", closebox20NoTransition);
+box20Trigger.className = "hiddenBoxTriggerA";
+
+
+box21.addEventListener("mouseover", openbox21FadeIn);
+box21.addEventListener("mouseout", closebox21FadeOut);
+box21.addEventListener("click", closebox21NoTransition);
+box21.className = "hiddenBoxA";
+
+box21Trigger.addEventListener("mouseover", openbox21FadeIn);
+box21Trigger.addEventListener("mouseout", closebox21FadeOut);
+box21Trigger.addEventListener("click", closebox21NoTransition);
+box21Trigger.className = "hiddenBoxTriggerA";
+
+
+box22.addEventListener("mouseover", openbox22FadeIn);
+box22.addEventListener("mouseout", closebox22FadeOut);
+box22.addEventListener("click", closebox22NoTransition);
+box22.className = "hiddenBoxA";
+
+box22Trigger.addEventListener("mouseover", openbox22FadeIn);
+box22Trigger.addEventListener("mouseout", closebox22FadeOut);
+box22Trigger.addEventListener("click", closebox22NoTransition);
+box22Trigger.className = "hiddenBoxTriggerA";
+
+
+box23.addEventListener("mouseover", openbox23FadeIn);
+box23.addEventListener("mouseout", closebox23FadeOut);
+box23.addEventListener("click", closebox23NoTransition);
+box23.className = "hiddenBoxA";
+
+box23Trigger.addEventListener("mouseover", openbox23FadeIn);
+box23Trigger.addEventListener("mouseout", closebox23FadeOut);
+box23Trigger.addEventListener("click", closebox23NoTransition);
+box23Trigger.className = "hiddenBoxTriggerA";
+
+
+box24.addEventListener("mouseover", openbox24FadeIn);
+box24.addEventListener("mouseout", closebox24FadeOut);
+box24.addEventListener("click", closebox24NoTransition);
+box24.className = "hiddenBoxA";
+
+box24Trigger.addEventListener("mouseover", openbox24FadeIn);
+box24Trigger.addEventListener("mouseout", closebox24FadeOut);
+box24Trigger.addEventListener("click", closebox24NoTransition);
+box24Trigger.className = "hiddenBoxTriggerA";
+
+
+box25.addEventListener("mouseover", openbox25FadeIn);
+box25.addEventListener("mouseout", closebox25FadeOut);
+box25.addEventListener("click", closebox25NoTransition);
+box25.className = "hiddenBoxA";
+
+box25Trigger.addEventListener("mouseover", openbox25FadeIn);
+box25Trigger.addEventListener("mouseout", closebox25FadeOut);
+box25Trigger.addEventListener("click", closebox25NoTransition);
+box25Trigger.className = "hiddenBoxTriggerA";
+
+
+box26.addEventListener("mouseover", openbox26FadeIn);
+box26.addEventListener("mouseout", closebox26FadeOut);
+box26.addEventListener("click", closebox26NoTransition);
+box26.className = "hiddenBoxA";
+
+box26Trigger.addEventListener("mouseover", openbox26FadeIn);
+box26Trigger.addEventListener("mouseout", closebox26FadeOut);
+box26Trigger.addEventListener("click", closebox26NoTransition);
+box26Trigger.className = "hiddenBoxTriggerA";
+
+
+box27.addEventListener("mouseover", openbox27FadeIn);
+box27.addEventListener("mouseout", closebox27FadeOut);
+box27.addEventListener("click", closebox27NoTransition);
+box27.className = "hiddenBoxA";
+
+box27Trigger.addEventListener("mouseover", openbox27FadeIn);
+box27Trigger.addEventListener("mouseout", closebox27FadeOut);
+box27Trigger.addEventListener("click", closebox27NoTransition);
+box27Trigger.className = "hiddenBoxTriggerA";
+
+
+box28.addEventListener("mouseover", openbox28FadeIn);
+box28.addEventListener("mouseout", closebox28FadeOut);
+box28.addEventListener("click", closebox28NoTransition);
+box28.className = "hiddenBoxA";
+
+box28Trigger.addEventListener("mouseover", openbox28FadeIn);
+box28Trigger.addEventListener("mouseout", closebox28FadeOut);
+box28Trigger.addEventListener("click", closebox28NoTransition);
+box28Trigger.className = "hiddenBoxTriggerA";
+
+
+box29.addEventListener("mouseover", openbox29FadeIn);
+box29.addEventListener("mouseout", closebox29FadeOut);
+box29.addEventListener("click", closebox29NoTransition);
+box29.className = "hiddenBoxA";
+
+box29Trigger.addEventListener("mouseover", openbox29FadeIn);
+box29Trigger.addEventListener("mouseout", closebox29FadeOut);
+box29Trigger.addEventListener("click", closebox29NoTransition);
+box29Trigger.className = "hiddenBoxTriggerA";
+
+
+box30.addEventListener("mouseover", openbox30FadeIn);
+box30.addEventListener("mouseout", closebox30FadeOut);
+box30.addEventListener("click", closebox30NoTransition);
+box30.className = "hiddenBoxA";
+
+box30Trigger.addEventListener("mouseover", openbox30FadeIn);
+box30Trigger.addEventListener("mouseout", closebox30FadeOut);
+box30Trigger.addEventListener("click", closebox30NoTransition);
+box30Trigger.className = "hiddenBoxTriggerA";

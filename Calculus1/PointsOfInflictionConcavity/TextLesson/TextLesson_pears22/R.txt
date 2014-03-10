@@ -1,0 +1,14 @@
+$x=\frac{3}{8}$<span id="box7Trigger">$$f''(\frac{3}{8})=((\frac{3}{8})^2-1)(4(\frac{3}{8})-3)=(-)(-)>0$$</span><span id="box7"><img src="../../Graphs/numberline3.4.png"></span>
+<BR>
+<BR>$x=200,000$<span id="box8Trigger">$$f''(200,000)=(200,000^2-1)(4(200,000)-3)=(+)(+)>0$$</span><span id="box8"><img src="../../Graphs/numberline3.5.png"></span>
+<BR>
+<BR>So it only changes concavity at $x=-1$. A point of inflection is wherever the second derivative changes signs. So there is a point of inflection at $x=-1$, and it is $(-1,f(-1))=(-1,8)$.
+<BR>
+<BR>If they ask you which intervals were concave up and down, your answer would look like this:
+<BR>
+<BR>Concave up: <span id="box9Trigger">$(-1,\frac{3}{4})\cup(\frac{3}{4},1)\cup(1,\infty)$</span><span id="box9">They are all open parentheses because at each end point the concavity is neither up or down; the second derivative is just zero there.</span>
+<BR>Concave down: $(-\infty,-1)$
+<BR>
+<BR>Now you have several tools to find the graph of any function. You have a few from algebra, and now you have a couple from calculus. If you want to find a detailed graph of any function, this is the process you follow. 
+<BR>Find:<ol><li>Intercepts</li><li>Symmetry</li><li>Domain</li><li><span id="box10Trigger">Asymptotes</span><span id="box10">Up to this one is all algebra stuff;  It's usually good to graph the first 4 steps before moving on to the rest.</span</li><li>Intervals of increasing/decreasing</li><li>Local max's and min's</li><li>Concavity and points of inflection</li><li>Sketch the graph.</li></ol>
+<BR>

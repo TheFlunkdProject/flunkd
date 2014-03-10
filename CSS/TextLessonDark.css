@@ -434,6 +434,7 @@ border: 5px ridge rgba(220,220,220,0);
 	margin:auto;
 
 	
+	display:inline;
 	visibility:hidden;
 	z-index:500;
 	

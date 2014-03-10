@@ -1,0 +1,13 @@
+Optimization is a great application of derivatives.
+<BR>
+<BR>There are always four steps you follow in an optimization problem:<ol><li>Write the equation for the thing you want to maximize/minimize</li><li>Make sure it is in one variable</li><li>Take the derivative, set it equal to zero, and find the critical numbers</li><li>Make sure it is a maximum or a minimum with either the first derivative test or the second derivative test</li><li>Answer the specific question they ask</li></ol>
+<BR>
+<BR>Let's say we have a certain amount of fencing, and we want to enclose the maximum amount of square footage with it, and it has to be in the shape of a rectangle. We have 10 feet of fencing. So picture a rectangle like this:<span id="box1Trigger">Rectangle</span><span id="box1"><img src="rectangle1.png"></span>
+<BR>
+<BR>Let's call one side x and the other side y.
+<BR>
+<BR><span id="box2Trigger">We want to maximize area. So we need the area equation $A=xy$</span><span id="box2">Step 1. Write the equation for the thing you want to maximize/minimize</span>
+<BR>
+<BR><span id="box3Trigger">We need the right side in one variable. </span><span id="box3">Step 2. Make sure it is in one variable</span>So we need another equation in order to solve for one of them and substitute into this area equation. This other equation will come from whatever constraint we are given in the question. 
+<BR>
+<BR>Here, we only have 10 feet to work with. So what is the equation that will give us the total length of fence we use on a rectangle? It's the equation for the parameter of a rectangle.$$P=2x+2y$$$$10=2x+2y$$  (it really doesn't matter which variable we solve for.)$$2x=10-2y$$<span id="box4Trigger">$$x=5-y$$</span><span id="box4">Still Step 2. Make sure it is in one variable</span>

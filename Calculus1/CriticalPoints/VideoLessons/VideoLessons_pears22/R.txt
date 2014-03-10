@@ -1,1 +1,5 @@
-
+<div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/-W4d0qFzyQY?wmode=transparent&rel=0&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>patrickJMT</p><p>Using critical numbers to find a local extreme value</p><p>0:00 - 4:03</p></div></div>
+<BR>
+<BR><div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/B5UDpQOMENo?wmode=transparent&rel=0&amp;modestbranding=1&amp;version=3&amp;ap=%2526fmt%3D18&amp;autohide=1&amp;fs=1&amp;theme=light&amp;color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>EducatorVids</p><p>Finding absolute extrema</p><p>0:00 - 3:20</p></div></div>
+<BR>
+<BR><div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/iMxDqqU8bBo?wmode=transparent&rel=0&amp;modestbranding=1&amp;version=3&amp;ap=%2526fmt%3D18&amp;autohide=1&amp;fs=1&amp;theme=light&amp;color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>Bonus Video</p><p></p><p></p></div></div>

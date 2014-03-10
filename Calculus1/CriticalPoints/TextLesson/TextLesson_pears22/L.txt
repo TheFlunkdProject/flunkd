@@ -1,0 +1,34 @@
+Critical points are all the points where the derivative of a function is either undefined or zero, and yet in the domain of the original function. To find them, you can follow this process:<ol><li>Take the derivative</li><li>Find where the derivative equals zero or is undefined.</li><li>Check that it is in the domain of the original function.</li><li>Find the y coordinate of the point (because it is a critical <i>point</i>).</li></ol>Example:
+<BR>
+<BR>Find the critical points of the function $f(x)=x^2$.
+<BR>
+<BR><span id="box1Trigger">$f'(x)=2x=0, \,\Rightarrow x=0$</span><span id="box1">Steps 1 and 2. $x=0$ is called a critical number. It's not a critical point because it's not a point.</span>
+<BR>
+<BR><span id="box2Trigger">All $x$ values are in the domain of $x^2$</span><span id="box2" style="display: inline;">Step 3. This is because $x^2$ is defined for all possible $x$ values.</span>
+<BR>
+<BR><span id="box3Trigger">$f(0)=0$</span><span id="box3">Step 4.</span>
+<BR>
+<BR><span id="box4Trigger">Critical point: $(0,0)$</span><span id="box4">This is the answer to the question.</span>
+<BR>
+<BR>Critical points have an extremely important application. You can use them to find <span id="box5Trigger">extreme values of a function.</span><span id="box5">minima and maxima</span> 
+<BR>
+<BR>When a function reaches a peak, it hits its maximum value, and right where it is at its highest point, <span id="box6Trigger">the slope is zero.</span><span id="box6" ><img src="../../Graphs/graphslopeofextrema.png"></span> That's why critical points can be used to find minima and maxima. 
+<BR>
+<BR>Sometimes the slope can get to zero, but then the function can just keep going up <span id="box7Trigger">without forming a peak</span><span id="box7"><img src="../../Graphs/graphnoextrema.png"></span>. So you need to make sure that the slope/derivative is <span id="box8Trigger">positive before the critical number, and negative after it</span><span id="box8">for a minimum you want the opposite to happen: negative before, positive after</span>.
+<BR>	
+<BR>Here is the process:<ol><li><span id="box9Trigger">Find the critical numbers</span><span id="box9">Example: $x^3+2x^2+x-7$</span><ol type="I"><li><span id="box10Trigger">Find where the derivative is equal to zero or undefined</span><span id="box10">$$3x^2+4x+1=0$$$$(3x+1)(x+1)=0$$$$x=-\frac{1}{3},-1$$</span></li><li><span id="box11Trigger">Check that the critical numbers are in the domain</span><span id="box11">Or else they are not technically critical numbers. Our original function's domain is all $x$-values, so these are critical numbers.</span></li></ol></li><li>Find out where the slope/derivative is positive and negative<ol type="I"><li><span id="box12Trigger">Gather your critical numbers together, and plot them on a number line</span><span id="box12">$x=-\frac{1}{3},-1$<img src="../../Graphs/numberline1.1.png" class="Floatright100"></span></li><li><span id="box13Trigger">Plot every place where the original function is undefined on the same number line</span><span id="box13">(because things like asymptotes affect the derivative.) <img src="../../Graphs/numberline1.2.png" class="Floatright100">Our original function's domain is all $x$-values, so we have nothing to add to our number line</span></li><li>Pick any number between each of the numbers you plot on the number line and plug them into the derivative to find out if the derivative/slope is positive or negative in each of the intervals. This works because the derivative cannot change signs except for at those points. (<span id="box14Trigger">Part 1</span><span id="box14"><img src="../../Graphs/numberline1.3.png" class="Floatright100"> For the interval below $x=-1$, let's pick $-2$:
+<BR>$A'(-2)=3(-2)^2+4(-2)+1=$ $12-8+1>0$
+<BR>So for that whole interval, the slope of $A$ is positive. $A$ is increasing.</span>, <span id="box17Trigger">Part2</span><span id="box17">For the interval between $x=-1$ and $x=-\frac{1}{3}$, let's try $x=-\frac{2}{3}$.
+<BR>
+<BR>$A'(-\frac{2}{3})=$ $3(-\frac{2}{3})^2+4(-\frac{2}{3})+1=\frac{4}{3}-\frac{8}{3}+1=$ $-\frac{4}{3}+\frac{3}{3}=-\frac{1}{3}<0$
+<BR>So the slope is negative between $-\frac{1}{3}$ and $-1$.</span>, <span id="box18Trigger">Part 3</span><span id="box18">For the interval of $x>-\frac{1}{3}$, let's pick $0$ to try.
+<BR>$A'(0)=0+0+1>0$</span>)</li></ol></li><li>
+<BR>
+<BR><span id="box15Trigger">Identify the max's and min's</span><span id="box15"><img src="../../Graphs/numberline1.4.png" class="Floatright100"> The slope of $A$ is positive, then negative, then positive again. Where would the maximum value occur? Well, think about how a maximum is shaped. The slope is positive, then zero, then negative.<img class="normal" src="/imageLibrary/ShapeOfMaximum.jpg"> So we pick the point where the derivative switches from being positive to being negative. That would be $x=-1$. The minimum is at $x=-1/3$, but that's not what this example is looking for.</li><li>
+<BR>
+<BR>Plug the $x$ numbers into the original function to find the y value (the maximum value of A). (<span id="box16Trigger">Part 1</span><span id="box16">Now we find the value of $A$ at that number.$$A(-1)=(-1)^3+2(-1)^2+(-1)-7$$ $$=-1+2-1-7=-7$$The local maximum value of $A$ is $-7$.</span>, <span id="box19Trigger">Part 2</span><span id="box19">If they asked for the local maximum, it would be $(-1,7)$. If they asked where the maximum occurs, the answer would be $x=-1$. But they asked for the local maximum value of $A$, and so the answer was the $y$ coordinate of the maximum.</span>, <span id="box20Trigger">Part 3</span><span id="box20">If they asked, Where is the function increasing and where is it decreasing? your answer would look like this:
+<BR>
+<BR>Increasing: $(-13,\infty)$
+<BR>Decreasing: $(-\infty,-1)\cup(-1,-1/3)$
+<BR>
+<BR>They are all open parentheses because at each end point the function 	is neither increasing or decreasing; the derivative is just zero at the end points.</span>)</li></ol>

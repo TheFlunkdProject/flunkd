@@ -102,63 +102,123 @@ function addInfoBox() {
 var newtext;
 	if (leftpage.value.indexOf('box1') == -1 && rightpage.value.indexOf('box1') == -1)
 	{
-	newtext = '<span id="box1Trigger"></span><div id="box1"></div>';
+	newtext = '<span id="box1Trigger"></span><span id="box1"></span>';
 	}
 	else if (leftpage.value.indexOf('box2') == -1 && rightpage.value.indexOf('box2') == -1)
 	{
-	newtext = '<span id="box2Trigger"></span><div id="box2"></div>';
+	newtext = '<span id="box2Trigger"></span><span id="box2"></span>';
 	}
 	else if (leftpage.value.indexOf('box3') == -1 && rightpage.value.indexOf('box3') == -1)
 	{
-	newtext = '<span id="box3Trigger"></span><div id="box3"></div>';
+	newtext = '<span id="box3Trigger"></span><span id="box3"></span>';
 	}
 	else if (leftpage.value.indexOf('box4') == -1 && rightpage.value.indexOf('box4') == -1)
 	{
-	newtext = '<span id="box4Trigger"></span><div id="box4"></div>';
+	newtext = '<span id="box4Trigger"></span><span id="box4"></span>';
 	}
 	else if (leftpage.value.indexOf('box5') == -1 && rightpage.value.indexOf('box5') == -1)
 	{
-	newtext = '<span id="box5Trigger"></span><div id="box5"></div>';
+	newtext = '<span id="box5Trigger"></span><span id="box5"></span>';
 	}
 	else if (leftpage.value.indexOf('box6') == -1 && rightpage.value.indexOf('box6') == -1)
 	{
-	newtext = '<span id="box6Trigger"></span><div id="box6"></div>';
+	newtext = '<span id="box6Trigger"></span><span id="box6"></span>';
 	}
 	else if (leftpage.value.indexOf('box7') == -1 && rightpage.value.indexOf('box7') == -1)
 	{
-	newtext = '<span id="box7Trigger"></span><div id="box7"></div>';
+	newtext = '<span id="box7Trigger"></span><span id="box7"></span>';
 	}
 	else if (leftpage.value.indexOf('box8') == -1 && rightpage.value.indexOf('box8') == -1)
 	{
-	newtext = '<span id="box8Trigger"></span><div id="box8"></div>';
+	newtext = '<span id="box8Trigger"></span><span id="box8"></span>';
 	}
 	else if (leftpage.value.indexOf('box9') == -1 && rightpage.value.indexOf('box9') == -1)
 	{
-	newtext = '<span id="box9Trigger"></span><div id="box9"></div>';
+	newtext = '<span id="box9Trigger"></span><span id="box9"></span>';
 	}
 	else if (leftpage.value.indexOf('box10') == -1 && rightpage.value.indexOf('box10') == -1)
 	{
-	newtext = '<span id="box10Trigger"></span><div id="box10"></div>';
+	newtext = '<span id="box10Trigger"></span><span id="box10"></span>';
 	}
 	else if (leftpage.value.indexOf('box11') == -1 && rightpage.value.indexOf('box11') == -1)
 	{
-	newtext = '<span id="box11Trigger"></span><div id="box11"></div>';
+	newtext = '<span id="box11Trigger"></span><span id="box11"></span>';
 	}
 	else if (leftpage.value.indexOf('box12') == -1 && rightpage.value.indexOf('box12') == -1)
 	{
-	newtext = '<span id="box12Trigger"></span><div id="box12"></div>';
+	newtext = '<span id="box12Trigger"></span><span id="box12"></span>';
 	}
 	else if (leftpage.value.indexOf('box13') == -1 && rightpage.value.indexOf('box13') == -1)
 	{
-	newtext = '<span id="box13Trigger"></span><div id="box13"></div>';
+	newtext = '<span id="box13Trigger"></span><span id="box13"></span>';
 	}
 	else if (leftpage.value.indexOf('box14') == -1 && rightpage.value.indexOf('box14') == -1)
 	{
-	newtext = '<span id="box14Trigger"></span><div id="box14"></div>';
+	newtext = '<span id="box14Trigger"></span><span id="box14"></span>';
 	}
 	else if (leftpage.value.indexOf('box15') == -1 && rightpage.value.indexOf('box15') == -1)
 	{
-	newtext = '<span id="box15Trigger"></span><div id="box15"></div>';
+	newtext = '<span id="box15Trigger"></span><span id="box15"></span>';
+	}
+	else if (leftpage.value.indexOf('box16') == -1 && rightpage.value.indexOf('box16') == -1)
+	{
+	newtext = '<span id="box16Trigger"></span><span id="box16"></span>';
+	}
+	else if (leftpage.value.indexOf('box17') == -1 && rightpage.value.indexOf('box17') == -1)
+	{
+	newtext = '<span id="box17Trigger"></span><span id="box17"></span>';
+	}
+	else if (leftpage.value.indexOf('box18') == -1 && rightpage.value.indexOf('box18') == -1)
+	{
+	newtext = '<span id="box18Trigger"></span><span id="box18"></span>';
+	}
+	else if (leftpage.value.indexOf('box19') == -1 && rightpage.value.indexOf('box19') == -1)
+	{
+	newtext = '<span id="box19Trigger"></span><span id="box19"></span>';
+	}
+	else if (leftpage.value.indexOf('box20') == -1 && rightpage.value.indexOf('box20') == -1)
+	{
+	newtext = '<span id="box20Trigger"></span><span id="box20"></span>';
+	}
+	else if (leftpage.value.indexOf('box21') == -1 && rightpage.value.indexOf('box21') == -1)
+	{
+	newtext = '<span id="box21Trigger"></span><span id="box21"></span>';
+	}
+	else if (leftpage.value.indexOf('box22') == -1 && rightpage.value.indexOf('box22') == -1)
+	{
+	newtext = '<span id="box22Trigger"></span><span id="box22"></span>';
+	}
+	else if (leftpage.value.indexOf('box23') == -1 && rightpage.value.indexOf('box23') == -1)
+	{
+	newtext = '<span id="box23Trigger"></span><span id="box23"></span>';
+	}
+	else if (leftpage.value.indexOf('box24') == -1 && rightpage.value.indexOf('box24') == -1)
+	{
+	newtext = '<span id="box24Trigger"></span><span id="box24"></span>';
+	}
+	else if (leftpage.value.indexOf('box25') == -1 && rightpage.value.indexOf('box25') == -1)
+	{
+	newtext = '<span id="box25Trigger"></span><span id="box25"></span>';
+	}
+	else if (leftpage.value.indexOf('box26') == -1 && rightpage.value.indexOf('box26') == -1)
+	{
+	newtext = '<span id="box26Trigger"></span><span id="box26"></span>';
+	}
+	else if (leftpage.value.indexOf('box27') == -1 && rightpage.value.indexOf('box27') == -1)
+	{
+	newtext = '<span id="box27Trigger"></span><span id="box27"></span>';
+	}
+	else if (leftpage.value.indexOf('box28') == -1 && rightpage.value.indexOf('box28') == -1)
+	{
+	newtext = '<span id="box28Trigger"></span><span id="box28"></span>';
+	}
+	else if (leftpage.value.indexOf('box29') == -1 && rightpage.value.indexOf('box29') == -1)
+	{
+	newtext = '<span id="box29Trigger"></span><span id="box29"></span>';
+	}
+	else if (leftpage.value.indexOf('box30') == -1 && rightpage.value.indexOf('box30') == -1)
+	{
+	newtext = '<span id="box30Trigger"></span><span id="box30"></span>';
 	}
 	else
 	{
