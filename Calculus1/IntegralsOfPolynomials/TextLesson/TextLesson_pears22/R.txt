@@ -1,0 +1,15 @@
+This is part of what is called the Fundamental Theorem of Calculus. There is one other part to the fundamental theorem of calculus. It can basically be described by this formula:$$\frac{d}{dx}\int_1^xf(t)\,dt=f(x)$$
+<BR>
+<BR>This is the most basic form. Notice that you are just taking the derivative of an antiderivative, so it's like you are taking a step forward then a step backward again. That's why you end up with the same function, but with x's instead of t's.
+<BR>
+<BR>There is also this formula that you will use:$\frac{d}{dx}\int_1^{f(x)}g(t)\,dt=g(f(t))$<span id="box5Trigger">$f'(t)$</span><span id="box5">This comes from the chain rule of derivatives.</span>
+<BR>
+<BR>Here are some properties of integrals that should help:<ul><li><span id="box6Trigger">$\int_a^bf(x)\,dx=-\int_b^af(x)\,dx$</span><span id="box6">you can integrate backwards if you put a negative sign in front of the integral.</span></li><li><span id="box7Trigger">$\int_a^cf(x)\,dx=\int_a^bf(x)\,dx+\int_b^cf(x)\,dx$</span><span id="box7">You can integrate to a certain point, take a break, then keep going.</span></li><li><span id="box8Trigger">$\int_a^bcf(x)\,dx=c\int_a^bf(x)\,dx$</span><span id="box8">you can pull constants out.</span></li></ul>So, here is an example where you would need these properties:
+<BR>
+<BR><span id="box9Trigger">Find the derivative of $$\int_{2x}^{3x^2}(t^2+1)\,dt$$</span><span id="box9">$\frac{d}{dx}\int\limits_{2x}^{3x^2}(t^2+1)\,dt$ $=\frac{d}{dx}\int\limits_{2x}^{1}(t^2+1)\,dt+\frac{d}{dx}\int\limits_{1}^{3x^2}(t2+1)\,dt$ $=-\frac{d}{dx}\int\limits_{1}^{2x}(t^2+1)\,dt+\frac{d}{dx}\int\limits_{1}^{3x^2}(t^2+1)\,dt$ $=-[(2x)^2+1]^2+[(3x^2)(2)+1]6x$ $=-8x^2-2+54x^5+6x$</span>
+<BR>
+<BR>To sum this section up:
+<BR>
+<BR>There are two kinds of integrals:<ol><li>Definite integrals (integrals with bounds)</li><li>Indefinite integrals (integrals without bounds)</li></ol>
+<BR> 
+<BR>To find them both, find the antiderivative of the function and either add a constant (+C), or plug in the top bound minus plug in the bottom bound. To find the derivative of an integral, use properties of integrals, then plug in the bounds with x's in for all the t's. Multiply by the chain rule if needed.

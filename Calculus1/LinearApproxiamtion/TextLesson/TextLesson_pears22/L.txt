@@ -1,0 +1,9 @@
+Linear approximation is using a line to approximate a number. Let's say we wanted to approximate $\sqrt{2}$ with linear approximation.
+<BR>
+<BR>First, you take it apart: What is the number, and what is the function?
+<BR>
+<BR>$x=2$, and $f(x)=\sqrt{x}$
+<BR>
+<BR>Then you ask yourself, "What number close to $2$ could plug in for $x$ that I already know?" Well, $1$ is pretty close to $2$, and $\sqrt{1}=1$, so let's use that. That ideal number is called "$a$", usually.
+<BR>
+<BR>$a=1$

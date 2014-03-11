@@ -1,0 +1,7 @@
+For right endpoint rectangles, you do the same thing but when you draw your rectangles <span id="box7Trigger">you use the right side of each section</span><span id="box7"><img src="../../Graphs/graphriemann1.5.png"></span> to make your rectangles.
+<BR>
+<BR>The formulas for right endpoint rectangles look like this:$$A=\sum\limits_{i=1}^{n}f(x_i)\Delta x$$$$x_i=a+i\Delta x$$$$\Delta x=\frac{b-a}{n}$$The midpoint method is pretty similar too. Instead of going to the right or left sides of your sections, <span id="box8Trigger">you go to the exact middle and go straight up from there and draw lines to the left and right to complete your rectangles</span><span id="box8"><img src="../../Graphs/graphriemann1.6.png"></span>. This method can be more accurate.
+<BR>
+<BR>Here are the formulas for the midpoint method:$$A=\sum\limits_{i=1}^{n}f(x_i)\Delta x$$$$xi=a+(i-\frac{1}{2})\Delta x$$$$\Delta x=\frac{b-a}{n}$$What's different between the three methods? Just the formula for $x_i$. So you basically have 5 things to remember. $\Delta x$ makes sense, because it is just the width of each rectangle. $A=\sum\limits_{i=1}^{n}f(x_i)\Delta x$ also makes sense because it is the sum of widths ($\Delta x$) times heights ($f(x_i)$) of a bunch of rectangles. If you think about the three formulas for $x_i$, they make sense too.
+<BR>
+<BR>You should memorize these formulas because we are going to use them in the next section where we will be taking the limit as $n$ approaches infinity in order to get infinitely accurate.

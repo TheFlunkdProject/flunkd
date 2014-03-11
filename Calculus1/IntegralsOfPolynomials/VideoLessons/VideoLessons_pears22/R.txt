@@ -1,1 +1,11 @@
-
+<div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/nHnZVFeQvNQ?wmode=transparent&rel=0&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>pactrickJMT</p><p>Fundamental theorem of calculus part 2</p><p>0:00 - 3:28</p></div></div>
+<BR>
+<BR><div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/wycadSRDID4?wmode=transparent&rel=0;end=356&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>ProfRobBob</p><p>Properties of integrals</p><p>0:00 - 6:26</p></div></div>
+<BR>
+<BR><div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/wycadSRDID4?wmode=transparent&rel=0;start=410;end=484&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>ProfRobBob</p><p>Properties of integrals</p><p>6:50 - 8:03</p></div></div>
+<BR>
+<BR><div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/PGmVvIglZx8?wmode=transparent&rel=0&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>patrickJMT</p><p>Fundamental theorem of calculus part 1</p><p>0:00 - 5:30</p></div></div>
+<BR>
+<BR>The final answer in the last example could have the $\sqrt{x}$ in the denominator cancel with the $x$ in the numerator.
+<BR>
+<BR>For another helpful example, you can choose to watch until 9:20.

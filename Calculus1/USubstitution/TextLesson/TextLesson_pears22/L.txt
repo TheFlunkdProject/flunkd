@@ -1,0 +1,12 @@
+$$\int 2x(x^2-1)^{98}\,dx$$Here is a definite integral that you would not want to simplify. The other way to do this problem is with U-substitution.
+<BR>
+<BR>U-substitution is a good idea when you see some x's inside of something slightly complicated, and you see the derivative of those x's on the outside of that complicated thing. Here, $x^2-1$ is on the inside of a 98th power, and the derivative of $x^2-1$, which is $2x$, is on the outside of it. Here is how you do U-Substitution on it:
+<BR>
+<BR>Choose $u=x^2-1$
+<BR>
+<BR>Take the derivative: <span id="box1Trigger">$du=2x\,dx$</span><span id="box1">The $du$'s and $dx$'s in every integral are important to write. They are not meaningless.</span>
+<BR>
+<BR>Divide everything over to the left side: $$\frac{du}{2xdx}=1$$Multiply your integral by this expression $\frac{du}{2xdx}$, which equals one, and substitute the $u$ in at the same time: $$\int 2x(x^2-1)^{98}\,dx$$ <span id="box2Trigger">$$=\int 2x(u)^{98}\,dx\,\frac{du}{2x\,dx}$$</span> $$=\int u^{98}\,du$$ $$=\frac{1}{99}u^{99}+C$$<span id="box2">You can skip this step. It is a little weird to have both x's and u's in the same equation.</span>And then never forget to plug the $x$'s back in for the $u$'s:<span id="box3Trigger">$$\frac{1}{99}(x^2-1)^{99}+C$$</span><span id="box3">Always remember the $+C$ as well.</span>If you take the derivative of this, you will get what you started with. You will also be using the chain rule to do it. That means that U-substitution is like a backwards chain rule.
+<BR>
+<BR>The key to U-substitution is practice. At first it might be hard to see what $u$ to pick, but after a while it gets easy. So here is another one:$$\int 2\frac{sin(lnx)}{xdx}\,$$<span id="box4Trigger">$$2\int \frac{sin(lnx)}{x}\,dx$$</span> The thing inside of something else would be the $lnx$ inside of the $sinx$. And the <span title="1/x">derivative of $lnx$</span> is there too. So $u=lnx$ is a good substitution.
+<BR>

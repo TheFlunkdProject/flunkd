@@ -1,0 +1,5 @@
+Rolle's Theorem:
+<BR>
+<BR>Rolle's Theorem is a special case of the Mean Value Theorem. It happens when the right side of $f'(c)=\frac{f(b)-f(a)}{b-a}$ equals zero. It has the <span id="box3Trigger">same two hypotheses as the Mean Value Theorem</span><span id="box3"> If f is a continuous function on $[a,b]$, and is differentiable on $(a,b)$, . . ."</span>, but there is a third condition that makes it more specific: <span id="box4Trigger">$f(b)=f(a)$</span><span id="box4">Just for  for Rolle's Theorem.</span> That makes the average slope between $a$ and $b$ equal to $0$.
+<BR>
+<BR>Remember about all of these theorems, that if the conditions are not met, the theorem does not apply.

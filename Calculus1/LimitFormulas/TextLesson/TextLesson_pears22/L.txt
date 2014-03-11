@@ -1,0 +1,6 @@
+Now we find the exact area under a curve with the same formulas as in the last section, but now with $\lim _{n\to \infty}$ in front of <span id="box1Trigger">the area formula</span><span id="box1">You can start with any method and end up finding the same area in the end.</span>.
+<BR>
+<BR>Instead of plugging in the limit first like with normal limits, there is some arranging that we need to do. We need to get every problem into a form to which we can apply one of these formulas:$$\sum\limits_{i=1}^{n}1=n$$$$\sum\limits_{i=1}^{n}i=\frac{n(n+1)}{2}$$$$\sum\limits_{i=1}^{n}i^2=\frac{n(n+1)(2n+1)}{6}$$$$\sum\limits_{i=1}^{n}i^3=(\frac{n(n+1)}{2})^2$$We arrive at these forms by setting everything up like a normal Riemann Sum, and then factoring out all of the numbers and $n$s from every term in the summation, using these properties of sums:
+<BR>
+<BR>$\sum\limits_{i=1}^{n}af(x)=a\sum\limits_{i=1}^{n}f(x)$
+<BR>$\sum\limits_{i=1}^{n}[f(x)+g(x)]=\sum\limits_{i=1}^nf(x)+\sum\limits_{i=1}^ng(x)$

@@ -1,0 +1,10 @@
+Newton's method is a way to approximate roots of equations. It is a formula that iterates, so the more times you put your number through the formula, the closer your number gets to the root of the equation. Here is the formula:
+<BR><div class="importantExpression">$x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$</div>
+<BR>
+<BR>So this formula uses a derivative.
+<BR>
+<BR>Here is an example of how to use it:
+<BR>
+<BR>Use Newton's method three times to approximate the root of this equation starting with $x=1$: $$f(x)=x^2-2$$Solution:
+<BR>
+<BR>First, find $f'(x)$:$$f'(x)=2x$$

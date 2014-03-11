@@ -1,0 +1,14 @@
+If you have never used this symbol $$\sum$$ to sum things up, <a href="http://en.wikipedia.org/wiki/Summation#Capital-sigma_notation" target="_blank">click here</a>. Otherwise, keep reading.
+<BR>
+<BR><span id="box1Trigger">Here</span><span id="box1">$\sum\limits_{i=5}^{7}i^3=5^3+6^3+7^3$ $=125+216+343=341+343$ $=684$</span> is a little reminder of <span id="box2Trigger">how a sum works</span><span id="box2">Summation notation is very convenient way to write out a sum that follows a pattern, especially if it is an infinite sum and you don't want to spend the rest of your life writing out a sum. We will be doing infinite sums in the next section.</span>
+<BR>
+<BR>We want to find the the area under a curve. We do it first by approximating the area with rectangles. This is what a Riemann Sum is. Since we will be using a bunch of rectangles for some of these, we represent the area using summation notation, and each value of $i$ corresponds to a specific rectangle.
+<BR>
+<BR>There are three common ways of drawing rectangles to approximate areas under curves: midpoint rectangles, Left endpoint rectangles, and right endpoint rectangles.
+<BR>
+<BR>So, you take a curve like this one: <span id="box3Trigger">CURVE!</span><span id="box3"><img src="../../Graphs/graphriemann1.1.png"></span><ol><li>Identify the <span id="box4Trigger">starting and ending lines</span><span id="box4"><img src="../../Graphs/graphriemann1.2.png"></span> of your area.</li><li>Divide it up into the number of sections you want to use. If you need $n=4$ rectangles, make four sections by drawing <span id="box5Trigger">vertical lines equally spaced between your starting and ending lines.</span><span id="box5"><img src="../../Graphs/graphriemann1.3.png"></span></li><li>If you use left endpoint rectangles, go to the left side of each section. Follow the line up to where it touches the curve, and draw the line that sits on the top of the section <span id="box6Trigger">(i.e. from left to right)</span><span id="box6"><img src="../../Graphs/graphriemann1.4.png"></span>. This might make your rectangle above the curve or below the curve. After you do that to each rectangle, you find the area of each rectangle, and add them all together, and that gives you an approximation for the area under the curve. This is basic geometry and arithmetic once you figure out where your rectangles are.</li></ol>
+<BR>
+<BR>The formulas for left endpoints go like this:
+<BR>$$A=\sum\limits_{i=1}^{n}f(x_i)\Delta x$$$$x_i=a+(i-1)\Delta x$$$$\Delta x=\frac{b-a}{n}$$$n$ is the number of rectangles
+<BR>$a$ is the first $x$ value
+<BR>$b$ is the last $x$ value

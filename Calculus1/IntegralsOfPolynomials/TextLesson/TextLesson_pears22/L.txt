@@ -1,0 +1,25 @@
+An integral is an antiderivative (a backwards derivative). Like in the following questions:
+<BR>
+<BR>$2x$ is the derivative of <span title="x^2">what function</span>?
+<BR>
+<BR>$3x^2$ is the derivative of <span title="x^3">what function</span>?
+<BR>
+<BR>$x^4$ is the derivative of<span title="1/5 x^5">what function</span>?
+<BR>
+<BR>Here is the formula for finding antiderivatives of polynomials:
+<BR>
+<BR>If $F'(x)=f(x)$ and $f(x)=x^n$, then <span id="box1Trigger">$F(x)=\frac{1}{n+1}x^{n+1}$</span><span id="box1">You add one to the exponent and multiply by the reciprocal of the new exponent. If you have a hard time using this formula, whenever you take an antiderivative, just take the derivative of your answer and if you get the same thing you started with, you did it right. Thats a good way to check your work with these problems. </span>
+<BR>
+<BR>To find the antiderivative of a special function, just remember what the derivatives of the special functions are and you should be able to figure out the antiderivatives you need to.
+<BR>
+<BR>Try to get used to taking the antiderivative without thinking about the derivative too much.
+<BR>
+<BR>The way to write an antiderivative is called an integral. The following is another way of saying, "Find the antiderivative of $x^2+3$":$$\int(x^2+3)\,dx$$When you take the antiderivative, the $\int$ (integral sign) and the $dx$ go away:$\int(x2+3)\,dx=\frac{1}{3}x^3+3x$<span title="An arbitrary constant">$+C$</span>
+<BR>
+<BR>You always need to put the $+C$ at the end of your answer. This is only necessary for <span id="box2Trigger">indefinite integrals</span><span id="box2">integrals with no bounds, unlike $\int\limits_1^2(x^2+3)\,dx$ which is a definite integral</span>. Any number of functions could have the <span id="box3Trigger">same derivative</span><span id="box3">if they have the same shape, like these ones: <img src="../../Graphs/graphoffbyaconstant.png" class="P1"></span>, and that is because constants (the $+C$) die when you take their derivative.
+<BR>
+<BR>You find a definite integral the same way, but at the end you plug in the bounds into the antiderivative, subtracting the bottom from the top bound:<span id="box4Trigger">$\int\limits_1^2(x^2+3)\,dx$$$\int\limits_1^2(x^2+3)\,dx=\frac{1}{3}x^3+3x\,\Bigr|_1^2$$ $$=[\frac{1}{3}(2)^2+3(2)]-[\frac{1}{3}(1)+3(1)]$$ $$=\frac{4}{3}+6-\frac{1}{3}-3=1+3=4$$</span><span id="box4">Don't forget to distribute your negatives properly. Youll be really good at that after this section.</span>
+<BR>
+<BR>The way you would read the integral above is "The integral of $x^2+3$ from $1$ to $2$ is $4$." What that tells us is that the area under the curve $x^2+3$ from $x=1$ to $x=2$ is $4$.
+<BR>
+<BR>This way is much faster than the Riemann sum way of finding the exact area under a curve. Let's check our <a href="http://learningflare.com/Calculus1/RiemannSums/TextLesson/TextLesson.jsp" target="_blank">answer from the last section</a>:$$\int_0^2(3-x^2)\,dx$$ $$=3x-\frac{1}{3}x^3\,\Bigr|_0^2$$ $$=3(2)-\frac{1}{3}(2)^3-(0-0)$$ $$=6-\frac{8}{3}=\frac{18-8}{3}=\frac{10}{3}\,\,\checkmark$$

@@ -1,0 +1,15 @@
+Let $u=lnx \Longrightarrow du=\frac{1}{x}\,dx$ $\Longrightarrow \frac{x\,du}{dx}=1$ $$2\int \frac{sin(lnx)}{x}\,dx\frac{x\,du}{dx}$$ $$=2\int sin(u)\,du=-2cos(u)$$ $$=-2\,cos(lnx)+C$$<span id="box4">You can pull constants out of integrals. Be conscious that that's what you're doing.</span>
+<BR>
+<BR>When you have bounds, you need to convert them for the $u$ integral as well:$$\int_1^7x(x^2+7)\,dx$$$u=x^2+7$
+<BR>$du=2x\,dx$
+<BR>$\frac{du}{2x\,dx}=1$
+<BR>
+<BR>For the bounds, you use the substitution/relation $u=x^2+7$ to convert them. They are numbers for $x$, so you plug them into $x$ to find out what the numbers for $u$ $$u=1^2+7=8$$ $$u=7^2+7=56$$$$\int_1^7x(x^2+7)\,dx=\int x(x^2+7)\,dx\frac{du}{2x\,dx}$$ $$=\int_7^{56}12\frac{1}{u}\,du$$ $$=12ln|u| \,\Bigr|_7^{56}=12ln(56)-12ln7$$ $$=12ln\frac{56}{7}$$
+<BR>
+<BR>U-substitution with bounds can be nice because you don't have to ever go back into x's. There is an alternate way of doing it, however, which takes less thinking but more writing. That is not switching the bounds, but instead in the end substituting the x's back in, and plugging the old bounds into all of the x's.
+<BR>
+<BR>There is one more trick with U-substitution. You can use your choice of u more than one time in your integral if you need to. Here is an example: (<span id="box5Trigger">Part 1</span><span id="box5">$$\int x\sqrt{x-1}\,dx$$The thing that is inside of something is $x-1$, so thats our first choice for $u$.
+<BR>
+<BR>$u=x-1\Longrightarrow du=dx$
+<BR>This won't take care of the x on the outside. But we still need to express the integral entirely in terms of u. No $x$'s left behind. So you can use your substitution again, this time solve for $x$ by adding the 1 over: $x=u+1$</span>, <span id="box6Trigger">Part 2</span><span id="box6">$$\int
+<BR>x\sqrt{x-1}\,dx$$ $$=\int(u+1)sqrt{u}\,du$$ $$=\int u^{\frac{3}{2}}+u^{\frac{1}{2}}\,du$$ $$=\frac{2}{5}u^{\frac{5}{2}}+\frac{2}{3}u^{\frac{3}{2}}$$ $$=\frac{2}{5}(x-1)^{\frac{5}{2}}+\frac{2}{3}(x-1)^{\frac{3}{2}}+C$$</span>)

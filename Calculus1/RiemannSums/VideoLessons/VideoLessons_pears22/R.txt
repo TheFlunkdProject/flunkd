@@ -1,1 +1,5 @@
-
+<div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/SV7p11hxIO0?wmode=transparent&rel=0&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>David Lippman</p><p>Explains where Riemann sum formulas come from</p><p>0:00 - 4:23</p></div></div>
+<BR>
+<BR>There is another formula for left endpoints, but both are fine. It is $$A=\sum\limits_{i=1}^{n}f(x_i)\Delta x$$$$x_i=a+(i-1)\Delta x$$$$\Delta x=\frac{b-a}{n}$$$n$ is the number of rectangles
+<BR>$a$ is the first $x$ value
+<BR>$b$ is the last $x$ value

@@ -1,0 +1,9 @@
+The Mean Value Theorem states:
+<BR>
+<BR>If f is a continuous function on $[a,b]$, and is differentiable on $(a,b)$, then there exists a $c$ in $(a,b)$ such that <span id="box1Trigger">$f'(c)=\frac{f(b)-f(a)}{b-a}$</span><span id="box1"> This is the formula for the slope of a line. In this case, it's referring to a secant line. It looks like this: @@Image of what a secant line is@@</span>.
+<BR>
+<BR>The theorem is basically saying that <span id="box2Trigger">if you pick two points on a continuous function, then the average slope of the 
+<BR>function between those two points will equal the exact slope at at least one place in between them.</span><span id="box2"><img src="../../Graphs/graphmeanvalue.png"></span>
+<BR>
+<BR>
+<BR>Usually they want you to find the value of $c$.

@@ -1,1 +1,1 @@
-
+<div class="videoContainer"><iframe class="embeddedVideo"src="https://www.youtube.com/embed/XC2Gbs4_jPQ?wmode=transparent&rel=0;start=005;end=010&modestbranding=1&version=3&ap=%2526fmt%3D18&autohide=1&fs=1&theme=light&color=white"type="application/x-shockwave-flash" allowfullscreen></iframe><div class="videoDescription"><p>MathDoctorBob</p><p>Formulas you may or may not need to memorize, but you will use a lot on homework</p><p>0:05 - 0:10</p></div></div>
