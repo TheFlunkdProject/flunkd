@@ -4,9 +4,18 @@
 </div>
 <div id="rightpage">
 	<div class="pageTexture">
+	
 		<div class="calcheaderright" onmouseover="classesMenuOn()" onmouseout="classesMenuOff()"
 			onclick="(this).style.backgroundColor='red'">
 			Calculus 1
 			<img src="/images/downarrow.png" class="downarrow">
 		</div>
+	
+		<div id="preferencesIconBar">
+			<div id="preferencesIconHolder"><a class="blocky" title="Set Preferences" href="#"
+			onmouseover="showPreferences()" onmouseout="hidePreferences()">
+				<img id="preferencesIcon" src="/images/sliders.png">
+			</a></div>
+		</div>
+		
 		<div class="RightPageTextContainer">

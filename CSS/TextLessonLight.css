@@ -210,7 +210,7 @@ div .bookpage {
 #videoLessonIcon {
 	position:relative;
 	height:100%;
-	width:25px;
+	width:22px;
 	min-width:15px;
 	left:10%;
 }
@@ -228,15 +228,71 @@ div .bookpage {
 	height:100%;
 }
 
+#preferencesIconBar {
+	position:relative;
+	width:30%;
+	top:4px;
+	margin: 0px 4px 0px 0px;
+	float:right;
+	height:25px;
+	z-index:100;
+	background-color:rgba(200,200,200,.05);
+}
+
+
+#preferencesIconHolder {
+	position:absolute;
+	height:95%;
+	margin:0px 10px 0px 10px;
+	top:1%;
+	background-color:#444444;
+	border:0px solid #FFFFFF;
+	border-radius:5px;
+}
+
+#preferencesIcon {
+	height:100%;
+}
+
+#preferencesContainer {
+	position:fixed;
+	width:22em;
+	height:6em;
+	top:10em;
+	left:0;
+	right:0;
+	margin:auto;
+	background-color:#BBBBBB;
+	
+	visibility:hidden;
+	opacity:0;
+	z-index:505;
+	border-radius:10px;
+}
+
+#preferencesDisplay {
+	position:absolute;
+	width:20px;
+	height:20px;
+	bottom:0px;
+	color:#111111;
+}
+
+#preferencesSubmit {
+	position:relative;
+	right:0;
+	width:100px;
+}
+
 
 .calcheaderright {
-	position: absolute;
+	position: relative;
 	text-align:right;
 	width:65%;
 	height:25px;
 	top:4px;
-	right:6px;
 	float:right;
+	margin: 0px 4px 0px 0px;
 	z-index:100;
 	background-color:rgba(0,10,200,.03);
 	
@@ -250,6 +306,14 @@ width:15px;
 height:15px;
 bottom:0px;
 margin:0px 5px 0px 5px;
+}
+
+#exampleOpenTrigger {
+	border:2px solid #000000;
+}
+
+#exampleCloseTrigger {
+	border:2px solid #000000;
 }
 
 h3 {

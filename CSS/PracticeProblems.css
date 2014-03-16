@@ -1,15 +1,7 @@
-#difficultyContainer {
-	position:absolute;
-	width:400px;
-	height:50px;
-	left:0;
-	right:0;
-	background-color:#BBBBBB;
+#exampleOpenTrigger {
+	position:relative;
 }
-#difficultyDisplay {
-	position:absolute;
-	width:20px;
-	height:20px;
-	bottom:0px;
-	color:#111111;
+
+#exampleCloseTrigger {
+	position:relative;
 }

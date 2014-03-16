@@ -83,7 +83,7 @@ function answerProblem() {
 userAnswer = document.getElementById('userAnswer').value;
 feedback = "Enter an answer.";
 feedbackCorrect = "Correct";
-feedbackIncorrect = "Incorrect Answer";
+feedbackIncorrect = "Incorrect";
 answernumber = generatedAnswer.ansh;
 if (Math.abs(parseFloat(userAnswer) - answernumber) < 0.1)
 	{

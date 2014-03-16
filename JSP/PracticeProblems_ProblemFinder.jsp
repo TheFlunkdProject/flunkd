@@ -1,6 +1,6 @@
 <!-- Set the difficulty: -->
-<form name="difficultySetter" action="PracticeProblems.jsp">
-<div id="difficultyContainer">
+<form name="preferencesSetter" action="PracticeProblems.jsp">
+<div id="preferencesContainer" onmouseover="showPreferences()" onmouseout="hidePreferences()">
 Difficulty level:  1<input type="range" name="difficultyLevel" id="difficultyLevel" 
 min="1" max="10" onChange="displayDifficulty()">10
 <div id="difficultyDisplay"></div>
@@ -10,11 +10,15 @@ if (request.getParameter("difficultyLevel") != null)
 	String difficulty = request.getParameter("difficultyLevel");
 	session.setAttribute( "problemDifficultyLevel" , difficulty );
 	}
+	else if (session.getAttribute( "problemDifficultyLevel" ) == null) { //So both are null.
+	String ddd = "1";
+	session.setAttribute( "problemDifficultyLevel" , ddd );
+	}
 %>
-<input type="submit" value="Set Difficulty" style="position:absolute;right:0;width:100px;">
+<input type="submit" id="submitPreferences" value="Set Difficulty">
 </div>
 </form>
-<BR><BR><BR><BR>
+
 <!-- Keep slider at the same value -->
 <%
 if (session.getAttribute( "problemDifficultyLevel" ) != null)
@@ -22,7 +26,7 @@ if (session.getAttribute( "problemDifficultyLevel" ) != null)
 	String problemDifficultyLevel = (String)session.getAttribute( "problemDifficultyLevel" );
 	%>
 	<script>
-	document.getElementById('difficultyLevel').value = <%=problemDifficultyLevel%>
+	document.getElementById('difficultyLevel').value = <%=problemDifficultyLevel%>;
 	</script>
 	<%
 	}
@@ -36,6 +40,10 @@ else if (request.getParameter("difficultyLevel") != null)
 	<%
 	}
 %>
+<script>document.getElementById('difficultyDisplay').innerHTML=document.getElementById('difficultyLevel').value;</script>
+
+
+
 <!--Some java code to decide which lesson to include will be inserted here. -->
 <%
 String appPath = session.getServletContext().getRealPath(request.getContextPath());
@@ -52,7 +60,7 @@ if (session.getAttribute("problemDifficultyLevel") != null)
 	for (int ac=1; ac<11; ac++)
 		{
 		%>
-		<%=ac-1%>
+		<!--<%=ac-1%>-->
 		<%
 		for (int i=0; i<files.length; i++)
 			{
@@ -84,6 +92,13 @@ if (author == "")
 	author="PracticeProblems_default";
 	}
 
+String bestPageInfo = author + "/info.txt";
 String bestPageL = author + "/L.txt";
 String bestPageR = author + "/R.txt";
 %>
+
+<!-- to display some info about the problem: -->
+Difficulty: <jsp:include page="<%=bestPageInfo%>" />
+<BR>
+Author: <%=author%>
+<BR><BR>

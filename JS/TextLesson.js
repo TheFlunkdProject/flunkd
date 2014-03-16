@@ -1,5 +1,17 @@
+function showPreferences() {
+cssStringShowPreferences = "visibility:visible;opacity:1;transition: visibility 0s .5s, opacity .1s .5s;";
+document.getElementById('preferencesContainer').style.cssText = cssStringShowPreferences;
+}
+
+function hidePreferences() {
+cssStringHidePreferences = "visibility:hidden;opacity:0;transition: visibility 0s .6s, opacity .1s .5s;";
+document.getElementById('preferencesContainer').style.cssText = cssStringHidePreferences;
+}
+
 document.getElementById('topicsmenu').style.opacity="0";//because BlueAndBlack css always dominates somehow...
 
+
+//The next 850 or so lines are for the actual lesson
 var box1Trigger = document.getElementById('box1Trigger');
 var box2Trigger = document.getElementById('box2Trigger');
 var box3Trigger = document.getElementById('box3Trigger');

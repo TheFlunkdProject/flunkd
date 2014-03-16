@@ -286,13 +286,11 @@ if (request.getParameter("problemSubmitted") != null && hTopic != "")
 	pwl.println(allOfL);
 	pwl.close();
 	
-	String allOfR = "<div id=\"exampleOpenTrigger\" onclick=\"showExample()\"" + 
-	"style=\"position:relative;height:20px;width:20px;background-color:#FFFFFF;\"> \n" + 
+	String allOfR = "<div id=\"exampleOpenTrigger\" onmouseover=\"showExampleHover()\" onclick=\"showExample()\"> \n" + 
 	"</div> \n" + 
 	"<div id=\"example\" style=\"display:none\"> \n" +
-	"</div> \n" + 
-	"<div id=\"exampleCloseTrigger\" onclick=\"hideExample()\"" + 
-	"style=\"position:relative;height:20px;width:20px;background-color:#DD0000;\"> \n" + 
+	"</div> \n<br>\n" + 
+	"<div id=\"exampleCloseTrigger\" onmouseover=\"hideExampleHover()\" onclick=\"hideExample()\"> \n" + 
 	"</div> \n" + 
 	"\n" + 
 	"<script>\n" + 

@@ -72,7 +72,7 @@ function answerProblem() {
 userAnswer = document.getElementById('userAnswer').value;
 feedback = "Enter an answer.";
 feedbackCorrect = "Correct";
-feedbackIncorrect = "Incorrect Answer";
+feedbackIncorrect = "Incorrect";
 answernumber = generatedAnswer.ansh;
 if (Math.abs(parseFloat(userAnswer) - answernumber) < 0.1)
 	{
@@ -86,14 +86,36 @@ document.getElementById('feedback').innerHTML = feedback;
 }
 
 //Not in ProblemCreator.js:
+
+var exampleOpenTrigger = document.getElementById('exampleOpenTrigger');
+var exampleCloseTrigger = document.getElementById('exampleCloseTrigger');
+
+if (document.getElementById('hExample').value != "") {
+exampleOpenTrigger.innerHTML = "Show Example";
+}
+
+function showExampleHover() {
+cssStringShowExampleHover = "cursor:pointer;";
+exampleOpenTrigger.style.cssText = cssStringShowExampleHover;
+}
+
 function showExample() {
 cssStringShowExample = "display:block;transition:display .3s;";
 document.getElementById('example').style.cssText = cssStringShowExample;
+exampleOpenTrigger.innerHTML = "";
+exampleCloseTrigger.innerHTML = "Hide Example";
+}
+
+function hideExampleHover() {
+cssStringHideExampleHover = "cursor:pointer;";
+exampleCloseTrigger.style.cssText = cssStringHideExampleHover;
 }
 
 function hideExample() {
 cssStringHideExample = "display:none;transition:display .3s;";
 document.getElementById('example').style.cssText = cssStringHideExample;
+exampleOpenTrigger.innerHTML = "Show Example";
+exampleCloseTrigger.innerHTML = "";
 }
 
 //This will write the example in:
@@ -103,4 +125,5 @@ document.getElementById('example').innerHTML = document.getElementById('hExample
 function displayDifficulty() {
 document.getElementById('difficultyDisplay').innerHTML=document.getElementById('difficultyLevel').value;
 }
+
 displayDifficulty();

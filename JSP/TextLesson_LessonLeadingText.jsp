@@ -2,10 +2,12 @@
 
 <div id="leftpage">
 	<div class="pageTexture">
+	
 		<div class="calcheaderleft" onmouseover="topicsMenuOn()" onmouseout="topicsMenuOff()">
 			<img src="/images/downarrow.png" class="downarrow">
 			<span id="currentTopic1"></span>
 		</div>
+		
 		<div id="mediaIconBar">
 			<div id="textLessonIconHolder"><a class="blocky" title="Text Lesson" href="../TextLesson/TextLesson.jsp">
 				<img id="textLessonIcon" src="/images/bookIcon.png">
@@ -20,7 +22,6 @@
 		
 <!--All this stuff is to show which icon is selected. -->
 <script>
-
 currentURL = window.location.href;
 cssStringIAmSelected = "border:1px solid #FFFFFF;";
 if (currentURL.indexOf("TextLesson") != -1)
@@ -35,9 +36,7 @@ if (currentURL.indexOf("PracticeProblems") != -1)
 	{
 	document.getElementById('practiceProblemsIconHolder').style.cssText = cssStringIAmSelected;
 	}
-
 </script>
-
 
 		<div class="LeftPageTextContainer"> 
 			<h3><span id="currentTopic2"></span></h3> 
