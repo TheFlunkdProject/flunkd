@@ -11,7 +11,7 @@
 
 </head>
 <body>
-<img src="../images/blackbackground2.jpg" id="back1">
+<img src="/images/blackbackground2.jpg" id="back1">
 
 <%@ include file="/JSP/topMenu.jsp" %>
 

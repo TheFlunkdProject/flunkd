@@ -87,35 +87,36 @@ document.getElementById('feedback').innerHTML = feedback;
 
 //Not in ProblemCreator.js:
 
-var exampleOpenTrigger = document.getElementById('exampleOpenTrigger');
-var exampleCloseTrigger = document.getElementById('exampleCloseTrigger');
+var exampleTrigger = document.getElementById('exampleTrigger');
 
 if (document.getElementById('hExample').value != "") {
-exampleOpenTrigger.innerHTML = "Show Example";
+exampleTrigger.disabled = false;
 }
 
-function showExampleHover() {
-cssStringShowExampleHover = "cursor:pointer;";
-exampleOpenTrigger.style.cssText = cssStringShowExampleHover;
+function triggerExampleHover() {
+cssStringTriggerExampleHover = "cursor:auto;";
+exampleTrigger.style.cssText = cssStringTriggerExampleHover;
+}
+
+function triggerExample() {
+if (document.getElementById('example').style.display == "none") {
+	showExample();
+	}
+	else {
+	hideExample();
+	}
 }
 
 function showExample() {
 cssStringShowExample = "display:block;transition:display .3s;";
 document.getElementById('example').style.cssText = cssStringShowExample;
-exampleOpenTrigger.innerHTML = "";
-exampleCloseTrigger.innerHTML = "Hide Example";
-}
-
-function hideExampleHover() {
-cssStringHideExampleHover = "cursor:pointer;";
-exampleCloseTrigger.style.cssText = cssStringHideExampleHover;
+exampleTrigger.value = "Hide Example";
 }
 
 function hideExample() {
 cssStringHideExample = "display:none;transition:display .3s;";
 document.getElementById('example').style.cssText = cssStringHideExample;
-exampleOpenTrigger.innerHTML = "Show Example";
-exampleCloseTrigger.innerHTML = "";
+exampleTrigger.value = "Show Example";
 }
 
 //This will write the example in:

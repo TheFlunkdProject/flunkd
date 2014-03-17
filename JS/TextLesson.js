@@ -1,3 +1,13 @@
+function iconMouseOver(elementID) {
+cssStringIconOn = "border:1px solid #55BBFF;transition: border .3s 0s;";
+document.getElementById(elementID).style.cssText = cssStringIconOn;
+}
+
+function iconMouseOut(elementID) {
+cssStringIconOff = "border:1px solid #888888;transition: border .3s 0s;";
+document.getElementById(elementID).style.cssText = cssStringIconOff;
+}
+
 function showPreferences() {
 cssStringShowPreferences = "visibility:visible;opacity:1;transition: visibility 0s .5s, opacity .1s .5s;";
 document.getElementById('preferencesContainer').style.cssText = cssStringShowPreferences;

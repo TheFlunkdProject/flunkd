@@ -211,7 +211,7 @@ div .bookpage {
 #videoLessonIconHolder {
 	position:absolute;
 	height:95%;
-	margin:0px 60px 0px 50px;
+	margin:0px 0px 0px 48px;
 	top:1%;
 	background-color:#444444;
 	border:0px solid #FFFFFF;
@@ -254,11 +254,11 @@ div .bookpage {
 
 #preferencesIconHolder {
 	position:absolute;
-	height:95%;
+	height:75%;
 	margin:0px 10px 0px 10px;
-	top:1%;
+	top:12%;
 	background-color:#444444;
-	border:0px solid #FFFFFF;
+	border:1px solid #888888;
 	border-radius:5px;
 }
 
@@ -274,12 +274,18 @@ div .bookpage {
 	left:0;
 	right:0;
 	margin:auto;
-	background-color:#BBBBBB;
+	
+	color:#FEFEF2;
+	font-size:1em;
+	text-align:center;
+	font-family:sans-serif;
+	background-color:#000000;
+	border-radius:5px;
+	box-shadow:0px 0px 3px 3px #FFFFFF;
 	
 	visibility:hidden;
 	opacity:0;
 	z-index:505;
-	border-radius:10px;
 }
 
 #preferencesDisplay {

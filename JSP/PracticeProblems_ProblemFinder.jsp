@@ -98,7 +98,9 @@ String bestPageR = author + "/R.txt";
 %>
 
 <!-- to display some info about the problem: -->
-Difficulty: <jsp:include page="<%=bestPageInfo%>" />
+<div id="problemInfo">
+	Difficulty: <jsp:include page="<%=bestPageInfo%>" />
+	<BR>
+	Author: <%=author%>
+</div>
 <BR>
-Author: <%=author%>
-<BR><BR>

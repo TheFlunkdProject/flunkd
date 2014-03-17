@@ -12,7 +12,8 @@
 		</div>
 	
 		<div id="preferencesIconBar">
-			<div id="preferencesIconHolder"><a class="blocky" title="Set Preferences" href="#"
+			<div id="preferencesIconHolder" onmouseover="iconMouseOver(this.id)" onmouseout="iconMouseOut(this.id)">
+			<a class="blocky" title="Set Preferences" href="#"
 			onmouseover="showPreferences()" onmouseout="hidePreferences()">
 				<img id="preferencesIcon" src="/images/sliders.png">
 			</a></div>

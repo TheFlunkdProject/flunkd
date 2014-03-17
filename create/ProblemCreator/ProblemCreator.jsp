@@ -35,6 +35,9 @@
 	
 	<input type="hidden" name="problemSubmitted" id="problemSubmitted"/>
 </form>
+
+<img src="/images/blackbackground2.jpg" id="back1">
+<div id="windowSpacer"></div>
 <div id="mainContainer">
 	<div id="mainHeader">
 		<div id="titleHeader">
@@ -46,7 +49,7 @@
 		</div>
 		<div id="pathBanner">
 			Course:
-			<select name="courseName" id="courseName" onchange="updateCourse()">
+			<select name="courseName" id="courseName" onchange="updateCourse()" class="darkInput">
 				<option value="" selected="selected"></option>
 			</select>
 		<%
@@ -87,7 +90,7 @@
 			
 			
 			Topic:
-			<select name="topicName" id="topicName" onChange="updateTopic()">
+			<select name="topicName" id="topicName" onChange="updateTopic()" class="darkInput">
 				<option value="" selected="selected"></option>
 			</select>
 			<%// Now list all of the topics in the course:
@@ -133,22 +136,23 @@
 		</div>
 		
 	</div>
+	<div class="horizontalNitchLine"></div>
 	<div id="mainLeft">
 		<div id="d2">
 			Question:
-			<textarea id="question"></textarea>
+			<textarea id="question" class="darkInput"></textarea>
 		</div>
 		<p id="p2">
 			Within what range would you like var1 and var2 to be generated?
 		</p>
 		<p>
-		var1 range: <input type="text" id="var1From"/> to <input type="text" id="var1To"/>
+		var1 range: <input type="text" id="var1From" class="darkInput"/> to <input type="text" id="var1To" class="darkInput"/>
 		<br>
-		var2 range: <input type="text" id="var2From"/> to <input type="text" id="var2To"/>
+		var2 range: <input type="text" id="var2From" class="darkInput"/> to <input type="text" id="var2To" class="darkInput"/>
 		</p>
 		<p id="p3">
 			What form should the answer be in?
-			<input type="text" id="answer"/>
+			<input type="text" id="answer" class="darkInput"/>
 		</p>
 		<br>
 		<input type="button" id="previewProblemButton" onclick="previewProblem();" value="Preview Problem"/>
@@ -158,22 +162,24 @@
 		To help struggling students, you can write an example of how to do this 
 		kind of problem here. Enclose equations with dollar signs and write them in LaTeX.
 		</div>
-		<textarea id="example"></textarea>
+		<textarea id="example" class="darkInput"></textarea>
 	</div>
 </div>
 <div id="problemPreview">
-	<p id="generatedQuestion">
-	</p>
-	<input type="text" id="userAnswer"/>
-	<input type="button" id="checkAnswer" onclick="answerProblem();" value="Check"/>
-	<p id="feedback">
-	</p>
-	<p>
-		On a scale of 1 to 10, how difficult is this problem?
-	<input type="text" id="difficulty"/>
-	</p>
-	<input type="button" id="closeProlemPreview" onclick="closePreview();" value="Close"/>
-	<input type="button" id="submitProblem" onclick="submitProblem();" value="Submit Problem"/>
+	<div id="pageTexture">
+		<p id="generatedQuestion">
+		</p>
+		<input type="text" id="userAnswer" class="darkInput"/>
+		<input type="button" id="checkAnswer" onclick="answerProblem();" value="Check"/>
+		<p id="feedback">
+		</p>
+		<p>
+			On a scale of 1 to 10, how difficult is this problem?
+		<input type="text" id="difficulty" class="darkInput"/>
+		</p>
+		<input type="button" id="closeProlemPreview" onclick="closePreview();" value="Close"/>
+		<input type="button" id="submitProblem" onclick="submitProblem();" value="Submit Problem"/>
+	</div>
 </div>
 
 
@@ -249,11 +255,11 @@ if (request.getParameter("problemSubmitted") != null && hTopic != "")
 	{
 	String newTopicProblemFolderPath = session.getServletContext().getRealPath(request.getContextPath()) 
 	+ "/" + hCourse + "/" + hTopic + "/PracticeProblems/PracticeProblems_pears22" + ranString;
-	%><%=newTopicProblemFolderPath%><%
+	%><!--<%=newTopicProblemFolderPath%>--><%
 	
 	File newTopicProblemFolder = new File(newTopicProblemFolderPath);
 	boolean successful = newTopicProblemFolder.mkdir();
-	%><%=successful%><%
+	%><!--<%=successful%>--><%
 	
 	String newProblemInfoPath = newTopicProblemFolderPath + "/info.txt";
 	File newProblemInfoFile = new File(newProblemInfoPath);
@@ -286,12 +292,11 @@ if (request.getParameter("problemSubmitted") != null && hTopic != "")
 	pwl.println(allOfL);
 	pwl.close();
 	
-	String allOfR = "<div id=\"exampleOpenTrigger\" onmouseover=\"showExampleHover()\" onclick=\"showExample()\"> \n" + 
-	"</div> \n" + 
+	String allOfR = "<input type=\"button\" id=\"exampleTrigger\" onmouseover=\"triggerExampleHover()\"" + 
+	" onclick=\"triggerExample()\" value=\"Show Example\" disabled/> \n<br>\n<br>\n" + 
 	"<div id=\"example\" style=\"display:none\"> \n" +
 	"</div> \n<br>\n" + 
-	"<div id=\"exampleCloseTrigger\" onmouseover=\"hideExampleHover()\" onclick=\"hideExample()\"> \n" + 
-	"</div> \n" + 
+
 	"\n" + 
 	"<script>\n" + 
 	"title+=\" Problems\";\n" + 
