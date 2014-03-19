@@ -1,0 +1,37 @@
+#flunkdholder {
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:80px;
+	height:30px;
+	
+	background-color:#3D3D3D;
+	
+	border:1px solid #454545;
+	
+	border-radius:0px;
+	
+	z-index:10;
+}
+#flunkd a {
+	display:block;
+	width:100%;
+	text-decoration:none;
+
+
+	position:absolute;
+	width:96%;
+	height:95%;
+	top:3%;
+	left:2%;
+	text-align:center;
+	padding:0;
+	margin:0;
+	
+	font-size: 24px;
+	color:#32DBD6;
+  background: -webkit-linear-gradient(#04859D, #37B6CE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;	
+	
+}

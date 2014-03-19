@@ -1,0 +1,474 @@
+#back1 {
+	position:absolute;
+	width:100%;
+	height:102%;
+	z-index:-999;
+	margin:none;
+}
+
+body {color:#FFFFFF;font-family:Georgia;font-size:13px;
+	margin:0;
+	padding:0;
+	color:white;
+	overflow:hidden;
+
+
+}
+
+#flunkdholder {
+	position:absolute;
+	top:35px;
+	left:14px;
+	width:470px;
+	height:160px;
+	
+	background-color:#3D3D3D;
+	box-shadow: 10px 10px 5px #206876;
+	
+	border:1px solid #454545;
+	
+	border-radius:0px;
+	
+	z-index:10;
+}
+
+#flunkd a {
+	display:block;
+	width:100%;
+	text-decoration:none;
+
+
+	position:absolute;
+	width:96%;
+	height:95%;
+	top:3%;
+	left:2%;
+	text-align:center;
+	padding:0;
+	margin:0;
+	
+	font-size: 144px;
+	color:#32DBD6;
+  background: -webkit-linear-gradient(#04859D, #37B6CE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;	
+	
+}
+
+
+#horizontalbanner {
+	position:absolute;
+	width:100%;
+	height:10%;
+	min-height:80px;
+	top:6.6%;
+	
+	background-color:#262626;
+	box-shadow: 3px 3px 5px #206876;
+	
+	border:1px solid #393939;
+	
+	z-index:8;
+}
+
+
+#HowBox {
+	position:absolute;
+	width:170px;
+	height:80%;
+	left:490px;
+	top:10%;
+	
+	text-align:center;
+	color:#FFFFFF;
+	
+	border-style:solid;
+	border-width: 0px 1px 0px 0px;
+	border-color:#393939;
+}
+
+#WhatBox {
+	position:absolute;
+	width:170px;
+	height:80%;
+	left:661px;
+	top:10%;
+	
+	text-align:center;
+	color:#FFFFFF;
+	
+	border-style:solid;
+	border-width: 0px 1px 0px 0px;
+	border-color:#393939;
+}
+
+#WhoBox {
+	position:absolute;
+	width:170px;
+	height:80%;
+	left:832px;
+	top:10%;
+	
+	text-align:center;
+	color:#FFFFFF;
+	
+	border-style:solid;
+	border-width: 0px 1px 0px 0px;
+	border-color:#393939;
+}
+
+#InfoWord {
+	list-style-type:none;
+    margin:0;
+    padding-right:4px;
+    overflow:hidden;
+}
+
+#InfoWord a {
+	display:block;
+	width:100%;
+	font-weight:bold;
+	text-align:center;
+	padding:0px;
+	color:#FFFFFF;
+	text-decoration:none;
+
+	font-size:24px;
+}
+
+#InfoQuestion {
+	list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+#InfoQuestion a {
+	display:block;
+	width:100%;
+	text-align:center;
+	padding:4px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+
+#verticalbanner {
+	position:absolute;
+	width:18%;
+	height:100%;
+	left:4%;
+	
+	background-color:#212121;
+	box-shadow: 3px 3px 5px #206876;
+	
+	border:1px solid #333333;
+	
+	z-index:8;
+
+}
+
+#LoginSignUp {
+	position:absolute;
+	width:80%;
+	height:150px;
+	left:10%;
+	top:220px;
+	
+	border-style:solid;
+	border-width: 3px;
+	border-color:#206876;
+	border-radius:10px;
+	padding:0px;
+	
+}
+
+
+#InputUsernameLabel {
+	position:absolute;
+	left:8px;
+	right:8px;
+	top:8px;
+	height:20%;
+}
+
+#InputUsernameContainer {
+	position:absolute;
+	left:8px;
+	right:16px;
+	top:20%;
+	height:20%;
+}
+
+#InputUsername {
+	width:100%;
+}
+
+#InputPasswordLabel {
+	position:absolute;
+	left:8px;
+	right:8px;
+	top:40%;
+	height:20%;
+}
+
+#InputPasswordContainter{
+	position:absolute;
+	left:8px;
+	right:16px;
+	top:54%;
+	height:20%;
+}
+
+#InputPassword {
+	width:100%;
+}
+
+#Login {
+	position:absolute;
+	width:40%;
+	height:15%;
+	top:80%;
+	left:6.7%;
+	background-color:#206876;
+	
+	text-align:center;
+	font-weight:bold;
+	font-size:16px;
+	
+	border-radius:10px;
+	
+}
+
+#SignUp {
+	position:absolute;
+	width:40%;
+	min-width:65px;
+	height:15%;
+	top:80%;
+	right:6.7%;
+	background-color:#206876;
+	
+	text-align:center;
+	font-weight:bold;
+	font-size:16px;
+	
+	border-radius:10px;
+	
+}
+
+#SearchFlunkd {
+	position:absolute;
+	width:80%;
+	height:90px;
+	left:10%;
+	top:390px;
+	
+	border-style:solid;
+	border-width: 3px;
+	border-color:#206876;
+	border-radius:10px;
+	padding:0px;
+	
+	color:#32DBD6;
+}
+
+#SearchFlunkdLabel {
+	position:absolute;
+	left:8px;
+	width:90%;
+	min-width:90px;
+	top:8px;
+	height:20%;
+	
+}
+
+#SearchFlunkdInputContainter {
+	position:absolute;
+	left:8px;
+	right:16px;
+	top:30%;
+	height:20%;
+}
+
+#SearchFlunkdInput {
+	width:100%;
+}
+
+#Go{
+	position:absolute;
+	width:45px;
+	height:22px;
+	top:65%;
+	left:6.7%;
+	background-color:#206876;
+	
+	text-align:center;
+	font-weight:bold;
+	font-size:16px;
+	
+	border-radius:10px;
+	
+}
+	
+
+#verticaltest {
+	position:absolute;
+	width:80%;
+	height:18%;
+	left:10%;
+	top:300px;
+	
+	text-align:center;
+	padding-top:5px;
+	color:#FFFFFF;
+	font-size:24px;
+	
+	border-style:solid;
+	border-width: 1px 0px;
+	border-color:#333333;
+}
+
+#LearnLable {
+	position:absolute;
+	width:100%;
+	height:15%;
+	top:5%;
+	
+}
+
+#ClassList {
+	list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+	
+	font-size:14px;
+}
+
+#ClassListContainer {
+	position:absolute;
+	width:100%;
+	top:30%;
+	height:80%;
+	
+
+}
+
+#ClassList a:link, #ClassList a:visited {
+	display:block;
+	width:100%;
+	text-align:center;
+	padding:0px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#ClassList a:hover, #ClassList a:active {
+	display:block;
+	width:100%;
+	text-align:center;
+	padding:0px;
+	color:#FFFFFF;
+	text-decoration:none;
+	
+	background-color:#188330;
+}
+
+#CreateALesson {
+	position:absolute;
+	bottom:10px;
+	left:0px;
+	right:0px;
+	height:20px;
+}
+
+
+
+
+
+#subflunkdholder {
+	position:absolute;
+	width:52%;
+	min-width:535px;
+	height:9%;
+	top:19%;
+	right:3%;
+	
+	border:1px solid #454545;
+	box-shadow: 10px 10px 5px #206876;
+	background-color:#3D3D3D;
+}
+
+#subflunkd {
+	position:absolute;
+	width:98%;
+	height:90%;
+	top:5%;
+	left:1%;
+	
+	text-align:center;
+	
+	font-size: 48px;
+	color:#04859D;
+  background: -webkit-linear-gradient(#04859D, #37B6CE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#flunkdexplanation {
+	position:absolute;
+	width:70%;
+	height:63%;
+	left:26%;
+	top:32%;
+	
+	border: 3px solid #206876;
+	background-color:#121212;
+}
+
+
+
+blue
+
+4962D6
+6F81D6
+
+1531AE
+
+2D3C82
+071A71
+
+
+turquoise
+
+37B6CE
+5FBDCE
+
+04859D
+
+206876
+015666
+
+
+orange
+
+FFC740
+FFD673
+
+FFB400
+
+BF9530
+A67500
+
+
+indigo
+7A45D6
+936CD6
+
+4A11AE
+
+4A2A82
+2D0571
+
+04859D

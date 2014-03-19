@@ -1,0 +1,211 @@
+body {
+	color:#DDDDDD;
+	margin:0;
+	font-size:62.5%;
+	font-family:sans-serif;
+	margin:0;
+	padding:0;
+
+
+
+}
+
+a.dark {
+	color:#55BBFF;
+}
+
+a.dark:hover {
+	color:#1122CC;
+}
+
+ul.inline {
+	padding:0px 0px 0px 15px;
+}
+
+li.inline {
+	padding:5px 0px 0px 0px;
+}
+
+#back1 {
+	position:fixed;
+	width:100%;
+	height:102%;
+	z-index:-999;
+	margin:none;
+}
+
+#courseContentCentered {
+	position:absolute;
+	width:100em;
+	height:100em;
+	margin:auto;
+	left:0;
+	right:0;
+	top:0;
+}
+
+h1 {
+margin:0;
+padding:0;
+}
+
+#courseInfoHolder {
+	position:absolute;
+	width:60em;
+	height:90em;
+	left:34.5em;
+	top:8.5em;
+	
+	
+	font-size:1em;
+}
+	
+
+#courseNameHeader {
+	position:relative;
+	width:14em;
+	height:auto;
+	left:0em;
+	top:0em;
+	margin:0;
+	
+	color:#3366FF;
+	font-size:3em;
+	opacity:1;
+
+	
+
+}
+
+#graph {
+	position:absolute;
+	width:17em;
+	top:1em;
+	right:4em;
+	opacity:1;
+	
+	z-index:-900;
+}
+
+#courseQAMainContainer {
+	position:relative;
+	width:100%;
+	height:auto;
+	margin:3.5em 0em 0em 0em;
+}
+
+#courseQA1Container {
+	position:relative;
+	width:30em;
+	height:auto;
+	float:left;
+	
+}
+
+#courseQuestion1 {
+	position:relative;
+	width:11em;
+	height:auto;
+	
+	color:#3366FF;
+	font-size:2.5em;
+	opacity:1;
+
+}
+
+#courseAnswer1 {
+	position:relative;
+	width:18em;
+	height:auto;
+	margin-top:2em;
+	
+	color:#EEEEEE;
+	font-size:1.5em;
+	opacity:1;
+
+
+}
+
+#courseQA2Container {
+	position:relative;
+	width:30em;
+	height:auto;
+	float:left;
+	margin:10em 0em 0em 0em;
+	}
+
+#courseQuestion2 {
+	position:relative;
+	width:11em;
+	height:auto;
+
+	
+	color:#3366FF;
+	font-size:2.5em;
+	opacity:1;
+
+}
+
+#courseAnswer2 {
+	position:relative;
+	width:18em;
+	height:auto;
+	
+	color:#EEEEEE;
+	font-size:1.5em;
+	opacity:1;
+	
+	margin-top:2em;
+}
+
+#flowChartHeader {
+	position:relative;
+	width:11em;
+	height:1.5em;
+	margin:7.5em 0em 0em 0em;
+	clear:both;
+	
+	color:#3366FF;
+	font-size:2.5em;
+	opacity:1;
+
+}
+
+#CalculusFlowchart {
+	position:relative;
+	width:100%;
+	height:50em;
+	margin:2em 0em 0em 0em;
+	opacity:.8;
+	
+	border:1px solid #000000;
+	border-radius:5px;
+}
+
+.calculusVideoHeader {
+	position:relative;
+	width:30em;
+	height:1.5em;
+	margin:2em 0em 0em 0em;
+	
+	color:#3366FF;
+	font-size:2.5em;
+	opacity:1;
+}
+
+.courseVideo {
+	position:relative;
+	width:100%;
+	height:40em;
+	margin:2em 0em 0em 0em;
+}
+
+#topicsmenu {
+	left: 0%;
+	top: 10em;
+	width: 30em;
+	height:auto;
+
+	
+	visibility:visible;
+}
