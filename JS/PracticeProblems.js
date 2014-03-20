@@ -1,7 +1,7 @@
 //Much the same js as in ProblemCreator.js in /create/ProblemCreator/ folder
 //function name is different, and input fields are coming from "hQuestion", etc instead
 
-var generatedAnswer = {};
+var generatedAnswer = {}; //<-for some reason this isn't working here.
 
 function generateProblem() {
 question = document.getElementById('hQuestion').value;
@@ -51,39 +51,146 @@ else
 var2NumberToString = var2Number.toString();
 
 
-example
-question = question.replace(var1ReplaceString, var1NumberToString);
-question = question.replace(var2ReplaceString, var2NumberToString);
+/*example = document.getElementById('hExample').value;
+var reex1 = new RegExp(var1ReplaceString, 'g');
+example = example.replace(reex1, var1NumberToString);
+var reex2 = new RegExp(var2ReplaceString, 'g');
+example = example.replace(reex2, var2NumberToString);
+document.getElementById('hExample').value = example; *///Now that we have numbers to plug in, replace
+var reqe1 = new RegExp(var1ReplaceString, 'g');
+question = question.replace(reqe1, var1NumberToString);
+var reqe2 = new RegExp(var2ReplaceString, 'g');
+question = question.replace(reqe2, var2NumberToString);
 //The question is now ready to be asked to the student.
 document.getElementById('generatedQuestion').innerHTML = question;
+
+//Display the choices:
+
+var hChoice1Value = document.getElementById('hChoice1').value;
+choice1Text = document.getElementById('choice1Text');
+if (choice1Text != null) {
+	choice1Text.innerHTML = hChoice1Value;
+}
+
+var hChoice2Value = document.getElementById('hChoice2').value;
+choice2Text = document.getElementById('choice2Text');
+if (choice2Text != null) {
+	choice2Text.innerHTML = hChoice2Value;
+}
+
+var hChoice3Value = document.getElementById('hChoice3').value;
+choice3Text = document.getElementById('choice3Text');
+if (choice3Text != null) {
+	choice3Text.innerHTML = hChoice3Value;
+}
+
+var hChoice4Value = document.getElementById('hChoice4').value;
+choice4Text = document.getElementById('choice4Text');
+if (choice4Text != null) {
+	choice4Text.innerHTML = hChoice4Value;
+}
+
+var hChoice5Value = document.getElementById('hChoice5').value;
+choice5Text = document.getElementById('choice5Text');
+if (choice5Text != null) {
+	choice5Text.innerHTML = hChoice5Value;
+}
+
+var hChoice6Value = document.getElementById('hChoice6').value;
+choice6Text = document.getElementById('choice6Text');
+if (choice6Text != null) {
+	choice6Text.innerHTML = hChoice6Value;
+}
+
+var hChoice7Value = document.getElementById('hChoice7').value;
+choice7Text = document.getElementById('choice7Text');
+if (choice7Text != null) {
+	choice7Text.innerHTML = hChoice7Value;
+}
+
+var hChoice8Value = document.getElementById('hChoice8').value;
+choice8Text = document.getElementById('choice8Text');
+if (choice8Text != null) {
+	choice8Text.innerHTML = hChoice8Value;
+}
+
+
 MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 //document.getElementById('problemPreview').style.visibility="visible"; Not applicable
 
 
-answer = document.getElementById('hAnswer').value
+
+var answer;
+//In ProblemCreator.js we don't need to check this:
+if (document.getElementById('hAnswer').value != "") {
+answer = document.getElementById('hAnswer').value;
 answ = Parser.evaluate( answer, { var1: var1Number, var2: var2Number});
 generatedAnswer.ansh = parseFloat(answ);
 }
 
-//Execute the previous function:
+}
+
+//Execute the previous function (not in ProblemCreator.js. We want it to load from the beginning):
 generateProblem();
 
+
+
+
+
+//This was, though. It answers the problem.
 function answerProblem() {
+
+var userAnswer;
+//In ProblemCreator.js we don't need to check this:
+if (document.getElementById('userAnswer') != null) {
 userAnswer = document.getElementById('userAnswer').value;
-feedback = "Enter an answer.";
+}
+feedback = "things";
 feedbackCorrect = "Correct";
 feedbackIncorrect = "Incorrect";
-answernumber = generatedAnswer.ansh;
-if (Math.abs(parseFloat(userAnswer) - answernumber) < 0.1)
-	{
-	feedback = feedbackCorrect;
+//For free response:
+if (document.getElementById('hAnswerType').value == "freeResponse") {
+
+	answernumber = generatedAnswer.ansh;//Generated above in this file
+	if (Math.abs(parseFloat(userAnswer) - answernumber)/answernumber < 0.001) {
+		feedback = feedbackCorrect;
+		}
+	else {
+		feedback = feedbackIncorrect;
+		}
+} 
+
+//For multiple choice:
+
+if (document.getElementById('hAnswerType').value == "multipleChoice") {
+	var correctChoice = document.getElementById('hCorrectChoice').value;
+	var selectedChoice;//This is to find out which answer has been chosen:
+	for (i=1;i<9;i++) {
+		var thisChoiceID = "choice" + i.toString() + "P";
+		var thisChoiceOriginalID = "choice" + i.toString() + "Correct";
+		var thisChoiceElement = document.getElementById(thisChoiceID);
+		if (thisChoiceElement != null) {
+			if (thisChoiceElement.checked) {
+				selectedChoice = thisChoiceOriginalID;
+				}
+			}
+		}
+	if (selectedChoice == correctChoice) {
+		feedback = feedbackCorrect;
+		}
+	else {
+		feedback = feedbackIncorrect;
+		}
 	}
-else
-	{
-	feedback = feedbackIncorrect;
-	}
+
 document.getElementById('feedback').innerHTML = feedback;
 }
+
+
+
+
+
+
 
 //Not in ProblemCreator.js:
 

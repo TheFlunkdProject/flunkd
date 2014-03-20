@@ -31,7 +31,7 @@ div .pageTexture {
 
 #windowSpacer {
 	position:absolute;
-	height:65em;
+	height:75em;
 	width:10px;
 	left:0px;
 	right:0px;
@@ -41,7 +41,7 @@ div .pageTexture {
 #mainContainer {
 	position:absolute;
 	width:80em;
-	height:60em;
+	height:70em;
 	margin:auto;
 	left:0;
 	right:0;
@@ -157,7 +157,7 @@ div .pageTexture {
 #problemPreview {
 	position:absolute;
 	width:30em;
-	height:15em;
+	height:28em;
 	left:0%;
 	right:0%;
 	top:0%;

@@ -1,0 +1,11 @@
+<input type="button" id="exampleTrigger" onmouseover="triggerExampleHover()" onclick="triggerExample()" value="Show Example" disabled/> 
+<br>
+<br>
+<div id="example" style="display:none"> 
+</div> 
+<br>
+
+<script>
+title+=" Problems";
+</script>
+

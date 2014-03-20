@@ -1,1 +1,1 @@
-
+$\frac{d}{dx}(\frac{x\,sin(2x)}{x^3-x^2})$<BR><BR>Evaluated at \(x=var1\)

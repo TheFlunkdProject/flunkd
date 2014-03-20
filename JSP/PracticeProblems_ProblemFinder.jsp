@@ -101,6 +101,10 @@ String bestPageR = author + "/R.txt";
 <div id="problemInfo">
 	Difficulty: <jsp:include page="<%=bestPageInfo%>" />
 	<BR>
-	Author: <%=author%>
+	Author: <span id="rightHere"></span>
+	<script>
+	var cutoffInt = "<%=author%>".indexOf('s_') + 2;
+	var cutoffText = "&nbsp" + "<%=author%>".substring(cutoffInt);
+	document.getElementById('rightHere').innerHTML = cutoffText;</script>
 </div>
 <BR>
