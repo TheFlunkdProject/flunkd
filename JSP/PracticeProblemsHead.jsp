@@ -1,7 +1,7 @@
 <script src="/JS/Highlight.js"></script>
 <script src="/JS/topMenu.js"></script>
 <script src="/JS/topbannerReveal.js"></script>
-<script src="/JS/StyleChanger.js">
+<script src="/JS/StyleChanger.js"></script>
 
 <!--<script src="/JS/TextLesson.js"></script>-->
 <!-- MathJax -->

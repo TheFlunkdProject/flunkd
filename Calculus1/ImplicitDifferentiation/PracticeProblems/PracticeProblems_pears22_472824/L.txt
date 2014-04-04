@@ -1,6 +1,6 @@
 	<input type="hidden" name="hCourse" id="hCourse"> 
 	<input type="hidden" name="hTopic" id="hTopic"> 
-	<input type="hidden" name="hQuestion" id="hQuestion" value="$f(x)=tan(3x)$<BR><BR>Find $f'(x)$."> 
+	<input type="hidden" name="hQuestion" id="hQuestion" value="$y^4+2x^2+1=7x-3$<BR><BR>Find $y'$."> 
 	<input type="hidden" name="hVar1From" id="hVar1From" value=""> 
 	<input type="hidden" name="hVar1To" id="hVar1To" value=""> 
 	<input type="hidden" name="hVar2From" id="hVar2From" value=""> 
@@ -8,17 +8,17 @@
 	<input type="hidden" name="hAnswerType" id="hAnswerType" value="multipleChoice"> 
 	<input type="hidden" name="hAnswer" id="hAnswer" value=""> 
 	<input type="hidden" name="generatedAnswer" id="generatedAnswer" value=""> 
-	<input type="hidden" name="hChoice1" id="hChoice1" value="$3\,sec^2(3x)$"> 
-	<input type="hidden" name="hChoice2" id="hChoice2" value="$tan(3x)\,sec(3x)*3$"> 
-	<input type="hidden" name="hChoice3" id="hChoice3" value="$sec^2(3x)$"> 
-	<input type="hidden" name="hChoice4" id="hChoice4" value=""> 
+	<input type="hidden" name="hChoice1" id="hChoice1" value="$\frac{3-2x}{2y^3}$"> 
+	<input type="hidden" name="hChoice2" id="hChoice2" value="$\frac{7-4x}{4y^3}$"> 
+	<input type="hidden" name="hChoice3" id="hChoice3" value="$2y^3(3-2x)$"> 
+	<input type="hidden" name="hChoice4" id="hChoice4" value="$4y^3(7-4x)$"> 
 	<input type="hidden" name="hChoice5" id="hChoice5" value=""> 
 	<input type="hidden" name="hChoice6" id="hChoice6" value=""> 
 	<input type="hidden" name="hChoice7" id="hChoice7" value=""> 
 	<input type="hidden" name="hChoice8" id="hChoice8" value=""> 
-	<input type="hidden" name="hCorrectChoice" id="hCorrectChoice" value="choice1Correct"> 
-	<input type="hidden" name="hDifficulty" id="hDifficulty" value="2"> 
-	<input type="hidden" name="hExample" id="hExample" value="$f(x)=sec(2x)$$$f'(x)=2\,sec(2x)\,tan(2x)$$"> 
+	<input type="hidden" name="hCorrectChoice" id="hCorrectChoice" value="choice2Correct"> 
+	<input type="hidden" name="hDifficulty" id="hDifficulty" value="3"> 
+	<input type="hidden" name="hExample" id="hExample" value="$y^3-x^2=2+2x$<BR><BR>To find $y'$, we use implicit differentiation. $$3y^2y'-2x=2$$$$3y^2y'=2+2x$$Now we can just solve for $y'$:$$y'=\frac{2+2x}{3y^2}$$"> 
 <p id="generatedQuestion"> 
 </p> 
 <input type="radio" name="choicesPreview" id="choice1P" /> 
@@ -27,6 +27,8 @@
 <span id="choice2Text"></span><BR> 
 <input type="radio" name="choicesPreview" id="choice3P" /> 
 <span id="choice3Text"></span><BR> 
+<input type="radio" name="choicesPreview" id="choice4P" /> 
+<span id="choice4Text"></span><BR> 
 <input type="button" id="checkAnswer" onclick="answerProblem()" value="Check"> 
 <p id="feedback"> 
 </p> 

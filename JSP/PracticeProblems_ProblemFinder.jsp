@@ -51,6 +51,19 @@ String thisPath = request.getRequestURI();
 File fj = new File(appPath + thisPath);
 File f = fj.getParentFile();
 File[] files = f.listFiles();
+if (files.length > 2 && files.length < 5) {
+	for (int dd=1; dd<files.length; dd++) {
+		if (files[dd].getName().equals("PracticeProblems_default")) {
+			File[] defaultFileList = files[dd].listFiles();
+			for (int dfl=0; dfl<defaultFileList.length; dfl++) {
+				defaultFileList[dfl].delete();
+			}
+			files[dd].delete();
+			%><%="iterate" + dd + files.length%><%
+		}
+	}
+}
+files = f.listFiles();
 String author = "";
 if (session.getAttribute("problemDifficultyLevel") != null)
 	{

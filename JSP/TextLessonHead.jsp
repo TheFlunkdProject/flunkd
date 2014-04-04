@@ -3,6 +3,7 @@
 <script src="/JS/topbannerReveal.js"></script>
 <script src="/JS/StyleChanger.js"></script>
 <!--<script src="/JS/TextLesson.js"></script> Included in TextLesson_PostLessonIncludes.jsp-->
+
 <!-- MathJax -->
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({

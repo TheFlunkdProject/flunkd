@@ -25,8 +25,8 @@
 			<div id="courseQA1Container">
 				<div id="courseQuestion1">Why study Modern Physics?</div>
 				<div id="courseAnswer1">
-						 <a class="dark" href="http://hubpages.com/hub/The-Benefits-of-Studying-Physics">Here</a> 
-						 are some great reasons. Here are some more reasons:
+						 <a class="dark" href="http://hubpages.com/hub/The-Benefits-of-Studying-Physics">List of some greate reasons.</a> 
+						 Here are some more reasons:
 					<ul class="inline">
 						<li class="inline">
 							You will understand things about the universe that most people 

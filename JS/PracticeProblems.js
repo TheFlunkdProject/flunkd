@@ -115,9 +115,7 @@ if (choice8Text != null) {
 }
 
 
-MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 //document.getElementById('problemPreview').style.visibility="visible"; Not applicable
-
 
 
 var answer;
@@ -126,13 +124,13 @@ if (document.getElementById('hAnswer').value != "") {
 answer = document.getElementById('hAnswer').value;
 answ = Parser.evaluate( answer, { var1: var1Number, var2: var2Number});
 generatedAnswer.ansh = parseFloat(answ);
+
 }
 
 }
 
 //Execute the previous function (not in ProblemCreator.js. We want it to load from the beginning):
 generateProblem();
-
 
 
 
@@ -150,9 +148,9 @@ feedbackCorrect = "Correct";
 feedbackIncorrect = "Incorrect";
 //For free response:
 if (document.getElementById('hAnswerType').value == "freeResponse") {
-
 	answernumber = generatedAnswer.ansh;//Generated above in this file
-	if (Math.abs(parseFloat(userAnswer) - answernumber)/answernumber < 0.001) {
+	
+	if (Math.abs(parseFloat(userAnswer) - answernumber)/Math.abs(answernumber) < 0.001) {
 		feedback = feedbackCorrect;
 		}
 	else {

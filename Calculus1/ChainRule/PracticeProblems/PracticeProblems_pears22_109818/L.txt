@@ -1,6 +1,6 @@
 	<input type="hidden" name="hCourse" id="hCourse"> 
 	<input type="hidden" name="hTopic" id="hTopic"> 
-	<input type="hidden" name="hQuestion" id="hQuestion" value="\(\frac{d}{dx}(\frac{x\,sin(2x)}{x^3-x^2})\)<BR><BR>Evaluated at \(x=var1\)"> 
+	<input type="hidden" name="hQuestion" id="hQuestion" value="$\frac{d}{dx}(\frac{x\,sin(2x)}{x^3-x^2})$<BR><BR>Evaluated at $x=var1$"> 
 	<input type="hidden" name="hVar1From" id="hVar1From" value="1.5"> 
 	<input type="hidden" name="hVar1To" id="hVar1To" value="3.5"> 
 	<input type="hidden" name="hVar2From" id="hVar2From" value=""> 
@@ -18,7 +18,7 @@
 	<input type="hidden" name="hChoice8" id="hChoice8" value=""> 
 	<input type="hidden" name="hCorrectChoice" id="hCorrectChoice" value=""> 
 	<input type="hidden" name="hDifficulty" id="hDifficulty" value="5"> 
-	<input type="hidden" name="hExample" id="hExample" value="\(\frac{d}{dx}(\frac{2x\,ln(x)}{ln(x)-x\,ln(x)})\)<BR><BR>You always want to simplify using algebra before you try any calculus.$$=\frac{d}{dx}(\frac{2x}{1-x})$$And now we just need to do the quotient rule:$$=\frac{(1-x)(2)-(2x)(-1)}{(1-x)^2}$$$$=\frac{2-2x+2x}{(1-x)^2}$$$$=\frac{1}{(1-x)^2}$$"> 
+	<input type="hidden" name="hExample" id="hExample" value="$\frac{d}{dx}(\frac{2x\,ln(x)}{ln(x)-x\,ln(x)})$<BR><BR>You always want to simplify using algebra before you try any calculus.$$=\frac{d}{dx}(\frac{2x}{1-x})$$And now we just need to do the quotient rule:$$=\frac{(1-x)(2)-(2x)(-1)}{(1-x)^2}$$$$=\frac{2-2x+2x}{(1-x)^2}$$$$=\frac{1}{(1-x)^2}$$"> 
 <p id="generatedQuestion"> 
 </p> 
 <input type="text" id="userAnswer"> 

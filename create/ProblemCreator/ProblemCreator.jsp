@@ -21,7 +21,7 @@
 
 
 <body>
-<form name="fCreateProblem" action="ProblemCreator.jsp" method="get">
+<form name="fCreateProblem" action="ProblemCreator.jsp" method="post">
 	<input type="hidden" name="hCourse" id="hCourse"/>
 	<input type="hidden" name="hTopic" id="hTopic"/>
 	<input type="hidden" name="hQuestion" id="hQuestion"/>
@@ -450,11 +450,11 @@ if (request.getParameter("problemSubmitted") != null && hTopic != "")
 		{
 		BufferedWriter feedbackWriter = new BufferedWriter(new FileWriter(creationFile,true)); //true appends rather than overwriting.
 		
-		feedbackWriter.write(ip + "\n");
+		feedbackWriter.write(ip + "\n\n");
 		feedbackWriter.newLine();
-		feedbackWriter.write(creationDate.toString() + "\n");
+		feedbackWriter.write(creationDate.toString() + "\n\n");
 		feedbackWriter.newLine();
-		feedbackWriter.write("New practice problem created:" + newTopicProblemFolderPath + "\n" + "\n");
+		feedbackWriter.write("New practice problem created:" + newTopicProblemFolderPath + "\n\n" + "\n\n");
 		feedbackWriter.newLine();
 		feedbackWriter.newLine();
 		

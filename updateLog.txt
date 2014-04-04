@@ -126,3 +126,35 @@ New practice problem created:/home/learnfla/tomcat/webapps/learningflare.com/ROO
 Thu Mar 20 03:21:53 CDT 2014
 New practice problem created:/home/learnfla/tomcat/webapps/learningflare.com/ROOT/Calculus1/ChainRule/PracticeProblems/PracticeProblems_pears22_518216
 
+23.255.227.209
+
+Thu Mar 20 12:56:57 CDT 2014
+
+New practice problem created:/home/learnfla/tomcat/webapps/learningflare.com/ROOT/Calculus1/ImplicitDifferentiation/PracticeProblems/PracticeProblems_pears22_472824
+
+
+
+23.255.227.209
+
+Thu Mar 20 13:12:00 CDT 2014
+
+New practice problem created:/home/learnfla/tomcat/webapps/learningflare.com/ROOT/Calculus1/ImplicitDifferentiation/PracticeProblems/PracticeProblems_pears22_43495
+
+
+
+23.255.227.209
+
+Thu Mar 20 13:46:26 CDT 2014
+
+New practice problem created:/home/learnfla/tomcat/webapps/learningflare.com/ROOT/Calculus1/ImplicitDifferentiation/PracticeProblems/PracticeProblems_pears22_673358
+
+
+
+23.255.227.209
+
+Fri Apr 04 15:51:28 CDT 2014
+
+New practice problem created:/home/learnfla/tomcat/webapps/learningflare.com/ROOT/Calculus1/USubstitution/PracticeProblems/PracticeProblems_pears22_620803
+
+
+

@@ -1,6 +1,6 @@
 	<input type="hidden" name="hCourse" id="hCourse"> 
 	<input type="hidden" name="hTopic" id="hTopic"> 
-	<input type="hidden" name="hQuestion" id="hQuestion" value="\(\frac{d}{dx}\,e^{tan(x)}=?\)<BR><BR><br><br><BR><BR>Evaluate, and plug in \(x=var1\)."> 
+	<input type="hidden" name="hQuestion" id="hQuestion" value="$\frac{d}{dx}\,e^{tan(x)}=?$<BR><BR><br><br><BR><BR>Evaluate, and plug in $x=var1$."> 
 	<input type="hidden" name="hVar1From" id="hVar1From" value="0.003"> 
 	<input type="hidden" name="hVar1To" id="hVar1To" value="3.997"> 
 	<input type="hidden" name="hVar2From" id="hVar2From" value=""> 
@@ -18,7 +18,7 @@
 	<input type="hidden" name="hChoice8" id="hChoice8" value=""> 
 	<input type="hidden" name="hCorrectChoice" id="hCorrectChoice" value=""> 
 	<input type="hidden" name="hDifficulty" id="hDifficulty" value="3"> 
-	<input type="hidden" name="hExample" id="hExample" value="\(\frac{d}{dx}\, e^{sin(x)}=\) $$e^{sin(x)}*cos(x)$$<BR><BR><BR><BR>Exponential functions stay the same when you take their derivative. The cos(x) is from the derivative of sin(x), from the chain rule."> 
+	<input type="hidden" name="hExample" id="hExample" value="$\frac{d}{dx}\, e^{sin(x)}=$ $$e^{sin(x)}*cos(x)$$<BR><BR><BR><BR>Exponential functions stay the same when you take their derivative. The cos(x) is from the derivative of sin(x), from the chain rule."> 
 <p id="generatedQuestion"> 
 </p> 
 <input type="text" id="userAnswer"> 

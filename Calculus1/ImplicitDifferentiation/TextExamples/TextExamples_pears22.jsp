@@ -12,7 +12,7 @@
 <img src="../../Functions/image302.png" alt="y4+2x2+1=3x-3"><br>
 <img src="../../Functions/image303.png" alt="4y3dydx+4x=3"><br>
 <img src="../../Functions/image304.png" alt="4y3dydx=3-4x"><br>
-<img src="../../Functions/image305.png" alt="dydx=3-4x4y3">
+<img src="../../Functions/image305.png" alt="dydx=3-4x4y3">done
 </li>
 
 <li>
@@ -20,7 +20,7 @@
 <img src="../../Functions/image307.png" alt="12y3y'=y'-3"><br>
 <img src="../../Functions/image308.png" alt="12y3y'-y'=-3"><br>
 <img src="../../Functions/image309.png" alt="y'(12y3-1)=-3"><br>
-<img src="../../Functions/image310.png" alt="y'=-312y3-1">
+<img src="../../Functions/image310.png" alt="y'=-312y3-1">done
 </li>
 
 <li>

@@ -1,1 +1,1 @@
-$\frac{d}{dx}(\frac{x\,sin(2x)}{x^3-x^2})$<BR><BR>Evaluated at \(x=var1\)
+\(y^3=2y+3x\)<BR><BR>To find \(y'\), we can use implicit differentiation. $$3y^2y'=2y'+3$$$$3y^2y'-2y'=3$$We need all of the \(y'\)'s on one side so that we can factor it out:$$y'(3y^2-2)=3$$$$y'=\frac{3}{3y^2-2}$$

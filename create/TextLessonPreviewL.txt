@@ -1,1 +1,1 @@
-$\frac{d}{dx}(\frac{2x*ln(x)}{ln(x)-x\,ln(x)})$<BR><BR>You always want to simplify using algebra before you try any calculus.$$=\frac{d}{dx}(\frac{2x}{1-x})$$And now we just need to do the quotient rule:$$=\frac{(1-x)(2)-(2x)(-1)}{(1-x)^2}$$$$=\frac{2-2x+2x}{(1-x)^2}$$$$=\frac{1}{(1-x)^2}$$
+
