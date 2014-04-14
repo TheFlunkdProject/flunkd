@@ -450,13 +450,11 @@ if (request.getParameter("problemSubmitted") != null && hTopic != "")
 		{
 		BufferedWriter feedbackWriter = new BufferedWriter(new FileWriter(creationFile,true)); //true appends rather than overwriting.
 		
-		feedbackWriter.write(ip + "\n\n");
-		feedbackWriter.newLine();
-		feedbackWriter.write(creationDate.toString() + "\n\n");
-		feedbackWriter.newLine();
-		feedbackWriter.write("New practice problem created:" + newTopicProblemFolderPath + "\n\n" + "\n\n");
-		feedbackWriter.newLine();
-		feedbackWriter.newLine();
+		//courseListWriter.newLine(); creates a new line for my server, which runs on Linux.
+		//However, I'm viewing this on windows.
+		feedbackWriter.write(ip + "\r\n\r\n");
+		feedbackWriter.write(creationDate.toString() + "\r\n\r\n");
+		feedbackWriter.write("New practice problem created:" + newTopicProblemFolderPath + "\r\n\r\n" + "\r\n\r\n");
 		
 		feedbackWriter.flush();
 		feedbackWriter.close();

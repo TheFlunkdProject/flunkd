@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<script>
+window.close();
+</script>
+</body>
+</html>

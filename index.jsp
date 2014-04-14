@@ -16,7 +16,6 @@
 
 <%@ include file="/JSP/topMenu.jsp" %>
 
-
 <div id="freeStudentResource">
 Learning Flare is a <span class="highlightBig">free student resource</span>.
 </div>
